@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:advanced_math_workbook",
+    "mathmaster:elementary_grade_2_math",
+    "mathmaster:junior_high_math",
+    "mathmaster:senior_high_math",
+    "mathmaster:millennium_problems_math"
+  ]
+}

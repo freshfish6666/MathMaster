@@ -1,0 +1,329 @@
+{
+  "replace": false,
+  "questions": [
+    {
+      "question": "12 + 7 = ?",
+      "correct_answer": "19",
+      "wrong_answers": [
+        "18",
+        "20",
+        "21"
+      ]
+    },
+    {
+      "question": "15 - 8 = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "6",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "question": "3 × 4 = ?",
+      "correct_answer": "12",
+      "wrong_answers": [
+        "7",
+        "10",
+        "14"
+      ]
+    },
+    {
+      "question": "20 ÷ 5 = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "question": "8 + 5 = ?",
+      "correct_answer": "13",
+      "wrong_answers": [
+        "12",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "question": "9 - 4 = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "4",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "question": "6 × 2 = ?",
+      "correct_answer": "12",
+      "wrong_answers": [
+        "8",
+        "10",
+        "14"
+      ]
+    },
+    {
+      "question": "18 ÷ 3 = ?",
+      "correct_answer": "6",
+      "wrong_answers": [
+        "5",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "question": "7 + 8 = ?",
+      "correct_answer": "15",
+      "wrong_answers": [
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "question": "10 - 6 = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "3",
+        "5",
+        "7"
+      ]
+    },
+    {
+      "question": "5 × 5 = ?",
+      "correct_answer": "25",
+      "wrong_answers": [
+        "20",
+        "24",
+        "30"
+      ]
+    },
+    {
+      "question": "24 ÷ 6 = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "question": "9 + 6 = ?",
+      "correct_answer": "15",
+      "wrong_answers": [
+        "14",
+        "16",
+        "18"
+      ]
+    },
+    {
+      "question": "14 - 9 = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "4",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "question": "3 × 6 = ?",
+      "correct_answer": "18",
+      "wrong_answers": [
+        "15",
+        "16",
+        "21"
+      ]
+    },
+    {
+      "question": "16 ÷ 4 = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "question": "7 + 6 = ?",
+      "correct_answer": "13",
+      "wrong_answers": [
+        "12",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "question": "12 - 5 = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "6",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "question": "4 × 5 = ?",
+      "correct_answer": "20",
+      "wrong_answers": [
+        "15",
+        "18",
+        "25"
+      ]
+    },
+    {
+      "question": "14 ÷ 2 = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "6",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "question": "11 + 4 = ?",
+      "correct_answer": "15",
+      "wrong_answers": [
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "question": "15 - 7 = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "7",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "question": "5 × 2 = ?",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "8",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "question": "18 ÷ 2 = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "8",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "6 + 8 = ?",
+      "correct_answer": "14",
+      "wrong_answers": [
+        "13",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "question": "13 - 6 = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "6",
+        "8",
+        "5"
+      ]
+    },
+    {
+      "question": "2 × 8 = ?",
+      "correct_answer": "16",
+      "wrong_answers": [
+        "14",
+        "18",
+        "15"
+      ]
+    },
+    {
+      "question": "20 ÷ 4 = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "4",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "question": "9 + 8 = ?",
+      "correct_answer": "17",
+      "wrong_answers": [
+        "16",
+        "18",
+        "19"
+      ]
+    },
+    {
+      "question": "11 - 3 = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "7",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "question": "3 × 7 = ?",
+      "correct_answer": "21",
+      "wrong_answers": [
+        "20",
+        "24",
+        "18"
+      ]
+    },
+    {
+      "question": "21 ÷ 3 = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "6",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "question": "11 + 6 = ?",
+      "correct_answer": "17",
+      "wrong_answers": [
+        "16",
+        "18",
+        "15"
+      ]
+    },
+    {
+      "question": "17 - 8 = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "8",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "question": "6 × 4 = ?",
+      "correct_answer": "24",
+      "wrong_answers": [
+        "20",
+        "22",
+        "28"
+      ]
+    },
+    {
+      "question": "30 ÷ 5 = ?",
+      "correct_answer": "6",
+      "wrong_answers": [
+        "5",
+        "7",
+        "4"
+      ]
+    }
+  ]
+}
