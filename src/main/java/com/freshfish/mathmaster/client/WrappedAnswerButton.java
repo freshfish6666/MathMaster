@@ -24,7 +24,7 @@ public final class WrappedAnswerButton extends Button {
 
     @Override
     public void renderString(GuiGraphics graphics, Font font, int color) {
-        List<FormattedCharSequence> lines = font.split(this.getMessage(), Math.max(1, this.getWidth() - 10));
+        List<FormattedCharSequence> lines = font.split(this.getMessage(), Math.max(1, this.getWidth() - 24));
         int maxLines = Math.max(1, (this.getHeight() - 4) / font.lineHeight);
         int visibleLines = Math.min(lines.size(), maxLines);
         int startY = this.getY() + (this.getHeight() - visibleLines * font.lineHeight) / 2 + 1;

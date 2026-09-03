@@ -1,0 +1,29 @@
+{
+  "parent": "mathmaster:insight/mirror_mirror",
+  "display": {
+    "icon": {
+      "id": "mathmaster:gotham_bat_icon"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.insight.gotham_nightmare.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.insight.gotham_nightmare.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "completed"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

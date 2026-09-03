@@ -2,6 +2,7 @@
   "replace": false,
   "questions": [
     {
+      "id": "question_001",
       "question": "函数 y = √(3x + 2) 的自然定义域是？",
       "correct_answer": "[-2/3, +∞)",
       "wrong_answers": [
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "id": "question_002",
       "question": "函数 y = 1 / (1 - x²) 的自然定义域是？",
       "correct_answer": "x ≠ ±1",
       "wrong_answers": [
@@ -20,6 +22,7 @@
       ]
     },
     {
+      "id": "question_003",
       "question": "函数 y = 1 / √(4 - x²) 的自然定义域是？",
       "correct_answer": "(-2, 2)",
       "wrong_answers": [
@@ -29,6 +32,7 @@
       ]
     },
     {
+      "id": "question_004",
       "question": "函数 y = ln(x + 1) 的自然定义域是？",
       "correct_answer": "(-1, +∞)",
       "wrong_answers": [
@@ -38,6 +42,7 @@
       ]
     },
     {
+      "id": "question_005",
       "question": "函数 y = e^(1/x) 的自然定义域是？",
       "correct_answer": "x ≠ 0",
       "wrong_answers": [
@@ -47,6 +52,7 @@
       ]
     },
     {
+      "id": "question_006",
       "question": "函数 y = arcsin(x - 3) 的自然定义域是？",
       "correct_answer": "[2, 4]",
       "wrong_answers": [
@@ -56,6 +62,7 @@
       ]
     },
     {
+      "id": "question_007",
       "question": "函数 f(x) = lg(x²) 与 g(x) = 2lg(x) 是否相同？",
       "correct_answer": "不同，定义域不同",
       "wrong_answers": [
@@ -65,6 +72,7 @@
       ]
     },
     {
+      "id": "question_008",
       "question": "函数 f(x) = x 与 g(x) = √(x²) 是否相同？",
       "correct_answer": "不同，对应法则不同",
       "wrong_answers": [
@@ -74,6 +82,7 @@
       ]
     },
     {
+      "id": "question_009",
       "question": "设 φ(x) = |sin x|（|x| < π/3），求 φ(π/6) = ?",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -83,6 +92,7 @@
       ]
     },
     {
+      "id": "question_010",
       "question": "设 φ(x) = |sin x|（|x| < π/3），求 φ(π/4) = ?",
       "correct_answer": "√2/2",
       "wrong_answers": [
@@ -92,6 +102,7 @@
       ]
     },
     {
+      "id": "question_011",
       "question": "函数 y = x²(1 - x²) 是？",
       "correct_answer": "偶函数",
       "wrong_answers": [
@@ -101,6 +112,7 @@
       ]
     },
     {
+      "id": "question_012",
       "question": "函数 y = 3x² - x³ 是？",
       "correct_answer": "非奇非偶",
       "wrong_answers": [
@@ -110,6 +122,7 @@
       ]
     },
     {
+      "id": "question_013",
       "question": "函数 y = (1 - x²) / (1 + x²) 是？",
       "correct_answer": "偶函数",
       "wrong_answers": [
@@ -119,6 +132,7 @@
       ]
     },
     {
+      "id": "question_014",
       "question": "函数 y = x(x - 1)(x + 1) 是？",
       "correct_answer": "奇函数",
       "wrong_answers": [
@@ -128,6 +142,7 @@
       ]
     },
     {
+      "id": "question_015",
       "question": "函数 y = cos(x - 2) 的周期是？",
       "correct_answer": "2π",
       "wrong_answers": [
@@ -137,6 +152,7 @@
       ]
     },
     {
+      "id": "question_016",
       "question": "函数 y = cos(4x) 的周期是？",
       "correct_answer": "π/2",
       "wrong_answers": [
@@ -146,6 +162,7 @@
       ]
     },
     {
+      "id": "question_017",
       "question": "函数 y = 1 + sin(πx) 的周期是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -155,6 +172,7 @@
       ]
     },
     {
+      "id": "question_018",
       "question": "函数 y = sin²x 的周期是？",
       "correct_answer": "π",
       "wrong_answers": [
@@ -164,6 +182,7 @@
       ]
     },
     {
+      "id": "question_019",
       "question": "函数 y = ³√(x + 1) 的反函数是？",
       "correct_answer": "y = x³ - 1",
       "wrong_answers": [
@@ -173,6 +192,7 @@
       ]
     },
     {
+      "id": "question_020",
       "question": "函数 y = 1 + ln(x + 2) 的反函数是？",
       "correct_answer": "y = e^(x-1) - 2",
       "wrong_answers": [
@@ -182,6 +202,7 @@
       ]
     },
     {
+      "id": "question_021",
       "question": "函数 y = ln(x² - 1) 的自然定义域是？",
       "correct_answer": "(-∞, -1) ∪ (1, +∞)",
       "wrong_answers": [
@@ -191,6 +212,7 @@
       ]
     },
     {
+      "id": "question_022",
       "question": "函数 y = arccos(x - 1) 的自然定义域是？",
       "correct_answer": "[0, 2]",
       "wrong_answers": [
@@ -200,6 +222,7 @@
       ]
     },
     {
+      "id": "question_023",
       "question": "函数 y = √(x - 1) + ln(2 - x) 的自然定义域是？",
       "correct_answer": "[1, 2)",
       "wrong_answers": [
@@ -209,6 +232,7 @@
       ]
     },
     {
+      "id": "question_024",
       "question": "函数 f(x) = (x² - 1)/(x - 1) 与 g(x) = x + 1 的关系是？",
       "correct_answer": "除 x = 1 外相同",
       "wrong_answers": [
@@ -218,6 +242,7 @@
       ]
     },
     {
+      "id": "question_025",
       "question": "极限 lim(x→1) (x² - 1)/(x - 1) = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -227,6 +252,7 @@
       ]
     },
     {
+      "id": "question_026",
       "question": "极限 lim(x→0) sin(3x)/x = ?",
       "correct_answer": "3",
       "wrong_answers": [
@@ -236,6 +262,7 @@
       ]
     },
     {
+      "id": "question_027",
       "question": "极限 lim(x→∞) (1 + 2/x)^x = ?",
       "correct_answer": "e²",
       "wrong_answers": [
@@ -245,6 +272,7 @@
       ]
     },
     {
+      "id": "question_028",
       "question": "当 x→0 时，与 x 等价的无穷小是？",
       "correct_answer": "tan x",
       "wrong_answers": [
@@ -254,6 +282,7 @@
       ]
     },
     {
+      "id": "question_029",
       "question": "函数 f(x) = x sin(1/x) 在 x = 0 处的极限是？",
       "correct_answer": "0",
       "wrong_answers": [
@@ -263,6 +292,7 @@
       ]
     },
     {
+      "id": "question_030",
       "question": "分段函数 f(x) = { x², x < 1; 2x - 1, x ≥ 1 } 在 x = 1 处？",
       "correct_answer": "连续",
       "wrong_answers": [
@@ -272,6 +302,7 @@
       ]
     },
     {
+      "id": "question_031",
       "question": "极限 lim(x→0) (1 - cos x)/x² = ?",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -281,6 +312,7 @@
       ]
     },
     {
+      "id": "question_032",
       "question": "极限 lim(x→0) (e^x - 1)/x = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -290,6 +322,7 @@
       ]
     },
     {
+      "id": "question_033",
       "question": "极限 lim(x→∞) (2x + 3)/(x - 1) = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -299,6 +332,7 @@
       ]
     },
     {
+      "id": "question_034",
       "question": "函数 y = e^(1/x) 在 x = 0 处的间断点类型是？",
       "correct_answer": "第二类间断点",
       "wrong_answers": [
@@ -308,6 +342,7 @@
       ]
     },
     {
+      "id": "question_035",
       "question": "函数 y = ln(x² - 1) 的连续区间是？",
       "correct_answer": "(-∞, -1) ∪ (1, +∞)",
       "wrong_answers": [
@@ -317,6 +352,7 @@
       ]
     },
     {
+      "id": "question_036",
       "question": "极限 lim(x→0) (tan x - sin x)/x³ = ?",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -326,6 +362,7 @@
       ]
     },
     {
+      "id": "question_037",
       "question": "函数 f(x) = (x² - 4)/(x - 2) 在 x = 2 处是？",
       "correct_answer": "可去间断点",
       "wrong_answers": [
@@ -335,6 +372,7 @@
       ]
     },
     {
+      "id": "question_038",
       "question": "极限 lim(x→0) sin(1/x) 是否存在？",
       "correct_answer": "不存在",
       "wrong_answers": [
@@ -344,6 +382,7 @@
       ]
     },
     {
+      "id": "question_039",
       "question": "当 x→0 时，下列无穷小中阶数最高的是？",
       "correct_answer": "tan x - sin x",
       "wrong_answers": [
@@ -353,6 +392,7 @@
       ]
     },
     {
+      "id": "question_040",
       "question": "极限 lim(x→0) x · sin(1/x) = ?",
       "correct_answer": "0",
       "wrong_answers": [
@@ -362,6 +402,7 @@
       ]
     },
     {
+      "id": "question_041",
       "question": "函数 f(x) = 3x² + 2x - 1 的导函数 f'(x) = ?",
       "correct_answer": "6x + 2",
       "wrong_answers": [
@@ -371,6 +412,7 @@
       ]
     },
     {
+      "id": "question_042",
       "question": "函数 f(x) = x³ 在 x = 2 处的导数值 f'(2) = ?",
       "correct_answer": "12",
       "wrong_answers": [
@@ -380,6 +422,7 @@
       ]
     },
     {
+      "id": "question_043",
       "question": "函数 f(x) = √x 的导函数 f'(x) = ?",
       "correct_answer": "1/(2√x)",
       "wrong_answers": [
@@ -389,6 +432,7 @@
       ]
     },
     {
+      "id": "question_044",
       "question": "函数 f(x) = e^(3x) 的导函数 f'(x) = ?",
       "correct_answer": "3e^(3x)",
       "wrong_answers": [
@@ -398,6 +442,7 @@
       ]
     },
     {
+      "id": "question_045",
       "question": "函数 f(x) = ln(2x) 的导函数 f'(x) = ?",
       "correct_answer": "1/x",
       "wrong_answers": [
@@ -407,6 +452,7 @@
       ]
     },
     {
+      "id": "question_046",
       "question": "函数 f(x) = x·eˣ 的导函数 f'(x) = ?",
       "correct_answer": "(x + 1)eˣ",
       "wrong_answers": [
@@ -416,6 +462,7 @@
       ]
     },
     {
+      "id": "question_047",
       "question": "函数 f(x) = sin(3x) 的导函数 f'(x) = ?",
       "correct_answer": "3cos(3x)",
       "wrong_answers": [
@@ -425,6 +472,7 @@
       ]
     },
     {
+      "id": "question_048",
       "question": "函数 f(x) = cos(x²) 的导函数 f'(x) = ?",
       "correct_answer": "-2x·sin(x²)",
       "wrong_answers": [
@@ -434,6 +482,7 @@
       ]
     },
     {
+      "id": "question_049",
       "question": "函数 f(x) = 1/x 的导函数 f'(x) = ?",
       "correct_answer": "-1/x²",
       "wrong_answers": [
@@ -443,6 +492,7 @@
       ]
     },
     {
+      "id": "question_050",
       "question": "函数 f(x) = tan x 的导函数 f'(x) = ?",
       "correct_answer": "sec²x",
       "wrong_answers": [
@@ -452,6 +502,7 @@
       ]
     },
     {
+      "id": "question_051",
       "question": "由方程 x² + y² = 4 确定的隐函数 y = y(x)，dy/dx = ?",
       "correct_answer": "-x/y",
       "wrong_answers": [
@@ -461,6 +512,7 @@
       ]
     },
     {
+      "id": "question_052",
       "question": "参数方程 x = t², y = t³ 确定的函数 y = y(x)，dy/dx = ?",
       "correct_answer": "(3/2)t",
       "wrong_answers": [
@@ -470,6 +522,7 @@
       ]
     },
     {
+      "id": "question_053",
       "question": "函数 f(x) = ln(sin x) 的导函数 f'(x) = ?",
       "correct_answer": "cot x",
       "wrong_answers": [
@@ -479,6 +532,7 @@
       ]
     },
     {
+      "id": "question_054",
       "question": "函数 f(x) = arcsin x 的导函数 f'(x) = ?",
       "correct_answer": "1/√(1 - x²)",
       "wrong_answers": [
@@ -488,6 +542,7 @@
       ]
     },
     {
+      "id": "question_055",
       "question": "函数 f(x) = x²·ln x 的导函数 f'(x) = ?",
       "correct_answer": "2x·ln x + x",
       "wrong_answers": [
@@ -497,6 +552,7 @@
       ]
     },
     {
+      "id": "question_056",
       "question": "函数 y = x³ 的微分 dy = ?",
       "correct_answer": "3x² dx",
       "wrong_answers": [
@@ -506,6 +562,7 @@
       ]
     },
     {
+      "id": "question_057",
       "question": "函数 f(x) = eˣ·sin x 的导函数 f'(x) = ?",
       "correct_answer": "eˣ(sin x + cos x)",
       "wrong_answers": [
@@ -515,6 +572,7 @@
       ]
     },
     {
+      "id": "question_058",
       "question": "函数 f(x) = x⁴ 的二阶导数 f''(x) = ?",
       "correct_answer": "12x²",
       "wrong_answers": [
@@ -524,6 +582,7 @@
       ]
     },
     {
+      "id": "question_059",
       "question": "函数 f(x) = arctan x 的导函数 f'(x) = ?",
       "correct_answer": "1/(1 + x²)",
       "wrong_answers": [
@@ -533,6 +592,7 @@
       ]
     },
     {
+      "id": "question_060",
       "question": "函数 f(x) = (2x + 1)⁵ 的导函数 f'(x) = ?",
       "correct_answer": "10(2x + 1)⁴",
       "wrong_answers": [
@@ -542,6 +602,7 @@
       ]
     },
     {
+      "id": "question_061",
       "question": "罗尔定理的三个条件中，不包含以下哪一项？",
       "correct_answer": "函数在开区间内二阶可导",
       "wrong_answers": [
@@ -551,15 +612,17 @@
       ]
     },
     {
+      "id": "question_062",
       "question": "函数 f(x) = x³ - 3x 在区间 [-1, 1] 上是否满足罗尔定理？",
-      "correct_answer": "满足，且存在 ξ = ±1/√3 使 f'(ξ) = 0",
+      "correct_answer": "不满足，因为 f(-1) ≠ f(1)",
       "wrong_answers": [
-        "不满足，因为 f(-1) ≠ f(1)",
         "不满足，因为不可导",
-        "满足，ξ = 0"
+        "满足，ξ = 0",
+        "满足，因为 f'(-1) = f'(1) = 0"
       ]
     },
     {
+      "id": "question_063",
       "question": "函数 f(x) = |x| 在区间 [-1, 1] 上能否应用罗尔定理？",
       "correct_answer": "不能，因为 x = 0 处不可导",
       "wrong_answers": [
@@ -569,6 +632,7 @@
       ]
     },
     {
+      "id": "question_064",
       "question": "拉格朗日中值定理的结论是：在 (a, b) 内至少存在一点 ξ，使得？",
       "correct_answer": "f'(ξ) = [f(b) - f(a)] / (b - a)",
       "wrong_answers": [
@@ -578,6 +642,7 @@
       ]
     },
     {
+      "id": "question_065",
       "question": "函数 f(x) = x² 在区间 [0, 2] 上满足拉格朗日中值定理，则 ξ = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -587,6 +652,7 @@
       ]
     },
     {
+      "id": "question_066",
       "question": "利用洛必达法则，极限 lim(x→0) (eˣ - 1 - x) / x² = ?",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -596,6 +662,7 @@
       ]
     },
     {
+      "id": "question_067",
       "question": "函数 f(x) = x³ - 3x 的单调递减区间是？",
       "correct_answer": "(-1, 1)",
       "wrong_answers": [
@@ -605,6 +672,7 @@
       ]
     },
     {
+      "id": "question_068",
       "question": "函数 f(x) = x³ - 3x 的极大值点是？",
       "correct_answer": "x = -1",
       "wrong_answers": [
@@ -614,6 +682,7 @@
       ]
     },
     {
+      "id": "question_069",
       "question": "函数 f(x) = x³ - 3x 在区间 [-2, 2] 上的最大值是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -623,6 +692,7 @@
       ]
     },
     {
+      "id": "question_070",
       "question": "函数 f(x) = x³ 的二阶导数 f''(x) = 6x，则 f(x) 的凹凸性为？",
       "correct_answer": "在 (-∞, 0) 上凹，在 (0, +∞) 上凸",
       "wrong_answers": [
@@ -632,6 +702,7 @@
       ]
     },
     {
+      "id": "question_071",
       "question": "函数 f(x) = x³ 的拐点是？",
       "correct_answer": "(0, 0)",
       "wrong_answers": [
@@ -641,6 +712,7 @@
       ]
     },
     {
+      "id": "question_072",
       "question": "曲线 y = 1/x 的水平渐近线是？",
       "correct_answer": "y = 0",
       "wrong_answers": [
@@ -650,6 +722,7 @@
       ]
     },
     {
+      "id": "question_073",
       "question": "曲线 y = 1/(x - 1) 的垂直渐近线是？",
       "correct_answer": "x = 1",
       "wrong_answers": [
@@ -659,6 +732,7 @@
       ]
     },
     {
+      "id": "question_074",
       "question": "函数 f(x) = x + 1/x (x > 0) 的最小值为？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -668,6 +742,7 @@
       ]
     },
     {
+      "id": "question_075",
       "question": "柯西中值定理中，若 f(x) 和 g(x) 在 [a, b] 上连续，在 (a, b) 内可导，且 g'(x) ≠ 0，则结论是？",
       "correct_answer": "存在 ξ ∈ (a, b)，使 [f(b) - f(a)] / [g(b) - g(a)] = f'(ξ) / g'(ξ)",
       "wrong_answers": [
@@ -677,6 +752,7 @@
       ]
     },
     {
+      "id": "question_076",
       "question": "∫ x² dx = ?",
       "correct_answer": "x³/3 + C",
       "wrong_answers": [
@@ -686,6 +762,7 @@
       ]
     },
     {
+      "id": "question_077",
       "question": "∫ (3x² + 2x + 1) dx = ?",
       "correct_answer": "x³ + x² + x + C",
       "wrong_answers": [
@@ -695,6 +772,7 @@
       ]
     },
     {
+      "id": "question_078",
       "question": "∫ 1/x dx = ?",
       "correct_answer": "ln|x| + C",
       "wrong_answers": [
@@ -704,6 +782,7 @@
       ]
     },
     {
+      "id": "question_079",
       "question": "∫ eˣ dx = ?",
       "correct_answer": "eˣ + C",
       "wrong_answers": [
@@ -713,6 +792,7 @@
       ]
     },
     {
+      "id": "question_080",
       "question": "∫ 2ˣ dx = ?",
       "correct_answer": "2ˣ/ln2 + C",
       "wrong_answers": [
@@ -722,6 +802,7 @@
       ]
     },
     {
+      "id": "question_081",
       "question": "∫ sin x dx = ?",
       "correct_answer": "-cos x + C",
       "wrong_answers": [
@@ -731,6 +812,7 @@
       ]
     },
     {
+      "id": "question_082",
       "question": "∫ cos x dx = ?",
       "correct_answer": "sin x + C",
       "wrong_answers": [
@@ -740,6 +822,7 @@
       ]
     },
     {
+      "id": "question_083",
       "question": "∫ sec²x dx = ?",
       "correct_answer": "tan x + C",
       "wrong_answers": [
@@ -749,6 +832,7 @@
       ]
     },
     {
+      "id": "question_084",
       "question": "∫ csc²x dx = ?",
       "correct_answer": "-cot x + C",
       "wrong_answers": [
@@ -758,6 +842,7 @@
       ]
     },
     {
+      "id": "question_085",
       "question": "∫ 1/(1 + x²) dx = ?",
       "correct_answer": "arctan x + C",
       "wrong_answers": [
@@ -767,6 +852,7 @@
       ]
     },
     {
+      "id": "question_086",
       "question": "∫ 1/√(1 - x²) dx = ?",
       "correct_answer": "arcsin x + C",
       "wrong_answers": [
@@ -776,6 +862,7 @@
       ]
     },
     {
+      "id": "question_087",
       "question": "∫ (2x + 3)⁵ dx = ?",
       "correct_answer": "(2x + 3)⁶/12 + C",
       "wrong_answers": [
@@ -785,6 +872,7 @@
       ]
     },
     {
+      "id": "question_088",
       "question": "∫ x·e^(x²) dx = ?",
       "correct_answer": "(1/2)e^(x²) + C",
       "wrong_answers": [
@@ -794,6 +882,7 @@
       ]
     },
     {
+      "id": "question_089",
       "question": "∫ cos(3x) dx = ?",
       "correct_answer": "(1/3)sin(3x) + C",
       "wrong_answers": [
@@ -803,6 +892,7 @@
       ]
     },
     {
+      "id": "question_090",
       "question": "∫ sin(2x + 1) dx = ?",
       "correct_answer": "-(1/2)cos(2x + 1) + C",
       "wrong_answers": [
@@ -812,6 +902,7 @@
       ]
     },
     {
+      "id": "question_091",
       "question": "∫ 1/(x + 2) dx = ?",
       "correct_answer": "ln|x + 2| + C",
       "wrong_answers": [
@@ -821,6 +912,7 @@
       ]
     },
     {
+      "id": "question_092",
       "question": "∫ x/(x² + 1) dx = ?",
       "correct_answer": "(1/2)ln|x² + 1| + C",
       "wrong_answers": [
@@ -830,6 +922,7 @@
       ]
     },
     {
+      "id": "question_093",
       "question": "∫ x·eˣ dx = ?",
       "correct_answer": "(x - 1)eˣ + C",
       "wrong_answers": [
@@ -839,6 +932,7 @@
       ]
     },
     {
+      "id": "question_094",
       "question": "∫ x·sin x dx = ?",
       "correct_answer": "-x·cos x + sin x + C",
       "wrong_answers": [
@@ -848,6 +942,7 @@
       ]
     },
     {
+      "id": "question_095",
       "question": "∫ ln x dx = ?",
       "correct_answer": "x·ln x - x + C",
       "wrong_answers": [
@@ -857,6 +952,7 @@
       ]
     },
     {
+      "id": "question_096",
       "question": "∫ x·ln x dx = ?",
       "correct_answer": "(x²/2)ln x - x²/4 + C",
       "wrong_answers": [
@@ -866,6 +962,7 @@
       ]
     },
     {
+      "id": "question_097",
       "question": "∫ tan x dx = ?",
       "correct_answer": "-ln|cos x| + C",
       "wrong_answers": [
@@ -875,6 +972,7 @@
       ]
     },
     {
+      "id": "question_098",
       "question": "∫ cot x dx = ?",
       "correct_answer": "ln|sin x| + C",
       "wrong_answers": [
@@ -884,6 +982,7 @@
       ]
     },
     {
+      "id": "question_099",
       "question": "∫ sec x·tan x dx = ?",
       "correct_answer": "sec x + C",
       "wrong_answers": [
@@ -893,6 +992,7 @@
       ]
     },
     {
+      "id": "question_100",
       "question": "∫ csc x·cot x dx = ?",
       "correct_answer": "-csc x + C",
       "wrong_answers": [
@@ -902,6 +1002,7 @@
       ]
     },
     {
+      "id": "question_101",
       "question": "∫ 1/(x² + 4) dx = ?",
       "correct_answer": "(1/2)arctan(x/2) + C",
       "wrong_answers": [
@@ -911,6 +1012,7 @@
       ]
     },
     {
+      "id": "question_102",
       "question": "∫ 1/√(4 - x²) dx = ?",
       "correct_answer": "arcsin(x/2) + C",
       "wrong_answers": [
@@ -920,6 +1022,7 @@
       ]
     },
     {
+      "id": "question_103",
       "question": "∫ e^(3x) dx = ?",
       "correct_answer": "(1/3)e^(3x) + C",
       "wrong_answers": [
@@ -929,6 +1032,7 @@
       ]
     },
     {
+      "id": "question_104",
       "question": "∫ (x + 1)/(x² + 2x + 3) dx = ?",
       "correct_answer": "(1/2)ln|x² + 2x + 3| + C",
       "wrong_answers": [
@@ -938,6 +1042,7 @@
       ]
     },
     {
+      "id": "question_105",
       "question": "∫ (2x + 1)/(x² + x + 1) dx = ?",
       "correct_answer": "ln|x² + x + 1| + C",
       "wrong_answers": [
@@ -947,6 +1052,7 @@
       ]
     },
     {
+      "id": "question_106",
       "question": "∫[0,1] x dx = ?",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -956,6 +1062,7 @@
       ]
     },
     {
+      "id": "question_107",
       "question": "∫[0,2] x² dx = ?",
       "correct_answer": "8/3",
       "wrong_answers": [
@@ -965,6 +1072,7 @@
       ]
     },
     {
+      "id": "question_108",
       "question": "∫[1,e] 1/x dx = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -974,6 +1082,7 @@
       ]
     },
     {
+      "id": "question_109",
       "question": "∫[0,π] sin x dx = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -983,6 +1092,7 @@
       ]
     },
     {
+      "id": "question_110",
       "question": "∫[0,1] eˣ dx = ?",
       "correct_answer": "e - 1",
       "wrong_answers": [
@@ -992,6 +1102,7 @@
       ]
     },
     {
+      "id": "question_111",
       "question": "∫[0,π/2] cos x dx = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1001,6 +1112,7 @@
       ]
     },
     {
+      "id": "question_112",
       "question": "∫[-1,1] x³ dx = ?",
       "correct_answer": "0",
       "wrong_answers": [
@@ -1010,6 +1122,7 @@
       ]
     },
     {
+      "id": "question_113",
       "question": "∫[0,1] (2x + 1) dx = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1019,6 +1132,7 @@
       ]
     },
     {
+      "id": "question_114",
       "question": "∫[0,ln2] eˣ dx = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1028,6 +1142,7 @@
       ]
     },
     {
+      "id": "question_115",
       "question": "∫[1,2] 1/x² dx = ?",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -1037,6 +1152,7 @@
       ]
     },
     {
+      "id": "question_116",
       "question": "∫[0,1] x·e^(x²) dx = ?",
       "correct_answer": "(e - 1)/2",
       "wrong_answers": [
@@ -1046,6 +1162,7 @@
       ]
     },
     {
+      "id": "question_117",
       "question": "∫[0,π] cos x dx = ?",
       "correct_answer": "0",
       "wrong_answers": [
@@ -1055,6 +1172,7 @@
       ]
     },
     {
+      "id": "question_118",
       "question": "∫[0,1] 1/(1 + x²) dx = ?",
       "correct_answer": "π/4",
       "wrong_answers": [
@@ -1064,6 +1182,7 @@
       ]
     },
     {
+      "id": "question_119",
       "question": "∫[0,1] √(1 - x²) dx = ?",
       "correct_answer": "π/4",
       "wrong_answers": [
@@ -1073,6 +1192,7 @@
       ]
     },
     {
+      "id": "question_120",
       "question": "∫[-1,2] |x| dx = ?",
       "correct_answer": "5/2",
       "wrong_answers": [
@@ -1082,6 +1202,7 @@
       ]
     },
     {
+      "id": "question_121",
       "question": "∫[0,π/2] sin²x dx = ?",
       "correct_answer": "π/4",
       "wrong_answers": [
@@ -1091,6 +1212,7 @@
       ]
     },
     {
+      "id": "question_122",
       "question": "∫[0,1] 2ˣ dx = ?",
       "correct_answer": "1/ln2",
       "wrong_answers": [
@@ -1100,6 +1222,7 @@
       ]
     },
     {
+      "id": "question_123",
       "question": "∫[1,4] 1/√x dx = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1109,6 +1232,7 @@
       ]
     },
     {
+      "id": "question_124",
       "question": "∫[0,1] (x² - x) dx = ?",
       "correct_answer": "-1/6",
       "wrong_answers": [
@@ -1118,6 +1242,7 @@
       ]
     },
     {
+      "id": "question_125",
       "question": "∫[0,2] (3x² - 2x) dx = ?",
       "correct_answer": "4",
       "wrong_answers": [
@@ -1127,6 +1252,7 @@
       ]
     },
     {
+      "id": "question_126",
       "question": "微分方程 dy/dx = 2x 的通解是？",
       "correct_answer": "y = x² + C",
       "wrong_answers": [
@@ -1136,6 +1262,7 @@
       ]
     },
     {
+      "id": "question_127",
       "question": "微分方程 dy/dx = y 的通解是？",
       "correct_answer": "y = Ce^x",
       "wrong_answers": [
@@ -1145,6 +1272,7 @@
       ]
     },
     {
+      "id": "question_128",
       "question": "微分方程 y' + y = 0 的通解是？",
       "correct_answer": "y = Ce^{-x}",
       "wrong_answers": [
@@ -1154,6 +1282,7 @@
       ]
     },
     {
+      "id": "question_129",
       "question": "微分方程 y' - 2y = 0 满足 y(0) = 3 的特解是？",
       "correct_answer": "y = 3e^{2x}",
       "wrong_answers": [
@@ -1163,6 +1292,7 @@
       ]
     },
     {
+      "id": "question_130",
       "question": "微分方程 dy/dx = e^{x+y} 的通解是？",
       "correct_answer": "e^{-y} = -e^x + C",
       "wrong_answers": [
@@ -1172,6 +1302,7 @@
       ]
     },
     {
+      "id": "question_131",
       "question": "微分方程 y' + y = e^x 的通解是？",
       "correct_answer": "y = (1/2)e^x + Ce^{-x}",
       "wrong_answers": [
@@ -1181,6 +1312,7 @@
       ]
     },
     {
+      "id": "question_132",
       "question": "微分方程 (x + y) dx + x dy = 0 的类型是？",
       "correct_answer": "齐次方程",
       "wrong_answers": [
@@ -1190,6 +1322,7 @@
       ]
     },
     {
+      "id": "question_133",
       "question": "微分方程 y' + (1/x)y = x² 是一阶线性方程，其通解中的积分因子 μ(x) = ?",
       "correct_answer": "x",
       "wrong_answers": [
@@ -1199,6 +1332,7 @@
       ]
     },
     {
+      "id": "question_134",
       "question": "微分方程 y' + y = xy² 是伯努利方程，令 z = y^{1-n}，则 n = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1208,6 +1342,7 @@
       ]
     },
     {
+      "id": "question_135",
       "question": "微分方程 y'' - 3y' + 2y = 0 的特征方程是？",
       "correct_answer": "r² - 3r + 2 = 0",
       "wrong_answers": [
@@ -1217,6 +1352,7 @@
       ]
     },
     {
+      "id": "question_136",
       "question": "微分方程 y'' - 3y' + 2y = 0 的通解是？",
       "correct_answer": "y = C₁e^x + C₂e^{2x}",
       "wrong_answers": [
@@ -1226,6 +1362,7 @@
       ]
     },
     {
+      "id": "question_137",
       "question": "微分方程 y'' + 2y' + y = 0 的通解是？",
       "correct_answer": "y = (C₁ + C₂x)e^{-x}",
       "wrong_answers": [
@@ -1235,6 +1372,7 @@
       ]
     },
     {
+      "id": "question_138",
       "question": "微分方程 y'' + y = 0 的通解是？",
       "correct_answer": "y = C₁cos x + C₂sin x",
       "wrong_answers": [
@@ -1244,6 +1382,7 @@
       ]
     },
     {
+      "id": "question_139",
       "question": "微分方程 y'' + 4y' + 4y = 0 的特征根是？",
       "correct_answer": "r = -2（二重根）",
       "wrong_answers": [
@@ -1253,6 +1392,7 @@
       ]
     },
     {
+      "id": "question_140",
       "question": "微分方程 y'' + y = e^x 的一个特解形式可设为？",
       "correct_answer": "Ae^x",
       "wrong_answers": [
@@ -1262,6 +1402,7 @@
       ]
     },
     {
+      "id": "question_141",
       "question": "微分方程 y'' - y = 0 的通解是？",
       "correct_answer": "y = C₁e^x + C₂e^{-x}",
       "wrong_answers": [
@@ -1271,6 +1412,7 @@
       ]
     },
     {
+      "id": "question_142",
       "question": "二阶线性齐次微分方程 y'' + p(x)y' + q(x)y = 0 的通解中任意常数的个数是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1280,6 +1422,7 @@
       ]
     },
     {
+      "id": "question_143",
       "question": "已知 y₁ = e^x 是微分方程 y'' - y = 0 的一个解，则另一个线性无关的解是？",
       "correct_answer": "y₂ = e^{-x}",
       "wrong_answers": [
@@ -1289,6 +1432,7 @@
       ]
     },
     {
+      "id": "question_144",
       "question": "微分方程 y'' - 2y' + y = 0 满足 y(0) = 1, y'(0) = 0 的特解是？",
       "correct_answer": "y = e^x - xe^x",
       "wrong_answers": [
@@ -1298,6 +1442,7 @@
       ]
     },
     {
+      "id": "question_145",
       "question": "微分方程 dy/dx = 2xy 满足 y(0) = 1 的特解是？",
       "correct_answer": "y = e^{x²}",
       "wrong_answers": [
@@ -1307,6 +1452,7 @@
       ]
     },
     {
+      "id": "question_146",
       "question": "向量 a = (1, 2, 3)，b = (4, 5, 6)，则 a·b = ?",
       "correct_answer": "32",
       "wrong_answers": [
@@ -1316,6 +1462,7 @@
       ]
     },
     {
+      "id": "question_147",
       "question": "向量 a = (1, 0, 0)，b = (0, 1, 0)，则 a×b = ?",
       "correct_answer": "(0, 0, 1)",
       "wrong_answers": [
@@ -1325,6 +1472,7 @@
       ]
     },
     {
+      "id": "question_148",
       "question": "已知点 A(1, 2, 3)，B(4, 6, 8)，则向量 AB = ?",
       "correct_answer": "(3, 4, 5)",
       "wrong_answers": [
@@ -1334,6 +1482,7 @@
       ]
     },
     {
+      "id": "question_149",
       "question": "向量 a = (1, 2, 2)，则 |a| = ?",
       "correct_answer": "3",
       "wrong_answers": [
@@ -1343,6 +1492,7 @@
       ]
     },
     {
+      "id": "question_150",
       "question": "过点 (1, 2, 3) 且法向量为 (1, 1, 1) 的平面方程是？",
       "correct_answer": "x + y + z = 6",
       "wrong_answers": [
@@ -1352,6 +1502,7 @@
       ]
     },
     {
+      "id": "question_151",
       "question": "过点 (1, 0, 2) 且方向向量为 (1, 2, -1) 的直线对称式方程是？",
       "correct_answer": "(x - 1)/1 = y/2 = (z - 2)/(-1)",
       "wrong_answers": [
@@ -1361,6 +1512,7 @@
       ]
     },
     {
+      "id": "question_152",
       "question": "球面方程 x² + y² + z² - 2x + 4y - 6z = 0 的球心坐标是？",
       "correct_answer": "(1, -2, 3)",
       "wrong_answers": [
@@ -1370,6 +1522,7 @@
       ]
     },
     {
+      "id": "question_153",
       "question": "点 P(1, 2, 3) 到平面 2x + 2y + z - 6 = 0 的距离是？",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1379,6 +1532,7 @@
       ]
     },
     {
+      "id": "question_154",
       "question": "向量 a = (2, -1, 3) 与 b = (1, 2, -1) 的点积是？",
       "correct_answer": "-3",
       "wrong_answers": [
@@ -1388,6 +1542,7 @@
       ]
     },
     {
+      "id": "question_155",
       "question": "向量 a 和 b 的叉积 a×b 的模等于？",
       "correct_answer": "以 a、b 为邻边的平行四边形面积",
       "wrong_answers": [
@@ -1397,6 +1552,7 @@
       ]
     },
     {
+      "id": "question_156",
       "question": "函数 f(x,y) = x²y + xy² 关于 x 的偏导数 ∂f/∂x = ?",
       "correct_answer": "2xy + y²",
       "wrong_answers": [
@@ -1406,6 +1562,7 @@
       ]
     },
     {
+      "id": "question_157",
       "question": "函数 f(x,y) = x²y + xy² 关于 y 的偏导数 ∂f/∂y = ?",
       "correct_answer": "x² + 2xy",
       "wrong_answers": [
@@ -1415,6 +1572,7 @@
       ]
     },
     {
+      "id": "question_158",
       "question": "函数 f(x,y) = e^(xy) 关于 x 的偏导数 ∂f/∂x = ?",
       "correct_answer": "y·e^(xy)",
       "wrong_answers": [
@@ -1424,6 +1582,7 @@
       ]
     },
     {
+      "id": "question_159",
       "question": "函数 f(x,y) = ln(x² + y²) 关于 x 的偏导数是？",
       "correct_answer": "2x/(x² + y²)",
       "wrong_answers": [
@@ -1433,6 +1592,7 @@
       ]
     },
     {
+      "id": "question_160",
       "question": "函数 f(x,y) = sin(xy) 关于 y 的偏导数是？",
       "correct_answer": "x·cos(xy)",
       "wrong_answers": [
@@ -1442,6 +1602,7 @@
       ]
     },
     {
+      "id": "question_161",
       "question": "函数 f(x,y) = x² + y² 在点 (1,2) 处的全微分 dz = ?",
       "correct_answer": "2dx + 4dy",
       "wrong_answers": [
@@ -1451,6 +1612,7 @@
       ]
     },
     {
+      "id": "question_162",
       "question": "函数 f(x,y) = x²y 在点 (1,2) 处的全微分 dz = ?",
       "correct_answer": "4dx + dy",
       "wrong_answers": [
@@ -1460,6 +1622,7 @@
       ]
     },
     {
+      "id": "question_163",
       "question": "函数 f(x,y) = x³ - y³ + 3xy 的二阶混合偏导数 ∂²f/∂x∂y = ?",
       "correct_answer": "3",
       "wrong_answers": [
@@ -1469,6 +1632,7 @@
       ]
     },
     {
+      "id": "question_164",
       "question": "设 z = f(u, v)，u = x²，v = e^x，则 dz/dx = ?",
       "correct_answer": "2x·∂f/∂u + e^x·∂f/∂v",
       "wrong_answers": [
@@ -1478,6 +1642,7 @@
       ]
     },
     {
+      "id": "question_165",
       "question": "设 z = f(x² + y²)，则 ∂z/∂x = ?",
       "correct_answer": "2x·f'(x² + y²)",
       "wrong_answers": [
@@ -1487,6 +1652,7 @@
       ]
     },
     {
+      "id": "question_166",
       "question": "由方程 x² + y² + z² = 4 确定的隐函数 z = z(x,y)，∂z/∂x = ?",
       "correct_answer": "-x/z",
       "wrong_answers": [
@@ -1496,6 +1662,7 @@
       ]
     },
     {
+      "id": "question_167",
       "question": "由方程 xy + yz + zx = 1 确定的隐函数 z = z(x,y)，∂z/∂y = ?",
       "correct_answer": "-(x + z)/(y + x)",
       "wrong_answers": [
@@ -1505,6 +1672,7 @@
       ]
     },
     {
+      "id": "question_168",
       "question": "函数 f(x,y) = x² + y² 在点 (1,1) 处的梯度 grad f = ?",
       "correct_answer": "(2, 2)",
       "wrong_answers": [
@@ -1514,6 +1682,7 @@
       ]
     },
     {
+      "id": "question_169",
       "question": "函数 f(x,y) = x²y 在点 (2,1) 处的梯度 grad f = ?",
       "correct_answer": "(4, 4)",
       "wrong_answers": [
@@ -1523,6 +1692,7 @@
       ]
     },
     {
+      "id": "question_170",
       "question": "函数 f(x,y) = x² + y² 在点 (1,1) 处沿方向 l = (1/√2, 1/√2) 的方向导数是？",
       "correct_answer": "2√2",
       "wrong_answers": [
@@ -1532,6 +1702,7 @@
       ]
     },
     {
+      "id": "question_171",
       "question": "函数 f(x,y) = x² + y² 在点 (1,0) 处沿 y 轴正方向的方向导数是？",
       "correct_answer": "0",
       "wrong_answers": [
@@ -1541,6 +1712,7 @@
       ]
     },
     {
+      "id": "question_172",
       "question": "函数 f(x,y) = x² + y² 的极小值点是？",
       "correct_answer": "(0, 0)",
       "wrong_answers": [
@@ -1550,6 +1722,7 @@
       ]
     },
     {
+      "id": "question_173",
       "question": "函数 f(x,y) = x² - y² 在点 (0,0) 处？",
       "correct_answer": "不是极值点（鞍点）",
       "wrong_answers": [
@@ -1559,6 +1732,7 @@
       ]
     },
     {
+      "id": "question_174",
       "question": "函数 f(x,y) = xy 的偏导数在点 (0,0) 处？",
       "correct_answer": "均等于 0",
       "wrong_answers": [
@@ -1568,6 +1742,7 @@
       ]
     },
     {
+      "id": "question_175",
       "question": "函数 f(x,y) = x² + xy + y² 的驻点是？",
       "correct_answer": "(0, 0)",
       "wrong_answers": [
@@ -1577,6 +1752,7 @@
       ]
     },
     {
+      "id": "question_176",
       "question": "计算二重积分 ∫∫_D (x + y) dxdy，其中 D: 0 ≤ x ≤ 1, 0 ≤ y ≤ 1。",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1586,6 +1762,7 @@
       ]
     },
     {
+      "id": "question_177",
       "question": "计算二重积分 ∫∫_D xy dxdy，其中 D: 0 ≤ x ≤ 2, 0 ≤ y ≤ 1。",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1595,6 +1772,7 @@
       ]
     },
     {
+      "id": "question_178",
       "question": "计算二重积分 ∫∫_D x² dxdy，其中 D: 0 ≤ x ≤ 1, 0 ≤ y ≤ 2。",
       "correct_answer": "2/3",
       "wrong_answers": [
@@ -1604,6 +1782,7 @@
       ]
     },
     {
+      "id": "question_179",
       "question": "计算二重积分 ∫∫_D (x + y) dxdy，其中 D 由 y = x, y = 0, x = 1 围成。",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -1613,6 +1792,7 @@
       ]
     },
     {
+      "id": "question_180",
       "question": "计算二重积分 ∫∫_D y dxdy，其中 D 由 y = x², y = 0, x = 1 围成。",
       "correct_answer": "1/10",
       "wrong_answers": [
@@ -1622,6 +1802,7 @@
       ]
     },
     {
+      "id": "question_181",
       "question": "利用极坐标计算 ∫∫_D e^(x²+y²) dxdy，其中 D: x² + y² ≤ 1。",
       "correct_answer": "π(e - 1)",
       "wrong_answers": [
@@ -1631,6 +1812,7 @@
       ]
     },
     {
+      "id": "question_182",
       "question": "计算二重积分 ∫∫_D (x² + y²) dxdy，其中 D: x² + y² ≤ 1。",
       "correct_answer": "π/2",
       "wrong_answers": [
@@ -1640,6 +1822,7 @@
       ]
     },
     {
+      "id": "question_183",
       "question": "交换积分次序：∫₀¹ ∫₀ˣ f(x, y) dy dx = ?",
       "correct_answer": "∫₀¹ ∫_y¹ f(x, y) dx dy",
       "wrong_answers": [
@@ -1649,6 +1832,7 @@
       ]
     },
     {
+      "id": "question_184",
       "question": "计算累次积分 ∫₀² ∫₀ʸ dx dy。",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1658,6 +1842,7 @@
       ]
     },
     {
+      "id": "question_185",
       "question": "计算二重积分 ∫∫_D (2x + 3y) dxdy，其中 D: 0 ≤ x ≤ 1, 0 ≤ y ≤ 1。",
       "correct_answer": "5/2",
       "wrong_answers": [
@@ -1667,6 +1852,7 @@
       ]
     },
     {
+      "id": "question_186",
       "question": "计算三重积分 ∫∫∫_V dxdydz，其中 V: 0 ≤ x ≤ 1, 0 ≤ y ≤ 2, 0 ≤ z ≤ 3。",
       "correct_answer": "6",
       "wrong_answers": [
@@ -1676,6 +1862,7 @@
       ]
     },
     {
+      "id": "question_187",
       "question": "计算三重积分 ∫∫∫_V x dxdydz，其中 V: 0 ≤ x ≤ 1, 0 ≤ y ≤ 2, 0 ≤ z ≤ 3。",
       "correct_answer": "3",
       "wrong_answers": [
@@ -1685,6 +1872,7 @@
       ]
     },
     {
+      "id": "question_188",
       "question": "计算三重积分 ∫∫∫_V (x + y + z) dxdydz，其中 V: 0 ≤ x ≤ 1, 0 ≤ y ≤ 1, 0 ≤ z ≤ 1。",
       "correct_answer": "3/2",
       "wrong_answers": [
@@ -1694,6 +1882,7 @@
       ]
     },
     {
+      "id": "question_189",
       "question": "计算二重积分 ∫∫_D sin(x + y) dxdy，其中 D: 0 ≤ x ≤ π/2, 0 ≤ y ≤ π/2。",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1703,6 +1892,7 @@
       ]
     },
     {
+      "id": "question_190",
       "question": "计算二重积分 ∫∫_D y dxdy，其中 D 由 x = 0, y = 0, x + y = 1 围成。",
       "correct_answer": "1/6",
       "wrong_answers": [
@@ -1712,6 +1902,7 @@
       ]
     },
     {
+      "id": "question_191",
       "question": "利用极坐标计算 ∫∫_D √(x² + y²) dxdy，其中 D: x² + y² ≤ 4。",
       "correct_answer": "16π/3",
       "wrong_answers": [
@@ -1721,6 +1912,7 @@
       ]
     },
     {
+      "id": "question_192",
       "question": "计算二重积分 ∫∫_D x dxdy，其中 D 为半圆 x² + y² ≤ 1, x ≥ 0。",
       "correct_answer": "2/3",
       "wrong_answers": [
@@ -1730,6 +1922,7 @@
       ]
     },
     {
+      "id": "question_193",
       "question": "交换积分次序：∫₀¹ ∫_(x²)^x f(x, y) dy dx = ?",
       "correct_answer": "∫₀¹ ∫_y^√y f(x, y) dx dy",
       "wrong_answers": [
@@ -1739,6 +1932,7 @@
       ]
     },
     {
+      "id": "question_194",
       "question": "计算三重积分 ∫∫∫_V z dxdydz，其中 V: 0 ≤ x ≤ 1, 0 ≤ y ≤ 1, 0 ≤ z ≤ 1。",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -1748,6 +1942,7 @@
       ]
     },
     {
+      "id": "question_195",
       "question": "计算二重积分 ∫∫_D (x - y) dxdy，其中 D: 0 ≤ x ≤ 2, 0 ≤ y ≤ 2。",
       "correct_answer": "0",
       "wrong_answers": [
@@ -1757,6 +1952,7 @@
       ]
     },
     {
+      "id": "question_196",
       "question": "级数 ∑(n=1..∞) 1/n 的敛散性是？",
       "correct_answer": "发散",
       "wrong_answers": [
@@ -1766,6 +1962,7 @@
       ]
     },
     {
+      "id": "question_197",
       "question": "级数 ∑(n=1..∞) 1/n² 的敛散性是？",
       "correct_answer": "收敛",
       "wrong_answers": [
@@ -1775,6 +1972,7 @@
       ]
     },
     {
+      "id": "question_198",
       "question": "级数 ∑(n=1..∞) (-1)^(n-1)/n 的敛散性是？",
       "correct_answer": "条件收敛",
       "wrong_answers": [
@@ -1784,6 +1982,7 @@
       ]
     },
     {
+      "id": "question_199",
       "question": "级数 ∑(n=1..∞) 1/[n(n+1)] 的和是？",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1793,6 +1992,7 @@
       ]
     },
     {
+      "id": "question_200",
       "question": "几何级数 ∑(n=0..∞) 1/2^n 的和是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1802,6 +2002,7 @@
       ]
     },
     {
+      "id": "question_201",
       "question": "几何级数 ∑(n=0..∞) ar^n 收敛的条件是？",
       "correct_answer": "|r| < 1",
       "wrong_answers": [
@@ -1811,6 +2012,7 @@
       ]
     },
     {
+      "id": "question_202",
       "question": "p 级数 ∑(n=1..∞) 1/n^p 收敛的条件是？",
       "correct_answer": "p > 1",
       "wrong_answers": [
@@ -1820,6 +2022,7 @@
       ]
     },
     {
+      "id": "question_203",
       "question": "正项级数 ∑(n=1..∞) a_n，若 lim(n→∞) a_{n+1}/a_n = ρ < 1，则？",
       "correct_answer": "级数收敛",
       "wrong_answers": [
@@ -1829,6 +2032,7 @@
       ]
     },
     {
+      "id": "question_204",
       "question": "幂级数 ∑(n=0..∞) x^n 的收敛半径 R = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1838,6 +2042,7 @@
       ]
     },
     {
+      "id": "question_205",
       "question": "幂级数 ∑(n=1..∞) x^n/n 的收敛半径 R = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1847,6 +2052,7 @@
       ]
     },
     {
+      "id": "question_206",
       "question": "幂级数 ∑(n=0..∞) n! x^n 的收敛半径 R = ?",
       "correct_answer": "0",
       "wrong_answers": [
@@ -1856,6 +2062,7 @@
       ]
     },
     {
+      "id": "question_207",
       "question": "幂级数 ∑(n=0..∞) x^n/n! 的收敛半径 R = ?",
       "correct_answer": "∞",
       "wrong_answers": [
@@ -1865,6 +2072,7 @@
       ]
     },
     {
+      "id": "question_208",
       "question": "幂级数 ∑(n=0..∞) (x-1)^n 的收敛区间是？",
       "correct_answer": "(0, 2)",
       "wrong_answers": [
@@ -1874,6 +2082,7 @@
       ]
     },
     {
+      "id": "question_209",
       "question": "幂级数 ∑(n=1..∞) x^n/n² 的收敛域是？",
       "correct_answer": "[-1, 1]",
       "wrong_answers": [
@@ -1883,6 +2092,7 @@
       ]
     },
     {
+      "id": "question_210",
       "question": "函数 f(x) = 1/(1-x) 在 |x| < 1 内的幂级数展开是？",
       "correct_answer": "∑(n=0..∞) x^n",
       "wrong_answers": [
@@ -1892,6 +2102,7 @@
       ]
     },
     {
+      "id": "question_211",
       "question": "函数 f(x) = e^x 的麦克劳林级数是？",
       "correct_answer": "∑(n=0..∞) x^n/n!",
       "wrong_answers": [
@@ -1901,6 +2112,7 @@
       ]
     },
     {
+      "id": "question_212",
       "question": "函数 f(x) = sin x 的麦克劳林级数是？",
       "correct_answer": "∑(n=0..∞) (-1)^n x^(2n+1)/(2n+1)!",
       "wrong_answers": [
@@ -1910,6 +2122,7 @@
       ]
     },
     {
+      "id": "question_213",
       "question": "函数 f(x) = cos x 的麦克劳林级数是？",
       "correct_answer": "∑(n=0..∞) (-1)^n x^(2n)/(2n)!",
       "wrong_answers": [
@@ -1919,6 +2132,7 @@
       ]
     },
     {
+      "id": "question_214",
       "question": "函数 f(x) = ln(1+x) 在 |x| < 1 内的麦克劳林级数是？",
       "correct_answer": "∑(n=1..∞) (-1)^(n-1) x^n/n",
       "wrong_answers": [
@@ -1928,6 +2142,7 @@
       ]
     },
     {
+      "id": "question_215",
       "question": "交错级数 ∑(n=1..∞) (-1)^(n-1)/√n 的敛散性是？",
       "correct_answer": "条件收敛",
       "wrong_answers": [
@@ -1937,6 +2152,7 @@
       ]
     },
     {
+      "id": "question_216",
       "question": "级数 ∑(n=0..∞) 2^n/n! 的敛散性是？",
       "correct_answer": "收敛",
       "wrong_answers": [
@@ -1946,6 +2162,7 @@
       ]
     },
     {
+      "id": "question_217",
       "question": "级数 ∑(n=0..∞) n/2^n 的和是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1955,6 +2172,7 @@
       ]
     },
     {
+      "id": "question_218",
       "question": "级数 ∑(n=1..∞) 1/(n²+1) 的敛散性是？",
       "correct_answer": "收敛",
       "wrong_answers": [
@@ -1964,6 +2182,7 @@
       ]
     },
     {
+      "id": "question_219",
       "question": "级数 ∑(n=1..∞) (-1)^n·n/(n+1) 的敛散性是？",
       "correct_answer": "发散",
       "wrong_answers": [
@@ -1973,6 +2192,7 @@
       ]
     },
     {
+      "id": "question_220",
       "question": "级数 ∑(n=1..∞) cos n 的敛散性是？",
       "correct_answer": "发散",
       "wrong_answers": [
@@ -1982,6 +2202,7 @@
       ]
     },
     {
+      "id": "question_221",
       "question": "幂级数 ∑(n=1..∞) n x^n 的收敛半径 R = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1991,6 +2212,7 @@
       ]
     },
     {
+      "id": "question_222",
       "question": "幂级数 ∑(n=1..∞) x^n/(n·3^n) 的收敛半径 R = ?",
       "correct_answer": "3",
       "wrong_answers": [
@@ -2000,6 +2222,7 @@
       ]
     },
     {
+      "id": "question_223",
       "question": "级数 ∑(n=2..∞) 1/(n ln n) 的敛散性是？",
       "correct_answer": "发散",
       "wrong_answers": [
@@ -2009,12 +2232,273 @@
       ]
     },
     {
+      "id": "question_224",
       "question": "幂级数 ∑(n=0..∞) a_n x^n 在 x = 2 处收敛，则它在 x = -1 处？",
       "correct_answer": "绝对收敛",
       "wrong_answers": [
         "发散",
         "条件收敛",
         "无法确定"
+      ]
+    },
+    {
+      "id": "question_225",
+      "question": "极限 lim(x→0) ln(1+x)/x = ?",
+      "correct_answer": "1",
+      "wrong_answers": [
+        "0",
+        "e",
+        "不存在"
+      ]
+    },
+    {
+      "id": "question_226",
+      "question": "极限 lim(x→∞) (3x²-1)/(x²+2) = ?",
+      "correct_answer": "3",
+      "wrong_answers": [
+        "0",
+        "1",
+        "∞"
+      ]
+    },
+    {
+      "id": "question_227",
+      "question": "函数 f(x)=ln(x²+1) 的导函数是？",
+      "correct_answer": "2x/(x²+1)",
+      "wrong_answers": [
+        "1/(x²+1)",
+        "2/(x²+1)",
+        "2x·ln(x²+1)"
+      ]
+    },
+    {
+      "id": "question_228",
+      "question": "函数 f(x)=sin x 的二阶导数是？",
+      "correct_answer": "-sin x",
+      "wrong_answers": [
+        "cos x",
+        "sin x",
+        "-cos x"
+      ]
+    },
+    {
+      "id": "question_229",
+      "question": "函数 f(x)=(x+1)/(x-1) 的导函数是？",
+      "correct_answer": "-2/(x-1)²",
+      "wrong_answers": [
+        "2/(x-1)²",
+        "1/(x-1)²",
+        "-2/(x+1)²"
+      ]
+    },
+    {
+      "id": "question_230",
+      "question": "∫ x·cos x dx = ?",
+      "correct_answer": "x·sin x + cos x + C",
+      "wrong_answers": [
+        "x·sin x - cos x + C",
+        "x·cos x + sin x + C",
+        "sin x + C"
+      ]
+    },
+    {
+      "id": "question_231",
+      "question": "∫[0,1] 3x² dx = ?",
+      "correct_answer": "1",
+      "wrong_answers": [
+        "1/3",
+        "3/2",
+        "3"
+      ]
+    },
+    {
+      "id": "question_232",
+      "question": "广义积分 ∫[1,+∞) 1/x² dx = ?",
+      "correct_answer": "1",
+      "wrong_answers": [
+        "0",
+        "1/2",
+        "发散"
+      ]
+    },
+    {
+      "id": "question_233",
+      "question": "曲线 y=x 与 y=x² 在区间 [0,1] 上围成图形的面积是？",
+      "correct_answer": "1/6",
+      "wrong_answers": [
+        "1/3",
+        "1/2",
+        "2/3"
+      ]
+    },
+    {
+      "id": "question_234",
+      "question": "曲线 y=x、直线 x=1 与 x 轴围成的图形绕 x 轴旋转所得立体的体积是？",
+      "correct_answer": "π/3",
+      "wrong_answers": [
+        "π/2",
+        "π",
+        "2π/3"
+      ]
+    },
+    {
+      "id": "question_235",
+      "question": "微分方程 y'=3y 满足 y(0)=2 的特解是？",
+      "correct_answer": "y=2e^(3x)",
+      "wrong_answers": [
+        "y=3e^(2x)",
+        "y=2e^x",
+        "y=2e^(-3x)"
+      ]
+    },
+    {
+      "id": "question_236",
+      "question": "微分方程 y''+4y=0 的通解是？",
+      "correct_answer": "y=C₁cos(2x)+C₂sin(2x)",
+      "wrong_answers": [
+        "y=C₁cos x+C₂sin x",
+        "y=C₁e^(2x)+C₂e^(-2x)",
+        "y=(C₁+C₂x)e^(-2x)"
+      ]
+    },
+    {
+      "id": "question_237",
+      "question": "向量 a=(1,2,0)，b=(0,1,3)，则 a×b = ?",
+      "correct_answer": "(6,-3,1)",
+      "wrong_answers": [
+        "(6,3,1)",
+        "(-6,3,-1)",
+        "(1,3,3)"
+      ]
+    },
+    {
+      "id": "question_238",
+      "question": "平面 2x-y+2z=5 的一个法向量是？",
+      "correct_answer": "(2,-1,2)",
+      "wrong_answers": [
+        "(2,1,2)",
+        "(1,-2,2)",
+        "(2,-1,5)"
+      ]
+    },
+    {
+      "id": "question_239",
+      "question": "函数 f(x,y)=e^(x+y) 关于 x 的偏导数是？",
+      "correct_answer": "e^(x+y)",
+      "wrong_answers": [
+        "x·e^(x+y)",
+        "y·e^(x+y)",
+        "e^(xy)"
+      ]
+    },
+    {
+      "id": "question_240",
+      "question": "函数 z=xy 在点 (2,3) 处的全微分 dz 是？",
+      "correct_answer": "3dx+2dy",
+      "wrong_answers": [
+        "2dx+3dy",
+        "6dx+6dy",
+        "3dx-2dy"
+      ]
+    },
+    {
+      "id": "question_241",
+      "question": "计算二重积分 ∫∫_D (x²+y²) dxdy，其中 D: 0≤x≤1, 0≤y≤1。",
+      "correct_answer": "2/3",
+      "wrong_answers": [
+        "1/3",
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "id": "question_242",
+      "question": "计算二重积分 ∫∫_D 1 dxdy，其中 D: x²+y²≤1。",
+      "correct_answer": "π",
+      "wrong_answers": [
+        "π/2",
+        "2π",
+        "π²"
+      ]
+    },
+    {
+      "id": "question_243",
+      "question": "计算三重积分 ∫∫∫_V xyz dxdydz，其中 V: 0≤x≤1, 0≤y≤1, 0≤z≤1。",
+      "correct_answer": "1/8",
+      "wrong_answers": [
+        "1/4",
+        "1/6",
+        "1/2"
+      ]
+    },
+    {
+      "id": "question_244",
+      "question": "几何级数 ∑(n=0..∞) (1/3)^n 的和是？",
+      "correct_answer": "3/2",
+      "wrong_answers": [
+        "1/2",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "question_245",
+      "question": "级数 ∑(n=1..∞) (-1)^(n-1)/n² 的敛散性是？",
+      "correct_answer": "绝对收敛",
+      "wrong_answers": [
+        "条件收敛",
+        "发散",
+        "无法判断"
+      ]
+    },
+    {
+      "id": "question_246",
+      "question": "幂级数 ∑(n=0..∞) x^n/2^n 的收敛半径 R = ?",
+      "correct_answer": "2",
+      "wrong_answers": [
+        "1/2",
+        "1",
+        "∞"
+      ]
+    },
+    {
+      "id": "question_247",
+      "question": "函数 e^x 在 x=0 处的一阶麦克劳林多项式是？",
+      "correct_answer": "1+x",
+      "wrong_answers": [
+        "x",
+        "1+x²",
+        "1+x+x²/2"
+      ]
+    },
+    {
+      "id": "question_248",
+      "question": "二阶矩阵 [[2,1],[3,4]] 的行列式是？",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "2",
+        "8",
+        "11"
+      ]
+    },
+    {
+      "id": "question_249",
+      "question": "线性方程组 x+y=5，x-y=1 的解是？",
+      "correct_answer": "x=3, y=2",
+      "wrong_answers": [
+        "x=2, y=3",
+        "x=4, y=1",
+        "x=3, y=-2"
+      ]
+    },
+    {
+      "id": "question_250",
+      "question": "对角矩阵 [[2,0],[0,3]] 的两个特征值是？",
+      "correct_answer": "2 和 3",
+      "wrong_answers": [
+        "0 和 5",
+        "1 和 6",
+        "-2 和 -3"
       ]
     }
   ]

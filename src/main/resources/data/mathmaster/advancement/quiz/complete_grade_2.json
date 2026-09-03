@@ -1,0 +1,29 @@
+{
+  "parent": "mathmaster:quiz/root",
+  "display": {
+    "icon": {
+      "id": "mathmaster:elementary_grade_2_math"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.quiz.complete_grade_2.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.quiz.complete_grade_2.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "completed"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

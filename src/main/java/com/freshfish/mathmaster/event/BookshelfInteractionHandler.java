@@ -44,55 +44,71 @@ public class BookshelfInteractionHandler {
             return;
         }
 
-        List<QuizBank> banks = findAdjacentQuizBanks(level, pos);
-        if (banks.isEmpty()) {
+        if (!(event.getEntity() instanceof ServerPlayer serverPlayer)
+                || !openQuiz(serverPlayer, pos)) {
             return;
         }
 
         event.setCancellationResult(InteractionResult.SUCCESS);
         event.setCanceled(true);
+    }
 
-        if (event.getEntity() instanceof ServerPlayer serverPlayer) {
-            serverPlayer.stopUsingItem();
-
-            QuizBank bank = banks.get(java.util.concurrent.ThreadLocalRandom.current().nextInt(banks.size()));
-            QuizBank.SelectedQuiz selectedQuiz = bank.randomQuestion().orElse(null);
-            if (selectedQuiz == null) {
-                return;
-            }
-            QuizQuestion question = selectedQuiz.question();
-            int questionNumber = selectedQuiz.number();
-            int correctOption = java.util.concurrent.ThreadLocalRandom.current().nextInt(4);
-            IntelligenceData intelligence = IntelligenceManager.get(serverPlayer);
-
-            serverPlayer.openMenu(new SimpleMenuProvider(
-                    (containerId, playerInventory, player) ->
-                            new BookshelfQuizMenu(
-                                    containerId,
-                                    playerInventory,
-                                    questionNumber,
-                                    question,
-                                    correctOption,
-                                    bank.difficulty(),
-                                    intelligence.getIq(),
-                                    intelligence.getExperience(),
-                                    intelligence.getXpNeededForNextIq()
-                            ),
-                    TITLE
-            ), buf -> {
-                buf.writeInt(questionNumber);
-                buf.writeUtf(question.question());
-                buf.writeUtf(question.correctAnswer());
-                buf.writeUtf(question.wrongAnswers().get(0));
-                buf.writeUtf(question.wrongAnswers().get(1));
-                buf.writeUtf(question.wrongAnswers().get(2));
-                buf.writeByte(correctOption);
-                buf.writeInt(bank.difficulty());
-                buf.writeInt(intelligence.getIq());
-                buf.writeInt(intelligence.getExperience());
-                buf.writeInt(intelligence.getXpNeededForNextIq());
-            });
+    public static boolean openQuiz(ServerPlayer serverPlayer, BlockPos bookshelfPos) {
+        if (!serverPlayer.level().getBlockState(bookshelfPos).is(Blocks.BOOKSHELF)) {
+            return false;
         }
+
+        List<QuizBank> banks = findAdjacentQuizBanks(serverPlayer.level(), bookshelfPos);
+        if (banks.isEmpty()) {
+            return false;
+        }
+
+        QuizBank bank = banks.get(java.util.concurrent.ThreadLocalRandom.current().nextInt(banks.size()));
+        QuizBank.SelectedQuiz selectedQuiz = bank.randomQuestion(serverPlayer).orElse(null);
+        if (selectedQuiz == null) {
+            return false;
+        }
+
+        QuizQuestion question = selectedQuiz.question();
+        int questionNumber = selectedQuiz.number();
+        int correctOption = java.util.concurrent.ThreadLocalRandom.current().nextInt(4);
+        IntelligenceData intelligence = IntelligenceManager.get(serverPlayer);
+        int effectiveIq = IntelligenceManager.getEffectiveIq(serverPlayer);
+
+        serverPlayer.stopUsingItem();
+        serverPlayer.openMenu(new SimpleMenuProvider(
+                (containerId, playerInventory, player) ->
+                        new BookshelfQuizMenu(
+                                containerId,
+                                playerInventory,
+                                bookshelfPos,
+                                bank,
+                                questionNumber,
+                                question,
+                                correctOption,
+                                bank.difficulty(),
+                                effectiveIq,
+                                intelligence.getExperience(),
+                                intelligence.getXpNeededForNextIq()
+                        ),
+                TITLE
+        ), buf -> {
+            buf.writeBlockPos(bookshelfPos);
+            buf.writeUtf(bank.dataId());
+            buf.writeResourceLocation(question.id());
+            buf.writeInt(questionNumber);
+            buf.writeUtf(question.question());
+            buf.writeUtf(question.correctAnswer());
+            buf.writeUtf(question.wrongAnswers().get(0));
+            buf.writeUtf(question.wrongAnswers().get(1));
+            buf.writeUtf(question.wrongAnswers().get(2));
+            buf.writeByte(correctOption);
+            buf.writeInt(bank.difficulty());
+            buf.writeInt(effectiveIq);
+            buf.writeInt(intelligence.getExperience());
+            buf.writeInt(intelligence.getXpNeededForNextIq());
+        });
+        return true;
     }
 
     private boolean hasAdjacentChiseledBookshelf(Level level, BlockPos pos) {
@@ -104,7 +120,7 @@ public class BookshelfInteractionHandler {
         return false;
     }
 
-    private List<QuizBank> findAdjacentQuizBanks(Level level, BlockPos pos) {
+    private static List<QuizBank> findAdjacentQuizBanks(Level level, BlockPos pos) {
         List<QuizBank> banks = new ArrayList<>();
 
         for (Direction direction : Direction.values()) {

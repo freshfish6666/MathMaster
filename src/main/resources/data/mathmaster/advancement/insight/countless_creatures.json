@@ -1,0 +1,29 @@
+{
+  "parent": "mathmaster:insight/mirror_all_beings",
+  "display": {
+    "icon": {
+      "id": "mathmaster:lingxu_mirror"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.insight.countless_creatures.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.insight.countless_creatures.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "completed"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

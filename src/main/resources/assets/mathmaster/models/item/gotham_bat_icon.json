@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mathmaster:item/gotham_bat_icon"
+  }
+}

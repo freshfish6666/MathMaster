@@ -1,10 +1,10 @@
 package com.freshfish.mathmaster.quiz;
 
 import com.freshfish.mathmaster.init.ModItems;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.Item;
 
 import java.util.Optional;
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Supplier;
 
 public enum QuizBank {
@@ -40,13 +40,8 @@ public enum QuizBank {
         return QuizQuestionManager.hasQuestions(this);
     }
 
-    public Optional<SelectedQuiz> randomQuestion() {
-        var questions = QuizQuestionManager.getQuestions(this);
-        if (questions.isEmpty()) {
-            return Optional.empty();
-        }
-        int index = ThreadLocalRandom.current().nextInt(questions.size());
-        return Optional.of(new SelectedQuiz(index + 1, questions.get(index)));
+    public Optional<SelectedQuiz> randomQuestion(ServerPlayer player) {
+        return QuizProgressManager.selectQuestion(player, this);
     }
 
     public static QuizBank byItem(Item item) {

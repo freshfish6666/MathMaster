@@ -1,0 +1,36 @@
+{
+  "parent": "mathmaster:quiz/root",
+  "display": {
+    "icon": {
+      "id": "mathmaster:lingxu_mirror"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.insight.mirror_mirror.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.insight.mirror_mirror.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_mirror": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mathmaster:lingxu_mirror"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtained_mirror"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

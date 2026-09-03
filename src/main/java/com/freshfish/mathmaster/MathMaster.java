@@ -1,16 +1,27 @@
 package com.freshfish.mathmaster;
 
+import com.freshfish.mathmaster.config.MathMasterConfig;
 import com.freshfish.mathmaster.event.BookshelfInteractionHandler;
 import com.freshfish.mathmaster.event.FoodIntelligenceHandler;
+import com.freshfish.mathmaster.event.FlowEffectHandler;
+import com.freshfish.mathmaster.event.InsightMirrorInteractionHandler;
+import com.freshfish.mathmaster.intellect.EntityIntellectCombatHandler;
+import com.freshfish.mathmaster.intellect.EntityIntellectManager;
+import com.freshfish.mathmaster.intellect.InsightQuestionManager;
 import com.freshfish.mathmaster.init.ModAttachments;
+import com.freshfish.mathmaster.init.ModBlocks;
 import com.freshfish.mathmaster.init.ModCreativeTabs;
 import com.freshfish.mathmaster.init.ModItems;
 import com.freshfish.mathmaster.init.ModMenuTypes;
+import com.freshfish.mathmaster.init.ModMobEffects;
+import com.freshfish.mathmaster.network.InsightFailurePayload;
 import com.freshfish.mathmaster.quiz.QuizQuestionManager;
 import com.mojang.logging.LogUtils;
 import org.slf4j.Logger;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.AddReloadListenerEvent;
@@ -20,14 +31,25 @@ public class MathMaster {
     public static final String MODID = "mathmaster";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public MathMaster(IEventBus modEventBus) {
+    public MathMaster(IEventBus modEventBus, ModContainer modContainer) {
+        modContainer.registerConfig(
+                ModConfig.Type.SERVER,
+                MathMasterConfig.SPEC,
+                "mathmaster-server.toml"
+        );
         modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(InsightFailurePayload::register);
         ModAttachments.ATTACHMENT_TYPES.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModMenuTypes.MENUS.register(modEventBus);
+        ModMobEffects.MOB_EFFECTS.register(modEventBus);
         NeoForge.EVENT_BUS.register(new BookshelfInteractionHandler());
         NeoForge.EVENT_BUS.register(new FoodIntelligenceHandler());
+        NeoForge.EVENT_BUS.register(new FlowEffectHandler());
+        NeoForge.EVENT_BUS.register(new EntityIntellectCombatHandler());
+        NeoForge.EVENT_BUS.register(new InsightMirrorInteractionHandler());
         NeoForge.EVENT_BUS.addListener(this::addReloadListeners);
     }
 
@@ -37,5 +59,7 @@ public class MathMaster {
 
     private void addReloadListeners(AddReloadListenerEvent event) {
         event.addListener(QuizQuestionManager.INSTANCE);
+        event.addListener(EntityIntellectManager.INSTANCE);
+        event.addListener(InsightQuestionManager.INSTANCE);
     }
 }

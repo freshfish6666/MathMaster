@@ -1,12 +1,16 @@
 package com.freshfish.mathmaster.intelligence;
 
 import net.minecraft.core.HolderLookup;
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.nbt.CompoundTag;
 import net.neoforged.neoforge.common.util.INBTSerializable;
 
 import java.util.concurrent.ThreadLocalRandom;
 
 public final class IntelligenceData implements INBTSerializable<CompoundTag> {
+    public static final StreamCodec<RegistryFriendlyByteBuf, IntelligenceData> STREAM_CODEC =
+            StreamCodec.of(IntelligenceData::writeNetwork, IntelligenceData::readNetwork);
     private static final int MIN_BIRTH_IQ = 30;
     private static final int MAX_BIRTH_IQ = 50;
     public static final int MAX_IQ = 200;
@@ -48,6 +52,27 @@ public final class IntelligenceData implements INBTSerializable<CompoundTag> {
         }
 
         this.totalExperience = clampTotalExperience(this.totalExperience + (long) amount);
+    }
+
+    public int addExperienceCappedAtIq(int amount, int maximumIq) {
+        if (amount <= 0) {
+            return 0;
+        }
+
+        int clampedMaximumIq = Math.max(MIN_BIRTH_IQ, Math.min(MAX_IQ, maximumIq));
+        if (this.getIq() > clampedMaximumIq) {
+            return 0;
+        }
+
+        long maximumTotalExperience = clampedMaximumIq >= MAX_IQ
+                ? MAX_TOTAL_EXPERIENCE
+                : totalExperienceForIq(clampedMaximumIq + 1) - 1L;
+        long oldTotalExperience = this.totalExperience;
+        this.totalExperience = Math.min(
+                maximumTotalExperience,
+                this.totalExperience + (long) amount
+        );
+        return Math.toIntExact(this.totalExperience - oldTotalExperience);
     }
 
     public void addIq(int amount) {
@@ -124,6 +149,16 @@ public final class IntelligenceData implements INBTSerializable<CompoundTag> {
 
     private static long clampTotalExperience(long totalExperience) {
         return Math.max(0L, Math.min(MAX_TOTAL_EXPERIENCE, totalExperience));
+    }
+
+    private static void writeNetwork(RegistryFriendlyByteBuf buffer, IntelligenceData data) {
+        buffer.writeVarLong(data.totalExperience);
+    }
+
+    private static IntelligenceData readNetwork(RegistryFriendlyByteBuf buffer) {
+        IntelligenceData data = new IntelligenceData();
+        data.totalExperience = clampTotalExperience(buffer.readVarLong());
+        return data;
     }
 
     @Override

@@ -24,6 +24,15 @@ public class ModCreativeTabs {
                                 output.accept(ModItems.JUNIOR_HIGH_MATH.get());
                                 output.accept(ModItems.SENIOR_HIGH_MATH.get());
                                 output.accept(ModItems.MILLENNIUM_PROBLEMS_MATH.get());
+                                output.accept(ModItems.LINGXU_BLOCK.get());
+                                output.accept(ModItems.LINGXU_INGOT.get());
+                                output.accept(ModItems.LINGXU_NUGGET.get());
+                                output.accept(ModItems.LINGXU_SWORD.get());
+                                output.accept(ModItems.LINGXU_PICKAXE.get());
+                                output.accept(ModItems.LINGXU_AXE.get());
+                                output.accept(ModItems.LINGXU_SHOVEL.get());
+                                output.accept(ModItems.LINGXU_HOE.get());
+                                output.accept(ModItems.LINGXU_MIRROR.get());
                                 output.accept(ModItems.THREE_CAT_MILK_POWDER.get());
                             })
                             .build());

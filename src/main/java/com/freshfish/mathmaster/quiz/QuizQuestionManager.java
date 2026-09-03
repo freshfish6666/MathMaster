@@ -12,10 +12,14 @@ import net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener;
 import net.minecraft.util.GsonHelper;
 import net.minecraft.util.profiling.ProfilerFiller;
 
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.EnumMap;
+import java.util.HexFormat;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -26,6 +30,7 @@ public final class QuizQuestionManager extends SimpleJsonResourceReloadListener 
     public static final QuizQuestionManager INSTANCE = new QuizQuestionManager();
 
     private static volatile Map<QuizBank, List<QuizQuestion>> questionsByBank = emptyBanks();
+    private static volatile long reloadGeneration;
 
     private QuizQuestionManager() {
         super(GSON, "quiz_banks");
@@ -37,6 +42,10 @@ public final class QuizQuestionManager extends SimpleJsonResourceReloadListener 
 
     public static boolean hasQuestions(QuizBank bank) {
         return !getQuestions(bank).isEmpty();
+    }
+
+    public static long getReloadGeneration() {
+        return reloadGeneration;
     }
 
     @Override
@@ -65,6 +74,7 @@ public final class QuizQuestionManager extends SimpleJsonResourceReloadListener 
         }
 
         questionsByBank = Collections.unmodifiableMap(immutable);
+        reloadGeneration++;
         MathMaster.LOGGER.info("Loaded {} MathMaster quiz questions in total", total);
     }
 
@@ -89,16 +99,23 @@ public final class QuizQuestionManager extends SimpleJsonResourceReloadListener 
             }
 
             Set<String> questionTexts = new HashSet<>();
+            Set<ResourceLocation> questionIds = new HashSet<>();
             for (QuizQuestion existing : target) {
                 questionTexts.add(existing.question());
+                questionIds.add(existing.id());
             }
 
             for (int index = 0; index < questions.size(); index++) {
                 try {
-                    QuizQuestion question = parseQuestion(questions.get(index), resourceId, index);
-                    if (!questionTexts.add(question.question())) {
+                    QuizQuestion question = parseQuestion(questions.get(index), resourceId, bank, index);
+                    if (questionIds.contains(question.id())) {
+                        throw new IllegalArgumentException("duplicate question id " + question.id());
+                    }
+                    if (questionTexts.contains(question.question())) {
                         throw new IllegalArgumentException("duplicate question text");
                     }
+                    questionIds.add(question.id());
+                    questionTexts.add(question.question());
                     target.add(question);
                 } catch (RuntimeException exception) {
                     MathMaster.LOGGER.error(
@@ -114,7 +131,12 @@ public final class QuizQuestionManager extends SimpleJsonResourceReloadListener 
         }
     }
 
-    private static QuizQuestion parseQuestion(JsonElement element, ResourceLocation resourceId, int index) {
+    private static QuizQuestion parseQuestion(
+            JsonElement element,
+            ResourceLocation resourceId,
+            QuizBank bank,
+            int index
+    ) {
         String label = resourceId + " question " + (index + 1);
         JsonObject object = GsonHelper.convertToJsonObject(element, label);
         String question = requireText(GsonHelper.getAsString(object, "question"), "question");
@@ -138,7 +160,65 @@ public final class QuizQuestionManager extends SimpleJsonResourceReloadListener 
             wrongAnswers.add(wrongAnswer);
         }
 
-        return new QuizQuestion(question, correctAnswer, List.copyOf(wrongAnswers));
+        ResourceLocation questionId = parseQuestionId(
+                object,
+                resourceId,
+                bank,
+                question,
+                correctAnswer,
+                wrongAnswers
+        );
+        return new QuizQuestion(questionId, question, correctAnswer, List.copyOf(wrongAnswers));
+    }
+
+    private static ResourceLocation parseQuestionId(
+            JsonObject object,
+            ResourceLocation resourceId,
+            QuizBank bank,
+            String question,
+            String correctAnswer,
+            List<String> wrongAnswers
+    ) {
+        String rawId = GsonHelper.getAsString(object, "id", "").trim();
+        if (rawId.isEmpty()) {
+            ResourceLocation generatedId = ResourceLocation.fromNamespaceAndPath(
+                    resourceId.getNamespace(),
+                    bank.dataId() + "/generated/" + contentHash(question, correctAnswer, wrongAnswers)
+            );
+            MathMaster.LOGGER.warn(
+                    "Question '{}' in {} has no explicit id; generated fallback id {}",
+                    question,
+                    resourceId,
+                    generatedId
+            );
+            return generatedId;
+        }
+
+        ResourceLocation parsed = rawId.indexOf(':') >= 0
+                ? ResourceLocation.tryParse(rawId)
+                : ResourceLocation.tryParse(
+                        resourceId.getNamespace() + ":" + bank.dataId() + "/" + rawId
+                );
+        if (parsed == null) {
+            throw new IllegalArgumentException("invalid question id " + rawId);
+        }
+        return parsed;
+    }
+
+    private static String contentHash(String question, String correctAnswer, List<String> wrongAnswers) {
+        try {
+            MessageDigest digest = MessageDigest.getInstance("SHA-256");
+            digest.update(question.getBytes(StandardCharsets.UTF_8));
+            digest.update((byte) 0);
+            digest.update(correctAnswer.getBytes(StandardCharsets.UTF_8));
+            wrongAnswers.stream().sorted().forEach(answer -> {
+                digest.update((byte) 0);
+                digest.update(answer.getBytes(StandardCharsets.UTF_8));
+            });
+            return HexFormat.of().formatHex(digest.digest(), 0, 8);
+        } catch (NoSuchAlgorithmException exception) {
+            throw new IllegalStateException("SHA-256 is unavailable", exception);
+        }
     }
 
     private static String requireText(String value, String field) {

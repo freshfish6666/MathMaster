@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lingxu_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mathmaster:lingxu_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mathmaster:lingxu_block",
+      "mathmaster:lingxu_nuggets_from_ingot"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "mathmaster:elementary_grade_2_math"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.quiz.root.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.quiz.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "answered_question": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "answered_question"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

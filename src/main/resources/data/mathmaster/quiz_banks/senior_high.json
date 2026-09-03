@@ -2,6 +2,7 @@
   "replace": false,
   "questions": [
     {
+      "id": "question_001",
       "question": "方程 x² - 5x + 6 = 0 的两根是？",
       "correct_answer": "2 和 3",
       "wrong_answers": [
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "id": "question_002",
       "question": "sin 30° = ?",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -20,6 +22,7 @@
       ]
     },
     {
+      "id": "question_003",
       "question": "log₂8 = ?",
       "correct_answer": "3",
       "wrong_answers": [
@@ -29,6 +32,7 @@
       ]
     },
     {
+      "id": "question_004",
       "question": "函数 f(x) = 2x + 1，f(3) = ?",
       "correct_answer": "7",
       "wrong_answers": [
@@ -38,6 +42,7 @@
       ]
     },
     {
+      "id": "question_005",
       "question": "等差数列 2, 5, 8, ... 的第 10 项是？",
       "correct_answer": "29",
       "wrong_answers": [
@@ -47,6 +52,7 @@
       ]
     },
     {
+      "id": "question_006",
       "question": "| -5 | = ?",
       "correct_answer": "5",
       "wrong_answers": [
@@ -56,6 +62,7 @@
       ]
     },
     {
+      "id": "question_007",
       "question": "集合 {1, 2, 3} 的子集个数是？",
       "correct_answer": "8",
       "wrong_answers": [
@@ -65,6 +72,7 @@
       ]
     },
     {
+      "id": "question_008",
       "question": "cos 0° = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -74,6 +82,7 @@
       ]
     },
     {
+      "id": "question_009",
       "question": "已知集合 A = {1, 2, 3}，B = {2, 3, 4}，则 A ∪ B = ?",
       "correct_answer": "{1, 2, 3, 4}",
       "wrong_answers": [
@@ -83,6 +92,7 @@
       ]
     },
     {
+      "id": "question_010",
       "question": "已知全集 U = {1, 2, 3, 4, 5}，A = {1, 2, 3}，则 ∁UA = ?",
       "correct_answer": "{4, 5}",
       "wrong_answers": [
@@ -92,6 +102,7 @@
       ]
     },
     {
+      "id": "question_011",
       "question": "集合 {a, b, c} 的真子集个数是？",
       "correct_answer": "7",
       "wrong_answers": [
@@ -101,6 +112,7 @@
       ]
     },
     {
+      "id": "question_012",
       "question": "集合 A = {x | x > 2}，B = {x | x ≤ 5}，则 A ∩ B = ?",
       "correct_answer": "(2, 5]",
       "wrong_answers": [
@@ -110,6 +122,7 @@
       ]
     },
     {
+      "id": "question_013",
       "question": "下列集合中为空集的是？",
       "correct_answer": "{x | x² + 1 = 0, x ∈ R}",
       "wrong_answers": [
@@ -119,6 +132,7 @@
       ]
     },
     {
+      "id": "question_014",
       "question": "函数 f(x) = √(x - 1) 的定义域是？",
       "correct_answer": "{x | x ≥ 1}",
       "wrong_answers": [
@@ -128,6 +142,7 @@
       ]
     },
     {
+      "id": "question_015",
       "question": "函数 f(x) = 1/(x - 2) 的定义域是？",
       "correct_answer": "{x | x ≠ 2}",
       "wrong_answers": [
@@ -137,6 +152,7 @@
       ]
     },
     {
+      "id": "question_016",
       "question": "函数 f(x) = √(4 - x²) 的定义域是？",
       "correct_answer": "[-2, 2]",
       "wrong_answers": [
@@ -146,6 +162,7 @@
       ]
     },
     {
+      "id": "question_017",
       "question": "已知函数 f(x) = x² + 1，x ∈ {0, 1, 2}，则函数的值域是？",
       "correct_answer": "{1, 2, 5}",
       "wrong_answers": [
@@ -155,6 +172,7 @@
       ]
     },
     {
+      "id": "question_018",
       "question": "函数 f(x) = |x| 的图象关于？",
       "correct_answer": "y 轴对称",
       "wrong_answers": [
@@ -164,6 +182,7 @@
       ]
     },
     {
+      "id": "question_019",
       "question": "函数 f(x) = -x² + 2x 的单调递增区间是？",
       "correct_answer": "(-∞, 1)",
       "wrong_answers": [
@@ -173,6 +192,7 @@
       ]
     },
     {
+      "id": "question_020",
       "question": "函数 f(x) = x³ 是？",
       "correct_answer": "奇函数",
       "wrong_answers": [
@@ -182,6 +202,7 @@
       ]
     },
     {
+      "id": "question_021",
       "question": "若 f(x) 是定义在 R 上的奇函数，且 f(2) = 3，则 f(-2) = ?",
       "correct_answer": "-3",
       "wrong_answers": [
@@ -191,6 +212,7 @@
       ]
     },
     {
+      "id": "question_022",
       "question": "若 f(x) 是偶函数，且在 (0, +∞) 上单调递增，则 f(-1) 与 f(2) 的大小关系是？",
       "correct_answer": "f(-1) < f(2)",
       "wrong_answers": [
@@ -200,6 +222,7 @@
       ]
     },
     {
+      "id": "question_023",
       "question": "已知 f(x) 是奇函数，当 x > 0 时，f(x) = x² + 1，则 f(-1) = ?",
       "correct_answer": "-2",
       "wrong_answers": [
@@ -209,6 +232,7 @@
       ]
     },
     {
+      "id": "question_024",
       "question": "计算：2³ × 2⁴ = ?",
       "correct_answer": "128",
       "wrong_answers": [
@@ -218,6 +242,7 @@
       ]
     },
     {
+      "id": "question_025",
       "question": "化简：(a²)³ = ?",
       "correct_answer": "a⁶",
       "wrong_answers": [
@@ -227,6 +252,7 @@
       ]
     },
     {
+      "id": "question_026",
       "question": "计算：3⁻² = ?",
       "correct_answer": "1/9",
       "wrong_answers": [
@@ -236,6 +262,7 @@
       ]
     },
     {
+      "id": "question_027",
       "question": "计算：(1/2)⁻¹ = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -245,15 +272,17 @@
       ]
     },
     {
+      "id": "question_028",
       "question": "若 a < 0，则 √(a²) = ?",
       "correct_answer": "-a",
       "wrong_answers": [
         "a",
-        "|a|",
+        "a²",
         "±a"
       ]
     },
     {
+      "id": "question_029",
       "question": "计算：log₃9 = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -263,6 +292,7 @@
       ]
     },
     {
+      "id": "question_030",
       "question": "计算：log₂1 = ?",
       "correct_answer": "0",
       "wrong_answers": [
@@ -272,6 +302,7 @@
       ]
     },
     {
+      "id": "question_031",
       "question": "计算：log₁₀1000 = ?",
       "correct_answer": "3",
       "wrong_answers": [
@@ -281,6 +312,7 @@
       ]
     },
     {
+      "id": "question_032",
       "question": "计算：log₅5 = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -290,6 +322,7 @@
       ]
     },
     {
+      "id": "question_033",
       "question": "计算：log₂8 + log₂2 = ?",
       "correct_answer": "4",
       "wrong_answers": [
@@ -299,6 +332,7 @@
       ]
     },
     {
+      "id": "question_034",
       "question": "计算：log₂(1/2) = ?",
       "correct_answer": "-1",
       "wrong_answers": [
@@ -308,6 +342,7 @@
       ]
     },
     {
+      "id": "question_035",
       "question": "计算：log₃2 × log₂9 = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -317,6 +352,7 @@
       ]
     },
     {
+      "id": "question_036",
       "question": "指数函数 y = 2^x 的图象必过定点？",
       "correct_answer": "(0, 1)",
       "wrong_answers": [
@@ -326,6 +362,7 @@
       ]
     },
     {
+      "id": "question_037",
       "question": "对数函数 y = log₂x 的图象必过定点？",
       "correct_answer": "(1, 0)",
       "wrong_answers": [
@@ -335,6 +372,7 @@
       ]
     },
     {
+      "id": "question_038",
       "question": "函数 y = a^x (a > 0 且 a ≠ 1) 在 R 上单调递增的条件是？",
       "correct_answer": "a > 1",
       "wrong_answers": [
@@ -344,6 +382,7 @@
       ]
     },
     {
+      "id": "question_039",
       "question": "函数 y = log_a x (a > 0 且 a ≠ 1) 在 (0, +∞) 上单调递减的条件是？",
       "correct_answer": "0 < a < 1",
       "wrong_answers": [
@@ -353,6 +392,7 @@
       ]
     },
     {
+      "id": "question_040",
       "question": "幂函数 f(x) = x^α 的图象过点 (2, √2)，则 α = ?",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -362,6 +402,7 @@
       ]
     },
     {
+      "id": "question_041",
       "question": "函数 f(x) = x² - 4x + 3 的零点个数是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -371,6 +412,7 @@
       ]
     },
     {
+      "id": "question_042",
       "question": "函数 f(x) = ln x + x - 2 的零点所在区间是？",
       "correct_answer": "(1, 2)",
       "wrong_answers": [
@@ -380,6 +422,7 @@
       ]
     },
     {
+      "id": "question_043",
       "question": "用二分法求函数 f(x) 在区间 [1, 3] 内的零点，第一次取中点 x₁ = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -389,6 +432,7 @@
       ]
     },
     {
+      "id": "question_044",
       "question": "某商品价格第一年上涨 10%，第二年上涨 20%，两年共上涨的百分比约为？",
       "correct_answer": "32%",
       "wrong_answers": [
@@ -398,6 +442,7 @@
       ]
     },
     {
+      "id": "question_045",
       "question": "函数 f(x) = x + 1/x (x > 0) 的最小值是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -407,6 +452,7 @@
       ]
     },
     {
+      "id": "question_046",
       "question": "已知函数 f(x) = x² - 2x 在区间 [0, 3] 上的最大值是？",
       "correct_answer": "3",
       "wrong_answers": [
@@ -416,6 +462,7 @@
       ]
     },
     {
+      "id": "question_047",
       "question": "函数 y = 2x + 1 与 y = -x + 4 的交点横坐标是？",
       "correct_answer": "1",
       "wrong_answers": [
@@ -425,6 +472,7 @@
       ]
     },
     {
+      "id": "question_048",
       "question": "函数 y = √(x - 2) + √(3 - x) 的定义域是？",
       "correct_answer": "[2, 3]",
       "wrong_answers": [
@@ -434,6 +482,7 @@
       ]
     },
     {
+      "id": "question_049",
       "question": "已知 f(x + 1) = x² + 2x + 2，则 f(x) = ?",
       "correct_answer": "x² + 1",
       "wrong_answers": [
@@ -443,6 +492,7 @@
       ]
     },
     {
+      "id": "question_050",
       "question": "函数 f(x) = 2^x 在 [-1, 2] 上的值域是？",
       "correct_answer": "[1/2, 4]",
       "wrong_answers": [
@@ -452,6 +502,7 @@
       ]
     },
     {
+      "id": "question_051",
       "question": "函数 f(x) = log₀.₅x 的单调性是？",
       "correct_answer": "在 (0, +∞) 上单调递减",
       "wrong_answers": [
@@ -461,6 +512,7 @@
       ]
     },
     {
+      "id": "question_052",
       "question": "化简：log₃4 + log₃5 - log₃20 = ?",
       "correct_answer": "0",
       "wrong_answers": [
@@ -470,6 +522,7 @@
       ]
     },
     {
+      "id": "question_053",
       "question": "已知集合 A = {x | x² - 3x + 2 = 0}，用列举法表示 A 为？",
       "correct_answer": "{1, 2}",
       "wrong_answers": [
@@ -479,6 +532,7 @@
       ]
     },
     {
+      "id": "question_054",
       "question": "若函数 f(x) 满足 f(-x) = f(x)，且 f(x) 在 [0, +∞) 上单调递增，则 f(-2) 与 f(1) 的大小关系是？",
       "correct_answer": "f(-2) > f(1)",
       "wrong_answers": [
@@ -488,6 +542,7 @@
       ]
     },
     {
+      "id": "question_055",
       "question": "不等式 (1/2)^x > 4 的解集是？",
       "correct_answer": "{x | x < -2}",
       "wrong_answers": [
@@ -497,6 +552,7 @@
       ]
     },
     {
+      "id": "question_056",
       "question": "方程 2^(x - 1) = 8 的解是？",
       "correct_answer": "4",
       "wrong_answers": [
@@ -506,6 +562,7 @@
       ]
     },
     {
+      "id": "question_057",
       "question": "函数 f(x) = x² - 1 的零点是？",
       "correct_answer": "-1 和 1",
       "wrong_answers": [
@@ -515,6 +572,7 @@
       ]
     },
     {
+      "id": "question_058",
       "question": "函数 y = √(x + 2) 的值域是？",
       "correct_answer": "[0, +∞)",
       "wrong_answers": [
@@ -524,6 +582,7 @@
       ]
     },
     {
+      "id": "question_059",
       "question": "已知向量 a=(2, -3)，b=(1, 4)，则 a+b = ?",
       "correct_answer": "(3, 1)",
       "wrong_answers": [
@@ -533,6 +592,7 @@
       ]
     },
     {
+      "id": "question_060",
       "question": "已知向量 a=(3, -1)，b=(2, 5)，则 a·b = ?",
       "correct_answer": "1",
       "wrong_answers": [
@@ -542,6 +602,7 @@
       ]
     },
     {
+      "id": "question_061",
       "question": "已知向量 a=(4, 3)，则 |a| = ?",
       "correct_answer": "5",
       "wrong_answers": [
@@ -551,6 +612,7 @@
       ]
     },
     {
+      "id": "question_062",
       "question": "已知向量 a=(2, 1)，b=(4, 2)，则 a 与 b 的关系是？",
       "correct_answer": "共线（平行）",
       "wrong_answers": [
@@ -560,6 +622,7 @@
       ]
     },
     {
+      "id": "question_063",
       "question": "已知向量 a=(1, 2)，b=(-2, 1)，则 a 与 b 的关系是？",
       "correct_answer": "垂直",
       "wrong_answers": [
@@ -569,6 +632,7 @@
       ]
     },
     {
+      "id": "question_064",
       "question": "在△ABC 中，a=3，b=4，角 C=60°，则 c² = ?",
       "correct_answer": "13",
       "wrong_answers": [
@@ -578,6 +642,7 @@
       ]
     },
     {
+      "id": "question_065",
       "question": "在△ABC 中，角 A=30°，角 B=45°，a=2，则 b = ?",
       "correct_answer": "2√2",
       "wrong_answers": [
@@ -587,6 +652,7 @@
       ]
     },
     {
+      "id": "question_066",
       "question": "复数 (2+3i)+(4-2i) = ?",
       "correct_answer": "6+i",
       "wrong_answers": [
@@ -596,6 +662,7 @@
       ]
     },
     {
+      "id": "question_067",
       "question": "复数 (1+i)(2-i) = ?",
       "correct_answer": "3+i",
       "wrong_answers": [
@@ -605,6 +672,7 @@
       ]
     },
     {
+      "id": "question_068",
       "question": "复数 (1+i)/(1-i) = ?",
       "correct_answer": "i",
       "wrong_answers": [
@@ -614,6 +682,7 @@
       ]
     },
     {
+      "id": "question_069",
       "question": "复数 z=3-4i，则 |z| = ?",
       "correct_answer": "5",
       "wrong_answers": [
@@ -623,6 +692,7 @@
       ]
     },
     {
+      "id": "question_070",
       "question": "复数 z=2+5i 的共轭复数是？",
       "correct_answer": "2-5i",
       "wrong_answers": [
@@ -632,6 +702,7 @@
       ]
     },
     {
+      "id": "question_071",
       "question": "若复数 (a-1)+(b+2)i 是纯虚数，则？",
       "correct_answer": "a=1 且 b≠-2",
       "wrong_answers": [
@@ -641,6 +712,7 @@
       ]
     },
     {
+      "id": "question_072",
       "question": "正方体的棱长为 2，则其表面积为？",
       "correct_answer": "24",
       "wrong_answers": [
@@ -650,6 +722,7 @@
       ]
     },
     {
+      "id": "question_073",
       "question": "球的半径为 3，则球的体积为？",
       "correct_answer": "36π",
       "wrong_answers": [
@@ -659,6 +732,7 @@
       ]
     },
     {
+      "id": "question_074",
       "question": "圆锥的底面半径为 3，母线长为 5，则其侧面积为？",
       "correct_answer": "15π",
       "wrong_answers": [
@@ -668,6 +742,7 @@
       ]
     },
     {
+      "id": "question_075",
       "question": "圆柱的底面半径为 2，高为 3，则其体积为？",
       "correct_answer": "12π",
       "wrong_answers": [
@@ -677,6 +752,7 @@
       ]
     },
     {
+      "id": "question_076",
       "question": "空间中两条直线没有公共点，则它们的位置关系是？",
       "correct_answer": "平行或异面",
       "wrong_answers": [
@@ -686,6 +762,7 @@
       ]
     },
     {
+      "id": "question_077",
       "question": "已知直线 a 不在平面 α 内，直线 b 在平面 α 内，且 a∥b，则直线 a 与平面 α 的位置关系是？",
       "correct_answer": "a∥α",
       "wrong_answers": [
@@ -695,6 +772,7 @@
       ]
     },
     {
+      "id": "question_078",
       "question": "正方体中，相邻两个侧面所成的二面角的大小是？",
       "correct_answer": "90°",
       "wrong_answers": [
@@ -704,6 +782,7 @@
       ]
     },
     {
+      "id": "question_079",
       "question": "一条直线垂直于平面内的两条相交直线，则这条直线与平面的位置关系是？",
       "correct_answer": "垂直",
       "wrong_answers": [
@@ -713,6 +792,7 @@
       ]
     },
     {
+      "id": "question_080",
       "question": "下列抽样方法中，每个个体被抽到的概率相等的是？",
       "correct_answer": "简单随机抽样",
       "wrong_answers": [
@@ -722,6 +802,7 @@
       ]
     },
     {
+      "id": "question_081",
       "question": "数据 3, 5, 7, 9, 11 的平均数是？",
       "correct_answer": "7",
       "wrong_answers": [
@@ -731,6 +812,7 @@
       ]
     },
     {
+      "id": "question_082",
       "question": "数据 1, 2, 3, 4, 5 的方差是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -740,6 +822,7 @@
       ]
     },
     {
+      "id": "question_083",
       "question": "某学校有学生 1200 人，采用分层抽样抽取 100 人，若高一年级有 300 人，则应从高一抽取的人数是？",
       "correct_answer": "25",
       "wrong_answers": [
@@ -749,6 +832,7 @@
       ]
     },
     {
+      "id": "question_084",
       "question": "在频率分布直方图中，每个小长方形的面积表示？",
       "correct_answer": "频率",
       "wrong_answers": [
@@ -758,6 +842,7 @@
       ]
     },
     {
+      "id": "question_085",
       "question": "同时抛掷两枚均匀硬币，出现“一正一反”的概率是？",
       "correct_answer": "1/2",
       "wrong_answers": [
@@ -767,6 +852,7 @@
       ]
     },
     {
+      "id": "question_086",
       "question": "若事件 A 和 B 互斥，且 P(A)=0.3，P(B)=0.4，则 P(A∪B) = ?",
       "correct_answer": "0.7",
       "wrong_answers": [
@@ -776,6 +862,7 @@
       ]
     },
     {
+      "id": "question_087",
       "question": "若事件 A 的概率为 0.2，则其对立事件的概率为？",
       "correct_answer": "0.8",
       "wrong_answers": [
@@ -785,6 +872,7 @@
       ]
     },
     {
+      "id": "question_088",
       "question": "甲、乙两人独立地射击同一目标，甲命中率为 0.6，乙命中率为 0.5，则两人同时命中的概率为？",
       "correct_answer": "0.3",
       "wrong_answers": [
@@ -794,6 +882,7 @@
       ]
     },
     {
+      "id": "question_089",
       "question": "已知空间向量 a=(1,2,3)，b=(2,-1,1)，则 a·b = ?",
       "correct_answer": "3",
       "wrong_answers": [
@@ -803,6 +892,7 @@
       ]
     },
     {
+      "id": "question_090",
       "question": "已知点 A(1,2,3)，B(4,5,6)，则向量 AB 的坐标是？",
       "correct_answer": "(3,3,3)",
       "wrong_answers": [
@@ -812,6 +902,7 @@
       ]
     },
     {
+      "id": "question_091",
       "question": "已知空间向量 a=(2,-1,3)，则 |a| = ?",
       "correct_answer": "√14",
       "wrong_answers": [
@@ -821,6 +912,7 @@
       ]
     },
     {
+      "id": "question_092",
       "question": "已知向量 a=(1,0,-1)，b=(0,1,1)，则 a 与 b 的夹角余弦值是？",
       "correct_answer": "-1/2",
       "wrong_answers": [
@@ -830,6 +922,7 @@
       ]
     },
     {
+      "id": "question_093",
       "question": "若向量 a=(2,y,1) 与 b=(4,2,2) 垂直，则 y = ?",
       "correct_answer": "-5",
       "wrong_answers": [
@@ -839,6 +932,7 @@
       ]
     },
     {
+      "id": "question_094",
       "question": "直线 x - y + 2 = 0 的倾斜角是？",
       "correct_answer": "45°",
       "wrong_answers": [
@@ -848,6 +942,7 @@
       ]
     },
     {
+      "id": "question_095",
       "question": "直线过点 (1,2) 且斜率为 -3，则直线方程是？",
       "correct_answer": "y = -3x + 5",
       "wrong_answers": [
@@ -857,6 +952,7 @@
       ]
     },
     {
+      "id": "question_096",
       "question": "直线 2x + y - 1 = 0 与直线 4x + 2y + 3 = 0 的位置关系是？",
       "correct_answer": "平行",
       "wrong_answers": [
@@ -866,6 +962,7 @@
       ]
     },
     {
+      "id": "question_097",
       "question": "点 (1,1) 到直线 3x + 4y - 5 = 0 的距离是？",
       "correct_answer": "2/5",
       "wrong_answers": [
@@ -875,6 +972,7 @@
       ]
     },
     {
+      "id": "question_098",
       "question": "两平行直线 3x+4y-5=0 与 3x+4y+5=0 的距离是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -884,6 +982,7 @@
       ]
     },
     {
+      "id": "question_099",
       "question": "圆 (x-1)² + (y+2)² = 9 的圆心坐标是？",
       "correct_answer": "(1,-2)",
       "wrong_answers": [
@@ -893,6 +992,7 @@
       ]
     },
     {
+      "id": "question_100",
       "question": "圆 x² + y² - 2x + 4y - 4 = 0 的圆心坐标是？",
       "correct_answer": "(1,-2)",
       "wrong_answers": [
@@ -902,6 +1002,7 @@
       ]
     },
     {
+      "id": "question_101",
       "question": "直线 y = x + 1 与圆 x² + y² = 1 的位置关系是？",
       "correct_answer": "相交",
       "wrong_answers": [
@@ -911,6 +1012,7 @@
       ]
     },
     {
+      "id": "question_102",
       "question": "圆 x² + y² = 4 与圆 (x-3)² + y² = 1 的位置关系是？",
       "correct_answer": "外切",
       "wrong_answers": [
@@ -920,6 +1022,7 @@
       ]
     },
     {
+      "id": "question_103",
       "question": "椭圆 x²/9 + y²/4 = 1 的焦点坐标是？",
       "correct_answer": "(±√5, 0)",
       "wrong_answers": [
@@ -929,6 +1032,7 @@
       ]
     },
     {
+      "id": "question_104",
       "question": "椭圆 x²/16 + y²/9 = 1 的长轴长为？",
       "correct_answer": "8",
       "wrong_answers": [
@@ -938,6 +1042,7 @@
       ]
     },
     {
+      "id": "question_105",
       "question": "双曲线 x²/9 - y²/16 = 1 的渐近线方程是？",
       "correct_answer": "y = ±(4/3)x",
       "wrong_answers": [
@@ -947,6 +1052,7 @@
       ]
     },
     {
+      "id": "question_106",
       "question": "双曲线 y²/4 - x²/5 = 1 的实轴长为？",
       "correct_answer": "4",
       "wrong_answers": [
@@ -956,6 +1062,7 @@
       ]
     },
     {
+      "id": "question_107",
       "question": "抛物线 y² = 8x 的焦点坐标是？",
       "correct_answer": "(2,0)",
       "wrong_answers": [
@@ -965,6 +1072,7 @@
       ]
     },
     {
+      "id": "question_108",
       "question": "抛物线 y = -x² 的准线方程是？",
       "correct_answer": "y = 1/4",
       "wrong_answers": [
@@ -974,6 +1082,7 @@
       ]
     },
     {
+      "id": "question_109",
       "question": "椭圆 x²/25 + y²/16 = 1 的离心率是？",
       "correct_answer": "3/5",
       "wrong_answers": [
@@ -983,6 +1092,7 @@
       ]
     },
     {
+      "id": "question_110",
       "question": "已知空间向量 a=(1,0,1)，b=(0,1,0)，则 a 与 b 的夹角为？",
       "correct_answer": "90°",
       "wrong_answers": [
@@ -992,6 +1102,7 @@
       ]
     },
     {
+      "id": "question_111",
       "question": "在正方体 ABCD-A1B1C1D1 中，直线 A1B 与 AC 所成的角是？",
       "correct_answer": "60°",
       "wrong_answers": [
@@ -1001,6 +1112,7 @@
       ]
     },
     {
+      "id": "question_112",
       "question": "若两个平面的法向量分别为 n1=(1,0,0)，n2=(0,1,0)，则二面角大小为？",
       "correct_answer": "90°",
       "wrong_answers": [
@@ -1010,6 +1122,7 @@
       ]
     },
     {
+      "id": "question_113",
       "question": "若直线 l1: ax + 2y + 3 = 0 与直线 l2: 2x + y + 1 = 0 垂直，则 a = ?",
       "correct_answer": "-1",
       "wrong_answers": [
@@ -1019,6 +1132,7 @@
       ]
     },
     {
+      "id": "question_114",
       "question": "圆 x² + y² = 5 在点 (1,2) 处的切线方程是？",
       "correct_answer": "x + 2y = 5",
       "wrong_answers": [
@@ -1028,6 +1142,7 @@
       ]
     },
     {
+      "id": "question_115",
       "question": "动点 P 到定点 F(2,0) 的距离与到定直线 x=-2 的距离相等，则 P 的轨迹是？",
       "correct_answer": "y² = 8x",
       "wrong_answers": [
@@ -1037,6 +1152,7 @@
       ]
     },
     {
+      "id": "question_116",
       "question": "椭圆 x²/4 + y²/3 = 1 的焦点坐标为？",
       "correct_answer": "(±1, 0)",
       "wrong_answers": [
@@ -1046,6 +1162,7 @@
       ]
     },
     {
+      "id": "question_117",
       "question": "双曲线 x²/4 - y²/9 = 1 的离心率是？",
       "correct_answer": "√13/2",
       "wrong_answers": [
@@ -1055,6 +1172,7 @@
       ]
     },
     {
+      "id": "question_118",
       "question": "已知向量 a=(1,1,0)，b=(0,1,1)，则 a+b 的坐标为？",
       "correct_answer": "(1,2,1)",
       "wrong_answers": [
@@ -1064,6 +1182,7 @@
       ]
     },
     {
+      "id": "question_119",
       "question": "等差数列 {aₙ} 中，a₁ = 3，公差 d = 2，则 a₅ = ?",
       "correct_answer": "11",
       "wrong_answers": [
@@ -1073,6 +1192,7 @@
       ]
     },
     {
+      "id": "question_120",
       "question": "等差数列 {aₙ} 中，a₁ = 1，a₃ = 5，则公差 d = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1082,6 +1202,7 @@
       ]
     },
     {
+      "id": "question_121",
       "question": "1 + 2 + 3 + ... + 100 = ?",
       "correct_answer": "5050",
       "wrong_answers": [
@@ -1091,6 +1212,7 @@
       ]
     },
     {
+      "id": "question_122",
       "question": "等差数列 {aₙ} 中，a₂ = 3，a₅ = 12，则公差 d = ?",
       "correct_answer": "3",
       "wrong_answers": [
@@ -1100,6 +1222,7 @@
       ]
     },
     {
+      "id": "question_123",
       "question": "等比数列 {aₙ} 中，a₁ = 2，公比 q = 3，则 a₄ = ?",
       "correct_answer": "54",
       "wrong_answers": [
@@ -1109,6 +1232,7 @@
       ]
     },
     {
+      "id": "question_124",
       "question": "等比数列 {aₙ} 中，a₁ = 1，a₂ = 2，则公比 q = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1118,6 +1242,7 @@
       ]
     },
     {
+      "id": "question_125",
       "question": "1 + 2 + 4 + 8 + 16 = ?",
       "correct_answer": "31",
       "wrong_answers": [
@@ -1127,6 +1252,7 @@
       ]
     },
     {
+      "id": "question_126",
       "question": "等比数列 {aₙ} 中，a₂ = 4，a₃ = 8，则公比 q = ?",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1136,6 +1262,7 @@
       ]
     },
     {
+      "id": "question_127",
       "question": "数列 1, 3, 5, 7, ... 的第 n 项是？",
       "correct_answer": "2n - 1",
       "wrong_answers": [
@@ -1145,6 +1272,7 @@
       ]
     },
     {
+      "id": "question_128",
       "question": "数列 2, 4, 8, 16, ... 的通项公式是？",
       "correct_answer": "2^n",
       "wrong_answers": [
@@ -1154,6 +1282,7 @@
       ]
     },
     {
+      "id": "question_129",
       "question": "数列 {aₙ} 满足 a₁ = 1，aₙ = aₙ₋₁ + 2 (n ≥ 2)，则 a₃ = ?",
       "correct_answer": "5",
       "wrong_answers": [
@@ -1163,6 +1292,7 @@
       ]
     },
     {
+      "id": "question_130",
       "question": "等差数列前 n 项和公式为 Sₙ = n(a₁ + aₙ)/2，若 a₁ = 2，aₙ = 20，n = 10，则 S₁₀ = ?",
       "correct_answer": "110",
       "wrong_answers": [
@@ -1172,6 +1302,7 @@
       ]
     },
     {
+      "id": "question_131",
       "question": "等比数列 {aₙ} 中，a₁ = 1，公比 q = 2，则前 5 项和 S₅ = ?",
       "correct_answer": "31",
       "wrong_answers": [
@@ -1181,6 +1312,7 @@
       ]
     },
     {
+      "id": "question_132",
       "question": "数列 1/2, 1/4, 1/8, ... 的前 n 项和的极限是？",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1190,6 +1322,7 @@
       ]
     },
     {
+      "id": "question_133",
       "question": "等差数列 {aₙ} 中，a₁ + a₉ = 20，则 a₅ = ?",
       "correct_answer": "10",
       "wrong_answers": [
@@ -1199,6 +1332,7 @@
       ]
     },
     {
+      "id": "question_134",
       "question": "函数 f(x) = x² 的导函数 f'(x) = ?",
       "correct_answer": "2x",
       "wrong_answers": [
@@ -1208,6 +1342,7 @@
       ]
     },
     {
+      "id": "question_135",
       "question": "函数 f(x) = x³ + x 的导函数 f'(x) = ?",
       "correct_answer": "3x² + 1",
       "wrong_answers": [
@@ -1217,6 +1352,7 @@
       ]
     },
     {
+      "id": "question_136",
       "question": "函数 f(x) = sin x 的导函数是？",
       "correct_answer": "cos x",
       "wrong_answers": [
@@ -1226,6 +1362,7 @@
       ]
     },
     {
+      "id": "question_137",
       "question": "函数 f(x) = ln x 的导函数是？",
       "correct_answer": "1/x",
       "wrong_answers": [
@@ -1235,6 +1372,7 @@
       ]
     },
     {
+      "id": "question_138",
       "question": "函数 f(x) = eˣ 的导函数是？",
       "correct_answer": "eˣ",
       "wrong_answers": [
@@ -1244,6 +1382,7 @@
       ]
     },
     {
+      "id": "question_139",
       "question": "函数 y = 2x² - 3x + 1 在 x = 1 处的导数值是？",
       "correct_answer": "1",
       "wrong_answers": [
@@ -1253,6 +1392,7 @@
       ]
     },
     {
+      "id": "question_140",
       "question": "曲线 y = x² 在点 (1, 1) 处的切线斜率是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1262,6 +1402,7 @@
       ]
     },
     {
+      "id": "question_141",
       "question": "曲线 y = x³ 在点 (1, 1) 处的切线方程是？",
       "correct_answer": "y = 3x - 2",
       "wrong_answers": [
@@ -1271,6 +1412,7 @@
       ]
     },
     {
+      "id": "question_142",
       "question": "函数 f(x) = x³ - 3x 的单调递增区间是？",
       "correct_answer": "(-∞, -1) 和 (1, +∞)",
       "wrong_answers": [
@@ -1280,6 +1422,7 @@
       ]
     },
     {
+      "id": "question_143",
       "question": "函数 f(x) = x² - 2x 的极小值点是？",
       "correct_answer": "x = 1",
       "wrong_answers": [
@@ -1289,6 +1432,7 @@
       ]
     },
     {
+      "id": "question_144",
       "question": "函数 f(x) = x³ - 3x 的极大值是？",
       "correct_answer": "2",
       "wrong_answers": [
@@ -1298,6 +1442,7 @@
       ]
     },
     {
+      "id": "question_145",
       "question": "若 f'(x) > 0 在区间 I 上恒成立，则 f(x) 在 I 上？",
       "correct_answer": "单调递增",
       "wrong_answers": [
@@ -1307,6 +1452,7 @@
       ]
     },
     {
+      "id": "question_146",
       "question": "函数 f(x) = cos x 的导函数是？",
       "correct_answer": "-sin x",
       "wrong_answers": [
@@ -1316,6 +1462,7 @@
       ]
     },
     {
+      "id": "question_147",
       "question": "曲线 y = eˣ 在 x = 0 处的切线方程是？",
       "correct_answer": "y = x + 1",
       "wrong_answers": [
@@ -1325,6 +1472,7 @@
       ]
     },
     {
+      "id": "question_148",
       "question": "函数 f(x) = 1/x 的导函数是？",
       "correct_answer": "-1/x²",
       "wrong_answers": [
@@ -1334,6 +1482,7 @@
       ]
     },
     {
+      "id": "question_149",
       "question": "从 3 本不同的语文书和 4 本不同的数学书中任选 1 本，共有多少种选法？",
       "correct_answer": "7",
       "wrong_answers": [
@@ -1343,6 +1492,7 @@
       ]
     },
     {
+      "id": "question_150",
       "question": "从甲地到乙地有 2 条路，从乙地到丙地有 3 条路，则从甲地经乙地到丙地共有多少种走法？",
       "correct_answer": "6",
       "wrong_answers": [
@@ -1352,6 +1502,7 @@
       ]
     },
     {
+      "id": "question_151",
       "question": "计算 A₅²（即从 5 个元素中取 2 个的排列数）等于？",
       "correct_answer": "20",
       "wrong_answers": [
@@ -1361,6 +1512,7 @@
       ]
     },
     {
+      "id": "question_152",
       "question": "计算 C₅²（即从 5 个元素中取 2 个的组合数）等于？",
       "correct_answer": "10",
       "wrong_answers": [
@@ -1370,6 +1522,7 @@
       ]
     },
     {
+      "id": "question_153",
       "question": "从 5 名学生中选出 2 名参加某项比赛，共有多少种不同的选法？",
       "correct_answer": "10",
       "wrong_answers": [
@@ -1379,6 +1532,7 @@
       ]
     },
     {
+      "id": "question_154",
       "question": "从 5 名学生中选出 2 名分别担任班长和副班长，共有多少种不同的选法？",
       "correct_answer": "20",
       "wrong_answers": [
@@ -1388,6 +1542,7 @@
       ]
     },
     {
+      "id": "question_155",
       "question": "(x + 1)³ 展开式中 x² 的系数是？",
       "correct_answer": "3",
       "wrong_answers": [
@@ -1397,6 +1552,7 @@
       ]
     },
     {
+      "id": "question_156",
       "question": "(1 + x)ⁿ 展开式共有多少项？",
       "correct_answer": "n + 1",
       "wrong_answers": [
@@ -1406,6 +1562,7 @@
       ]
     },
     {
+      "id": "question_157",
       "question": "二项式系数 Cₙ⁰ + Cₙ¹ + ... + Cₙⁿ 的和等于？",
       "correct_answer": "2ⁿ",
       "wrong_answers": [
@@ -1415,6 +1572,7 @@
       ]
     },
     {
+      "id": "question_158",
       "question": "已知 P(A) = 0.5，P(AB) = 0.2，则条件概率 P(B|A) = ?",
       "correct_answer": "0.4",
       "wrong_answers": [
@@ -1424,6 +1582,7 @@
       ]
     },
     {
+      "id": "question_159",
       "question": "下列事件关系中，正确的是？",
       "correct_answer": "对立事件一定是互斥事件",
       "wrong_answers": [
@@ -1433,6 +1592,7 @@
       ]
     },
     {
+      "id": "question_160",
       "question": "离散型随机变量的特点是？",
       "correct_answer": "取值可以一一列举",
       "wrong_answers": [
@@ -1442,6 +1602,7 @@
       ]
     },
     {
+      "id": "question_161",
       "question": "离散型随机变量 X 的均值（数学期望）E(X) 等于？",
       "correct_answer": "Σ xᵢ pᵢ",
       "wrong_answers": [
@@ -1451,6 +1612,7 @@
       ]
     },
     {
+      "id": "question_162",
       "question": "若随机变量 X 的方差为 D(X)，则 D(aX + b) = ?",
       "correct_answer": "a² D(X)",
       "wrong_answers": [
@@ -1460,6 +1622,7 @@
       ]
     },
     {
+      "id": "question_163",
       "question": "若随机变量 X ~ B(n, p)，则 E(X) = ?",
       "correct_answer": "np",
       "wrong_answers": [
@@ -1469,6 +1632,7 @@
       ]
     },
     {
+      "id": "question_164",
       "question": "若随机变量 X ~ B(n, p)，则 D(X) = ?",
       "correct_answer": "np(1-p)",
       "wrong_answers": [
@@ -1478,6 +1642,7 @@
       ]
     },
     {
+      "id": "question_165",
       "question": "在含有 M 件次品的 N 件产品中，任取 n 件，其中次品数 X 服从？",
       "correct_answer": "超几何分布",
       "wrong_answers": [
@@ -1487,6 +1652,7 @@
       ]
     },
     {
+      "id": "question_166",
       "question": "正态曲线关于哪条直线对称？",
       "correct_answer": "x = μ",
       "wrong_answers": [
@@ -1496,6 +1662,7 @@
       ]
     },
     {
+      "id": "question_167",
       "question": "正态分布中，σ 越大，曲线越？",
       "correct_answer": "扁平",
       "wrong_answers": [
@@ -1505,12 +1672,293 @@
       ]
     },
     {
+      "id": "question_168",
       "question": "线性回归方程 y = bx + a 一定经过的点是？",
       "correct_answer": "样本中心点 (x̄, ȳ)",
       "wrong_answers": [
         "原点 (0,0)",
         "(x̄, 0)",
         "(0, ȳ)"
+      ]
+    },
+    {
+      "id": "question_169",
+      "question": "已知集合 A = (-∞, 3]，B = [1, +∞)，则 A ∩ B = ?",
+      "correct_answer": "[1, 3]",
+      "wrong_answers": [
+        "(1, 3)",
+        "(-∞, +∞)",
+        "(-∞, 1]"
+      ]
+    },
+    {
+      "id": "question_170",
+      "question": "函数 f(x) = log₂(x - 1) 的定义域是？",
+      "correct_answer": "(1, +∞)",
+      "wrong_answers": [
+        "[1, +∞)",
+        "(0, +∞)",
+        "(-∞, 1)"
+      ]
+    },
+    {
+      "id": "question_171",
+      "question": "函数 f(x) = x² - 6x + 5 的顶点坐标是？",
+      "correct_answer": "(3, -4)",
+      "wrong_answers": [
+        "(-3, -4)",
+        "(3, 4)",
+        "(6, 5)"
+      ]
+    },
+    {
+      "id": "question_172",
+      "question": "方程 |2x - 1| = 5 的解是？",
+      "correct_answer": "x = 3 或 x = -2",
+      "wrong_answers": [
+        "x = 2 或 x = -3",
+        "x = 3",
+        "x = -2"
+      ]
+    },
+    {
+      "id": "question_173",
+      "question": "方程 3^(2x) = 27 的解是？",
+      "correct_answer": "x = 3/2",
+      "wrong_answers": [
+        "x = 1",
+        "x = 2",
+        "x = 3"
+      ]
+    },
+    {
+      "id": "question_174",
+      "question": "方程 log₂(x - 1) = 3 的解是？",
+      "correct_answer": "x = 9",
+      "wrong_answers": [
+        "x = 7",
+        "x = 8",
+        "x = 10"
+      ]
+    },
+    {
+      "id": "question_175",
+      "question": "sin 150° = ?",
+      "correct_answer": "1/2",
+      "wrong_answers": [
+        "-1/2",
+        "√3/2",
+        "-√3/2"
+      ]
+    },
+    {
+      "id": "question_176",
+      "question": "tan 45° = ?",
+      "correct_answer": "1",
+      "wrong_answers": [
+        "0",
+        "√2/2",
+        "√3"
+      ]
+    },
+    {
+      "id": "question_177",
+      "question": "sin²α + cos²α = ?",
+      "correct_answer": "1",
+      "wrong_answers": [
+        "0",
+        "sin 2α",
+        "cos 2α"
+      ]
+    },
+    {
+      "id": "question_178",
+      "question": "已知向量 a=(2,1)，b=(-1,3)，则 2a-b = ?",
+      "correct_answer": "(5,-1)",
+      "wrong_answers": [
+        "(3,4)",
+        "(5,1)",
+        "(3,-1)"
+      ]
+    },
+    {
+      "id": "question_179",
+      "question": "若向量 a=(1,k) 与 b=(2,-1) 垂直，则 k = ?",
+      "correct_answer": "2",
+      "wrong_answers": [
+        "-2",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "question_180",
+      "question": "在△ABC 中，a=5，b=7，角 C=60°，则 c² = ?",
+      "correct_answer": "39",
+      "wrong_answers": [
+        "25",
+        "49",
+        "74"
+      ]
+    },
+    {
+      "id": "question_181",
+      "question": "等差数列 {aₙ} 中，a₁=4，公差 d=3，则前 10 项和 S₁₀ = ?",
+      "correct_answer": "175",
+      "wrong_answers": [
+        "155",
+        "170",
+        "310"
+      ]
+    },
+    {
+      "id": "question_182",
+      "question": "等比数列 {aₙ} 中，a₁=3，公比 q=2，则 a₅ = ?",
+      "correct_answer": "48",
+      "wrong_answers": [
+        "24",
+        "32",
+        "96"
+      ]
+    },
+    {
+      "id": "question_183",
+      "question": "数列满足 a₁=1，a₂=2，aₙ=aₙ₋₁+aₙ₋₂ (n≥3)，则 a₄ = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "3",
+        "4",
+        "6"
+      ]
+    },
+    {
+      "id": "question_184",
+      "question": "复数 (2-i)(1+3i) = ?",
+      "correct_answer": "5+5i",
+      "wrong_answers": [
+        "-1+5i",
+        "5-5i",
+        "2+2i"
+      ]
+    },
+    {
+      "id": "question_185",
+      "question": "若 z + (1-i) = 3+2i，则 z = ?",
+      "correct_answer": "2+3i",
+      "wrong_answers": [
+        "2+i",
+        "4+i",
+        "4+3i"
+      ]
+    },
+    {
+      "id": "question_186",
+      "question": "直线经过点 (0,1) 和 (2,5)，其方程是？",
+      "correct_answer": "y = 2x + 1",
+      "wrong_answers": [
+        "y = 2x - 1",
+        "y = x + 1",
+        "y = 3x + 1"
+      ]
+    },
+    {
+      "id": "question_187",
+      "question": "圆 (x+2)² + (y-1)² = 16 的半径是？",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "2",
+        "8",
+        "16"
+      ]
+    },
+    {
+      "id": "question_188",
+      "question": "点 (2,-1) 到直线 x-2y+2=0 的距离是？",
+      "correct_answer": "6√5/5",
+      "wrong_answers": [
+        "3√5/5",
+        "6/5",
+        "2√5"
+      ]
+    },
+    {
+      "id": "question_189",
+      "question": "椭圆 x²/36 + y²/20 = 1 的离心率是？",
+      "correct_answer": "2/3",
+      "wrong_answers": [
+        "1/3",
+        "√5/3",
+        "4/5"
+      ]
+    },
+    {
+      "id": "question_190",
+      "question": "双曲线 x²/9 - y²/7 = 1 的焦点坐标是？",
+      "correct_answer": "(±4,0)",
+      "wrong_answers": [
+        "(±3,0)",
+        "(0,±4)",
+        "(±√2,0)"
+      ]
+    },
+    {
+      "id": "question_191",
+      "question": "抛物线 x² = 12y 的焦点坐标是？",
+      "correct_answer": "(0,3)",
+      "wrong_answers": [
+        "(3,0)",
+        "(0,6)",
+        "(0,-3)"
+      ]
+    },
+    {
+      "id": "question_192",
+      "question": "事件 A、B 相互独立，P(A)=0.4，P(B)=0.5，则 P(A∪B) = ?",
+      "correct_answer": "0.7",
+      "wrong_answers": [
+        "0.2",
+        "0.5",
+        "0.9"
+      ]
+    },
+    {
+      "id": "question_193",
+      "question": "(1+x)⁵ 的展开式中 x³ 的系数是？",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "5",
+        "15",
+        "20"
+      ]
+    },
+    {
+      "id": "question_194",
+      "question": "函数 f(x)=xeˣ 的导函数是？",
+      "correct_answer": "(x+1)eˣ",
+      "wrong_answers": [
+        "xeˣ",
+        "eˣ",
+        "(x-1)eˣ"
+      ]
+    },
+    {
+      "id": "question_195",
+      "question": "曲线 y=ln x 在点 (1,0) 处的切线方程是？",
+      "correct_answer": "y = x - 1",
+      "wrong_answers": [
+        "y = x + 1",
+        "y = -x + 1",
+        "y = 1"
+      ]
+    },
+    {
+      "id": "question_196",
+      "question": "函数 f(x)=x³-3x² 的单调递增区间是？",
+      "correct_answer": "(-∞,0) 和 (2,+∞)",
+      "wrong_answers": [
+        "(0,2)",
+        "(-∞,2)",
+        "(0,+∞)"
       ]
     }
   ]

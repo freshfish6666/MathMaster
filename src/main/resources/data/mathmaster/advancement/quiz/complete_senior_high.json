@@ -1,0 +1,29 @@
+{
+  "parent": "mathmaster:quiz/root",
+  "display": {
+    "icon": {
+      "id": "mathmaster:senior_high_math"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.quiz.complete_senior_high.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.quiz.complete_senior_high.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "completed"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

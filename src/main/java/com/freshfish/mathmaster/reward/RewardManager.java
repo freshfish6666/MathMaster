@@ -1,5 +1,6 @@
 package com.freshfish.mathmaster.reward;
 
+import com.freshfish.mathmaster.init.ModItems;
 import com.mojang.authlib.properties.PropertyMap;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.Item;
@@ -46,7 +47,8 @@ public final class RewardManager {
             new ItemStack(Items.NETHERITE_SCRAP),
             new ItemStack(Items.GOLDEN_APPLE),
             new ItemStack(Items.ENCHANTED_GOLDEN_APPLE),
-            new ItemStack(Items.DIAMOND_BLOCK)
+            new ItemStack(Items.DIAMOND_BLOCK),
+            new ItemStack(ModItems.LINGXU_INGOT.get())
     );
 
     private RewardManager() {

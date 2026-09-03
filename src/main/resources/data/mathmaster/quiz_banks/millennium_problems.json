@@ -2,6 +2,7 @@
   "replace": false,
   "questions": [
     {
+      "id": "question_001",
       "question": "黎曼猜想主要与哪个函数的零点分布有关？",
       "correct_answer": "黎曼 ζ 函数",
       "wrong_answers": [
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "id": "question_002",
       "question": "P vs NP 问题属于数学的哪个领域？",
       "correct_answer": "计算复杂性理论",
       "wrong_answers": [
@@ -20,6 +22,7 @@
       ]
     },
     {
+      "id": "question_003",
       "question": "庞加莱猜想在 2003 年被谁证明？",
       "correct_answer": "佩雷尔曼",
       "wrong_answers": [
@@ -29,6 +32,7 @@
       ]
     },
     {
+      "id": "question_004",
       "question": "费马大定理最终由谁在 1994 年完成证明？",
       "correct_answer": "安德鲁·怀尔斯",
       "wrong_answers": [
@@ -38,6 +42,7 @@
       ]
     },
     {
+      "id": "question_005",
       "question": "哥德巴赫猜想最著名的表述是？",
       "correct_answer": "任意大于 2 的偶数可写成两个质数之和",
       "wrong_answers": [
@@ -47,6 +52,7 @@
       ]
     },
     {
+      "id": "question_006",
       "question": "孪生素数猜想中的“孪生”指什么？",
       "correct_answer": "相差 2 的一对质数",
       "wrong_answers": [
@@ -56,6 +62,7 @@
       ]
     },
     {
+      "id": "question_007",
       "question": "四色定理说明给地图染色至少需要几种颜色？",
       "correct_answer": "4 种",
       "wrong_answers": [
@@ -65,6 +72,7 @@
       ]
     },
     {
+      "id": "question_008",
       "question": "考拉兹猜想的规则是？",
       "correct_answer": "奇数乘 3 加 1，偶数除以 2",
       "wrong_answers": [
@@ -74,6 +82,7 @@
       ]
     },
     {
+      "id": "question_009",
       "question": "纳维-斯托克斯方程主要描述什么？",
       "correct_answer": "流体运动",
       "wrong_answers": [
@@ -83,6 +92,7 @@
       ]
     },
     {
+      "id": "question_010",
       "question": "千禧年七大难题中，目前唯一已解决的是？",
       "correct_answer": "庞加莱猜想",
       "wrong_answers": [
@@ -92,6 +102,7 @@
       ]
     },
     {
+      "id": "question_011",
       "question": "黎曼猜想断言黎曼 ζ 函数的所有非平凡零点都位于哪条直线上？",
       "correct_answer": "Re(s) = 1/2",
       "wrong_answers": [
@@ -101,6 +112,7 @@
       ]
     },
     {
+      "id": "question_012",
       "question": "P vs NP 问题中，P 类问题是指什么？",
       "correct_answer": "可在多项式时间内解决的问题",
       "wrong_answers": [
@@ -110,6 +122,7 @@
       ]
     },
     {
+      "id": "question_013",
       "question": "霍奇猜想属于数学的哪个分支？",
       "correct_answer": "代数几何",
       "wrong_answers": [
@@ -119,6 +132,7 @@
       ]
     },
     {
+      "id": "question_014",
       "question": "杨-米尔斯存在性与质量间隙问题与物理学中的什么理论相关？",
       "correct_answer": "量子规范场论",
       "wrong_answers": [
@@ -128,6 +142,7 @@
       ]
     },
     {
+      "id": "question_015",
       "question": "纳维-斯托克斯方程的解的存在性与光滑性问题是关于什么的？",
       "correct_answer": "流体动力学",
       "wrong_answers": [
@@ -137,6 +152,7 @@
       ]
     },
     {
+      "id": "question_016",
       "question": "BSD 猜想（伯奇和斯温纳顿-戴尔猜想）关联的是哪个数学对象？",
       "correct_answer": "椭圆曲线",
       "wrong_answers": [
@@ -146,24 +162,27 @@
       ]
     },
     {
-      "question": "哥德巴赫猜想中的“1+1”是指什么？",
-      "correct_answer": "每个大于 2 的偶数可表示为两个质数之和",
+      "id": "question_017",
+      "question": "陈景润证明的“1+2”结果表示什么？",
+      "correct_answer": "充分大的偶数可写成一个质数与一个至多含两个质因数的数之和",
       "wrong_answers": [
-        "每个奇数可表示为三个质数之和",
-        "每个质数加 1 是合数",
-        "1+1=2"
+        "每个偶数都能写成两个孪生质数之和",
+        "每个奇数都能写成两个质数之积",
+        "所有充分大的数本身都是质数"
       ]
     },
     {
-      "question": "孪生质数猜想中的“孪生”指什么？",
-      "correct_answer": "相差 2 的一对质数",
+      "id": "question_018",
+      "question": "张益唐关于质数间隔的突破证明了什么？",
+      "correct_answer": "存在无穷多对相邻质数，其间隔小于某个统一常数",
       "wrong_answers": [
-        "相差 1 的一对质数",
-        "相差 4 的一对质数",
-        "连续三个质数"
+        "任意两个相邻质数的间隔都不超过 2",
+        "孪生质数猜想已经被完全证明",
+        "所有大于 2 的奇数都是质数"
       ]
     },
     {
+      "id": "question_019",
       "question": "四色定理的证明首次完成是在哪一年？",
       "correct_answer": "1976 年",
       "wrong_answers": [
@@ -173,6 +192,7 @@
       ]
     },
     {
+      "id": "question_020",
       "question": "考拉兹猜想也被称为什么？",
       "correct_answer": "3n+1 问题",
       "wrong_answers": [
@@ -182,6 +202,7 @@
       ]
     },
     {
+      "id": "question_021",
       "question": "费马大定理的表述是：对于大于 2 的整数 n，方程 x^n + y^n = z^n 有什么性质？",
       "correct_answer": "没有正整数解",
       "wrong_answers": [
@@ -191,6 +212,7 @@
       ]
     },
     {
+      "id": "question_022",
       "question": "庞加莱猜想最初是关于几维空间的拓扑问题？",
       "correct_answer": "三维",
       "wrong_answers": [
@@ -200,6 +222,7 @@
       ]
     },
     {
+      "id": "question_023",
       "question": "千禧年七大难题中，哪一个与素数分布有关？",
       "correct_answer": "黎曼猜想",
       "wrong_answers": [
@@ -209,6 +232,7 @@
       ]
     },
     {
+      "id": "question_024",
       "question": "希尔伯特在 1900 年提出的 23 个问题中，第 8 个问题包含了哪两个著名猜想？",
       "correct_answer": "黎曼猜想和哥德巴赫猜想",
       "wrong_answers": [
@@ -218,6 +242,7 @@
       ]
     },
     {
+      "id": "question_025",
       "question": "abc 猜想与哪个数学家密切相关？",
       "correct_answer": "望月新一",
       "wrong_answers": [
@@ -227,6 +252,7 @@
       ]
     },
     {
+      "id": "question_026",
       "question": "朗兰兹纲领旨在建立数论、代数几何和哪个领域之间的联系？",
       "correct_answer": "表示论",
       "wrong_answers": [
@@ -236,15 +262,17 @@
       ]
     },
     {
-      "question": "黎曼 ζ 函数的非平凡零点的实部被猜想为多少？",
-      "correct_answer": "1/2",
+      "id": "question_027",
+      "question": "佩雷尔曼证明庞加莱猜想时主要发展并使用了哪种方法？",
+      "correct_answer": "带手术的 Ricci 流",
       "wrong_answers": [
-        "0",
-        "1",
-        "-1/2"
+        "傅里叶级数",
+        "蒙特卡洛方法",
+        "单纯形算法"
       ]
     },
     {
+      "id": "question_028",
       "question": "计算复杂性理论中，NP 类问题是指什么？",
       "correct_answer": "可以在多项式时间内验证解的问题",
       "wrong_answers": [
@@ -254,6 +282,7 @@
       ]
     },
     {
+      "id": "question_029",
       "question": "庞加莱猜想的证明者佩雷尔曼拒绝了哪项数学大奖？",
       "correct_answer": "菲尔兹奖和千禧年大奖",
       "wrong_answers": [
@@ -263,12 +292,73 @@
       ]
     },
     {
+      "id": "question_030",
       "question": "考拉兹猜想目前的状态是？",
       "correct_answer": "尚未被证明或否定",
       "wrong_answers": [
         "已被证明",
         "已被否定",
         "已被计算机验证为真但未证明"
+      ]
+    },
+    {
+      "id": "question_031",
+      "question": "克雷数学研究所为每一道千禧年大奖难题设置的奖金是多少？",
+      "correct_answer": "100 万美元",
+      "wrong_answers": [
+        "10 万美元",
+        "500 万美元",
+        "700 万美元"
+      ]
+    },
+    {
+      "id": "question_032",
+      "question": "千禧年问题中的纳维-斯托克斯存在性与光滑性难题，核心困难主要针对几维空间？",
+      "correct_answer": "三维空间",
+      "wrong_answers": [
+        "一维空间",
+        "二维空间",
+        "任意有限维空间"
+      ]
+    },
+    {
+      "id": "question_033",
+      "question": "霍奇猜想试图把特定的霍奇类表示为什么的有理线性组合？",
+      "correct_answer": "代数循环的上同调类",
+      "wrong_answers": [
+        "质数的生成函数",
+        "流体方程的弱解",
+        "图灵机的状态集合"
+      ]
+    },
+    {
+      "id": "question_034",
+      "question": "杨-米尔斯理论中的“质量间隙”主要表示什么？",
+      "correct_answer": "真空态与最低非零能量态之间存在正间隔",
+      "wrong_answers": [
+        "所有粒子的质量都相等",
+        "经典波的传播速度为零",
+        "规范群只能取有限群"
+      ]
+    },
+    {
+      "id": "question_035",
+      "question": "BSD 猜想中，椭圆曲线有理点群的秩对应其 L 函数在 s=1 处的什么量？",
+      "correct_answer": "零点的阶数",
+      "wrong_answers": [
+        "极点的阶数",
+        "函数的周期",
+        "最大值"
+      ]
+    },
+    {
+      "id": "question_036",
+      "question": "截至目前，P 是否等于 NP 这一问题的公认状态是？",
+      "correct_answer": "仍未解决",
+      "wrong_answers": [
+        "已证明 P=NP",
+        "已证明 P≠NP",
+        "已被证明与公理系统无关"
       ]
     }
   ]

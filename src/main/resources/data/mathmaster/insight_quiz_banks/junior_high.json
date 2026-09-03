@@ -1,0 +1,1804 @@
+{
+  "questions": [
+    {
+      "question": "-3 + 8 = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "-5",
+        "3",
+        "11"
+      ]
+    },
+    {
+      "question": "若 2x + 3 = 11，则 x = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "3",
+        "5",
+        "7"
+      ]
+    },
+    {
+      "question": "3² = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "6",
+        "8",
+        "12"
+      ]
+    },
+    {
+      "question": "√49 = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "6",
+        "8",
+        "24.5"
+      ]
+    },
+    {
+      "question": "1/2 + 1/4 = ?",
+      "correct_answer": "3/4",
+      "wrong_answers": [
+        "1/4",
+        "1/2",
+        "2/6"
+      ]
+    },
+    {
+      "question": "计算 -4 + 7 = ?",
+      "correct_answer": "3",
+      "wrong_answers": [
+        "4",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "question": "计算 -5 + 10 = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "6",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "question": "计算 -6 + 13 = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "8",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "question": "计算 -7 + 16 = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "10",
+        "8",
+        "11"
+      ]
+    },
+    {
+      "question": "计算 -8 + 19 = ?",
+      "correct_answer": "11",
+      "wrong_answers": [
+        "12",
+        "10",
+        "13"
+      ]
+    },
+    {
+      "question": "计算 -9 + 22 = ?",
+      "correct_answer": "13",
+      "wrong_answers": [
+        "14",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "question": "计算 -10 + 25 = ?",
+      "correct_answer": "15",
+      "wrong_answers": [
+        "16",
+        "14",
+        "17"
+      ]
+    },
+    {
+      "question": "计算 -11 + 28 = ?",
+      "correct_answer": "17",
+      "wrong_answers": [
+        "18",
+        "16",
+        "19"
+      ]
+    },
+    {
+      "question": "计算 -12 + 8 = ?",
+      "correct_answer": "-4",
+      "wrong_answers": [
+        "-3",
+        "-5",
+        "-2"
+      ]
+    },
+    {
+      "question": "计算 -13 + 11 = ?",
+      "correct_answer": "-2",
+      "wrong_answers": [
+        "-1",
+        "-3",
+        "0"
+      ]
+    },
+    {
+      "question": "计算 -14 + 14 = ?",
+      "correct_answer": "0",
+      "wrong_answers": [
+        "1",
+        "-1",
+        "2"
+      ]
+    },
+    {
+      "question": "计算 -15 + 17 = ?",
+      "correct_answer": "2",
+      "wrong_answers": [
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "计算 -16 + 20 = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "计算 -17 + 23 = ?",
+      "correct_answer": "6",
+      "wrong_answers": [
+        "7",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "question": "计算 -18 + 26 = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "9",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "计算 -19 + 29 = ?",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "11",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "question": "计算 -20 + 9 = ?",
+      "correct_answer": "-11",
+      "wrong_answers": [
+        "-10",
+        "-12",
+        "-9"
+      ]
+    },
+    {
+      "question": "计算 -21 + 12 = ?",
+      "correct_answer": "-9",
+      "wrong_answers": [
+        "-8",
+        "-10",
+        "-7"
+      ]
+    },
+    {
+      "question": "计算 -22 + 15 = ?",
+      "correct_answer": "-7",
+      "wrong_answers": [
+        "-6",
+        "-8",
+        "-5"
+      ]
+    },
+    {
+      "question": "计算 -23 + 18 = ?",
+      "correct_answer": "-5",
+      "wrong_answers": [
+        "-4",
+        "-6",
+        "-3"
+      ]
+    },
+    {
+      "question": "计算 -24 + 21 = ?",
+      "correct_answer": "-3",
+      "wrong_answers": [
+        "-2",
+        "-4",
+        "-1"
+      ]
+    },
+    {
+      "question": "计算 -25 + 24 = ?",
+      "correct_answer": "-1",
+      "wrong_answers": [
+        "0",
+        "-2",
+        "1"
+      ]
+    },
+    {
+      "question": "计算 -26 + 27 = ?",
+      "correct_answer": "1",
+      "wrong_answers": [
+        "2",
+        "0",
+        "3"
+      ]
+    },
+    {
+      "question": "计算 -27 + 7 = ?",
+      "correct_answer": "-20",
+      "wrong_answers": [
+        "-19",
+        "-21",
+        "-18"
+      ]
+    },
+    {
+      "question": "计算 -28 + 10 = ?",
+      "correct_answer": "-18",
+      "wrong_answers": [
+        "-17",
+        "-19",
+        "-16"
+      ]
+    },
+    {
+      "question": "计算 -29 + 13 = ?",
+      "correct_answer": "-16",
+      "wrong_answers": [
+        "-15",
+        "-17",
+        "-14"
+      ]
+    },
+    {
+      "question": "计算 -30 + 16 = ?",
+      "correct_answer": "-14",
+      "wrong_answers": [
+        "-13",
+        "-15",
+        "-12"
+      ]
+    },
+    {
+      "question": "计算 -31 + 19 = ?",
+      "correct_answer": "-12",
+      "wrong_answers": [
+        "-11",
+        "-13",
+        "-10"
+      ]
+    },
+    {
+      "question": "计算 -32 + 22 = ?",
+      "correct_answer": "-10",
+      "wrong_answers": [
+        "-9",
+        "-11",
+        "-8"
+      ]
+    },
+    {
+      "question": "计算 -33 + 25 = ?",
+      "correct_answer": "-8",
+      "wrong_answers": [
+        "-7",
+        "-9",
+        "-6"
+      ]
+    },
+    {
+      "question": "计算 -34 + 28 = ?",
+      "correct_answer": "-6",
+      "wrong_answers": [
+        "-5",
+        "-7",
+        "-4"
+      ]
+    },
+    {
+      "question": "计算 -35 + 8 = ?",
+      "correct_answer": "-27",
+      "wrong_answers": [
+        "-26",
+        "-28",
+        "-25"
+      ]
+    },
+    {
+      "question": "计算 -36 + 11 = ?",
+      "correct_answer": "-25",
+      "wrong_answers": [
+        "-24",
+        "-26",
+        "-23"
+      ]
+    },
+    {
+      "question": "计算 -37 + 14 = ?",
+      "correct_answer": "-23",
+      "wrong_answers": [
+        "-22",
+        "-24",
+        "-21"
+      ]
+    },
+    {
+      "question": "计算 -38 + 17 = ?",
+      "correct_answer": "-21",
+      "wrong_answers": [
+        "-20",
+        "-22",
+        "-19"
+      ]
+    },
+    {
+      "question": "计算 -39 + 20 = ?",
+      "correct_answer": "-19",
+      "wrong_answers": [
+        "-18",
+        "-20",
+        "-17"
+      ]
+    },
+    {
+      "question": "计算 -40 + 23 = ?",
+      "correct_answer": "-17",
+      "wrong_answers": [
+        "-16",
+        "-18",
+        "-15"
+      ]
+    },
+    {
+      "question": "计算 -41 + 26 = ?",
+      "correct_answer": "-15",
+      "wrong_answers": [
+        "-14",
+        "-16",
+        "-13"
+      ]
+    },
+    {
+      "question": "计算 -42 + 29 = ?",
+      "correct_answer": "-13",
+      "wrong_answers": [
+        "-12",
+        "-14",
+        "-11"
+      ]
+    },
+    {
+      "question": "若 2x - 10 = -6，则 x = ?",
+      "correct_answer": "2",
+      "wrong_answers": [
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "若 3x - 9 = 0，则 x = ?",
+      "correct_answer": "3",
+      "wrong_answers": [
+        "4",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "question": "若 4x - 8 = 8，则 x = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "若 5x - 7 = 18，则 x = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "6",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "question": "若 6x - 6 = 30，则 x = ?",
+      "correct_answer": "6",
+      "wrong_answers": [
+        "7",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "question": "若 2x - 5 = 9，则 x = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "8",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "question": "若 3x - 4 = 20，则 x = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "9",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "若 4x - 3 = 33，则 x = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "10",
+        "8",
+        "11"
+      ]
+    },
+    {
+      "question": "若 5x - 2 = 48，则 x = ?",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "11",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "question": "若 6x - 1 = 65，则 x = ?",
+      "correct_answer": "11",
+      "wrong_answers": [
+        "12",
+        "10",
+        "13"
+      ]
+    },
+    {
+      "question": "若 2x + 0 = 4，则 x = ?",
+      "correct_answer": "2",
+      "wrong_answers": [
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "若 3x + 1 = 10，则 x = ?",
+      "correct_answer": "3",
+      "wrong_answers": [
+        "4",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "question": "若 4x + 2 = 18，则 x = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "若 5x + 3 = 28，则 x = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "6",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "question": "若 6x + 4 = 40，则 x = ?",
+      "correct_answer": "6",
+      "wrong_answers": [
+        "7",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "question": "若 2x + 5 = 19，则 x = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "8",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "question": "若 3x + 6 = 30，则 x = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "9",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "若 4x + 7 = 43，则 x = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "10",
+        "8",
+        "11"
+      ]
+    },
+    {
+      "question": "若 5x + 8 = 58，则 x = ?",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "11",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "question": "若 6x + 9 = 75，则 x = ?",
+      "correct_answer": "11",
+      "wrong_answers": [
+        "12",
+        "10",
+        "13"
+      ]
+    },
+    {
+      "question": "若 2x + 10 = 14，则 x = ?",
+      "correct_answer": "2",
+      "wrong_answers": [
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "若 3x + 11 = 20，则 x = ?",
+      "correct_answer": "3",
+      "wrong_answers": [
+        "4",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "question": "若 4x + 12 = 28，则 x = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "若 5x + 13 = 38，则 x = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "6",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "question": "若 6x + 14 = 50，则 x = ?",
+      "correct_answer": "6",
+      "wrong_answers": [
+        "7",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "question": "若 2x + 15 = 29，则 x = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "8",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "question": "若 3x + 16 = 40，则 x = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "9",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "若 4x + 17 = 53，则 x = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "10",
+        "8",
+        "11"
+      ]
+    },
+    {
+      "question": "若 5x + 18 = 68，则 x = ?",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "11",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "question": "若 6x + 19 = 85，则 x = ?",
+      "correct_answer": "11",
+      "wrong_answers": [
+        "12",
+        "10",
+        "13"
+      ]
+    },
+    {
+      "question": "若 2x + 20 = 24，则 x = ?",
+      "correct_answer": "2",
+      "wrong_answers": [
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "若 3x + 21 = 30，则 x = ?",
+      "correct_answer": "3",
+      "wrong_answers": [
+        "4",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "question": "若 4x + 22 = 38，则 x = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "若 5x + 23 = 48，则 x = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "6",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "question": "若 6x + 24 = 60，则 x = ?",
+      "correct_answer": "6",
+      "wrong_answers": [
+        "7",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "question": "若 2x + 25 = 39，则 x = ?",
+      "correct_answer": "7",
+      "wrong_answers": [
+        "8",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "question": "若 3x + 26 = 50，则 x = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "9",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "若 4x + 27 = 63，则 x = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "10",
+        "8",
+        "11"
+      ]
+    },
+    {
+      "question": "若 5x + 28 = 78，则 x = ?",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "11",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "question": "计算 2² = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "计算 4² = ?",
+      "correct_answer": "16",
+      "wrong_answers": [
+        "17",
+        "15",
+        "18"
+      ]
+    },
+    {
+      "question": "计算 5² = ?",
+      "correct_answer": "25",
+      "wrong_answers": [
+        "26",
+        "24",
+        "27"
+      ]
+    },
+    {
+      "question": "计算 6² = ?",
+      "correct_answer": "36",
+      "wrong_answers": [
+        "37",
+        "35",
+        "38"
+      ]
+    },
+    {
+      "question": "计算 7² = ?",
+      "correct_answer": "49",
+      "wrong_answers": [
+        "50",
+        "48",
+        "51"
+      ]
+    },
+    {
+      "question": "计算 8² = ?",
+      "correct_answer": "64",
+      "wrong_answers": [
+        "65",
+        "63",
+        "66"
+      ]
+    },
+    {
+      "question": "计算 9² = ?",
+      "correct_answer": "81",
+      "wrong_answers": [
+        "82",
+        "80",
+        "83"
+      ]
+    },
+    {
+      "question": "计算 10² = ?",
+      "correct_answer": "100",
+      "wrong_answers": [
+        "101",
+        "99",
+        "102"
+      ]
+    },
+    {
+      "question": "计算 11² = ?",
+      "correct_answer": "121",
+      "wrong_answers": [
+        "122",
+        "120",
+        "123"
+      ]
+    },
+    {
+      "question": "计算 12² = ?",
+      "correct_answer": "144",
+      "wrong_answers": [
+        "145",
+        "143",
+        "146"
+      ]
+    },
+    {
+      "question": "计算 13² = ?",
+      "correct_answer": "169",
+      "wrong_answers": [
+        "170",
+        "168",
+        "171"
+      ]
+    },
+    {
+      "question": "计算 14² = ?",
+      "correct_answer": "196",
+      "wrong_answers": [
+        "197",
+        "195",
+        "198"
+      ]
+    },
+    {
+      "question": "计算 15² = ?",
+      "correct_answer": "225",
+      "wrong_answers": [
+        "226",
+        "224",
+        "227"
+      ]
+    },
+    {
+      "question": "计算 16² = ?",
+      "correct_answer": "256",
+      "wrong_answers": [
+        "257",
+        "255",
+        "258"
+      ]
+    },
+    {
+      "question": "计算 17² = ?",
+      "correct_answer": "289",
+      "wrong_answers": [
+        "290",
+        "288",
+        "291"
+      ]
+    },
+    {
+      "question": "计算 18² = ?",
+      "correct_answer": "324",
+      "wrong_answers": [
+        "325",
+        "323",
+        "326"
+      ]
+    },
+    {
+      "question": "计算 19² = ?",
+      "correct_answer": "361",
+      "wrong_answers": [
+        "362",
+        "360",
+        "363"
+      ]
+    },
+    {
+      "question": "计算 20² = ?",
+      "correct_answer": "400",
+      "wrong_answers": [
+        "401",
+        "399",
+        "402"
+      ]
+    },
+    {
+      "question": "√16 = ?",
+      "correct_answer": "4",
+      "wrong_answers": [
+        "5",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "question": "√25 = ?",
+      "correct_answer": "5",
+      "wrong_answers": [
+        "6",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "question": "√36 = ?",
+      "correct_answer": "6",
+      "wrong_answers": [
+        "7",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "question": "√64 = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "9",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "√81 = ?",
+      "correct_answer": "9",
+      "wrong_answers": [
+        "10",
+        "8",
+        "11"
+      ]
+    },
+    {
+      "question": "√100 = ?",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "11",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "question": "√121 = ?",
+      "correct_answer": "11",
+      "wrong_answers": [
+        "12",
+        "10",
+        "13"
+      ]
+    },
+    {
+      "question": "√144 = ?",
+      "correct_answer": "12",
+      "wrong_answers": [
+        "13",
+        "11",
+        "14"
+      ]
+    },
+    {
+      "question": "√169 = ?",
+      "correct_answer": "13",
+      "wrong_answers": [
+        "14",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "question": "√196 = ?",
+      "correct_answer": "14",
+      "wrong_answers": [
+        "15",
+        "13",
+        "16"
+      ]
+    },
+    {
+      "question": "√225 = ?",
+      "correct_answer": "15",
+      "wrong_answers": [
+        "16",
+        "14",
+        "17"
+      ]
+    },
+    {
+      "question": "√256 = ?",
+      "correct_answer": "16",
+      "wrong_answers": [
+        "17",
+        "15",
+        "18"
+      ]
+    },
+    {
+      "question": "√289 = ?",
+      "correct_answer": "17",
+      "wrong_answers": [
+        "18",
+        "16",
+        "19"
+      ]
+    },
+    {
+      "question": "√324 = ?",
+      "correct_answer": "18",
+      "wrong_answers": [
+        "19",
+        "17",
+        "20"
+      ]
+    },
+    {
+      "question": "√361 = ?",
+      "correct_answer": "19",
+      "wrong_answers": [
+        "20",
+        "18",
+        "21"
+      ]
+    },
+    {
+      "question": "√400 = ?",
+      "correct_answer": "20",
+      "wrong_answers": [
+        "21",
+        "19",
+        "22"
+      ]
+    },
+    {
+      "question": "√441 = ?",
+      "correct_answer": "21",
+      "wrong_answers": [
+        "22",
+        "20",
+        "23"
+      ]
+    },
+    {
+      "question": "√484 = ?",
+      "correct_answer": "22",
+      "wrong_answers": [
+        "23",
+        "21",
+        "24"
+      ]
+    },
+    {
+      "question": "√529 = ?",
+      "correct_answer": "23",
+      "wrong_answers": [
+        "24",
+        "22",
+        "25"
+      ]
+    },
+    {
+      "question": "2³ = ?",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "9",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "3³ = ?",
+      "correct_answer": "27",
+      "wrong_answers": [
+        "28",
+        "26",
+        "29"
+      ]
+    },
+    {
+      "question": "1/3 + 2/3 = ?",
+      "correct_answer": "1/1",
+      "wrong_answers": [
+        "4/3",
+        "2/3",
+        "3/4"
+      ]
+    },
+    {
+      "question": "2/4 + 1/4 = ?",
+      "correct_answer": "3/4",
+      "wrong_answers": [
+        "1/1",
+        "1/2",
+        "3/5"
+      ]
+    },
+    {
+      "question": "3/5 + 2/5 = ?",
+      "correct_answer": "1/1",
+      "wrong_answers": [
+        "6/5",
+        "4/5",
+        "5/6"
+      ]
+    },
+    {
+      "question": "4/6 + 3/6 = ?",
+      "correct_answer": "7/6",
+      "wrong_answers": [
+        "4/3",
+        "1/1",
+        "3/2"
+      ]
+    },
+    {
+      "question": "5/7 + 4/7 = ?",
+      "correct_answer": "9/7",
+      "wrong_answers": [
+        "10/7",
+        "8/7",
+        "9/8"
+      ]
+    },
+    {
+      "question": "6/8 + 5/8 = ?",
+      "correct_answer": "11/8",
+      "wrong_answers": [
+        "3/2",
+        "5/4",
+        "11/9"
+      ]
+    },
+    {
+      "question": "7/9 + 6/9 = ?",
+      "correct_answer": "13/9",
+      "wrong_answers": [
+        "14/9",
+        "4/3",
+        "13/10"
+      ]
+    },
+    {
+      "question": "8/10 + 7/10 = ?",
+      "correct_answer": "3/2",
+      "wrong_answers": [
+        "8/5",
+        "7/5",
+        "15/11"
+      ]
+    },
+    {
+      "question": "9/11 + 8/11 = ?",
+      "correct_answer": "17/11",
+      "wrong_answers": [
+        "18/11",
+        "16/11",
+        "17/12"
+      ]
+    },
+    {
+      "question": "10/12 + 9/12 = ?",
+      "correct_answer": "19/12",
+      "wrong_answers": [
+        "5/3",
+        "3/2",
+        "19/13"
+      ]
+    },
+    {
+      "question": "11/13 + 10/13 = ?",
+      "correct_answer": "21/13",
+      "wrong_answers": [
+        "22/13",
+        "20/13",
+        "3/2"
+      ]
+    },
+    {
+      "question": "12/14 + 11/14 = ?",
+      "correct_answer": "23/14",
+      "wrong_answers": [
+        "12/7",
+        "11/7",
+        "23/15"
+      ]
+    },
+    {
+      "question": "13/15 + 12/15 = ?",
+      "correct_answer": "5/3",
+      "wrong_answers": [
+        "26/15",
+        "8/5",
+        "25/16"
+      ]
+    },
+    {
+      "question": "14/16 + 13/16 = ?",
+      "correct_answer": "27/16",
+      "wrong_answers": [
+        "7/4",
+        "13/8",
+        "27/17"
+      ]
+    },
+    {
+      "question": "15/17 + 14/17 = ?",
+      "correct_answer": "29/17",
+      "wrong_answers": [
+        "30/17",
+        "28/17",
+        "29/18"
+      ]
+    },
+    {
+      "question": "16/18 + 15/18 = ?",
+      "correct_answer": "31/18",
+      "wrong_answers": [
+        "16/9",
+        "5/3",
+        "31/19"
+      ]
+    },
+    {
+      "question": "17/19 + 16/19 = ?",
+      "correct_answer": "33/19",
+      "wrong_answers": [
+        "34/19",
+        "32/19",
+        "33/20"
+      ]
+    },
+    {
+      "question": "18/20 + 17/20 = ?",
+      "correct_answer": "7/4",
+      "wrong_answers": [
+        "9/5",
+        "17/10",
+        "5/3"
+      ]
+    },
+    {
+      "question": "19/21 + 18/21 = ?",
+      "correct_answer": "37/21",
+      "wrong_answers": [
+        "38/21",
+        "12/7",
+        "37/22"
+      ]
+    },
+    {
+      "question": "20/22 + 19/22 = ?",
+      "correct_answer": "39/22",
+      "wrong_answers": [
+        "20/11",
+        "19/11",
+        "39/23"
+      ]
+    },
+    {
+      "question": "21/23 + 20/23 = ?",
+      "correct_answer": "41/23",
+      "wrong_answers": [
+        "42/23",
+        "40/23",
+        "41/24"
+      ]
+    },
+    {
+      "question": "22/24 + 21/24 = ?",
+      "correct_answer": "43/24",
+      "wrong_answers": [
+        "11/6",
+        "7/4",
+        "43/25"
+      ]
+    },
+    {
+      "question": "23/25 + 22/25 = ?",
+      "correct_answer": "9/5",
+      "wrong_answers": [
+        "46/25",
+        "44/25",
+        "45/26"
+      ]
+    },
+    {
+      "question": "24/26 + 23/26 = ?",
+      "correct_answer": "47/26",
+      "wrong_answers": [
+        "24/13",
+        "23/13",
+        "47/27"
+      ]
+    },
+    {
+      "question": "25/27 + 24/27 = ?",
+      "correct_answer": "49/27",
+      "wrong_answers": [
+        "50/27",
+        "16/9",
+        "7/4"
+      ]
+    },
+    {
+      "question": "26/28 + 25/28 = ?",
+      "correct_answer": "51/28",
+      "wrong_answers": [
+        "13/7",
+        "25/14",
+        "51/29"
+      ]
+    },
+    {
+      "question": "27/29 + 26/29 = ?",
+      "correct_answer": "53/29",
+      "wrong_answers": [
+        "54/29",
+        "52/29",
+        "53/30"
+      ]
+    },
+    {
+      "question": "28/30 + 27/30 = ?",
+      "correct_answer": "11/6",
+      "wrong_answers": [
+        "28/15",
+        "9/5",
+        "55/31"
+      ]
+    },
+    {
+      "question": "29/31 + 28/31 = ?",
+      "correct_answer": "57/31",
+      "wrong_answers": [
+        "58/31",
+        "56/31",
+        "57/32"
+      ]
+    },
+    {
+      "question": "30/32 + 29/32 = ?",
+      "correct_answer": "59/32",
+      "wrong_answers": [
+        "15/8",
+        "29/16",
+        "59/33"
+      ]
+    },
+    {
+      "question": "31/33 + 30/33 = ?",
+      "correct_answer": "61/33",
+      "wrong_answers": [
+        "62/33",
+        "20/11",
+        "61/34"
+      ]
+    },
+    {
+      "question": "32/34 + 31/34 = ?",
+      "correct_answer": "63/34",
+      "wrong_answers": [
+        "32/17",
+        "31/17",
+        "9/5"
+      ]
+    },
+    {
+      "question": "33/35 + 32/35 = ?",
+      "correct_answer": "13/7",
+      "wrong_answers": [
+        "66/35",
+        "64/35",
+        "65/36"
+      ]
+    },
+    {
+      "question": "34/36 + 33/36 = ?",
+      "correct_answer": "67/36",
+      "wrong_answers": [
+        "17/9",
+        "11/6",
+        "67/37"
+      ]
+    },
+    {
+      "question": "35/37 + 34/37 = ?",
+      "correct_answer": "69/37",
+      "wrong_answers": [
+        "70/37",
+        "68/37",
+        "69/38"
+      ]
+    },
+    {
+      "question": "36/38 + 35/38 = ?",
+      "correct_answer": "71/38",
+      "wrong_answers": [
+        "36/19",
+        "35/19",
+        "71/39"
+      ]
+    },
+    {
+      "question": "37/39 + 36/39 = ?",
+      "correct_answer": "73/39",
+      "wrong_answers": [
+        "74/39",
+        "24/13",
+        "73/40"
+      ]
+    },
+    {
+      "question": "38/40 + 37/40 = ?",
+      "correct_answer": "15/8",
+      "wrong_answers": [
+        "19/10",
+        "37/20",
+        "75/41"
+      ]
+    },
+    {
+      "question": "39/41 + 38/41 = ?",
+      "correct_answer": "77/41",
+      "wrong_answers": [
+        "78/41",
+        "76/41",
+        "11/6"
+      ]
+    },
+    {
+      "question": "20 的 10% 是多少？",
+      "correct_answer": "2",
+      "wrong_answers": [
+        "3",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "question": "40 的 20% 是多少？",
+      "correct_answer": "8",
+      "wrong_answers": [
+        "9",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "question": "60 的 25% 是多少？",
+      "correct_answer": "15",
+      "wrong_answers": [
+        "16",
+        "14",
+        "17"
+      ]
+    },
+    {
+      "question": "80 的 50% 是多少？",
+      "correct_answer": "40",
+      "wrong_answers": [
+        "41",
+        "39",
+        "42"
+      ]
+    },
+    {
+      "question": "100 的 10% 是多少？",
+      "correct_answer": "10",
+      "wrong_answers": [
+        "11",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "question": "120 的 20% 是多少？",
+      "correct_answer": "24",
+      "wrong_answers": [
+        "25",
+        "23",
+        "26"
+      ]
+    },
+    {
+      "question": "140 的 25% 是多少？",
+      "correct_answer": "35",
+      "wrong_answers": [
+        "36",
+        "34",
+        "37"
+      ]
+    },
+    {
+      "question": "160 的 50% 是多少？",
+      "correct_answer": "80",
+      "wrong_answers": [
+        "81",
+        "79",
+        "82"
+      ]
+    },
+    {
+      "question": "180 的 10% 是多少？",
+      "correct_answer": "18",
+      "wrong_answers": [
+        "19",
+        "17",
+        "20"
+      ]
+    },
+    {
+      "question": "200 的 20% 是多少？",
+      "correct_answer": "40",
+      "wrong_answers": [
+        "41",
+        "39",
+        "42"
+      ]
+    },
+    {
+      "question": "220 的 25% 是多少？",
+      "correct_answer": "55",
+      "wrong_answers": [
+        "56",
+        "54",
+        "57"
+      ]
+    },
+    {
+      "question": "240 的 50% 是多少？",
+      "correct_answer": "120",
+      "wrong_answers": [
+        "121",
+        "119",
+        "122"
+      ]
+    },
+    {
+      "question": "260 的 10% 是多少？",
+      "correct_answer": "26",
+      "wrong_answers": [
+        "27",
+        "25",
+        "28"
+      ]
+    },
+    {
+      "question": "长方形长 3、宽 5，周长是多少？",
+      "correct_answer": "16",
+      "wrong_answers": [
+        "17",
+        "15",
+        "18"
+      ]
+    },
+    {
+      "question": "长方形长 4、宽 6，周长是多少？",
+      "correct_answer": "20",
+      "wrong_answers": [
+        "21",
+        "19",
+        "22"
+      ]
+    },
+    {
+      "question": "长方形长 5、宽 7，周长是多少？",
+      "correct_answer": "24",
+      "wrong_answers": [
+        "25",
+        "23",
+        "26"
+      ]
+    },
+    {
+      "question": "长方形长 6、宽 8，周长是多少？",
+      "correct_answer": "28",
+      "wrong_answers": [
+        "29",
+        "27",
+        "30"
+      ]
+    },
+    {
+      "question": "长方形长 7、宽 9，周长是多少？",
+      "correct_answer": "32",
+      "wrong_answers": [
+        "33",
+        "31",
+        "34"
+      ]
+    },
+    {
+      "question": "长方形长 8、宽 10，周长是多少？",
+      "correct_answer": "36",
+      "wrong_answers": [
+        "37",
+        "35",
+        "38"
+      ]
+    },
+    {
+      "question": "长方形长 9、宽 11，周长是多少？",
+      "correct_answer": "40",
+      "wrong_answers": [
+        "41",
+        "39",
+        "42"
+      ]
+    },
+    {
+      "question": "长方形长 10、宽 5，周长是多少？",
+      "correct_answer": "30",
+      "wrong_answers": [
+        "31",
+        "29",
+        "32"
+      ]
+    },
+    {
+      "question": "长方形长 11、宽 6，周长是多少？",
+      "correct_answer": "34",
+      "wrong_answers": [
+        "35",
+        "33",
+        "36"
+      ]
+    },
+    {
+      "question": "长方形长 12、宽 7，周长是多少？",
+      "correct_answer": "38",
+      "wrong_answers": [
+        "39",
+        "37",
+        "40"
+      ]
+    },
+    {
+      "question": "长方形长 13、宽 8，周长是多少？",
+      "correct_answer": "42",
+      "wrong_answers": [
+        "43",
+        "41",
+        "44"
+      ]
+    },
+    {
+      "question": "长方形长 14、宽 9，周长是多少？",
+      "correct_answer": "46",
+      "wrong_answers": [
+        "47",
+        "45",
+        "48"
+      ]
+    },
+    {
+      "question": "长方形长 15、宽 10，周长是多少？",
+      "correct_answer": "50",
+      "wrong_answers": [
+        "51",
+        "49",
+        "52"
+      ]
+    },
+    {
+      "question": "长方形长 4、宽 3，面积是多少？",
+      "correct_answer": "12",
+      "wrong_answers": [
+        "13",
+        "11",
+        "14"
+      ]
+    },
+    {
+      "question": "长方形长 5、宽 4，面积是多少？",
+      "correct_answer": "20",
+      "wrong_answers": [
+        "21",
+        "19",
+        "22"
+      ]
+    },
+    {
+      "question": "长方形长 6、宽 5，面积是多少？",
+      "correct_answer": "30",
+      "wrong_answers": [
+        "31",
+        "29",
+        "32"
+      ]
+    },
+    {
+      "question": "长方形长 7、宽 6，面积是多少？",
+      "correct_answer": "42",
+      "wrong_answers": [
+        "43",
+        "41",
+        "44"
+      ]
+    },
+    {
+      "question": "长方形长 8、宽 7，面积是多少？",
+      "correct_answer": "56",
+      "wrong_answers": [
+        "57",
+        "55",
+        "58"
+      ]
+    },
+    {
+      "question": "长方形长 9、宽 8，面积是多少？",
+      "correct_answer": "72",
+      "wrong_answers": [
+        "73",
+        "71",
+        "74"
+      ]
+    },
+    {
+      "question": "长方形长 10、宽 3，面积是多少？",
+      "correct_answer": "30",
+      "wrong_answers": [
+        "31",
+        "29",
+        "32"
+      ]
+    },
+    {
+      "question": "长方形长 11、宽 4，面积是多少？",
+      "correct_answer": "44",
+      "wrong_answers": [
+        "45",
+        "43",
+        "46"
+      ]
+    },
+    {
+      "question": "长方形长 12、宽 5，面积是多少？",
+      "correct_answer": "60",
+      "wrong_answers": [
+        "61",
+        "59",
+        "62"
+      ]
+    },
+    {
+      "question": "长方形长 13、宽 6，面积是多少？",
+      "correct_answer": "78",
+      "wrong_answers": [
+        "79",
+        "77",
+        "80"
+      ]
+    },
+    {
+      "question": "长方形长 14、宽 7，面积是多少？",
+      "correct_answer": "98",
+      "wrong_answers": [
+        "99",
+        "97",
+        "100"
+      ]
+    },
+    {
+      "question": "长方形长 15、宽 8，面积是多少？",
+      "correct_answer": "120",
+      "wrong_answers": [
+        "121",
+        "119",
+        "122"
+      ]
+    },
+    {
+      "question": "长方形长 16、宽 3，面积是多少？",
+      "correct_answer": "48",
+      "wrong_answers": [
+        "49",
+        "47",
+        "50"
+      ]
+    }
+  ]
+}
