@@ -64,6 +64,10 @@ public final class InsightResultData implements INBTSerializable<CompoundTag> {
         return this.successfullyInsightEntityTypes.size();
     }
 
+    public boolean hasSuccessfullyInsighted(ResourceLocation entityTypeId) {
+        return this.successfullyInsightEntityTypes.contains(entityTypeId);
+    }
+
     public Set<ResourceLocation> getSuccessfullyInsightEntityTypes() {
         return Set.copyOf(this.successfullyInsightEntityTypes);
     }

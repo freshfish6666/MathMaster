@@ -1,21 +1,45 @@
 package com.freshfish.mathmaster;
 
 import com.freshfish.mathmaster.client.BookshelfQuizScreen;
+import com.freshfish.mathmaster.client.AxiomDeductionScreen;
+import com.freshfish.mathmaster.client.AxiomCaseScreen;
+import com.freshfish.mathmaster.client.AxiomSkillKeyHandler;
+import com.freshfish.mathmaster.client.GraduationCapModel;
+import com.freshfish.mathmaster.client.PrimeMarkRenderer;
+import com.freshfish.mathmaster.client.entity.EightModel;
+import com.freshfish.mathmaster.client.entity.EightRenderer;
+import com.freshfish.mathmaster.client.entity.NineModel;
+import com.freshfish.mathmaster.client.entity.NineRenderer;
+import com.freshfish.mathmaster.init.ModEntities;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import com.freshfish.mathmaster.client.InsightMirrorHud;
 import com.freshfish.mathmaster.client.MathMasterGuideScreen;
 import com.freshfish.mathmaster.client.InsightQuizScreen;
+import com.freshfish.mathmaster.client.SelfInsightScreen;
 import com.freshfish.mathmaster.init.ModAttachments;
 import com.freshfish.mathmaster.init.ModItems;
 import com.freshfish.mathmaster.init.ModMenuTypes;
 import com.freshfish.mathmaster.network.InsightFailurePayload;
+import com.freshfish.mathmaster.network.LearningAppNetworking;
+import com.freshfish.mathmaster.network.SelfInsightPayload;
+import com.freshfish.mathmaster.client.learning.LearningCatalogClientState;
 import com.freshfish.mathmaster.quiz.QuizBank;
 import net.minecraft.ChatFormatting;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
+import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
+import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
 
 @Mod(value = MathMaster.MODID, dist = Dist.CLIENT)
@@ -23,6 +47,16 @@ import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
 public class MathMasterClient {
     public MathMasterClient() {
         InsightFailurePayload.setClientHandler(InsightMirrorHud::showTooDifficult);
+        LearningAppNetworking.setCatalogClientHandler(LearningCatalogClientState::accept);
+        SelfInsightPayload.setClientHandler(payload ->
+                Minecraft.getInstance().setScreen(new SelfInsightScreen(payload)));
+        NeoForge.EVENT_BUS.addListener(AxiomSkillKeyHandler::onClientTick);
+        NeoForge.EVENT_BUS.addListener(PrimeMarkRenderer::onRenderNameTag);
+    }
+
+    @SubscribeEvent
+    static void onRegisterKeyMappings(RegisterKeyMappingsEvent event) {
+        AxiomSkillKeyHandler.registerKeys(event);
     }
 
     @SubscribeEvent
@@ -30,6 +64,43 @@ public class MathMasterClient {
         event.register(ModMenuTypes.BOOKSHELF_QUIZ.get(), BookshelfQuizScreen::new);
         event.register(ModMenuTypes.MATHMASTER_GUIDE.get(), MathMasterGuideScreen::new);
         event.register(ModMenuTypes.INSIGHT_QUIZ.get(), InsightQuizScreen::new);
+        event.register(ModMenuTypes.AXIOM_DEDUCTION_TABLE.get(), AxiomDeductionScreen::new);
+        event.register(ModMenuTypes.AXIOM_CASE.get(), AxiomCaseScreen::new);
+    }
+
+    @SubscribeEvent
+    static void onRegisterEntityLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(EightModel.LAYER, EightModel::createBodyLayer);
+        event.registerLayerDefinition(NineModel.LAYER, NineModel::createBodyLayer);
+        event.registerLayerDefinition(GraduationCapModel.LAYER, GraduationCapModel::createBodyLayer);
+    }
+
+    @SubscribeEvent
+    static void onRegisterClientExtensions(RegisterClientExtensionsEvent event) {
+        event.registerItem(new IClientItemExtensions() {
+            private GraduationCapModel model;
+
+            @Override
+            public HumanoidModel<?> getHumanoidArmorModel(
+                    LivingEntity livingEntity,
+                    ItemStack itemStack,
+                    EquipmentSlot equipmentSlot,
+                    HumanoidModel<?> original
+            ) {
+                if (this.model == null) {
+                    this.model = new GraduationCapModel(
+                            Minecraft.getInstance().getEntityModels().bakeLayer(GraduationCapModel.LAYER)
+                    );
+                }
+                return this.model;
+            }
+        }, ModItems.GRADUATION_CAP.get());
+    }
+
+    @SubscribeEvent
+    static void onRegisterEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerEntityRenderer(ModEntities.EIGHT.get(), EightRenderer::new);
+        event.registerEntityRenderer(ModEntities.NINE.get(), NineRenderer::new);
     }
 
     @SubscribeEvent
@@ -42,6 +113,17 @@ public class MathMasterClient {
             event.getToolTip().add(
                     Component.translatable("tooltip.mathmaster.lingxu_tool.flow")
                             .withStyle(ChatFormatting.GRAY)
+            );
+        }
+
+        if (isLingxuArmor(event)) {
+            event.getToolTip().add(
+                    Component.translatable("tooltip.mathmaster.lingxu_armor.flow")
+                            .withStyle(ChatFormatting.GRAY)
+            );
+            event.getToolTip().add(
+                    Component.translatable("tooltip.mathmaster.lingxu_armor.set_bonus")
+                            .withStyle(ChatFormatting.DARK_PURPLE)
             );
         }
 
@@ -72,5 +154,12 @@ public class MathMasterClient {
                 || event.getItemStack().is(ModItems.LINGXU_AXE.get())
                 || event.getItemStack().is(ModItems.LINGXU_SHOVEL.get())
                 || event.getItemStack().is(ModItems.LINGXU_HOE.get());
+    }
+
+    private static boolean isLingxuArmor(ItemTooltipEvent event) {
+        return event.getItemStack().is(ModItems.LINGXU_HELMET.get())
+                || event.getItemStack().is(ModItems.LINGXU_CHESTPLATE.get())
+                || event.getItemStack().is(ModItems.LINGXU_LEGGINGS.get())
+                || event.getItemStack().is(ModItems.LINGXU_BOOTS.get());
     }
 }

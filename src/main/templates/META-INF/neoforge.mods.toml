@@ -42,11 +42,12 @@ logoFile="mathmaster.png" #optional
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-#authors=""
+authors="freshfish6666"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-MathMaster - 数学大师：数学问答模组。
+MathMaster - 数学大师：以数学问答、公理技能、智识成长与数字化污染为核心的冒险模组。
+研读数学书、演绎公理，并通过公理匣掌握主动技能与被动能力。
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
@@ -86,6 +87,49 @@ MathMaster - 数学大师：数学问答模组。
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="${minecraft_version_range}"
     ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="curios"
+    type="required"
+    reason="MathMaster 1.2.0 uses the Curios axiom case slot."
+    versionRange="[9.5.1,10.0.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="jade"
+    type="optional"
+    versionRange="[15.10.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="jei"
+    type="optional"
+    versionRange="[19.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="mcphone"
+    type="optional"
+    versionRange="[1.8.19,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="touhou_little_maid"
+    type="optional"
+    versionRange="[1.5.3,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="madnesscore"
+    type="optional"
+    versionRange="[1.0.0,2.0.0)"
+    ordering="AFTER"
     side="BOTH"
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares

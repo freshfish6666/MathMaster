@@ -62,6 +62,10 @@ public final class MathMasterGuideMenu extends AbstractContainerMenu {
         return this.questions.size();
     }
 
+    public boolean isComplete() {
+        return !this.questions.isEmpty() && this.correctCount == this.questions.size();
+    }
+
     @Override
     public boolean stillValid(Player player) {
         return true;

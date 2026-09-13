@@ -1,8 +1,11 @@
 package com.freshfish.mathmaster.init;
 
 import com.freshfish.mathmaster.MathMaster;
+import com.freshfish.mathmaster.axiom.AxiomSkillData;
+import com.freshfish.mathmaster.axiom.PrimeMarkData;
 import com.freshfish.mathmaster.intelligence.IntelligenceData;
 import com.freshfish.mathmaster.intellect.InsightResultData;
+import com.freshfish.mathmaster.pollution.DigitalPollutionData;
 import com.freshfish.mathmaster.quiz.QuizProgressData;
 import com.freshfish.mathmaster.reward.HighestTierRewardData;
 import net.neoforged.neoforge.attachment.AttachmentType;
@@ -37,5 +40,23 @@ public class ModAttachments {
             ATTACHMENT_TYPES.register("insight_results",
                     () -> AttachmentType.serializable(InsightResultData::new)
                             .copyOnDeath()
+                            .build());
+
+    public static final Supplier<AttachmentType<DigitalPollutionData>> DIGITAL_POLLUTION =
+            ATTACHMENT_TYPES.register("digital_pollution",
+                    () -> AttachmentType.serializable(DigitalPollutionData::new)
+                            .copyOnDeath()
+                            .build());
+
+    public static final Supplier<AttachmentType<AxiomSkillData>> AXIOM_SKILL_DATA =
+            ATTACHMENT_TYPES.register("axiom_skill_data",
+                    () -> AttachmentType.serializable(AxiomSkillData::new)
+                            .copyOnDeath()
+                            .build());
+
+    public static final Supplier<AttachmentType<PrimeMarkData>> PRIME_MARK =
+            ATTACHMENT_TYPES.register("prime_mark",
+                    () -> AttachmentType.serializable(PrimeMarkData::new)
+                            .sync((holder, player) -> true, PrimeMarkData.STREAM_CODEC)
                             .build());
 }

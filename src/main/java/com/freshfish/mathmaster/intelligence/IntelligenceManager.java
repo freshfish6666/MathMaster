@@ -3,12 +3,14 @@ package com.freshfish.mathmaster.intelligence;
 import com.freshfish.mathmaster.event.RecipeUnlockHandler;
 import com.freshfish.mathmaster.event.LingxuMirrorStatusHandler;
 import com.freshfish.mathmaster.init.ModAttachments;
+import com.freshfish.mathmaster.init.ModItems;
 import com.freshfish.mathmaster.init.ModMobEffects;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 
 public final class IntelligenceManager {
@@ -21,9 +23,15 @@ public final class IntelligenceManager {
 
     public static int getEffectiveIq(Player player) {
         return Math.min(
-                get(player).getIq() + getFlowIntellectBonus(player),
+                get(player).getIq()
+                        + getFlowIntellectBonus(player)
+                        + getGraduationCapIntellectBonus(player),
                 IntelligenceData.MAX_IQ
         );
+    }
+
+    public static int getGraduationCapIntellectBonus(Player player) {
+        return player.getItemBySlot(EquipmentSlot.HEAD).is(ModItems.GRADUATION_CAP.get()) ? 10 : 0;
     }
 
     public static int getFlowIntellectBonus(LivingEntity entity) {

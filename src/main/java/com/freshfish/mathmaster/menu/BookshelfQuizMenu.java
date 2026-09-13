@@ -9,8 +9,10 @@ import com.freshfish.mathmaster.intelligence.IntelligenceManager;
 import com.freshfish.mathmaster.quiz.QuizBank;
 import com.freshfish.mathmaster.quiz.QuizProgressManager;
 import com.freshfish.mathmaster.quiz.QuizQuestion;
+import com.freshfish.mathmaster.quiz.QuizLauncher;
 import com.freshfish.mathmaster.reward.RewardManager;
 import com.freshfish.mathmaster.reward.HighestTierRewardLimit;
+import com.freshfish.mathmaster.reward.QuizPenaltyManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.RegistryFriendlyByteBuf;
@@ -29,8 +31,6 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 
-import java.util.concurrent.ThreadLocalRandom;
-
 public class BookshelfQuizMenu extends AbstractContainerMenu {
     public static final int ANSWER_BUTTON_COUNT = 4;
     public static final int NEXT_QUESTION_BUTTON_ID = 4;
@@ -41,6 +41,7 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
     private static final int CORRECT_STATE_OFFSET = ANSWER_BUTTON_COUNT + 1;
 
     private final BlockPos bookshelfPos;
+    private final boolean requiresBookshelf;
     private final QuizBank quizBank;
     private final ResourceLocation questionId;
     private final DataSlot answerState = DataSlot.standalone();
@@ -59,6 +60,7 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
                 containerId,
                 playerInventory,
                 data.readBlockPos(),
+                data.readBoolean(),
                 requireBank(data.readUtf()),
                 data.readResourceLocation(),
                 data.readInt(),
@@ -77,6 +79,7 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
             int containerId,
             Inventory playerInventory,
             BlockPos bookshelfPos,
+            boolean requiresBookshelf,
             QuizBank quizBank,
             int questionNumber,
             QuizQuestion question,
@@ -90,6 +93,7 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
                 containerId,
                 playerInventory,
                 bookshelfPos,
+                requiresBookshelf,
                 quizBank,
                 question.id(),
                 questionNumber,
@@ -108,6 +112,7 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
             int containerId,
             Inventory playerInventory,
             BlockPos bookshelfPos,
+            boolean requiresBookshelf,
             QuizBank quizBank,
             ResourceLocation questionId,
             int questionNumber,
@@ -122,6 +127,7 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
     ) {
         super(ModMenuTypes.BOOKSHELF_QUIZ.get(), containerId);
         this.bookshelfPos = bookshelfPos.immutable();
+        this.requiresBookshelf = requiresBookshelf;
         this.quizBank = quizBank;
         this.questionId = questionId;
         this.questionNumber = questionNumber;
@@ -187,6 +193,9 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
 
     @Override
     public boolean stillValid(Player player) {
+        if (!this.requiresBookshelf) {
+            return player.isAlive();
+        }
         if (!player.level().getBlockState(this.bookshelfPos).is(Blocks.BOOKSHELF)) {
             return false;
         }
@@ -212,7 +221,10 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
             if (!this.isAnswered()) {
                 return false;
             }
-            if (!BookshelfInteractionHandler.openQuiz(serverPlayer, this.bookshelfPos)) {
+            boolean opened = this.requiresBookshelf
+                    ? BookshelfInteractionHandler.openQuiz(serverPlayer, this.bookshelfPos)
+                    : QuizLauncher.openRemoteQuiz(serverPlayer, this.quizBank);
+            if (!opened) {
                 serverPlayer.closeContainer();
             }
             return true;
@@ -279,18 +291,18 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
     }
 
     private void applyWrongPenalty(ServerPlayer player) {
-        double roll = ThreadLocalRandom.current().nextDouble();
-
-        if (roll < 0.001) {
-            LightningBolt bolt = new LightningBolt(EntityType.LIGHTNING_BOLT, player.level());
-            bolt.setPos(player.getX(), player.getY(), player.getZ());
-            player.level().addFreshEntity(bolt);
-        } else if (roll < 0.011) {
-            giveItemStack(player, new ItemStack(ModItems.THREE_CAT_MILK_POWDER.get()));
-        } else if (roll < 0.111) {
-            player.hurt(player.damageSources().generic(), 1.0F);
-        } else if (roll < 0.311) {
-            player.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 0));
+        switch (QuizPenaltyManager.roll()) {
+            case LIGHTNING -> {
+                LightningBolt bolt = new LightningBolt(EntityType.LIGHTNING_BOLT, player.level());
+                bolt.setPos(player.getX(), player.getY(), player.getZ());
+                player.level().addFreshEntity(bolt);
+            }
+            case THREE_CAT_MILK_POWDER ->
+                    giveItemStack(player, new ItemStack(ModItems.THREE_CAT_MILK_POWDER.get()));
+            case DAMAGE -> player.hurt(player.damageSources().generic(), 1.0F);
+            case BLINDNESS -> player.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 0));
+            case NONE -> {
+            }
         }
     }
 

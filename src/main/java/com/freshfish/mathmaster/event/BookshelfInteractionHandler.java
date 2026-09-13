@@ -1,19 +1,18 @@
 package com.freshfish.mathmaster.event;
 
-import com.freshfish.mathmaster.menu.BookshelfQuizMenu;
-import com.freshfish.mathmaster.intelligence.IntelligenceData;
-import com.freshfish.mathmaster.intelligence.IntelligenceManager;
+import com.freshfish.mathmaster.menu.MathMasterGuideMenu;
 import com.freshfish.mathmaster.quiz.QuizBank;
-import com.freshfish.mathmaster.quiz.QuizQuestion;
+import com.freshfish.mathmaster.quiz.QuizLauncher;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.SimpleMenuProvider;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LecternBlock;
 import net.minecraft.world.level.block.entity.ChiseledBookShelfBlockEntity;
+import net.minecraft.world.level.block.entity.LecternBlockEntity;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 
@@ -21,16 +20,38 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookshelfInteractionHandler {
-    private static final Component TITLE = Component.translatable("menu.mathmaster.bookshelf_quiz");
-
     @SubscribeEvent
     public void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
-        if (event.getEntity().isShiftKeyDown()) {
+        Level level = event.getLevel();
+        BlockPos pos = event.getPos();
+
+        QuizBank lecternBank = findLecternQuizBank(level, pos);
+        if (lecternBank != null) {
+            if (event.getEntity().isShiftKeyDown()) {
+                ItemStack heldStack = event.getItemStack();
+                QuizBank heldBank = QuizBank.byItem(heldStack.getItem());
+                if (!heldStack.isEmpty() && heldBank == null) {
+                    return;
+                }
+                if (!level.isClientSide && event.getEntity() instanceof ServerPlayer serverPlayer) {
+                    takeOrReplaceLecternBook(serverPlayer, event.getHand(), pos, heldBank);
+                }
+                event.setCancellationResult(InteractionResult.SUCCESS);
+                event.setCanceled(true);
+                return;
+            }
+
+            if (!level.isClientSide && event.getEntity() instanceof ServerPlayer serverPlayer) {
+                MathMasterGuideMenu.open(serverPlayer, lecternBank);
+            }
+            event.setCancellationResult(InteractionResult.SUCCESS);
+            event.setCanceled(true);
             return;
         }
 
-        Level level = event.getLevel();
-        BlockPos pos = event.getPos();
+        if (event.getEntity().isShiftKeyDown()) {
+            return;
+        }
 
         if (!level.getBlockState(pos).is(Blocks.BOOKSHELF)) {
             return;
@@ -64,51 +85,7 @@ public class BookshelfInteractionHandler {
         }
 
         QuizBank bank = banks.get(java.util.concurrent.ThreadLocalRandom.current().nextInt(banks.size()));
-        QuizBank.SelectedQuiz selectedQuiz = bank.randomQuestion(serverPlayer).orElse(null);
-        if (selectedQuiz == null) {
-            return false;
-        }
-
-        QuizQuestion question = selectedQuiz.question();
-        int questionNumber = selectedQuiz.number();
-        int correctOption = java.util.concurrent.ThreadLocalRandom.current().nextInt(4);
-        IntelligenceData intelligence = IntelligenceManager.get(serverPlayer);
-        int effectiveIq = IntelligenceManager.getEffectiveIq(serverPlayer);
-
-        serverPlayer.stopUsingItem();
-        serverPlayer.openMenu(new SimpleMenuProvider(
-                (containerId, playerInventory, player) ->
-                        new BookshelfQuizMenu(
-                                containerId,
-                                playerInventory,
-                                bookshelfPos,
-                                bank,
-                                questionNumber,
-                                question,
-                                correctOption,
-                                bank.difficulty(),
-                                effectiveIq,
-                                intelligence.getExperience(),
-                                intelligence.getXpNeededForNextIq()
-                        ),
-                TITLE
-        ), buf -> {
-            buf.writeBlockPos(bookshelfPos);
-            buf.writeUtf(bank.dataId());
-            buf.writeResourceLocation(question.id());
-            buf.writeInt(questionNumber);
-            buf.writeUtf(question.question());
-            buf.writeUtf(question.correctAnswer());
-            buf.writeUtf(question.wrongAnswers().get(0));
-            buf.writeUtf(question.wrongAnswers().get(1));
-            buf.writeUtf(question.wrongAnswers().get(2));
-            buf.writeByte(correctOption);
-            buf.writeInt(bank.difficulty());
-            buf.writeInt(effectiveIq);
-            buf.writeInt(intelligence.getExperience());
-            buf.writeInt(intelligence.getXpNeededForNextIq());
-        });
-        return true;
+        return QuizLauncher.openBookshelfQuiz(serverPlayer, bookshelfPos, bank);
     }
 
     private boolean hasAdjacentChiseledBookshelf(Level level, BlockPos pos) {
@@ -140,5 +117,44 @@ public class BookshelfInteractionHandler {
         }
 
         return banks;
+    }
+
+    private static QuizBank findLecternQuizBank(Level level, BlockPos pos) {
+        if (!level.getBlockState(pos).is(Blocks.LECTERN)
+                || !(level.getBlockEntity(pos) instanceof LecternBlockEntity lectern)) {
+            return null;
+        }
+        return QuizBank.byItem(lectern.getBook().getItem());
+    }
+
+    private static void takeOrReplaceLecternBook(
+            ServerPlayer player,
+            net.minecraft.world.InteractionHand hand,
+            BlockPos pos,
+            QuizBank replacementBank
+    ) {
+        Level level = player.level();
+        if (!(level.getBlockEntity(pos) instanceof LecternBlockEntity lectern)) {
+            return;
+        }
+
+        ItemStack oldBook = lectern.getBook().copy();
+        ItemStack heldStack = player.getItemInHand(hand);
+        if (replacementBank == null) {
+            lectern.clearContent();
+            LecternBlock.resetBookState(player, level, pos, level.getBlockState(pos), false);
+            player.setItemInHand(hand, oldBook);
+            return;
+        }
+
+        ItemStack replacement = heldStack.consumeAndReturn(1, player);
+        lectern.setBook(replacement, player);
+        LecternBlock.resetBookState(player, level, pos, level.getBlockState(pos), true);
+
+        if (heldStack.isEmpty()) {
+            player.setItemInHand(hand, oldBook);
+        } else if (!player.getInventory().add(oldBook)) {
+            player.drop(oldBook, false);
+        }
     }
 }

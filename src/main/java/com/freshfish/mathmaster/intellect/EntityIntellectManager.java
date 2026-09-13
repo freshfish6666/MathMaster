@@ -17,6 +17,7 @@ import net.minecraft.util.profiling.ProfilerFiller;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
+import net.neoforged.fml.ModList;
 
 import java.util.Comparator;
 import java.util.HashMap;
@@ -82,6 +83,15 @@ public final class EntityIntellectManager extends SimpleJsonResourceReloadListen
             ResourceLocation entityId = ResourceLocation.tryParse(GsonHelper.getAsString(object, "entity"));
             if (entityId == null) {
                 throw new IllegalArgumentException("invalid entity id");
+            }
+
+            String requiredMod = GsonHelper.getAsString(object, "required_mod", "").trim();
+            boolean externalEntity = !entityId.getNamespace().equals(ResourceLocation.DEFAULT_NAMESPACE);
+            if (externalEntity && !MathMasterConfig.isExternalEntityIntellectEnabled()) {
+                return;
+            }
+            if (!requiredMod.isEmpty() && !ModList.get().isLoaded(requiredMod)) {
+                return;
             }
 
             if (!GsonHelper.getAsBoolean(object, "enabled", true)) {

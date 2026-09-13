@@ -4,6 +4,8 @@ import com.freshfish.mathmaster.MathMaster;
 import com.freshfish.mathmaster.menu.BookshelfQuizMenu;
 import com.freshfish.mathmaster.menu.MathMasterGuideMenu;
 import com.freshfish.mathmaster.menu.InsightQuizMenu;
+import com.freshfish.mathmaster.menu.AxiomDeductionMenu;
+import com.freshfish.mathmaster.menu.AxiomCaseMenu;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.inventory.MenuType;
 import net.neoforged.neoforge.common.extensions.IMenuTypeExtension;
@@ -23,4 +25,10 @@ public class ModMenuTypes {
 
     public static final Supplier<MenuType<InsightQuizMenu>> INSIGHT_QUIZ =
             MENUS.register("insight_quiz", () -> IMenuTypeExtension.create(InsightQuizMenu::new));
+
+    public static final Supplier<MenuType<AxiomDeductionMenu>> AXIOM_DEDUCTION_TABLE =
+            MENUS.register("axiom_deduction_table", () -> IMenuTypeExtension.create(AxiomDeductionMenu::new));
+
+    public static final Supplier<MenuType<AxiomCaseMenu>> AXIOM_CASE =
+            MENUS.register("axiom_case", () -> IMenuTypeExtension.create(AxiomCaseMenu::new));
 }

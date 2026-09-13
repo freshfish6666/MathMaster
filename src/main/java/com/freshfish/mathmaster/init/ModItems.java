@@ -3,8 +3,19 @@ package com.freshfish.mathmaster.init;
 import com.freshfish.mathmaster.MathMaster;
 import com.freshfish.mathmaster.item.MathBookItem;
 import com.freshfish.mathmaster.item.LingxuMirrorItem;
+import com.freshfish.mathmaster.item.GraduationCapItem;
+import com.freshfish.mathmaster.item.StudyNoteItem;
+import com.freshfish.mathmaster.item.AxiomCaseItem;
+import com.freshfish.mathmaster.item.PrimeCoreItem;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.HoeItem;
@@ -12,7 +23,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import java.util.function.Supplier;
 
@@ -71,6 +84,26 @@ public class ModItems {
                             "verse.mathmaster.millennium_problems_math"
                     ));
 
+    public static final Supplier<Item> ADVANCED_MATH_STUDY_NOTE =
+            ITEMS.register("advanced_math_study_note",
+                    () -> new StudyNoteItem(new Item.Properties()));
+
+    public static final Supplier<Item> GRADE_2_MATH_STUDY_NOTE =
+            ITEMS.register("grade_2_math_study_note",
+                    () -> new StudyNoteItem(new Item.Properties()));
+
+    public static final Supplier<Item> JUNIOR_HIGH_MATH_STUDY_NOTE =
+            ITEMS.register("junior_high_math_study_note",
+                    () -> new StudyNoteItem(new Item.Properties()));
+
+    public static final Supplier<Item> SENIOR_HIGH_MATH_STUDY_NOTE =
+            ITEMS.register("senior_high_math_study_note",
+                    () -> new StudyNoteItem(new Item.Properties()));
+
+    public static final Supplier<Item> MILLENNIUM_PROBLEMS_STUDY_NOTE =
+            ITEMS.register("millennium_problems_study_note",
+                    () -> new StudyNoteItem(new Item.Properties()));
+
     public static final Supplier<Item> THREE_CAT_MILK_POWDER =
             ITEMS.register("three_cat_milk_powder",
                     () -> new Item(new Item.Properties().food(
@@ -89,9 +122,26 @@ public class ModItems {
             ITEMS.register("lingxu_nugget",
                     () -> new Item(new Item.Properties()));
 
+    public static final Supplier<Item> PRIME_CORE =
+            ITEMS.register("prime_core",
+                    () -> new PrimeCoreItem(new Item.Properties()));
+
     public static final Supplier<Item> LINGXU_BLOCK =
             ITEMS.register("lingxu_block",
                     () -> new BlockItem(ModBlocks.LINGXU_BLOCK.get(), new Item.Properties().fireResistant()));
+
+    public static final Supplier<Item> AXIOM_DEDUCTION_TABLE =
+            ITEMS.register("axiom_deduction_table",
+                    () -> new BlockItem(ModBlocks.AXIOM_DEDUCTION_TABLE.get(), new Item.Properties()));
+
+    public static final Supplier<Item> AXIOM_CASE =
+            ITEMS.register("axiom_case", () -> new AxiomCaseItem(3, new Item.Properties()));
+
+    public static final Supplier<Item> ORACLE_CASE =
+            ITEMS.register("oracle_case", () -> new AxiomCaseItem(6, new Item.Properties()));
+
+    public static final Supplier<Item> TRUTH_CASE =
+            ITEMS.register("truth_case", () -> new AxiomCaseItem(9, new Item.Properties()));
 
     public static final Supplier<Item> LINGXU_SWORD =
             ITEMS.register("lingxu_sword",
@@ -142,6 +192,50 @@ public class ModItems {
             ITEMS.register("lingxu_mirror",
                     () -> new LingxuMirrorItem(new Item.Properties().stacksTo(1)));
 
+    public static final Supplier<Item> LINGXU_HELMET =
+            ITEMS.register("lingxu_helmet", () -> createLingxuArmor(ArmorItem.Type.HELMET));
+
+    public static final Supplier<Item> LINGXU_CHESTPLATE =
+            ITEMS.register("lingxu_chestplate", () -> createLingxuArmor(ArmorItem.Type.CHESTPLATE));
+
+    public static final Supplier<Item> LINGXU_LEGGINGS =
+            ITEMS.register("lingxu_leggings", () -> createLingxuArmor(ArmorItem.Type.LEGGINGS));
+
+    public static final Supplier<Item> LINGXU_BOOTS =
+            ITEMS.register("lingxu_boots", () -> createLingxuArmor(ArmorItem.Type.BOOTS));
+
+    public static final Supplier<Item> GRADUATION_CAP =
+            ITEMS.register("graduation_cap",
+                    () -> new GraduationCapItem(
+                            ModArmorMaterials.GRADUATION_CAP,
+                            new Item.Properties().durability(365)
+                    ));
+
     public static final Supplier<Item> GOTHAM_BAT_ICON =
             ITEMS.register("gotham_bat_icon", () -> new Item(new Item.Properties()));
+
+    public static final Supplier<Item> NINE_SPAWN_EGG = ITEMS.register("nine_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.NINE, 0x363B40, 0x835C35, new Item.Properties()));
+
+    public static final Supplier<Item> EIGHT_SPAWN_EGG = ITEMS.register("eight_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.EIGHT, 0x34363A, 0xBEC2C5, new Item.Properties()));
+
+    private static ArmorItem createLingxuArmor(ArmorItem.Type type) {
+        ArmorMaterial netherite = ArmorMaterials.NETHERITE.value();
+        EquipmentSlotGroup slot = EquipmentSlotGroup.bySlot(type.getSlot());
+        ResourceLocation modifierId = ResourceLocation.withDefaultNamespace("armor." + type.getName());
+        // Explicit attributes preserve fractional defense and replace the integer material defaults.
+        ItemAttributeModifiers attributes = ItemAttributeModifiers.builder()
+                .add(Attributes.ARMOR, new AttributeModifier(
+                        modifierId, netherite.getDefense(type) * 1.5D, AttributeModifier.Operation.ADD_VALUE
+                ), slot)
+                .add(Attributes.ARMOR_TOUGHNESS, new AttributeModifier(
+                        modifierId, netherite.toughness() * 1.5D, AttributeModifier.Operation.ADD_VALUE
+                ), slot)
+                .build();
+        return new ArmorItem(ModArmorMaterials.LINGXU, type, new Item.Properties()
+                .durability(Math.round(type.getDurability(37) * 1.5F))
+                .fireResistant()
+                .attributes(attributes));
+    }
 }

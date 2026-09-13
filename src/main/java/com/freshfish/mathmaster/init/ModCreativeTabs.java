@@ -1,6 +1,8 @@
 package com.freshfish.mathmaster.init;
 
 import com.freshfish.mathmaster.MathMaster;
+import com.freshfish.mathmaster.axiom.AxiomDefinition;
+import com.freshfish.mathmaster.item.StudyNoteItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,13 +29,40 @@ public class ModCreativeTabs {
                                 output.accept(ModItems.LINGXU_BLOCK.get());
                                 output.accept(ModItems.LINGXU_INGOT.get());
                                 output.accept(ModItems.LINGXU_NUGGET.get());
+                                output.accept(ModItems.PRIME_CORE.get());
+                                output.accept(ModItems.AXIOM_DEDUCTION_TABLE.get());
+                                output.accept(ModItems.AXIOM_CASE.get());
+                                output.accept(ModItems.ORACLE_CASE.get());
+                                output.accept(ModItems.TRUTH_CASE.get());
                                 output.accept(ModItems.LINGXU_SWORD.get());
                                 output.accept(ModItems.LINGXU_PICKAXE.get());
                                 output.accept(ModItems.LINGXU_AXE.get());
                                 output.accept(ModItems.LINGXU_SHOVEL.get());
                                 output.accept(ModItems.LINGXU_HOE.get());
+                                output.accept(ModItems.LINGXU_HELMET.get());
+                                output.accept(ModItems.LINGXU_CHESTPLATE.get());
+                                output.accept(ModItems.LINGXU_LEGGINGS.get());
+                                output.accept(ModItems.LINGXU_BOOTS.get());
                                 output.accept(ModItems.LINGXU_MIRROR.get());
+                                output.accept(ModItems.GRADUATION_CAP.get());
                                 output.accept(ModItems.THREE_CAT_MILK_POWDER.get());
+                                output.accept(ModItems.EIGHT_SPAWN_EGG.get());
+                                output.accept(ModItems.NINE_SPAWN_EGG.get());
+                            })
+                            .build());
+
+    public static final Supplier<CreativeModeTab> MATHMASTER_NOTES_TAB =
+            CREATIVE_MODE_TABS.register("mathmaster_notes",
+                    () -> CreativeModeTab.builder()
+                            .title(Component.translatable("itemGroup.mathmaster_notes"))
+                            .icon(() -> StudyNoteItem.createAxiomNote(AxiomDefinition.PEANO_AXIOMS, 5))
+                            .displayItems((parameters, output) -> {
+                                for (int level = 1; level <= 5; level++) {
+                                    output.accept(StudyNoteItem.createBlankNote(level));
+                                }
+                                for (AxiomDefinition axiom : AxiomDefinition.values()) {
+                                    output.accept(StudyNoteItem.createAxiomNote(axiom, axiom.maximumNoteLevel()));
+                                }
                             })
                             .build());
 }

@@ -11,6 +11,9 @@ public final class MathMasterConfig {
     private static final ModConfigSpec.DoubleValue DAMAGE_BONUS_LEAD_41_TO_60;
     private static final ModConfigSpec.DoubleValue DAMAGE_BONUS_LEAD_61_TO_80;
     private static final ModConfigSpec.DoubleValue DAMAGE_BONUS_LEAD_81_PLUS;
+    private static final ModConfigSpec.BooleanValue JADE_INTEGRATION_ENABLED;
+    private static final ModConfigSpec.BooleanValue EXTERNAL_ENTITY_INTELLECT_ENABLED;
+    private static final ModConfigSpec.BooleanValue TOUHOU_LITTLE_MAID_INTEGRATION_ENABLED;
 
     static {
         ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
@@ -68,6 +71,36 @@ public final class MathMasterConfig {
 
         builder.pop();
         builder.pop();
+
+        builder.comment(
+                "Optional compatibility features.",
+                "可选联动功能。Disabling an integration does not delete saved player data."
+        ).push("integrations");
+
+        JADE_INTEGRATION_ENABLED = builder
+                .comment(
+                        "Show creature Intellect and the viewing player's insight status in Jade.",
+                        "在 Jade 信息框中显示生物智识与当前查看玩家的洞悉状态。"
+                )
+                .define("jade", true);
+
+        EXTERNAL_ENTITY_INTELLECT_ENABLED = builder
+                .comment(
+                        "Load entity_intellect JSON entries targeting non-Minecraft entity namespaces.",
+                        "加载目标为其他模组命名空间的 entity_intellect JSON。",
+                        "Set to false to keep vanilla creature Intellect while disabling all external creature definitions.",
+                        "设为 false 时保留原版生物智识，但禁用所有其他模组生物的智识定义。"
+                )
+                .define("external_entity_intellect", true);
+
+        TOUHOU_LITTLE_MAID_INTEGRATION_ENABLED = builder
+                .comment(
+                        "Allow Touhou Little Maid maids to use MathMaster lecterns for autonomous quizzes.",
+                        "允许车万女仆在工作模式中使用放有数学书的讲台自主答题。"
+                )
+                .define("touhou_little_maid", true);
+
+        builder.pop();
         SPEC = builder.build();
     }
 
@@ -76,6 +109,18 @@ public final class MathMasterConfig {
 
     public static boolean isEntityIntellectEnabled() {
         return ENTITY_INTELLECT_ENABLED.getAsBoolean();
+    }
+
+    public static boolean isJadeIntegrationEnabled() {
+        return JADE_INTEGRATION_ENABLED.getAsBoolean();
+    }
+
+    public static boolean isExternalEntityIntellectEnabled() {
+        return EXTERNAL_ENTITY_INTELLECT_ENABLED.getAsBoolean();
+    }
+
+    public static boolean isTouhouLittleMaidIntegrationEnabled() {
+        return TOUHOU_LITTLE_MAID_INTEGRATION_ENABLED.getAsBoolean();
     }
 
     public static float damageBonusRate(int intellectLead) {

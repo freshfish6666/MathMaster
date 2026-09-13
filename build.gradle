@@ -28,7 +28,37 @@ sourceSets.main.resources {
 }
 
 repositories {
-    // Add here additional repositories if required by some of the dependencies below.
+    maven {
+        url = "https://maven.blamejared.com"
+        content {
+            includeGroup "mezz.jei"
+        }
+    }
+    maven {
+        url = "https://maven.theillusivec4.top"
+        content {
+            includeGroup "top.theillusivec4.curios"
+        }
+    }
+    maven {
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
+    ivy {
+        name = "MCphoneGitHubReleases"
+        url = uri("https://github.com/november521/mcphone/releases/download")
+        patternLayout {
+            artifact "v[revision]/[artifact]-[revision].[ext]"
+        }
+        metadataSources {
+            artifact()
+        }
+        content {
+            includeModule "com.november.mcphone", "mcphone"
+        }
+    }
 }
 
 base {
@@ -116,12 +146,61 @@ configurations {
 }
 
 dependencies {
-    // Example optional mod dependency with JEI
-    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
-    // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
-    // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it
-    // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+    // Curios is a required dependency beginning with MathMaster 1.2.0. Prefer the
+    // user's development JAR and fall back to the official API artifact for CI.
+    def manualCuriosJar = file("run/mods/curios-neoforge-${curios_version}.jar")
+    if (manualCuriosJar.isFile()) {
+        compileOnly files(manualCuriosJar)
+    } else {
+        compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
+    }
+
+    // Optional JEI integration. Prefer the user's development JAR; the API
+    // artifact is only a compile fallback and is never bundled.
+    def manualJeiJar = fileTree("run/mods").matching { include "*jei*.jar" }.files.find()
+    if (manualJeiJar != null) {
+        compileOnly files(manualJeiJar)
+    } else {
+        compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
+    }
+
+    // Optional MadnessCore public API. The sibling JAR is compile-only and is
+    // added to development runtime only with -PwithMadnessCore=true.
+    def madnessCoreApiJar = providers.gradleProperty("madnesscore_compile_jar")
+            .map { file(it) }
+            .getOrElse(file("../MadnessCore/build/libs/madnesscore-1.0.0.jar"))
+    compileOnly files(madnessCoreApiJar)
+    if (providers.gradleProperty("withMadnessCore").orElse("false").get().toBoolean()) {
+        localRuntime files(madnessCoreApiJar)
+    }
+
+    // Optional Jade integration. compileOnly keeps Jade out of the MathMaster JAR;
+    // localRuntime makes the integration available in development runs.
+    compileOnly "maven.modrinth:jade:${jade_version}"
+    localRuntime "maven.modrinth:jade:${jade_version}"
+
+    // Optional MCphone App API. The artifact is used only to compile the isolated
+    // client compatibility package and is never bundled into MathMaster.
+    // Put the same MCphone JAR in run/mods manually when testing runClient.
+    def manualMcphoneJar = file("run/mods/mcphone-${mcphone_version}.jar")
+    if (providers.gradleProperty("mcphone_compile_jar").isPresent()) {
+        compileOnly files(providers.gradleProperty("mcphone_compile_jar").get())
+    } else if (manualMcphoneJar.isFile()) {
+        compileOnly files(manualMcphoneJar)
+    } else {
+        compileOnly "com.november.mcphone:mcphone:${mcphone_version}"
+    }
+
+    // Optional Touhou Little Maid task API. Prefer the user's manually installed
+    // development JAR; fall back to Modrinth Maven for source-only builds.
+    def manualTouhouLittleMaidJar = file("run/mods/touhoulittlemaid-${touhou_little_maid_version}.jar")
+    if (providers.gradleProperty("touhou_little_maid_compile_jar").isPresent()) {
+        compileOnly files(providers.gradleProperty("touhou_little_maid_compile_jar").get())
+    } else if (manualTouhouLittleMaidJar.isFile()) {
+        compileOnly files(manualTouhouLittleMaidJar)
+    } else {
+        compileOnly "maven.modrinth:touhou-little-maid:${touhou_little_maid_version}"
+    }
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar

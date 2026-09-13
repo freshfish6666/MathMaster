@@ -2,6 +2,7 @@ package com.freshfish.mathmaster.event;
 
 import com.freshfish.mathmaster.init.ModItems;
 import com.freshfish.mathmaster.intelligence.IntelligenceManager;
+import com.freshfish.mathmaster.pollution.DigitalPollutionManager;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -38,6 +39,9 @@ public class FoodIntelligenceHandler {
         }
 
         Item item = event.getItem().getItem();
+        if (item == Items.ENCHANTED_GOLDEN_APPLE) {
+            DigitalPollutionManager.reduce(player, 10);
+        }
         int delta = getIntelligenceDelta(item);
         if (delta != 0) {
             IntelligenceManager.addExperience(player, delta);

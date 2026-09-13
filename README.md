@@ -2,7 +2,7 @@
 
 ![MathMaster 图标](src/main/resources/mathmaster.png)
 
-MathMaster 是一个面向 Minecraft 生存玩法的数学问答模组。玩家可以制作不同难度的数学书，将它们放入雕纹书架，并通过相邻的普通书架开始四选一答题。
+MathMaster 是一个以数学问答、公理技能、智识成长和数字化污染为核心的 Minecraft 冒险模组。玩家可以研读不同难度的数学书，把完成后的笔记演绎为公理，并通过公理匣获得主动技能或被动能力。
 
 ## 运行环境
 
@@ -11,10 +11,29 @@ MathMaster 是一个面向 Minecraft 生存玩法的数学问答模组。玩家�
 | Minecraft Java Edition | 1.21.1 |
 | NeoForge | 21.1.248 |
 | Java | 21 |
-| MathMaster | 1.1.0 |
+| MathMaster | 1.2.0 |
+| 必需前置 | Curios NeoForge 9.5.1～9.x |
 | 模组 ID | `mathmaster` |
 
-客户端和服务端都需要安装本模组。使用其他 Minecraft 或 NeoForge 版本可能无法启动。
+客户端和服务端都需要安装 MathMaster 与 Curios。Jade、JEI、MadnessCore、MCphone 和 Touhou Little Maid 为可选联动。使用其他 Minecraft、NeoForge 或 Curios 版本可能无法启动。
+
+## 1.2.0 主要功能
+
+- 完成数学书可领取 1～5 级研读笔记，并在公理演绎台中使用分类材料写入公理。
+- 公理匣、神谕匣和真理之匣分别容纳 3、6、9 份公理笔记，通过 Curios 槽位装备。
+- 默认按住 X 打开五分类主动技能轮盘，按 C 使用当前主动公理；按键均可在控制设置中修改。
+- 已实装皮亚诺公理、加法单位元、加法交换律、加法逆元、欧几里得素数无穷定理和算术基本定理。
+- 新增灵虚四件护甲、精神暴走、数字生物 8、数字 8/9 音效、数字化污染、数字污染药水和素数核心。
+- 智识之镜可进行自我洞悉，显示当前智识、升级经验和数字污染值。
+- JEI 可查询公理演绎，MadnessCore 可为答题加入精神消耗与位阶奖励；这些联动均不会被打包进 MathMaster。
+
+## 1.1.1 主要功能
+
+- 新增公共 API v1、机器可读联动契约，以及可选的 Jade、MCphone“学习通”和 Touhou Little Maid 答题联动。
+- 数学书现在可放入讲台，并支持潜行取出或替换；智识之镜在准星移开后会平滑回退洞悉进度。
+- 新增生物“9”：拥有独立模型、观察与凝视行为、受击后的群体反击，以及受难度和抢夺影响的战斗、掉落规则。
+- 新增可佩戴的“学士帽”，提供 2 点护甲、365 点耐久和 10 点临时有效智识。
+- 生物智识 JSON 支持 `required_mod`，外部模组定义与洞悉结果继续由服务端权威处理。
 
 ## 1.1.0 主要功能
 
@@ -89,7 +108,7 @@ IQ 会被限制在 30～200。`set points` 的值必须小于当前 IQ 升到下
 
 ## 配置
 
-1.1.0 首次启动世界或服务器后，NeoForge 会生成带注释和数值范围说明的：
+首次启动世界或服务器后，NeoForge 会生成带注释和数值范围说明的：
 
 ```text
 config/mathmaster-server.toml
@@ -109,12 +128,20 @@ lead_21_to_40 = 15.0
 lead_41_to_60 = 25.0
 lead_61_to_80 = 30.0
 lead_81_plus = 40.0
+
+[integrations]
+jade = true
+external_entity_intellect = true
+touhou_little_maid = true
 ```
 
 - `enabled = false`：关闭整套生物智识玩法，包括智识之镜洞悉、生物洞悉经验与记录、以及智识领先近战增伤；已有玩家记录不会被删除。
 - 五个 `lead_*` 值是百分数，例如 `15.0` 表示伤害乘以 `1.15`。
 - 增伤作用于本次攻击已有的伤害，并发生在盾牌、护甲、防护附魔和抗性等减伤之前。
 - 配置会限制百分比为 `0.0～1000.0`，无效值由 NeoForge 配置系统纠正。
+- `jade = false`：关闭 Jade 中由 MathMaster 提供的信息，不影响 Jade 的其他功能；未安装 Jade 时该项不会产生额外开销。
+- `external_entity_intellect = false`：忽略目标实体命名空间不是 `minecraft` 的智识 JSON，原版生物智识仍保留。
+- `touhou_little_maid = false`：关闭车万女仆的“学习/答题”工作模式行为；未安装车万女仆时不会加载联动代码。
 
 IQ 范围、初始 IQ、奖励表和防沉迷参数目前仍由源码控制。题目与生物智识定义不需要修改源码，可以通过 JSON 数据包扩展或覆盖。
 
@@ -132,12 +159,14 @@ data/<你的命名空间>/entity_intellect/<文件名>.json
 {
   "entity": "othermod:example_creature",
   "intellect": 80,
+  "required_mod": "othermod",
   "enabled": true
 }
 ```
 
 - `entity` 必须是目标生物的完整注册表 ID。
 - `intellect` 必须是大于或等于 0 的整数。
+- `required_mod` 可选；填写后，仅在该模组已加载时应用定义，推荐内置兼容数据使用。
 - 将 `enabled` 设为 `false` 可以移除同一实体此前加载的智识定义。
 - 多个定义按资源 ID 排序加载；后加载的同一实体定义会覆盖先加载的值。
 - 放入世界 `datapacks` 目录后执行 `/reload` 即可重载。
@@ -163,7 +192,13 @@ data/mathmaster/tags/damage_type/no_intellect_damage_bonus.json
 }
 ```
 
-代码联动时可调用 `EntityIntellectManager.get(entity)` 查询目标当前有效智识：只有配置过智识的实体才会返回定义，心流效果会在基础值上每级增加 5 点；无智识定义的实体即使带有心流效果也仍返回 `null`。玩家当前有效 IQ 可通过 `IntelligenceManager.getEffectiveIq(player)` 读取。除非需要编译期 API，不建议直接引用其他模组的实体类；优先使用上述数据包接口。
+代码联动统一使用稳定入口 `com.freshfish.mathmaster.api.MathMasterApi`，不要引用内部管理器或附件。它提供基础/有效生物智识、玩家有效智识、已洞悉状态与不可变的已洞悉实体集合；详细契约和示例见 [`docs/integrations.md`](docs/integrations.md)。除非确实需要编译期 API，不建议直接引用其他模组的实体类；优先使用上述数据包接口。
+
+安装 Jade 后，指向具有智识定义的生物时只会额外显示“生物智识”和“洞悉状态”两行。洞悉状态按当前查看玩家由服务端权威计算，不会读取可能过期的客户端记录。
+
+安装 MCphone 1.8.19 或更高版本后，手机中会出现使用专用学习图标的“学习通”App。它作为可扩展的科目入口；当前可依次选择“数学大师”和一本数学书开始答题，书目、抽题、判分与奖励均由服务端决定。MCphone 是可选依赖，不会被打包进 MathMaster。
+
+数学书统一属于 `mathmaster:quiz_books` 物品标签，该标签同时接入雕纹书架和讲台的原版可放置书籍标签。安装 Touhou Little Maid 1.5.3 或更高版本后，女仆会新增“学习/答题”工作模式：在工作时段寻找附近放有可用数学书的讲台，面向讲台自主答题，并在头顶显示题目与思考/结果信息。女仆 IQ 独立保存，初始为 40～60，升级经验需求为玩家的两倍；奖励进入女仆背包，空间不足时掉在脚边。奖励与非雷击惩罚沿用玩家规则。Touhou Little Maid 是可选依赖，不会被打包进 MathMaster。
 
 洞悉开始、持续、难度门槛和题库选择均由服务端加载的智识定义权威判定。客户端无需拥有服务端或整合包提供的同一份 `entity_intellect` 数据包；服务端拒绝洞悉时会把本次目标智识与玩家有效 IQ 发送给客户端显示。
 
@@ -225,7 +260,7 @@ data/<命名空间>/quiz_banks/<题库名>.json
 构建产物位于：
 
 ```text
-build/libs/mathmaster-1.1.0.jar
+build/libs/mathmaster-1.2.0.jar
 ```
 
 ## 许可证

@@ -3,6 +3,7 @@ package com.freshfish.mathmaster.event;
 import com.freshfish.mathmaster.MathMaster;
 import com.freshfish.mathmaster.init.ModAttachments;
 import com.freshfish.mathmaster.quiz.QuizQuestionManager;
+import com.freshfish.mathmaster.quiz.QuizProgressManager;
 import net.minecraft.server.level.ServerPlayer;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -23,6 +24,7 @@ public final class QuizProgressSyncHandler {
             player.syncData(ModAttachments.INTELLIGENCE);
             player.getData(ModAttachments.QUIZ_PROGRESS);
             player.syncData(ModAttachments.QUIZ_PROGRESS);
+            QuizProgressManager.syncAuthority(player);
         }
     }
 
@@ -45,6 +47,7 @@ public final class QuizProgressSyncHandler {
         for (ServerPlayer player : event.getServer().getPlayerList().getPlayers()) {
             player.getData(ModAttachments.QUIZ_PROGRESS);
             player.syncData(ModAttachments.QUIZ_PROGRESS);
+            QuizProgressManager.syncAuthority(player);
         }
     }
 }

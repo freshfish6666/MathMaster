@@ -2,6 +2,7 @@ package com.freshfish.mathmaster.quiz;
 
 import com.freshfish.mathmaster.MathMaster;
 import com.freshfish.mathmaster.init.ModAttachments;
+import com.freshfish.mathmaster.integration.IntegrationManager;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
@@ -9,6 +10,7 @@ import net.minecraft.server.level.ServerPlayer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.OptionalInt;
 import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -66,7 +68,34 @@ public final class QuizProgressManager {
                     COMPLETION_CRITERION
             );
         }
+        syncAuthority(player);
         player.syncData(ModAttachments.QUIZ_PROGRESS);
+    }
+
+    public static void syncAuthority(ServerPlayer player) {
+        if (!IntegrationManager.isActive()) {
+            return;
+        }
+
+        OptionalInt rank = OptionalInt.empty();
+        if (hasCompleted(player, QuizBank.MILLENNIUM_PROBLEMS_MATH)) {
+            rank = OptionalInt.of(7);
+        } else if (hasCompleted(player, QuizBank.ADVANCED_MATH)) {
+            rank = OptionalInt.of(8);
+        } else if (hasCompleted(player, QuizBank.GRADE_2_MATH)) {
+            rank = OptionalInt.of(9);
+        }
+        IntegrationManager.syncAuthority(player, rank);
+    }
+
+    private static boolean hasCompleted(ServerPlayer player, QuizBank bank) {
+        List<QuizQuestion> loadedQuestions = QuizQuestionManager.getQuestions(bank);
+        if (loadedQuestions.isEmpty()) {
+            return false;
+        }
+        Set<ResourceLocation> correctIds = player.getData(ModAttachments.QUIZ_PROGRESS)
+                .getCorrectQuestionIds(bank);
+        return loadedQuestions.stream().allMatch(question -> correctIds.contains(question.id()));
     }
 
     private static List<IndexedQuestion> collectCandidates(

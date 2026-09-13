@@ -1,6 +1,7 @@
 package com.freshfish.mathmaster.init;
 
 import com.freshfish.mathmaster.MathMaster;
+import com.freshfish.mathmaster.block.AxiomDeductionTableBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -16,6 +17,10 @@ public final class ModBlocks {
     public static final Supplier<Block> LINGXU_BLOCK =
             BLOCKS.register("lingxu_block",
                     () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_BLOCK)));
+
+    public static final Supplier<Block> AXIOM_DEDUCTION_TABLE =
+            BLOCKS.register("axiom_deduction_table",
+                    () -> new AxiomDeductionTableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LECTERN)));
 
     private ModBlocks() {
     }
