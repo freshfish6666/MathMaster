@@ -23,7 +23,7 @@ import java.util.Optional;
 
 public final class MathMasterGuideScreen extends BookViewScreen implements MenuAccess<MathMasterGuideMenu> {
     private static final int DIRECTORY_PAGE = 1;
-    private static final int QUESTION_INDEX_PAGE = 9;
+    private static final int QUESTION_INDEX_PAGE = 10;
 
     private final MathMasterGuideMenu menu;
     private Button claimNoteButton;
@@ -138,6 +138,7 @@ public final class MathMasterGuideScreen extends BookViewScreen implements MenuA
         pages.add(chapterPage("screen.mathmaster.guide.chapter.rewards", "screen.mathmaster.guide.rewards.body"));
         pages.add(chapterPage("screen.mathmaster.guide.chapter.progress", "screen.mathmaster.guide.progress.body"));
         pages.add(chapterPage("screen.mathmaster.guide.chapter.lingxu", "screen.mathmaster.guide.lingxu.body"));
+        pages.add(chapterPage("screen.mathmaster.guide.chapter.further_study", "screen.mathmaster.guide.further_study.body"));
         pages.add(questionIndexPage(menu));
 
         for (MathMasterGuideMenu.QuestionEntry question : menu.getQuestions()) {
@@ -180,7 +181,8 @@ public final class MathMasterGuideScreen extends BookViewScreen implements MenuA
                 "screen.mathmaster.guide.chapter.iq",
                 "screen.mathmaster.guide.chapter.rewards",
                 "screen.mathmaster.guide.chapter.progress",
-                "screen.mathmaster.guide.chapter.lingxu"
+                "screen.mathmaster.guide.chapter.lingxu",
+                "screen.mathmaster.guide.chapter.further_study"
         };
         for (int index = 0; index < chapterKeys.length; index++) {
             page.append(pageLink(chapterKeys[index], index + 2)).append("\n");
@@ -233,12 +235,13 @@ public final class MathMasterGuideScreen extends BookViewScreen implements MenuA
                     .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC)));
         }
 
-        Component content = page.append(Component.literal(question.question()).withStyle(ChatFormatting.DARK_GRAY))
+        boolean english = QuizLanguagePreference.useEnglish(Minecraft.getInstance());
+        Component content = page.append(Component.literal(question.question(english)).withStyle(ChatFormatting.DARK_GRAY))
                 .append("\n\n")
                 .append(Component.translatable("screen.mathmaster.guide.correct_answer")
                         .withStyle(ChatFormatting.DARK_GREEN, ChatFormatting.BOLD))
                 .append("\n")
-                .append(Component.literal(question.correctAnswer()).withStyle(ChatFormatting.DARK_GREEN));
+                .append(Component.literal(question.correctAnswer(english)).withStyle(ChatFormatting.DARK_GREEN));
         return paginate(content);
     }
 

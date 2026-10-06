@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mathmaster:block/collatz_slab"
+    },
+    "type=double": {
+      "model": "mathmaster:block/collatz_planks"
+    },
+    "type=top": {
+      "model": "mathmaster:block/collatz_slab_top"
+    }
+  }
+}

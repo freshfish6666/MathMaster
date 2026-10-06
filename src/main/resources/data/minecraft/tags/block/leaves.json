@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:collatz_leaves",
+    "mathmaster:fruiting_collatz_leaves",
+    "mathmaster:purple_collatz_leaves",
+    "mathmaster:blue_collatz_leaves",
+    "mathmaster:purple_fruiting_collatz_leaves",
+    "mathmaster:blue_fruiting_collatz_leaves"
+  ]
+}

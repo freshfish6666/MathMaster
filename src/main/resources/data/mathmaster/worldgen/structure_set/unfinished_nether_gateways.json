@@ -1,0 +1,12 @@
+{
+  "structures": [
+    {"structure": "mathmaster:ruins/unfinished_nether_gateway", "weight": 1}
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 15,
+    "frequency": 0.5,
+    "salt": 184735093
+  }
+}

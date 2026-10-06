@@ -1,0 +1,302 @@
+{
+  "entity.six.ambient": {
+    "subtitle": "subtitles.entity.mathmaster.six.ambient",
+    "sounds": [
+      "mathmaster:entity/six/ambient_1",
+      "mathmaster:entity/six/ambient_2",
+      "mathmaster:entity/six/ambient_3"
+    ]
+  },
+  "entity.six.attack": {
+    "subtitle": "subtitles.entity.mathmaster.six.attack",
+    "sounds": [
+      "mathmaster:entity/six/attack_1",
+      "mathmaster:entity/six/attack_2"
+    ]
+  },
+  "entity.six.hurt": {
+    "subtitle": "subtitles.entity.mathmaster.six.hurt",
+    "sounds": [
+      "mathmaster:entity/six/hurt_1",
+      "mathmaster:entity/six/hurt_2",
+      "mathmaster:entity/six/hurt_3"
+    ]
+  },
+  "entity.six.death": {
+    "subtitle": "subtitles.entity.mathmaster.six.death",
+    "sounds": [
+      "mathmaster:entity/six/death_1"
+    ]
+  },
+  "entity.seven.ambient": {
+    "subtitle": "subtitles.entity.mathmaster.seven.ambient",
+    "sounds": [
+      "mathmaster:entity/seven/ambient_1",
+      "mathmaster:entity/seven/ambient_2",
+      "mathmaster:entity/seven/ambient_3"
+    ]
+  },
+  "entity.seven.alert": {
+    "subtitle": "subtitles.entity.mathmaster.seven.alert",
+    "sounds": [
+      "mathmaster:entity/seven/alert_1",
+      "mathmaster:entity/seven/alert_2"
+    ]
+  },
+  "entity.seven.attack": {
+    "subtitle": "subtitles.entity.mathmaster.seven.attack",
+    "sounds": [
+      "mathmaster:entity/seven/attack_1",
+      "mathmaster:entity/seven/attack_2"
+    ]
+  },
+  "entity.seven.hurt": {
+    "subtitle": "subtitles.entity.mathmaster.seven.hurt",
+    "sounds": [
+      "mathmaster:entity/seven/hurt_1",
+      "mathmaster:entity/seven/hurt_2",
+      "mathmaster:entity/seven/hurt_3"
+    ]
+  },
+  "entity.seven.death": {
+    "subtitle": "subtitles.entity.mathmaster.seven.death",
+    "sounds": [
+      "mathmaster:entity/seven/death_1"
+    ]
+  },
+  "entity.nine.ambient": {
+    "subtitle": "subtitles.entity.mathmaster.nine.ambient",
+    "sounds": [
+      "mathmaster:entity/nine/ambient_1",
+      "mathmaster:entity/nine/ambient_2",
+      "mathmaster:entity/nine/ambient_3"
+    ]
+  },
+  "entity.nine.alert": {
+    "subtitle": "subtitles.entity.mathmaster.nine.alert",
+    "sounds": [
+      "mathmaster:entity/nine/alert_1",
+      "mathmaster:entity/nine/alert_2"
+    ]
+  },
+  "entity.nine.attack": {
+    "subtitle": "subtitles.entity.mathmaster.nine.attack",
+    "sounds": [
+      "mathmaster:entity/nine/attack_1",
+      "mathmaster:entity/nine/attack_2"
+    ]
+  },
+  "entity.nine.hurt": {
+    "subtitle": "subtitles.entity.mathmaster.nine.hurt",
+    "sounds": [
+      "mathmaster:entity/nine/hurt_1",
+      "mathmaster:entity/nine/hurt_2",
+      "mathmaster:entity/nine/hurt_3"
+    ]
+  },
+  "entity.nine.death": {
+    "subtitle": "subtitles.entity.mathmaster.nine.death",
+    "sounds": [
+      "mathmaster:entity/nine/death_1"
+    ]
+  },
+  "entity.eight.ambient": {
+    "subtitle": "subtitles.entity.mathmaster.eight.ambient",
+    "sounds": [
+      "mathmaster:entity/eight/ambient_1",
+      "mathmaster:entity/eight/ambient_2",
+      "mathmaster:entity/eight/ambient_3"
+    ]
+  },
+  "entity.eight.alert": {
+    "subtitle": "subtitles.entity.mathmaster.eight.alert",
+    "sounds": [
+      "mathmaster:entity/eight/alert_1",
+      "mathmaster:entity/eight/alert_2"
+    ]
+  },
+  "entity.eight.attack": {
+    "subtitle": "subtitles.entity.mathmaster.eight.attack",
+    "sounds": [
+      "mathmaster:entity/eight/attack_1",
+      "mathmaster:entity/eight/attack_2"
+    ]
+  },
+  "entity.eight.hurt": {
+    "subtitle": "subtitles.entity.mathmaster.eight.hurt",
+    "sounds": [
+      "mathmaster:entity/eight/hurt_1",
+      "mathmaster:entity/eight/hurt_2",
+      "mathmaster:entity/eight/hurt_3"
+    ]
+  },
+  "entity.eight.death": {
+    "subtitle": "subtitles.entity.mathmaster.eight.death",
+    "sounds": [
+      "mathmaster:entity/eight/death_1"
+    ]
+  },
+  "ui.digital_pollution.whisper": {
+    "subtitle": "subtitles.mathmaster.digital_pollution.whisper",
+    "sounds": [
+      "mathmaster:ui/digital_pollution/whisper_1",
+      "mathmaster:ui/digital_pollution/whisper_2",
+      "mathmaster:ui/digital_pollution/whisper_3",
+      "mathmaster:ui/digital_pollution/whisper_4",
+      "mathmaster:ui/digital_pollution/whisper_5",
+      "mathmaster:ui/digital_pollution/whisper_6"
+    ]
+  },
+  "music.n_altar.blood_sacrifice": {
+    "sounds": [
+      {
+        "name": "mathmaster:music/n_altar/blood_sacrifice",
+        "stream": true
+      }
+    ]
+  },
+  "music.n_altar.outro": {
+    "sounds": [
+      {
+        "name": "mathmaster:music/n_altar/blood_sacrifice_outro",
+        "stream": true
+      }
+    ]
+  },
+  "entity.geometry_holder.ambient": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.ambient",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/ambient_1",
+      "mathmaster:entity/geometry_holder/ambient_2"
+    ]
+  },
+  "entity.geometry_holder.hurt": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.hurt",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/hurt_1",
+      "mathmaster:entity/geometry_holder/hurt_2"
+    ]
+  },
+  "entity.geometry_holder.death": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.death",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/death"
+    ]
+  },
+  "entity.geometry_holder.alert": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.alert",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/alert"
+    ]
+  },
+  "entity.geometry_holder.phase_two": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.phase_two",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/phase_two"
+    ]
+  },
+  "entity.geometry_holder.halo_charge": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.halo_charge",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/halo_charge"
+    ]
+  },
+  "entity.geometry_holder.halo_release": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.halo_release",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/halo_release"
+    ]
+  },
+  "entity.geometry_holder.prison_charge": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.prison_charge",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/prison_charge"
+    ]
+  },
+  "entity.geometry_holder.prison_cut": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.prison_cut",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/prison_cut"
+    ]
+  },
+  "entity.geometry_holder.beam_charge": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.beam_charge",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/beam_charge"
+    ]
+  },
+  "entity.geometry_holder.beam_fire": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.beam_fire",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/beam_fire"
+    ]
+  },
+  "entity.geometry_holder.beam_sustain": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.beam_sustain",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/beam_sustain"
+    ]
+  },
+  "entity.geometry_holder.bomb_throw": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.bomb_throw",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/bomb_throw"
+    ]
+  },
+  "entity.geometry_holder.bomb_explode": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.bomb_explode",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/bomb_explode"
+    ]
+  },
+  "entity.geometry_holder.cross_charge": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.cross_charge",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/cross_charge"
+    ]
+  },
+  "entity.geometry_holder.cross_sweep": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.cross_sweep",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/cross_sweep"
+    ]
+  },
+  "entity.geometry_holder.bomb_charge": {
+    "subtitle": "subtitles.entity.mathmaster.geometry_holder.bomb_charge",
+    "sounds": [
+      "mathmaster:entity/geometry_holder/bomb_charge"
+    ]
+  },
+  "music.geometry_holder.phase_one": {
+    "sounds": [
+      {
+        "name": "mathmaster:music/geometry_holder/phase_1",
+        "stream": true
+      }
+    ]
+  },
+  "music.geometry_holder.phase_two": {
+    "sounds": [
+      {
+        "name": "mathmaster:music/geometry_holder/phase_2",
+        "stream": true
+      }
+    ]
+  },
+  "music.geometry_holder.outro_one": {
+    "sounds": [
+      {
+        "name": "mathmaster:music/geometry_holder/outro_1",
+        "stream": true
+      }
+    ]
+  },
+  "music.geometry_holder.outro_two": {
+    "sounds": [
+      {
+        "name": "mathmaster:music/geometry_holder/outro_2",
+        "stream": true
+      }
+    ]
+  }
+}

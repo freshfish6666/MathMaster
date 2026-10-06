@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.freshfish.mathmaster.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["GeodesicMovementPacketMixin", "PollutionEffectAccess", "PollutionEffectMergeMixin", "PlayerPrimeComboAttackMixin", "PrimeComboHeldSlotMixin"],
+  "client": ["client.GeodesicTravelMixin"],
+  "injectors": {"defaultRequire": 1}
+}

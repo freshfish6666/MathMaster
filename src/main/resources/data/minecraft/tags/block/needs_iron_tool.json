@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mathmaster:lingxu_block"
+    "mathmaster:lingxu_block",
+    "mathmaster:prime_block"
   ]
 }

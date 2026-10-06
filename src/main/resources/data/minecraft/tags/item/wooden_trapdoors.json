@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:collatz_trapdoor",
+    "mathmaster:purple_collatz_trapdoor",
+    "mathmaster:blue_collatz_trapdoor"
+  ]
+}

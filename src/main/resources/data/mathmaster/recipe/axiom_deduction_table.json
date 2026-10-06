@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": { "item": "minecraft:chiseled_bookshelf" },
+    "S": { "tag": "minecraft:wooden_slabs" }
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mathmaster:axiom_deduction_table"
+  }
+}

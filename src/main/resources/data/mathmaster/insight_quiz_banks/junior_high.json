@@ -7,7 +7,19 @@
         "-5",
         "3",
         "11"
-      ]
+      ],
+      "id": "question_001",
+      "translations": {
+        "en_us": {
+          "question": "-3 + 8 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "-5",
+            "3",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x + 3 = 11，则 x = ?",
@@ -16,7 +28,19 @@
         "3",
         "5",
         "7"
-      ]
+      ],
+      "id": "question_002",
+      "translations": {
+        "en_us": {
+          "question": "If 2x + 3 = 11, then x = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "3² = ?",
@@ -25,7 +49,19 @@
         "6",
         "8",
         "12"
-      ]
+      ],
+      "id": "question_003",
+      "translations": {
+        "en_us": {
+          "question": "3² = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "6",
+            "8",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "√49 = ?",
@@ -34,7 +70,19 @@
         "6",
         "8",
         "24.5"
-      ]
+      ],
+      "id": "question_004",
+      "translations": {
+        "en_us": {
+          "question": "√49 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "24.5"
+          ]
+        }
+      }
     },
     {
       "question": "1/2 + 1/4 = ?",
@@ -43,7 +91,19 @@
         "1/4",
         "1/2",
         "2/6"
-      ]
+      ],
+      "id": "question_005",
+      "translations": {
+        "en_us": {
+          "question": "1/2 + 1/4 = ?",
+          "correct_answer": "3/4",
+          "wrong_answers": [
+            "1/4",
+            "1/2",
+            "2/6"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -4 + 7 = ?",
@@ -52,7 +112,19 @@
         "4",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_006",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -4 + 7 = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "4",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -5 + 10 = ?",
@@ -61,7 +133,19 @@
         "6",
         "4",
         "7"
-      ]
+      ],
+      "id": "question_007",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -5 + 10 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "6",
+            "4",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -6 + 13 = ?",
@@ -70,7 +154,19 @@
         "8",
         "6",
         "9"
-      ]
+      ],
+      "id": "question_008",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -6 + 13 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "8",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -7 + 16 = ?",
@@ -79,7 +175,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_009",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -7 + 16 = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -8 + 19 = ?",
@@ -88,7 +196,19 @@
         "12",
         "10",
         "13"
-      ]
+      ],
+      "id": "question_010",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -8 + 19 = ?",
+          "correct_answer": "11",
+          "wrong_answers": [
+            "12",
+            "10",
+            "13"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -9 + 22 = ?",
@@ -97,7 +217,19 @@
         "14",
         "12",
         "15"
-      ]
+      ],
+      "id": "question_011",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -9 + 22 = ?",
+          "correct_answer": "13",
+          "wrong_answers": [
+            "14",
+            "12",
+            "15"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -10 + 25 = ?",
@@ -106,7 +238,19 @@
         "16",
         "14",
         "17"
-      ]
+      ],
+      "id": "question_012",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -10 + 25 = ?",
+          "correct_answer": "15",
+          "wrong_answers": [
+            "16",
+            "14",
+            "17"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -11 + 28 = ?",
@@ -115,7 +259,19 @@
         "18",
         "16",
         "19"
-      ]
+      ],
+      "id": "question_013",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -11 + 28 = ?",
+          "correct_answer": "17",
+          "wrong_answers": [
+            "18",
+            "16",
+            "19"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -12 + 8 = ?",
@@ -124,7 +280,19 @@
         "-3",
         "-5",
         "-2"
-      ]
+      ],
+      "id": "question_014",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -12 + 8 = ?",
+          "correct_answer": "-4",
+          "wrong_answers": [
+            "-3",
+            "-5",
+            "-2"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -13 + 11 = ?",
@@ -133,7 +301,19 @@
         "-1",
         "-3",
         "0"
-      ]
+      ],
+      "id": "question_015",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -13 + 11 = ?",
+          "correct_answer": "-2",
+          "wrong_answers": [
+            "-1",
+            "-3",
+            "0"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -14 + 14 = ?",
@@ -142,7 +322,19 @@
         "1",
         "-1",
         "2"
-      ]
+      ],
+      "id": "question_016",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -14 + 14 = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "-1",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -15 + 17 = ?",
@@ -151,7 +343,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_017",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -15 + 17 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -16 + 20 = ?",
@@ -160,7 +364,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_018",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -16 + 20 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -17 + 23 = ?",
@@ -169,7 +385,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_019",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -17 + 23 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -18 + 26 = ?",
@@ -178,7 +406,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_020",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -18 + 26 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -19 + 29 = ?",
@@ -187,7 +427,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_021",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -19 + 29 = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -20 + 9 = ?",
@@ -196,7 +448,19 @@
         "-10",
         "-12",
         "-9"
-      ]
+      ],
+      "id": "question_022",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -20 + 9 = ?",
+          "correct_answer": "-11",
+          "wrong_answers": [
+            "-10",
+            "-12",
+            "-9"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -21 + 12 = ?",
@@ -205,7 +469,19 @@
         "-8",
         "-10",
         "-7"
-      ]
+      ],
+      "id": "question_023",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -21 + 12 = ?",
+          "correct_answer": "-9",
+          "wrong_answers": [
+            "-8",
+            "-10",
+            "-7"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -22 + 15 = ?",
@@ -214,7 +490,19 @@
         "-6",
         "-8",
         "-5"
-      ]
+      ],
+      "id": "question_024",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -22 + 15 = ?",
+          "correct_answer": "-7",
+          "wrong_answers": [
+            "-6",
+            "-8",
+            "-5"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -23 + 18 = ?",
@@ -223,7 +511,19 @@
         "-4",
         "-6",
         "-3"
-      ]
+      ],
+      "id": "question_025",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -23 + 18 = ?",
+          "correct_answer": "-5",
+          "wrong_answers": [
+            "-4",
+            "-6",
+            "-3"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -24 + 21 = ?",
@@ -232,7 +532,19 @@
         "-2",
         "-4",
         "-1"
-      ]
+      ],
+      "id": "question_026",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -24 + 21 = ?",
+          "correct_answer": "-3",
+          "wrong_answers": [
+            "-2",
+            "-4",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -25 + 24 = ?",
@@ -241,7 +553,19 @@
         "0",
         "-2",
         "1"
-      ]
+      ],
+      "id": "question_027",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -25 + 24 = ?",
+          "correct_answer": "-1",
+          "wrong_answers": [
+            "0",
+            "-2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -26 + 27 = ?",
@@ -250,7 +574,19 @@
         "2",
         "0",
         "3"
-      ]
+      ],
+      "id": "question_028",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -26 + 27 = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "2",
+            "0",
+            "3"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -27 + 7 = ?",
@@ -259,7 +595,19 @@
         "-19",
         "-21",
         "-18"
-      ]
+      ],
+      "id": "question_029",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -27 + 7 = ?",
+          "correct_answer": "-20",
+          "wrong_answers": [
+            "-19",
+            "-21",
+            "-18"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -28 + 10 = ?",
@@ -268,7 +616,19 @@
         "-17",
         "-19",
         "-16"
-      ]
+      ],
+      "id": "question_030",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -28 + 10 = ?",
+          "correct_answer": "-18",
+          "wrong_answers": [
+            "-17",
+            "-19",
+            "-16"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -29 + 13 = ?",
@@ -277,7 +637,19 @@
         "-15",
         "-17",
         "-14"
-      ]
+      ],
+      "id": "question_031",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -29 + 13 = ?",
+          "correct_answer": "-16",
+          "wrong_answers": [
+            "-15",
+            "-17",
+            "-14"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -30 + 16 = ?",
@@ -286,7 +658,19 @@
         "-13",
         "-15",
         "-12"
-      ]
+      ],
+      "id": "question_032",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -30 + 16 = ?",
+          "correct_answer": "-14",
+          "wrong_answers": [
+            "-13",
+            "-15",
+            "-12"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -31 + 19 = ?",
@@ -295,7 +679,19 @@
         "-11",
         "-13",
         "-10"
-      ]
+      ],
+      "id": "question_033",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -31 + 19 = ?",
+          "correct_answer": "-12",
+          "wrong_answers": [
+            "-11",
+            "-13",
+            "-10"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -32 + 22 = ?",
@@ -304,7 +700,19 @@
         "-9",
         "-11",
         "-8"
-      ]
+      ],
+      "id": "question_034",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -32 + 22 = ?",
+          "correct_answer": "-10",
+          "wrong_answers": [
+            "-9",
+            "-11",
+            "-8"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -33 + 25 = ?",
@@ -313,7 +721,19 @@
         "-7",
         "-9",
         "-6"
-      ]
+      ],
+      "id": "question_035",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -33 + 25 = ?",
+          "correct_answer": "-8",
+          "wrong_answers": [
+            "-7",
+            "-9",
+            "-6"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -34 + 28 = ?",
@@ -322,7 +742,19 @@
         "-5",
         "-7",
         "-4"
-      ]
+      ],
+      "id": "question_036",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -34 + 28 = ?",
+          "correct_answer": "-6",
+          "wrong_answers": [
+            "-5",
+            "-7",
+            "-4"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -35 + 8 = ?",
@@ -331,7 +763,19 @@
         "-26",
         "-28",
         "-25"
-      ]
+      ],
+      "id": "question_037",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -35 + 8 = ?",
+          "correct_answer": "-27",
+          "wrong_answers": [
+            "-26",
+            "-28",
+            "-25"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -36 + 11 = ?",
@@ -340,7 +784,19 @@
         "-24",
         "-26",
         "-23"
-      ]
+      ],
+      "id": "question_038",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -36 + 11 = ?",
+          "correct_answer": "-25",
+          "wrong_answers": [
+            "-24",
+            "-26",
+            "-23"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -37 + 14 = ?",
@@ -349,7 +805,19 @@
         "-22",
         "-24",
         "-21"
-      ]
+      ],
+      "id": "question_039",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -37 + 14 = ?",
+          "correct_answer": "-23",
+          "wrong_answers": [
+            "-22",
+            "-24",
+            "-21"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -38 + 17 = ?",
@@ -358,7 +826,19 @@
         "-20",
         "-22",
         "-19"
-      ]
+      ],
+      "id": "question_040",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -38 + 17 = ?",
+          "correct_answer": "-21",
+          "wrong_answers": [
+            "-20",
+            "-22",
+            "-19"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -39 + 20 = ?",
@@ -367,7 +847,19 @@
         "-18",
         "-20",
         "-17"
-      ]
+      ],
+      "id": "question_041",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -39 + 20 = ?",
+          "correct_answer": "-19",
+          "wrong_answers": [
+            "-18",
+            "-20",
+            "-17"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -40 + 23 = ?",
@@ -376,7 +868,19 @@
         "-16",
         "-18",
         "-15"
-      ]
+      ],
+      "id": "question_042",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -40 + 23 = ?",
+          "correct_answer": "-17",
+          "wrong_answers": [
+            "-16",
+            "-18",
+            "-15"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -41 + 26 = ?",
@@ -385,7 +889,19 @@
         "-14",
         "-16",
         "-13"
-      ]
+      ],
+      "id": "question_043",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -41 + 26 = ?",
+          "correct_answer": "-15",
+          "wrong_answers": [
+            "-14",
+            "-16",
+            "-13"
+          ]
+        }
+      }
     },
     {
       "question": "计算 -42 + 29 = ?",
@@ -394,7 +910,19 @@
         "-12",
         "-14",
         "-11"
-      ]
+      ],
+      "id": "question_044",
+      "translations": {
+        "en_us": {
+          "question": "Calculate -42 + 29 = ?",
+          "correct_answer": "-13",
+          "wrong_answers": [
+            "-12",
+            "-14",
+            "-11"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x - 10 = -6，则 x = ?",
@@ -403,7 +931,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_045",
+      "translations": {
+        "en_us": {
+          "question": "If 2x - 10 = -6, then x = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "若 3x - 9 = 0，则 x = ?",
@@ -412,7 +952,19 @@
         "4",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_046",
+      "translations": {
+        "en_us": {
+          "question": "If 3x - 9 = 0, then x = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "4",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "若 4x - 8 = 8，则 x = ?",
@@ -421,7 +973,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_047",
+      "translations": {
+        "en_us": {
+          "question": "If 4x - 8 = 8, then x = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "若 5x - 7 = 18，则 x = ?",
@@ -430,7 +994,19 @@
         "6",
         "4",
         "7"
-      ]
+      ],
+      "id": "question_048",
+      "translations": {
+        "en_us": {
+          "question": "If 5x - 7 = 18, then x = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "6",
+            "4",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "若 6x - 6 = 30，则 x = ?",
@@ -439,7 +1015,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_049",
+      "translations": {
+        "en_us": {
+          "question": "If 6x - 6 = 30, then x = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x - 5 = 9，则 x = ?",
@@ -448,7 +1036,19 @@
         "8",
         "6",
         "9"
-      ]
+      ],
+      "id": "question_050",
+      "translations": {
+        "en_us": {
+          "question": "If 2x - 5 = 9, then x = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "8",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "若 3x - 4 = 20，则 x = ?",
@@ -457,7 +1057,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_051",
+      "translations": {
+        "en_us": {
+          "question": "If 3x - 4 = 20, then x = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "若 4x - 3 = 33，则 x = ?",
@@ -466,7 +1078,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_052",
+      "translations": {
+        "en_us": {
+          "question": "If 4x - 3 = 33, then x = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "若 5x - 2 = 48，则 x = ?",
@@ -475,7 +1099,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_053",
+      "translations": {
+        "en_us": {
+          "question": "If 5x - 2 = 48, then x = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "若 6x - 1 = 65，则 x = ?",
@@ -484,7 +1120,19 @@
         "12",
         "10",
         "13"
-      ]
+      ],
+      "id": "question_054",
+      "translations": {
+        "en_us": {
+          "question": "If 6x - 1 = 65, then x = ?",
+          "correct_answer": "11",
+          "wrong_answers": [
+            "12",
+            "10",
+            "13"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x + 0 = 4，则 x = ?",
@@ -493,7 +1141,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_055",
+      "translations": {
+        "en_us": {
+          "question": "If 2x + 0 = 4, then x = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "若 3x + 1 = 10，则 x = ?",
@@ -502,7 +1162,19 @@
         "4",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_056",
+      "translations": {
+        "en_us": {
+          "question": "If 3x + 1 = 10, then x = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "4",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "若 4x + 2 = 18，则 x = ?",
@@ -511,7 +1183,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_057",
+      "translations": {
+        "en_us": {
+          "question": "If 4x + 2 = 18, then x = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "若 5x + 3 = 28，则 x = ?",
@@ -520,7 +1204,19 @@
         "6",
         "4",
         "7"
-      ]
+      ],
+      "id": "question_058",
+      "translations": {
+        "en_us": {
+          "question": "If 5x + 3 = 28, then x = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "6",
+            "4",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "若 6x + 4 = 40，则 x = ?",
@@ -529,7 +1225,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_059",
+      "translations": {
+        "en_us": {
+          "question": "If 6x + 4 = 40, then x = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x + 5 = 19，则 x = ?",
@@ -538,7 +1246,19 @@
         "8",
         "6",
         "9"
-      ]
+      ],
+      "id": "question_060",
+      "translations": {
+        "en_us": {
+          "question": "If 2x + 5 = 19, then x = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "8",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "若 3x + 6 = 30，则 x = ?",
@@ -547,7 +1267,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_061",
+      "translations": {
+        "en_us": {
+          "question": "If 3x + 6 = 30, then x = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "若 4x + 7 = 43，则 x = ?",
@@ -556,7 +1288,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_062",
+      "translations": {
+        "en_us": {
+          "question": "If 4x + 7 = 43, then x = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "若 5x + 8 = 58，则 x = ?",
@@ -565,7 +1309,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_063",
+      "translations": {
+        "en_us": {
+          "question": "If 5x + 8 = 58, then x = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "若 6x + 9 = 75，则 x = ?",
@@ -574,7 +1330,19 @@
         "12",
         "10",
         "13"
-      ]
+      ],
+      "id": "question_064",
+      "translations": {
+        "en_us": {
+          "question": "If 6x + 9 = 75, then x = ?",
+          "correct_answer": "11",
+          "wrong_answers": [
+            "12",
+            "10",
+            "13"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x + 10 = 14，则 x = ?",
@@ -583,7 +1351,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_065",
+      "translations": {
+        "en_us": {
+          "question": "If 2x + 10 = 14, then x = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "若 3x + 11 = 20，则 x = ?",
@@ -592,7 +1372,19 @@
         "4",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_066",
+      "translations": {
+        "en_us": {
+          "question": "If 3x + 11 = 20, then x = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "4",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "若 4x + 12 = 28，则 x = ?",
@@ -601,7 +1393,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_067",
+      "translations": {
+        "en_us": {
+          "question": "If 4x + 12 = 28, then x = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "若 5x + 13 = 38，则 x = ?",
@@ -610,7 +1414,19 @@
         "6",
         "4",
         "7"
-      ]
+      ],
+      "id": "question_068",
+      "translations": {
+        "en_us": {
+          "question": "If 5x + 13 = 38, then x = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "6",
+            "4",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "若 6x + 14 = 50，则 x = ?",
@@ -619,7 +1435,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_069",
+      "translations": {
+        "en_us": {
+          "question": "If 6x + 14 = 50, then x = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x + 15 = 29，则 x = ?",
@@ -628,7 +1456,19 @@
         "8",
         "6",
         "9"
-      ]
+      ],
+      "id": "question_070",
+      "translations": {
+        "en_us": {
+          "question": "If 2x + 15 = 29, then x = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "8",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "若 3x + 16 = 40，则 x = ?",
@@ -637,7 +1477,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_071",
+      "translations": {
+        "en_us": {
+          "question": "If 3x + 16 = 40, then x = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "若 4x + 17 = 53，则 x = ?",
@@ -646,7 +1498,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_072",
+      "translations": {
+        "en_us": {
+          "question": "If 4x + 17 = 53, then x = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "若 5x + 18 = 68，则 x = ?",
@@ -655,7 +1519,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_073",
+      "translations": {
+        "en_us": {
+          "question": "If 5x + 18 = 68, then x = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "若 6x + 19 = 85，则 x = ?",
@@ -664,7 +1540,19 @@
         "12",
         "10",
         "13"
-      ]
+      ],
+      "id": "question_074",
+      "translations": {
+        "en_us": {
+          "question": "If 6x + 19 = 85, then x = ?",
+          "correct_answer": "11",
+          "wrong_answers": [
+            "12",
+            "10",
+            "13"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x + 20 = 24，则 x = ?",
@@ -673,7 +1561,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_075",
+      "translations": {
+        "en_us": {
+          "question": "If 2x + 20 = 24, then x = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "若 3x + 21 = 30，则 x = ?",
@@ -682,7 +1582,19 @@
         "4",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_076",
+      "translations": {
+        "en_us": {
+          "question": "If 3x + 21 = 30, then x = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "4",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "若 4x + 22 = 38，则 x = ?",
@@ -691,7 +1603,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_077",
+      "translations": {
+        "en_us": {
+          "question": "If 4x + 22 = 38, then x = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "若 5x + 23 = 48，则 x = ?",
@@ -700,7 +1624,19 @@
         "6",
         "4",
         "7"
-      ]
+      ],
+      "id": "question_078",
+      "translations": {
+        "en_us": {
+          "question": "If 5x + 23 = 48, then x = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "6",
+            "4",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "若 6x + 24 = 60，则 x = ?",
@@ -709,7 +1645,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_079",
+      "translations": {
+        "en_us": {
+          "question": "If 6x + 24 = 60, then x = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "若 2x + 25 = 39，则 x = ?",
@@ -718,7 +1666,19 @@
         "8",
         "6",
         "9"
-      ]
+      ],
+      "id": "question_080",
+      "translations": {
+        "en_us": {
+          "question": "If 2x + 25 = 39, then x = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "8",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "若 3x + 26 = 50，则 x = ?",
@@ -727,7 +1687,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_081",
+      "translations": {
+        "en_us": {
+          "question": "If 3x + 26 = 50, then x = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "若 4x + 27 = 63，则 x = ?",
@@ -736,7 +1708,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_082",
+      "translations": {
+        "en_us": {
+          "question": "If 4x + 27 = 63, then x = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "若 5x + 28 = 78，则 x = ?",
@@ -745,7 +1729,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_083",
+      "translations": {
+        "en_us": {
+          "question": "If 5x + 28 = 78, then x = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "计算 2² = ?",
@@ -754,7 +1750,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_084",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 2² = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "计算 4² = ?",
@@ -763,7 +1771,19 @@
         "17",
         "15",
         "18"
-      ]
+      ],
+      "id": "question_085",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 4² = ?",
+          "correct_answer": "16",
+          "wrong_answers": [
+            "17",
+            "15",
+            "18"
+          ]
+        }
+      }
     },
     {
       "question": "计算 5² = ?",
@@ -772,7 +1792,19 @@
         "26",
         "24",
         "27"
-      ]
+      ],
+      "id": "question_086",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 5² = ?",
+          "correct_answer": "25",
+          "wrong_answers": [
+            "26",
+            "24",
+            "27"
+          ]
+        }
+      }
     },
     {
       "question": "计算 6² = ?",
@@ -781,7 +1813,19 @@
         "37",
         "35",
         "38"
-      ]
+      ],
+      "id": "question_087",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 6² = ?",
+          "correct_answer": "36",
+          "wrong_answers": [
+            "37",
+            "35",
+            "38"
+          ]
+        }
+      }
     },
     {
       "question": "计算 7² = ?",
@@ -790,7 +1834,19 @@
         "50",
         "48",
         "51"
-      ]
+      ],
+      "id": "question_088",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 7² = ?",
+          "correct_answer": "49",
+          "wrong_answers": [
+            "50",
+            "48",
+            "51"
+          ]
+        }
+      }
     },
     {
       "question": "计算 8² = ?",
@@ -799,7 +1855,19 @@
         "65",
         "63",
         "66"
-      ]
+      ],
+      "id": "question_089",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 8² = ?",
+          "correct_answer": "64",
+          "wrong_answers": [
+            "65",
+            "63",
+            "66"
+          ]
+        }
+      }
     },
     {
       "question": "计算 9² = ?",
@@ -808,7 +1876,19 @@
         "82",
         "80",
         "83"
-      ]
+      ],
+      "id": "question_090",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 9² = ?",
+          "correct_answer": "81",
+          "wrong_answers": [
+            "82",
+            "80",
+            "83"
+          ]
+        }
+      }
     },
     {
       "question": "计算 10² = ?",
@@ -817,7 +1897,19 @@
         "101",
         "99",
         "102"
-      ]
+      ],
+      "id": "question_091",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 10² = ?",
+          "correct_answer": "100",
+          "wrong_answers": [
+            "101",
+            "99",
+            "102"
+          ]
+        }
+      }
     },
     {
       "question": "计算 11² = ?",
@@ -826,7 +1918,19 @@
         "122",
         "120",
         "123"
-      ]
+      ],
+      "id": "question_092",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 11² = ?",
+          "correct_answer": "121",
+          "wrong_answers": [
+            "122",
+            "120",
+            "123"
+          ]
+        }
+      }
     },
     {
       "question": "计算 12² = ?",
@@ -835,7 +1939,19 @@
         "145",
         "143",
         "146"
-      ]
+      ],
+      "id": "question_093",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 12² = ?",
+          "correct_answer": "144",
+          "wrong_answers": [
+            "145",
+            "143",
+            "146"
+          ]
+        }
+      }
     },
     {
       "question": "计算 13² = ?",
@@ -844,7 +1960,19 @@
         "170",
         "168",
         "171"
-      ]
+      ],
+      "id": "question_094",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 13² = ?",
+          "correct_answer": "169",
+          "wrong_answers": [
+            "170",
+            "168",
+            "171"
+          ]
+        }
+      }
     },
     {
       "question": "计算 14² = ?",
@@ -853,7 +1981,19 @@
         "197",
         "195",
         "198"
-      ]
+      ],
+      "id": "question_095",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 14² = ?",
+          "correct_answer": "196",
+          "wrong_answers": [
+            "197",
+            "195",
+            "198"
+          ]
+        }
+      }
     },
     {
       "question": "计算 15² = ?",
@@ -862,7 +2002,19 @@
         "226",
         "224",
         "227"
-      ]
+      ],
+      "id": "question_096",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 15² = ?",
+          "correct_answer": "225",
+          "wrong_answers": [
+            "226",
+            "224",
+            "227"
+          ]
+        }
+      }
     },
     {
       "question": "计算 16² = ?",
@@ -871,7 +2023,19 @@
         "257",
         "255",
         "258"
-      ]
+      ],
+      "id": "question_097",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 16² = ?",
+          "correct_answer": "256",
+          "wrong_answers": [
+            "257",
+            "255",
+            "258"
+          ]
+        }
+      }
     },
     {
       "question": "计算 17² = ?",
@@ -880,7 +2044,19 @@
         "290",
         "288",
         "291"
-      ]
+      ],
+      "id": "question_098",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 17² = ?",
+          "correct_answer": "289",
+          "wrong_answers": [
+            "290",
+            "288",
+            "291"
+          ]
+        }
+      }
     },
     {
       "question": "计算 18² = ?",
@@ -889,7 +2065,19 @@
         "325",
         "323",
         "326"
-      ]
+      ],
+      "id": "question_099",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 18² = ?",
+          "correct_answer": "324",
+          "wrong_answers": [
+            "325",
+            "323",
+            "326"
+          ]
+        }
+      }
     },
     {
       "question": "计算 19² = ?",
@@ -898,7 +2086,19 @@
         "362",
         "360",
         "363"
-      ]
+      ],
+      "id": "question_100",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 19² = ?",
+          "correct_answer": "361",
+          "wrong_answers": [
+            "362",
+            "360",
+            "363"
+          ]
+        }
+      }
     },
     {
       "question": "计算 20² = ?",
@@ -907,7 +2107,19 @@
         "401",
         "399",
         "402"
-      ]
+      ],
+      "id": "question_101",
+      "translations": {
+        "en_us": {
+          "question": "Calculate 20² = ?",
+          "correct_answer": "400",
+          "wrong_answers": [
+            "401",
+            "399",
+            "402"
+          ]
+        }
+      }
     },
     {
       "question": "√16 = ?",
@@ -916,7 +2128,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_102",
+      "translations": {
+        "en_us": {
+          "question": "√16 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "√25 = ?",
@@ -925,7 +2149,19 @@
         "6",
         "4",
         "7"
-      ]
+      ],
+      "id": "question_103",
+      "translations": {
+        "en_us": {
+          "question": "√25 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "6",
+            "4",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "√36 = ?",
@@ -934,7 +2170,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_104",
+      "translations": {
+        "en_us": {
+          "question": "√36 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "√64 = ?",
@@ -943,7 +2191,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_105",
+      "translations": {
+        "en_us": {
+          "question": "√64 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "√81 = ?",
@@ -952,7 +2212,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_106",
+      "translations": {
+        "en_us": {
+          "question": "√81 = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "√100 = ?",
@@ -961,7 +2233,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_107",
+      "translations": {
+        "en_us": {
+          "question": "√100 = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "√121 = ?",
@@ -970,7 +2254,19 @@
         "12",
         "10",
         "13"
-      ]
+      ],
+      "id": "question_108",
+      "translations": {
+        "en_us": {
+          "question": "√121 = ?",
+          "correct_answer": "11",
+          "wrong_answers": [
+            "12",
+            "10",
+            "13"
+          ]
+        }
+      }
     },
     {
       "question": "√144 = ?",
@@ -979,7 +2275,19 @@
         "13",
         "11",
         "14"
-      ]
+      ],
+      "id": "question_109",
+      "translations": {
+        "en_us": {
+          "question": "√144 = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "13",
+            "11",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "√169 = ?",
@@ -988,7 +2296,19 @@
         "14",
         "12",
         "15"
-      ]
+      ],
+      "id": "question_110",
+      "translations": {
+        "en_us": {
+          "question": "√169 = ?",
+          "correct_answer": "13",
+          "wrong_answers": [
+            "14",
+            "12",
+            "15"
+          ]
+        }
+      }
     },
     {
       "question": "√196 = ?",
@@ -997,7 +2317,19 @@
         "15",
         "13",
         "16"
-      ]
+      ],
+      "id": "question_111",
+      "translations": {
+        "en_us": {
+          "question": "√196 = ?",
+          "correct_answer": "14",
+          "wrong_answers": [
+            "15",
+            "13",
+            "16"
+          ]
+        }
+      }
     },
     {
       "question": "√225 = ?",
@@ -1006,7 +2338,19 @@
         "16",
         "14",
         "17"
-      ]
+      ],
+      "id": "question_112",
+      "translations": {
+        "en_us": {
+          "question": "√225 = ?",
+          "correct_answer": "15",
+          "wrong_answers": [
+            "16",
+            "14",
+            "17"
+          ]
+        }
+      }
     },
     {
       "question": "√256 = ?",
@@ -1015,7 +2359,19 @@
         "17",
         "15",
         "18"
-      ]
+      ],
+      "id": "question_113",
+      "translations": {
+        "en_us": {
+          "question": "√256 = ?",
+          "correct_answer": "16",
+          "wrong_answers": [
+            "17",
+            "15",
+            "18"
+          ]
+        }
+      }
     },
     {
       "question": "√289 = ?",
@@ -1024,7 +2380,19 @@
         "18",
         "16",
         "19"
-      ]
+      ],
+      "id": "question_114",
+      "translations": {
+        "en_us": {
+          "question": "√289 = ?",
+          "correct_answer": "17",
+          "wrong_answers": [
+            "18",
+            "16",
+            "19"
+          ]
+        }
+      }
     },
     {
       "question": "√324 = ?",
@@ -1033,7 +2401,19 @@
         "19",
         "17",
         "20"
-      ]
+      ],
+      "id": "question_115",
+      "translations": {
+        "en_us": {
+          "question": "√324 = ?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "19",
+            "17",
+            "20"
+          ]
+        }
+      }
     },
     {
       "question": "√361 = ?",
@@ -1042,7 +2422,19 @@
         "20",
         "18",
         "21"
-      ]
+      ],
+      "id": "question_116",
+      "translations": {
+        "en_us": {
+          "question": "√361 = ?",
+          "correct_answer": "19",
+          "wrong_answers": [
+            "20",
+            "18",
+            "21"
+          ]
+        }
+      }
     },
     {
       "question": "√400 = ?",
@@ -1051,7 +2443,19 @@
         "21",
         "19",
         "22"
-      ]
+      ],
+      "id": "question_117",
+      "translations": {
+        "en_us": {
+          "question": "√400 = ?",
+          "correct_answer": "20",
+          "wrong_answers": [
+            "21",
+            "19",
+            "22"
+          ]
+        }
+      }
     },
     {
       "question": "√441 = ?",
@@ -1060,7 +2464,19 @@
         "22",
         "20",
         "23"
-      ]
+      ],
+      "id": "question_118",
+      "translations": {
+        "en_us": {
+          "question": "√441 = ?",
+          "correct_answer": "21",
+          "wrong_answers": [
+            "22",
+            "20",
+            "23"
+          ]
+        }
+      }
     },
     {
       "question": "√484 = ?",
@@ -1069,7 +2485,19 @@
         "23",
         "21",
         "24"
-      ]
+      ],
+      "id": "question_119",
+      "translations": {
+        "en_us": {
+          "question": "√484 = ?",
+          "correct_answer": "22",
+          "wrong_answers": [
+            "23",
+            "21",
+            "24"
+          ]
+        }
+      }
     },
     {
       "question": "√529 = ?",
@@ -1078,7 +2506,19 @@
         "24",
         "22",
         "25"
-      ]
+      ],
+      "id": "question_120",
+      "translations": {
+        "en_us": {
+          "question": "√529 = ?",
+          "correct_answer": "23",
+          "wrong_answers": [
+            "24",
+            "22",
+            "25"
+          ]
+        }
+      }
     },
     {
       "question": "2³ = ?",
@@ -1087,7 +2527,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_121",
+      "translations": {
+        "en_us": {
+          "question": "2³ = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "3³ = ?",
@@ -1096,7 +2548,19 @@
         "28",
         "26",
         "29"
-      ]
+      ],
+      "id": "question_122",
+      "translations": {
+        "en_us": {
+          "question": "3³ = ?",
+          "correct_answer": "27",
+          "wrong_answers": [
+            "28",
+            "26",
+            "29"
+          ]
+        }
+      }
     },
     {
       "question": "1/3 + 2/3 = ?",
@@ -1105,7 +2569,19 @@
         "4/3",
         "2/3",
         "3/4"
-      ]
+      ],
+      "id": "question_123",
+      "translations": {
+        "en_us": {
+          "question": "1/3 + 2/3 = ?",
+          "correct_answer": "1/1",
+          "wrong_answers": [
+            "4/3",
+            "2/3",
+            "3/4"
+          ]
+        }
+      }
     },
     {
       "question": "2/4 + 1/4 = ?",
@@ -1114,7 +2590,19 @@
         "1/1",
         "1/2",
         "3/5"
-      ]
+      ],
+      "id": "question_124",
+      "translations": {
+        "en_us": {
+          "question": "2/4 + 1/4 = ?",
+          "correct_answer": "3/4",
+          "wrong_answers": [
+            "1/1",
+            "1/2",
+            "3/5"
+          ]
+        }
+      }
     },
     {
       "question": "3/5 + 2/5 = ?",
@@ -1123,7 +2611,19 @@
         "6/5",
         "4/5",
         "5/6"
-      ]
+      ],
+      "id": "question_125",
+      "translations": {
+        "en_us": {
+          "question": "3/5 + 2/5 = ?",
+          "correct_answer": "1/1",
+          "wrong_answers": [
+            "6/5",
+            "4/5",
+            "5/6"
+          ]
+        }
+      }
     },
     {
       "question": "4/6 + 3/6 = ?",
@@ -1132,7 +2632,19 @@
         "4/3",
         "1/1",
         "3/2"
-      ]
+      ],
+      "id": "question_126",
+      "translations": {
+        "en_us": {
+          "question": "4/6 + 3/6 = ?",
+          "correct_answer": "7/6",
+          "wrong_answers": [
+            "4/3",
+            "1/1",
+            "3/2"
+          ]
+        }
+      }
     },
     {
       "question": "5/7 + 4/7 = ?",
@@ -1141,7 +2653,19 @@
         "10/7",
         "8/7",
         "9/8"
-      ]
+      ],
+      "id": "question_127",
+      "translations": {
+        "en_us": {
+          "question": "5/7 + 4/7 = ?",
+          "correct_answer": "9/7",
+          "wrong_answers": [
+            "10/7",
+            "8/7",
+            "9/8"
+          ]
+        }
+      }
     },
     {
       "question": "6/8 + 5/8 = ?",
@@ -1150,7 +2674,19 @@
         "3/2",
         "5/4",
         "11/9"
-      ]
+      ],
+      "id": "question_128",
+      "translations": {
+        "en_us": {
+          "question": "6/8 + 5/8 = ?",
+          "correct_answer": "11/8",
+          "wrong_answers": [
+            "3/2",
+            "5/4",
+            "11/9"
+          ]
+        }
+      }
     },
     {
       "question": "7/9 + 6/9 = ?",
@@ -1159,7 +2695,19 @@
         "14/9",
         "4/3",
         "13/10"
-      ]
+      ],
+      "id": "question_129",
+      "translations": {
+        "en_us": {
+          "question": "7/9 + 6/9 = ?",
+          "correct_answer": "13/9",
+          "wrong_answers": [
+            "14/9",
+            "4/3",
+            "13/10"
+          ]
+        }
+      }
     },
     {
       "question": "8/10 + 7/10 = ?",
@@ -1168,7 +2716,19 @@
         "8/5",
         "7/5",
         "15/11"
-      ]
+      ],
+      "id": "question_130",
+      "translations": {
+        "en_us": {
+          "question": "8/10 + 7/10 = ?",
+          "correct_answer": "3/2",
+          "wrong_answers": [
+            "8/5",
+            "7/5",
+            "15/11"
+          ]
+        }
+      }
     },
     {
       "question": "9/11 + 8/11 = ?",
@@ -1177,7 +2737,19 @@
         "18/11",
         "16/11",
         "17/12"
-      ]
+      ],
+      "id": "question_131",
+      "translations": {
+        "en_us": {
+          "question": "9/11 + 8/11 = ?",
+          "correct_answer": "17/11",
+          "wrong_answers": [
+            "18/11",
+            "16/11",
+            "17/12"
+          ]
+        }
+      }
     },
     {
       "question": "10/12 + 9/12 = ?",
@@ -1186,7 +2758,19 @@
         "5/3",
         "3/2",
         "19/13"
-      ]
+      ],
+      "id": "question_132",
+      "translations": {
+        "en_us": {
+          "question": "10/12 + 9/12 = ?",
+          "correct_answer": "19/12",
+          "wrong_answers": [
+            "5/3",
+            "3/2",
+            "19/13"
+          ]
+        }
+      }
     },
     {
       "question": "11/13 + 10/13 = ?",
@@ -1195,7 +2779,19 @@
         "22/13",
         "20/13",
         "3/2"
-      ]
+      ],
+      "id": "question_133",
+      "translations": {
+        "en_us": {
+          "question": "11/13 + 10/13 = ?",
+          "correct_answer": "21/13",
+          "wrong_answers": [
+            "22/13",
+            "20/13",
+            "3/2"
+          ]
+        }
+      }
     },
     {
       "question": "12/14 + 11/14 = ?",
@@ -1204,7 +2800,19 @@
         "12/7",
         "11/7",
         "23/15"
-      ]
+      ],
+      "id": "question_134",
+      "translations": {
+        "en_us": {
+          "question": "12/14 + 11/14 = ?",
+          "correct_answer": "23/14",
+          "wrong_answers": [
+            "12/7",
+            "11/7",
+            "23/15"
+          ]
+        }
+      }
     },
     {
       "question": "13/15 + 12/15 = ?",
@@ -1213,7 +2821,19 @@
         "26/15",
         "8/5",
         "25/16"
-      ]
+      ],
+      "id": "question_135",
+      "translations": {
+        "en_us": {
+          "question": "13/15 + 12/15 = ?",
+          "correct_answer": "5/3",
+          "wrong_answers": [
+            "26/15",
+            "8/5",
+            "25/16"
+          ]
+        }
+      }
     },
     {
       "question": "14/16 + 13/16 = ?",
@@ -1222,7 +2842,19 @@
         "7/4",
         "13/8",
         "27/17"
-      ]
+      ],
+      "id": "question_136",
+      "translations": {
+        "en_us": {
+          "question": "14/16 + 13/16 = ?",
+          "correct_answer": "27/16",
+          "wrong_answers": [
+            "7/4",
+            "13/8",
+            "27/17"
+          ]
+        }
+      }
     },
     {
       "question": "15/17 + 14/17 = ?",
@@ -1231,7 +2863,19 @@
         "30/17",
         "28/17",
         "29/18"
-      ]
+      ],
+      "id": "question_137",
+      "translations": {
+        "en_us": {
+          "question": "15/17 + 14/17 = ?",
+          "correct_answer": "29/17",
+          "wrong_answers": [
+            "30/17",
+            "28/17",
+            "29/18"
+          ]
+        }
+      }
     },
     {
       "question": "16/18 + 15/18 = ?",
@@ -1240,7 +2884,19 @@
         "16/9",
         "5/3",
         "31/19"
-      ]
+      ],
+      "id": "question_138",
+      "translations": {
+        "en_us": {
+          "question": "16/18 + 15/18 = ?",
+          "correct_answer": "31/18",
+          "wrong_answers": [
+            "16/9",
+            "5/3",
+            "31/19"
+          ]
+        }
+      }
     },
     {
       "question": "17/19 + 16/19 = ?",
@@ -1249,7 +2905,19 @@
         "34/19",
         "32/19",
         "33/20"
-      ]
+      ],
+      "id": "question_139",
+      "translations": {
+        "en_us": {
+          "question": "17/19 + 16/19 = ?",
+          "correct_answer": "33/19",
+          "wrong_answers": [
+            "34/19",
+            "32/19",
+            "33/20"
+          ]
+        }
+      }
     },
     {
       "question": "18/20 + 17/20 = ?",
@@ -1258,7 +2926,19 @@
         "9/5",
         "17/10",
         "5/3"
-      ]
+      ],
+      "id": "question_140",
+      "translations": {
+        "en_us": {
+          "question": "18/20 + 17/20 = ?",
+          "correct_answer": "7/4",
+          "wrong_answers": [
+            "9/5",
+            "17/10",
+            "5/3"
+          ]
+        }
+      }
     },
     {
       "question": "19/21 + 18/21 = ?",
@@ -1267,7 +2947,19 @@
         "38/21",
         "12/7",
         "37/22"
-      ]
+      ],
+      "id": "question_141",
+      "translations": {
+        "en_us": {
+          "question": "19/21 + 18/21 = ?",
+          "correct_answer": "37/21",
+          "wrong_answers": [
+            "38/21",
+            "12/7",
+            "37/22"
+          ]
+        }
+      }
     },
     {
       "question": "20/22 + 19/22 = ?",
@@ -1276,7 +2968,19 @@
         "20/11",
         "19/11",
         "39/23"
-      ]
+      ],
+      "id": "question_142",
+      "translations": {
+        "en_us": {
+          "question": "20/22 + 19/22 = ?",
+          "correct_answer": "39/22",
+          "wrong_answers": [
+            "20/11",
+            "19/11",
+            "39/23"
+          ]
+        }
+      }
     },
     {
       "question": "21/23 + 20/23 = ?",
@@ -1285,7 +2989,19 @@
         "42/23",
         "40/23",
         "41/24"
-      ]
+      ],
+      "id": "question_143",
+      "translations": {
+        "en_us": {
+          "question": "21/23 + 20/23 = ?",
+          "correct_answer": "41/23",
+          "wrong_answers": [
+            "42/23",
+            "40/23",
+            "41/24"
+          ]
+        }
+      }
     },
     {
       "question": "22/24 + 21/24 = ?",
@@ -1294,7 +3010,19 @@
         "11/6",
         "7/4",
         "43/25"
-      ]
+      ],
+      "id": "question_144",
+      "translations": {
+        "en_us": {
+          "question": "22/24 + 21/24 = ?",
+          "correct_answer": "43/24",
+          "wrong_answers": [
+            "11/6",
+            "7/4",
+            "43/25"
+          ]
+        }
+      }
     },
     {
       "question": "23/25 + 22/25 = ?",
@@ -1303,7 +3031,19 @@
         "46/25",
         "44/25",
         "45/26"
-      ]
+      ],
+      "id": "question_145",
+      "translations": {
+        "en_us": {
+          "question": "23/25 + 22/25 = ?",
+          "correct_answer": "9/5",
+          "wrong_answers": [
+            "46/25",
+            "44/25",
+            "45/26"
+          ]
+        }
+      }
     },
     {
       "question": "24/26 + 23/26 = ?",
@@ -1312,7 +3052,19 @@
         "24/13",
         "23/13",
         "47/27"
-      ]
+      ],
+      "id": "question_146",
+      "translations": {
+        "en_us": {
+          "question": "24/26 + 23/26 = ?",
+          "correct_answer": "47/26",
+          "wrong_answers": [
+            "24/13",
+            "23/13",
+            "47/27"
+          ]
+        }
+      }
     },
     {
       "question": "25/27 + 24/27 = ?",
@@ -1321,7 +3073,19 @@
         "50/27",
         "16/9",
         "7/4"
-      ]
+      ],
+      "id": "question_147",
+      "translations": {
+        "en_us": {
+          "question": "25/27 + 24/27 = ?",
+          "correct_answer": "49/27",
+          "wrong_answers": [
+            "50/27",
+            "16/9",
+            "7/4"
+          ]
+        }
+      }
     },
     {
       "question": "26/28 + 25/28 = ?",
@@ -1330,7 +3094,19 @@
         "13/7",
         "25/14",
         "51/29"
-      ]
+      ],
+      "id": "question_148",
+      "translations": {
+        "en_us": {
+          "question": "26/28 + 25/28 = ?",
+          "correct_answer": "51/28",
+          "wrong_answers": [
+            "13/7",
+            "25/14",
+            "51/29"
+          ]
+        }
+      }
     },
     {
       "question": "27/29 + 26/29 = ?",
@@ -1339,7 +3115,19 @@
         "54/29",
         "52/29",
         "53/30"
-      ]
+      ],
+      "id": "question_149",
+      "translations": {
+        "en_us": {
+          "question": "27/29 + 26/29 = ?",
+          "correct_answer": "53/29",
+          "wrong_answers": [
+            "54/29",
+            "52/29",
+            "53/30"
+          ]
+        }
+      }
     },
     {
       "question": "28/30 + 27/30 = ?",
@@ -1348,7 +3136,19 @@
         "28/15",
         "9/5",
         "55/31"
-      ]
+      ],
+      "id": "question_150",
+      "translations": {
+        "en_us": {
+          "question": "28/30 + 27/30 = ?",
+          "correct_answer": "11/6",
+          "wrong_answers": [
+            "28/15",
+            "9/5",
+            "55/31"
+          ]
+        }
+      }
     },
     {
       "question": "29/31 + 28/31 = ?",
@@ -1357,7 +3157,19 @@
         "58/31",
         "56/31",
         "57/32"
-      ]
+      ],
+      "id": "question_151",
+      "translations": {
+        "en_us": {
+          "question": "29/31 + 28/31 = ?",
+          "correct_answer": "57/31",
+          "wrong_answers": [
+            "58/31",
+            "56/31",
+            "57/32"
+          ]
+        }
+      }
     },
     {
       "question": "30/32 + 29/32 = ?",
@@ -1366,7 +3178,19 @@
         "15/8",
         "29/16",
         "59/33"
-      ]
+      ],
+      "id": "question_152",
+      "translations": {
+        "en_us": {
+          "question": "30/32 + 29/32 = ?",
+          "correct_answer": "59/32",
+          "wrong_answers": [
+            "15/8",
+            "29/16",
+            "59/33"
+          ]
+        }
+      }
     },
     {
       "question": "31/33 + 30/33 = ?",
@@ -1375,7 +3199,19 @@
         "62/33",
         "20/11",
         "61/34"
-      ]
+      ],
+      "id": "question_153",
+      "translations": {
+        "en_us": {
+          "question": "31/33 + 30/33 = ?",
+          "correct_answer": "61/33",
+          "wrong_answers": [
+            "62/33",
+            "20/11",
+            "61/34"
+          ]
+        }
+      }
     },
     {
       "question": "32/34 + 31/34 = ?",
@@ -1384,7 +3220,19 @@
         "32/17",
         "31/17",
         "9/5"
-      ]
+      ],
+      "id": "question_154",
+      "translations": {
+        "en_us": {
+          "question": "32/34 + 31/34 = ?",
+          "correct_answer": "63/34",
+          "wrong_answers": [
+            "32/17",
+            "31/17",
+            "9/5"
+          ]
+        }
+      }
     },
     {
       "question": "33/35 + 32/35 = ?",
@@ -1393,7 +3241,19 @@
         "66/35",
         "64/35",
         "65/36"
-      ]
+      ],
+      "id": "question_155",
+      "translations": {
+        "en_us": {
+          "question": "33/35 + 32/35 = ?",
+          "correct_answer": "13/7",
+          "wrong_answers": [
+            "66/35",
+            "64/35",
+            "65/36"
+          ]
+        }
+      }
     },
     {
       "question": "34/36 + 33/36 = ?",
@@ -1402,7 +3262,19 @@
         "17/9",
         "11/6",
         "67/37"
-      ]
+      ],
+      "id": "question_156",
+      "translations": {
+        "en_us": {
+          "question": "34/36 + 33/36 = ?",
+          "correct_answer": "67/36",
+          "wrong_answers": [
+            "17/9",
+            "11/6",
+            "67/37"
+          ]
+        }
+      }
     },
     {
       "question": "35/37 + 34/37 = ?",
@@ -1411,7 +3283,19 @@
         "70/37",
         "68/37",
         "69/38"
-      ]
+      ],
+      "id": "question_157",
+      "translations": {
+        "en_us": {
+          "question": "35/37 + 34/37 = ?",
+          "correct_answer": "69/37",
+          "wrong_answers": [
+            "70/37",
+            "68/37",
+            "69/38"
+          ]
+        }
+      }
     },
     {
       "question": "36/38 + 35/38 = ?",
@@ -1420,7 +3304,19 @@
         "36/19",
         "35/19",
         "71/39"
-      ]
+      ],
+      "id": "question_158",
+      "translations": {
+        "en_us": {
+          "question": "36/38 + 35/38 = ?",
+          "correct_answer": "71/38",
+          "wrong_answers": [
+            "36/19",
+            "35/19",
+            "71/39"
+          ]
+        }
+      }
     },
     {
       "question": "37/39 + 36/39 = ?",
@@ -1429,7 +3325,19 @@
         "74/39",
         "24/13",
         "73/40"
-      ]
+      ],
+      "id": "question_159",
+      "translations": {
+        "en_us": {
+          "question": "37/39 + 36/39 = ?",
+          "correct_answer": "73/39",
+          "wrong_answers": [
+            "74/39",
+            "24/13",
+            "73/40"
+          ]
+        }
+      }
     },
     {
       "question": "38/40 + 37/40 = ?",
@@ -1438,7 +3346,19 @@
         "19/10",
         "37/20",
         "75/41"
-      ]
+      ],
+      "id": "question_160",
+      "translations": {
+        "en_us": {
+          "question": "38/40 + 37/40 = ?",
+          "correct_answer": "15/8",
+          "wrong_answers": [
+            "19/10",
+            "37/20",
+            "75/41"
+          ]
+        }
+      }
     },
     {
       "question": "39/41 + 38/41 = ?",
@@ -1447,7 +3367,19 @@
         "78/41",
         "76/41",
         "11/6"
-      ]
+      ],
+      "id": "question_161",
+      "translations": {
+        "en_us": {
+          "question": "39/41 + 38/41 = ?",
+          "correct_answer": "77/41",
+          "wrong_answers": [
+            "78/41",
+            "76/41",
+            "11/6"
+          ]
+        }
+      }
     },
     {
       "question": "20 的 10% 是多少？",
@@ -1456,7 +3388,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_162",
+      "translations": {
+        "en_us": {
+          "question": "What is 10% of 20?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "40 的 20% 是多少？",
@@ -1465,7 +3409,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_163",
+      "translations": {
+        "en_us": {
+          "question": "What is 20% of 40?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "60 的 25% 是多少？",
@@ -1474,7 +3430,19 @@
         "16",
         "14",
         "17"
-      ]
+      ],
+      "id": "question_164",
+      "translations": {
+        "en_us": {
+          "question": "What is 25% of 60?",
+          "correct_answer": "15",
+          "wrong_answers": [
+            "16",
+            "14",
+            "17"
+          ]
+        }
+      }
     },
     {
       "question": "80 的 50% 是多少？",
@@ -1483,7 +3451,19 @@
         "41",
         "39",
         "42"
-      ]
+      ],
+      "id": "question_165",
+      "translations": {
+        "en_us": {
+          "question": "What is 50% of 80?",
+          "correct_answer": "40",
+          "wrong_answers": [
+            "41",
+            "39",
+            "42"
+          ]
+        }
+      }
     },
     {
       "question": "100 的 10% 是多少？",
@@ -1492,7 +3472,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_166",
+      "translations": {
+        "en_us": {
+          "question": "What is 10% of 100?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "120 的 20% 是多少？",
@@ -1501,7 +3493,19 @@
         "25",
         "23",
         "26"
-      ]
+      ],
+      "id": "question_167",
+      "translations": {
+        "en_us": {
+          "question": "What is 20% of 120?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "25",
+            "23",
+            "26"
+          ]
+        }
+      }
     },
     {
       "question": "140 的 25% 是多少？",
@@ -1510,7 +3514,19 @@
         "36",
         "34",
         "37"
-      ]
+      ],
+      "id": "question_168",
+      "translations": {
+        "en_us": {
+          "question": "What is 25% of 140?",
+          "correct_answer": "35",
+          "wrong_answers": [
+            "36",
+            "34",
+            "37"
+          ]
+        }
+      }
     },
     {
       "question": "160 的 50% 是多少？",
@@ -1519,7 +3535,19 @@
         "81",
         "79",
         "82"
-      ]
+      ],
+      "id": "question_169",
+      "translations": {
+        "en_us": {
+          "question": "What is 50% of 160?",
+          "correct_answer": "80",
+          "wrong_answers": [
+            "81",
+            "79",
+            "82"
+          ]
+        }
+      }
     },
     {
       "question": "180 的 10% 是多少？",
@@ -1528,7 +3556,19 @@
         "19",
         "17",
         "20"
-      ]
+      ],
+      "id": "question_170",
+      "translations": {
+        "en_us": {
+          "question": "What is 10% of 180?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "19",
+            "17",
+            "20"
+          ]
+        }
+      }
     },
     {
       "question": "200 的 20% 是多少？",
@@ -1537,7 +3577,19 @@
         "41",
         "39",
         "42"
-      ]
+      ],
+      "id": "question_171",
+      "translations": {
+        "en_us": {
+          "question": "What is 20% of 200?",
+          "correct_answer": "40",
+          "wrong_answers": [
+            "41",
+            "39",
+            "42"
+          ]
+        }
+      }
     },
     {
       "question": "220 的 25% 是多少？",
@@ -1546,7 +3598,19 @@
         "56",
         "54",
         "57"
-      ]
+      ],
+      "id": "question_172",
+      "translations": {
+        "en_us": {
+          "question": "What is 25% of 220?",
+          "correct_answer": "55",
+          "wrong_answers": [
+            "56",
+            "54",
+            "57"
+          ]
+        }
+      }
     },
     {
       "question": "240 的 50% 是多少？",
@@ -1555,7 +3619,19 @@
         "121",
         "119",
         "122"
-      ]
+      ],
+      "id": "question_173",
+      "translations": {
+        "en_us": {
+          "question": "What is 50% of 240?",
+          "correct_answer": "120",
+          "wrong_answers": [
+            "121",
+            "119",
+            "122"
+          ]
+        }
+      }
     },
     {
       "question": "260 的 10% 是多少？",
@@ -1564,7 +3640,19 @@
         "27",
         "25",
         "28"
-      ]
+      ],
+      "id": "question_174",
+      "translations": {
+        "en_us": {
+          "question": "What is 10% of 260?",
+          "correct_answer": "26",
+          "wrong_answers": [
+            "27",
+            "25",
+            "28"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 3、宽 5，周长是多少？",
@@ -1573,7 +3661,19 @@
         "17",
         "15",
         "18"
-      ]
+      ],
+      "id": "question_175",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 3 and the width is 5. What is the perimeter?",
+          "correct_answer": "16",
+          "wrong_answers": [
+            "17",
+            "15",
+            "18"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 4、宽 6，周长是多少？",
@@ -1582,7 +3682,19 @@
         "21",
         "19",
         "22"
-      ]
+      ],
+      "id": "question_176",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 4 and the width is 6. What is the perimeter?",
+          "correct_answer": "20",
+          "wrong_answers": [
+            "21",
+            "19",
+            "22"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 5、宽 7，周长是多少？",
@@ -1591,7 +3703,19 @@
         "25",
         "23",
         "26"
-      ]
+      ],
+      "id": "question_177",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 5 and the width is 7. What is the perimeter?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "25",
+            "23",
+            "26"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 6、宽 8，周长是多少？",
@@ -1600,7 +3724,19 @@
         "29",
         "27",
         "30"
-      ]
+      ],
+      "id": "question_178",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 6 and the width is 8. What is the perimeter?",
+          "correct_answer": "28",
+          "wrong_answers": [
+            "29",
+            "27",
+            "30"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 7、宽 9，周长是多少？",
@@ -1609,7 +3745,19 @@
         "33",
         "31",
         "34"
-      ]
+      ],
+      "id": "question_179",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 7 and the width is 9. What is the perimeter?",
+          "correct_answer": "32",
+          "wrong_answers": [
+            "33",
+            "31",
+            "34"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 8、宽 10，周长是多少？",
@@ -1618,7 +3766,19 @@
         "37",
         "35",
         "38"
-      ]
+      ],
+      "id": "question_180",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 8 and the width is 10. What is the perimeter?",
+          "correct_answer": "36",
+          "wrong_answers": [
+            "37",
+            "35",
+            "38"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 9、宽 11，周长是多少？",
@@ -1627,7 +3787,19 @@
         "41",
         "39",
         "42"
-      ]
+      ],
+      "id": "question_181",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 9 and the width is 11. What is the perimeter?",
+          "correct_answer": "40",
+          "wrong_answers": [
+            "41",
+            "39",
+            "42"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 10、宽 5，周长是多少？",
@@ -1636,7 +3808,19 @@
         "31",
         "29",
         "32"
-      ]
+      ],
+      "id": "question_182",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 10 and the width is 5. What is the perimeter?",
+          "correct_answer": "30",
+          "wrong_answers": [
+            "31",
+            "29",
+            "32"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 11、宽 6，周长是多少？",
@@ -1645,7 +3829,19 @@
         "35",
         "33",
         "36"
-      ]
+      ],
+      "id": "question_183",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 11 and the width is 6. What is the perimeter?",
+          "correct_answer": "34",
+          "wrong_answers": [
+            "35",
+            "33",
+            "36"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 12、宽 7，周长是多少？",
@@ -1654,7 +3850,19 @@
         "39",
         "37",
         "40"
-      ]
+      ],
+      "id": "question_184",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 12 and the width is 7. What is the perimeter?",
+          "correct_answer": "38",
+          "wrong_answers": [
+            "39",
+            "37",
+            "40"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 13、宽 8，周长是多少？",
@@ -1663,7 +3871,19 @@
         "43",
         "41",
         "44"
-      ]
+      ],
+      "id": "question_185",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 13 and its width is 8. What is its perimeter?",
+          "correct_answer": "42",
+          "wrong_answers": [
+            "43",
+            "41",
+            "44"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 14、宽 9，周长是多少？",
@@ -1672,7 +3892,19 @@
         "47",
         "45",
         "48"
-      ]
+      ],
+      "id": "question_186",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 14 and the width is 9. What is the perimeter?",
+          "correct_answer": "46",
+          "wrong_answers": [
+            "47",
+            "45",
+            "48"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 15、宽 10，周长是多少？",
@@ -1681,7 +3913,19 @@
         "51",
         "49",
         "52"
-      ]
+      ],
+      "id": "question_187",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 15 and the width is 10. What is the perimeter?",
+          "correct_answer": "50",
+          "wrong_answers": [
+            "51",
+            "49",
+            "52"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 4、宽 3，面积是多少？",
@@ -1690,7 +3934,19 @@
         "13",
         "11",
         "14"
-      ]
+      ],
+      "id": "question_188",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 4 and the width is 3. What is its area?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "13",
+            "11",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 5、宽 4，面积是多少？",
@@ -1699,7 +3955,19 @@
         "21",
         "19",
         "22"
-      ]
+      ],
+      "id": "question_189",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 5 and the width is 4. What is the area?",
+          "correct_answer": "20",
+          "wrong_answers": [
+            "21",
+            "19",
+            "22"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 6、宽 5，面积是多少？",
@@ -1708,7 +3976,19 @@
         "31",
         "29",
         "32"
-      ]
+      ],
+      "id": "question_190",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 6 and the width is 5. What is the area?",
+          "correct_answer": "30",
+          "wrong_answers": [
+            "31",
+            "29",
+            "32"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 7、宽 6，面积是多少？",
@@ -1717,7 +3997,19 @@
         "43",
         "41",
         "44"
-      ]
+      ],
+      "id": "question_191",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 7 and the width is 6. What is the area?",
+          "correct_answer": "42",
+          "wrong_answers": [
+            "43",
+            "41",
+            "44"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 8、宽 7，面积是多少？",
@@ -1726,7 +4018,19 @@
         "57",
         "55",
         "58"
-      ]
+      ],
+      "id": "question_192",
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 8 and the width is 7. What is the area?",
+          "correct_answer": "56",
+          "wrong_answers": [
+            "57",
+            "55",
+            "58"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 9、宽 8，面积是多少？",
@@ -1735,7 +4039,19 @@
         "73",
         "71",
         "74"
-      ]
+      ],
+      "id": "question_193",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 9 and the width is 8. What is the area?",
+          "correct_answer": "72",
+          "wrong_answers": [
+            "73",
+            "71",
+            "74"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 10、宽 3，面积是多少？",
@@ -1744,7 +4060,19 @@
         "31",
         "29",
         "32"
-      ]
+      ],
+      "id": "question_194",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 10 and the width is 3. What is the area?",
+          "correct_answer": "30",
+          "wrong_answers": [
+            "31",
+            "29",
+            "32"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 11、宽 4，面积是多少？",
@@ -1753,7 +4081,19 @@
         "45",
         "43",
         "46"
-      ]
+      ],
+      "id": "question_195",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 11 and the width is 4. What is the area?",
+          "correct_answer": "44",
+          "wrong_answers": [
+            "45",
+            "43",
+            "46"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 12、宽 5，面积是多少？",
@@ -1762,7 +4102,19 @@
         "61",
         "59",
         "62"
-      ]
+      ],
+      "id": "question_196",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 12 and the width is 5. What is the area?",
+          "correct_answer": "60",
+          "wrong_answers": [
+            "61",
+            "59",
+            "62"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 13、宽 6，面积是多少？",
@@ -1771,7 +4123,19 @@
         "79",
         "77",
         "80"
-      ]
+      ],
+      "id": "question_197",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 13 and the width is 6. What is the area?",
+          "correct_answer": "78",
+          "wrong_answers": [
+            "79",
+            "77",
+            "80"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 14、宽 7，面积是多少？",
@@ -1780,7 +4144,19 @@
         "99",
         "97",
         "100"
-      ]
+      ],
+      "id": "question_198",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 14 and the width is 7. What is the area?",
+          "correct_answer": "98",
+          "wrong_answers": [
+            "99",
+            "97",
+            "100"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 15、宽 8，面积是多少？",
@@ -1789,7 +4165,19 @@
         "121",
         "119",
         "122"
-      ]
+      ],
+      "id": "question_199",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 15 and the width is 8. What is the area?",
+          "correct_answer": "120",
+          "wrong_answers": [
+            "121",
+            "119",
+            "122"
+          ]
+        }
+      }
     },
     {
       "question": "长方形长 16、宽 3，面积是多少？",
@@ -1798,7 +4186,19 @@
         "49",
         "47",
         "50"
-      ]
+      ],
+      "id": "question_200",
+      "translations": {
+        "en_us": {
+          "question": "The length of the rectangle is 16 and the width is 3. What is the area?",
+          "correct_answer": "48",
+          "wrong_answers": [
+            "49",
+            "47",
+            "50"
+          ]
+        }
+      }
     }
   ]
 }

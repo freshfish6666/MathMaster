@@ -168,7 +168,13 @@ public final class QuizQuestionManager extends SimpleJsonResourceReloadListener 
                 correctAnswer,
                 wrongAnswers
         );
-        return new QuizQuestion(questionId, question, correctAnswer, List.copyOf(wrongAnswers));
+        return new QuizQuestion(
+                questionId,
+                question,
+                correctAnswer,
+                List.copyOf(wrongAnswers),
+                QuestionTranslations.parse(object, label)
+        );
     }
 
     private static ResourceLocation parseQuestionId(

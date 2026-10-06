@@ -111,6 +111,7 @@ public final class IntelligenceManager {
     private static void sync(Player player) {
         if (player instanceof ServerPlayer serverPlayer) {
             serverPlayer.syncData(ModAttachments.INTELLIGENCE);
+            com.freshfish.mathmaster.ritual.NAltarAccess.tryUnlock(serverPlayer);
         }
     }
 }

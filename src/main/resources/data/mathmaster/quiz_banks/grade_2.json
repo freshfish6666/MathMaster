@@ -9,7 +9,18 @@
         "18",
         "20",
         "21"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "12 + 7 = ?",
+          "correct_answer": "19",
+          "wrong_answers": [
+            "18",
+            "20",
+            "21"
+          ]
+        }
+      }
     },
     {
       "id": "question_002",
@@ -19,7 +30,18 @@
         "6",
         "8",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "15 - 8 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_003",
@@ -29,7 +51,18 @@
         "7",
         "10",
         "14"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "3 × 4 = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "7",
+            "10",
+            "14"
+          ]
+        }
+      }
     },
     {
       "id": "question_004",
@@ -39,7 +72,18 @@
         "3",
         "5",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "20 ÷ 5 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_005",
@@ -49,7 +93,18 @@
         "12",
         "14",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "8 + 5 = ?",
+          "correct_answer": "13",
+          "wrong_answers": [
+            "12",
+            "14",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_006",
@@ -59,7 +114,18 @@
         "4",
         "6",
         "7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "9 - 4 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "4",
+            "6",
+            "7"
+          ]
+        }
+      }
     },
     {
       "id": "question_007",
@@ -69,7 +135,18 @@
         "8",
         "10",
         "14"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "6 × 2 = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "8",
+            "10",
+            "14"
+          ]
+        }
+      }
     },
     {
       "id": "question_008",
@@ -79,7 +156,18 @@
         "5",
         "7",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "18 ÷ 3 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "5",
+            "7",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_009",
@@ -89,7 +177,18 @@
         "14",
         "16",
         "17"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "7 + 8 = ?",
+          "correct_answer": "15",
+          "wrong_answers": [
+            "14",
+            "16",
+            "17"
+          ]
+        }
+      }
     },
     {
       "id": "question_010",
@@ -99,7 +198,18 @@
         "3",
         "5",
         "7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "10 - 6 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "7"
+          ]
+        }
+      }
     },
     {
       "id": "question_011",
@@ -109,7 +219,18 @@
         "20",
         "24",
         "30"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "5 × 5 = ?",
+          "correct_answer": "25",
+          "wrong_answers": [
+            "20",
+            "24",
+            "30"
+          ]
+        }
+      }
     },
     {
       "id": "question_012",
@@ -119,7 +240,18 @@
         "3",
         "5",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "24 ÷ 6 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_013",
@@ -129,7 +261,18 @@
         "14",
         "16",
         "18"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "9 + 6 = ?",
+          "correct_answer": "15",
+          "wrong_answers": [
+            "14",
+            "16",
+            "18"
+          ]
+        }
+      }
     },
     {
       "id": "question_014",
@@ -139,7 +282,18 @@
         "4",
         "6",
         "7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "14 - 9 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "4",
+            "6",
+            "7"
+          ]
+        }
+      }
     },
     {
       "id": "question_015",
@@ -149,7 +303,18 @@
         "15",
         "16",
         "21"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "3 × 6 = ?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "15",
+            "16",
+            "21"
+          ]
+        }
+      }
     },
     {
       "id": "question_016",
@@ -159,7 +324,18 @@
         "3",
         "5",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "16 ÷ 4 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_017",
@@ -169,7 +345,18 @@
         "12",
         "14",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "7 + 6 = ?",
+          "correct_answer": "13",
+          "wrong_answers": [
+            "12",
+            "14",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_018",
@@ -179,7 +366,18 @@
         "6",
         "8",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "12 - 5 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_019",
@@ -189,7 +387,18 @@
         "15",
         "18",
         "25"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "4 × 5 = ?",
+          "correct_answer": "20",
+          "wrong_answers": [
+            "15",
+            "18",
+            "25"
+          ]
+        }
+      }
     },
     {
       "id": "question_020",
@@ -199,7 +408,18 @@
         "6",
         "8",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "14 ÷ 2 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_021",
@@ -209,7 +429,18 @@
         "14",
         "16",
         "17"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "11 + 4 = ?",
+          "correct_answer": "15",
+          "wrong_answers": [
+            "14",
+            "16",
+            "17"
+          ]
+        }
+      }
     },
     {
       "id": "question_022",
@@ -219,7 +450,18 @@
         "7",
         "9",
         "10"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "15 - 7 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "7",
+            "9",
+            "10"
+          ]
+        }
+      }
     },
     {
       "id": "question_023",
@@ -229,7 +471,18 @@
         "8",
         "12",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "5 × 2 = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "8",
+            "12",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_024",
@@ -239,7 +492,18 @@
         "8",
         "7",
         "10"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "18 ÷ 2 = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "8",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "id": "question_025",
@@ -249,7 +513,18 @@
         "13",
         "15",
         "16"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "6 + 8 = ?",
+          "correct_answer": "14",
+          "wrong_answers": [
+            "13",
+            "15",
+            "16"
+          ]
+        }
+      }
     },
     {
       "id": "question_026",
@@ -259,7 +534,18 @@
         "6",
         "8",
         "5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "13 - 6 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "5"
+          ]
+        }
+      }
     },
     {
       "id": "question_027",
@@ -269,7 +555,18 @@
         "14",
         "18",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "2 × 8 = ?",
+          "correct_answer": "16",
+          "wrong_answers": [
+            "14",
+            "18",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_028",
@@ -279,7 +576,18 @@
         "4",
         "6",
         "7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "20 ÷ 4 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "4",
+            "6",
+            "7"
+          ]
+        }
+      }
     },
     {
       "id": "question_029",
@@ -289,7 +597,18 @@
         "16",
         "18",
         "19"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "9 + 8 = ?",
+          "correct_answer": "17",
+          "wrong_answers": [
+            "16",
+            "18",
+            "19"
+          ]
+        }
+      }
     },
     {
       "id": "question_030",
@@ -299,7 +618,18 @@
         "7",
         "9",
         "10"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "11 - 3 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "7",
+            "9",
+            "10"
+          ]
+        }
+      }
     },
     {
       "id": "question_031",
@@ -309,7 +639,18 @@
         "20",
         "24",
         "18"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "3 × 7 = ?",
+          "correct_answer": "21",
+          "wrong_answers": [
+            "20",
+            "24",
+            "18"
+          ]
+        }
+      }
     },
     {
       "id": "question_032",
@@ -319,7 +660,18 @@
         "6",
         "8",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "21 ÷ 3 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_033",
@@ -329,7 +681,18 @@
         "16",
         "18",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "11 + 6 = ?",
+          "correct_answer": "17",
+          "wrong_answers": [
+            "16",
+            "18",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_034",
@@ -339,7 +702,18 @@
         "8",
         "10",
         "11"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "17 - 8 = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "8",
+            "10",
+            "11"
+          ]
+        }
+      }
     },
     {
       "id": "question_035",
@@ -349,7 +723,18 @@
         "20",
         "22",
         "28"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "6 × 4 = ?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "20",
+            "22",
+            "28"
+          ]
+        }
+      }
     },
     {
       "id": "question_036",
@@ -359,7 +744,18 @@
         "5",
         "7",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "30 ÷ 5 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "5",
+            "7",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_037",
@@ -369,7 +765,18 @@
         "24",
         "26",
         "27"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "16 + 9 = ?",
+          "correct_answer": "25",
+          "wrong_answers": [
+            "24",
+            "26",
+            "27"
+          ]
+        }
+      }
     },
     {
       "id": "question_038",
@@ -379,7 +786,18 @@
         "14",
         "15",
         "17"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "23 - 7 = ?",
+          "correct_answer": "16",
+          "wrong_answers": [
+            "14",
+            "15",
+            "17"
+          ]
+        }
+      }
     },
     {
       "id": "question_039",
@@ -389,7 +807,18 @@
         "24",
         "27",
         "32"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "4 × 7 = ?",
+          "correct_answer": "28",
+          "wrong_answers": [
+            "24",
+            "27",
+            "32"
+          ]
+        }
+      }
     },
     {
       "id": "question_040",
@@ -399,7 +828,18 @@
         "6",
         "7",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "32 ÷ 4 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "6",
+            "7",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_041",
@@ -409,7 +849,18 @@
         "22",
         "23",
         "25"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "18 + 6 = ?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "22",
+            "23",
+            "25"
+          ]
+        }
+      }
     },
     {
       "id": "question_042",
@@ -419,7 +870,18 @@
         "14",
         "15",
         "17"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "25 - 9 = ?",
+          "correct_answer": "16",
+          "wrong_answers": [
+            "14",
+            "15",
+            "17"
+          ]
+        }
+      }
     },
     {
       "id": "question_043",
@@ -429,7 +891,18 @@
         "28",
         "30",
         "36"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "8 × 4 = ?",
+          "correct_answer": "32",
+          "wrong_answers": [
+            "28",
+            "30",
+            "36"
+          ]
+        }
+      }
     },
     {
       "id": "question_044",
@@ -439,7 +912,18 @@
         "5",
         "7",
         "8"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "36 ÷ 6 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "5",
+            "7",
+            "8"
+          ]
+        }
+      }
     },
     {
       "id": "question_045",
@@ -449,7 +933,18 @@
         "34",
         "36",
         "37"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "27 + 8 = ?",
+          "correct_answer": "35",
+          "wrong_answers": [
+            "34",
+            "36",
+            "37"
+          ]
+        }
+      }
     },
     {
       "id": "question_046",
@@ -459,7 +954,18 @@
         "11",
         "13",
         "14"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "19 - 7 = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "11",
+            "13",
+            "14"
+          ]
+        }
+      }
     },
     {
       "id": "question_047",
@@ -469,7 +975,18 @@
         "24",
         "26",
         "28"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "9 × 3 = ?",
+          "correct_answer": "27",
+          "wrong_answers": [
+            "24",
+            "26",
+            "28"
+          ]
+        }
+      }
     },
     {
       "id": "question_048",
@@ -479,7 +996,18 @@
         "3",
         "5",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "28 ÷ 7 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "6"
+          ]
+        }
+      }
     }
   ]
 }

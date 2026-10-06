@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchanted_chance": {
+            "type": "minecraft:lookup",
+            "values": [
+              0.33333334,
+              0.5,
+              1.0
+            ],
+            "fallback": 1.0
+          },
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.25
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_nugget"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mathmaster:entities/nine"
+}

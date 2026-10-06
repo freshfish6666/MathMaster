@@ -89,6 +89,8 @@ public final class MathMasterGuideMenu extends AbstractContainerMenu {
                     index + 1,
                     correct ? question.question() : "",
                     correct ? question.correctAnswer() : "",
+                    correct ? question.text("en_us").question() : "",
+                    correct ? question.text("en_us").correctAnswer() : "",
                     correct
             ));
         }
@@ -107,6 +109,8 @@ public final class MathMasterGuideMenu extends AbstractContainerMenu {
             if (question.correct()) {
                 buffer.writeUtf(question.question());
                 buffer.writeUtf(question.correctAnswer());
+                buffer.writeUtf(question.englishQuestion());
+                buffer.writeUtf(question.englishCorrectAnswer());
             }
         }
     }
@@ -122,7 +126,16 @@ public final class MathMasterGuideMenu extends AbstractContainerMenu {
             boolean correct = buffer.readBoolean();
             String question = correct ? buffer.readUtf() : "";
             String correctAnswer = correct ? buffer.readUtf() : "";
-            questions.add(new QuestionEntry(index + 1, question, correctAnswer, correct));
+            String englishQuestion = correct ? buffer.readUtf() : "";
+            String englishCorrectAnswer = correct ? buffer.readUtf() : "";
+            questions.add(new QuestionEntry(
+                    index + 1,
+                    question,
+                    correctAnswer,
+                    englishQuestion,
+                    englishCorrectAnswer,
+                    correct
+            ));
         }
         return List.copyOf(questions);
     }
@@ -139,7 +152,16 @@ public final class MathMasterGuideMenu extends AbstractContainerMenu {
             int number,
             String question,
             String correctAnswer,
+            String englishQuestion,
+            String englishCorrectAnswer,
             boolean correct
     ) {
+        public String question(boolean english) {
+            return english ? englishQuestion : question;
+        }
+
+        public String correctAnswer(boolean english) {
+            return english ? englishCorrectAnswer : correctAnswer;
+        }
     }
 }

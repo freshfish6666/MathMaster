@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "mathmaster:block/purple_collatz_planks",
+    "side": "mathmaster:block/purple_collatz_planks",
+    "top": "mathmaster:block/purple_collatz_planks"
+  }
+}

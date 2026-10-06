@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:collatz_pressure_plate",
+    "mathmaster:purple_collatz_pressure_plate",
+    "mathmaster:blue_collatz_pressure_plate"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#mathmaster:has_structure/n_trial",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "start_pool": "mathmaster:trials/n_trial",
+  "size": 1,
+  "start_height": {
+    "absolute": -1
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 64,
+  "use_expansion_hack": false
+}

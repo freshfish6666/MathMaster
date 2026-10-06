@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_bricks",
+          "weight": 40,
+          "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 2}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_nugget",
+          "weight": 40,
+          "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 3, "max": 9}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 20,
+          "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 3}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_hoe",
+          "weight": 5,
+          "functions": [{"function": "minecraft:enchant_randomly", "options": "#minecraft:on_random_loot"}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_shovel",
+          "weight": 5,
+          "functions": [{"function": "minecraft:enchant_randomly", "options": "#minecraft:on_random_loot"}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_helmet",
+          "weight": 5,
+          "functions": [{"function": "minecraft:enchant_randomly", "options": "#minecraft:on_random_loot"}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_boots",
+          "weight": 5,
+          "functions": [{"function": "minecraft:enchant_randomly", "options": "#minecraft:on_random_loot"}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:graduation_cap",
+          "weight": 5,
+          "functions": [{"function": "minecraft:enchant_randomly", "options": "#minecraft:on_random_loot"}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:prime_core",
+          "weight": 5,
+          "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 3}}]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_ingot",
+          "weight": 2,
+          "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 2}}]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mathmaster:chests/unfinished_nether_gateway"
+}

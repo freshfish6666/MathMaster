@@ -9,7 +9,18 @@
         "1 和 6",
         "-2 和 -3",
         "2 和 -3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the two roots of the equation x² - 5x + 6 = 0?",
+          "correct_answer": "2 and 3",
+          "wrong_answers": [
+            "1 and 6",
+            "-2 and -3",
+            "2 and -3"
+          ]
+        }
+      }
     },
     {
       "id": "question_002",
@@ -19,7 +30,18 @@
         "√3/2",
         "√2/2",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "sin 30° = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "√3/2",
+            "√2/2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_003",
@@ -29,7 +51,18 @@
         "2",
         "4",
         "8"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "log₂8 = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "4",
+            "8"
+          ]
+        }
+      }
     },
     {
       "id": "question_004",
@@ -39,7 +72,18 @@
         "6",
         "8",
         "5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Function f(x) = 2x + 1, f(3) = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "5"
+          ]
+        }
+      }
     },
     {
       "id": "question_005",
@@ -49,7 +93,18 @@
         "30",
         "28",
         "32"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the 10th term of the arithmetic sequence 2, 5, 8, ...?",
+          "correct_answer": "29",
+          "wrong_answers": [
+            "30",
+            "28",
+            "32"
+          ]
+        }
+      }
     },
     {
       "id": "question_006",
@@ -59,7 +114,18 @@
         "-5",
         "0",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "| -5 | = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "-5",
+            "0",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_007",
@@ -69,7 +135,18 @@
         "3",
         "6",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the number of subsets of the set {1, 2, 3}?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "3",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_008",
@@ -79,7 +156,18 @@
         "0",
         "-1",
         "1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "cos 0° = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "-1",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_009",
@@ -89,7 +177,18 @@
         "{2, 3}",
         "{1, 2, 3, 4, 5}",
         "{1, 4}"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the set A = {1, 2, 3}, B = {2, 3, 4}, then A ∪ B = ?",
+          "correct_answer": "{1, 2, 3, 4}",
+          "wrong_answers": [
+            "{2, 3}",
+            "{1, 2, 3, 4, 5}",
+            "{1, 4}"
+          ]
+        }
+      }
     },
     {
       "id": "question_010",
@@ -99,7 +198,18 @@
         "{1, 2, 3}",
         "{4}",
         "{1, 4, 5}"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the complete set U = {1, 2, 3, 4, 5}, A = {1, 2, 3}, then ∁UA = ?",
+          "correct_answer": "{4, 5}",
+          "wrong_answers": [
+            "{1, 2, 3}",
+            "{4}",
+            "{1, 4, 5}"
+          ]
+        }
+      }
     },
     {
       "id": "question_011",
@@ -109,7 +219,18 @@
         "6",
         "8",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the number of proper subsets of the set {a, b, c}?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_012",
@@ -119,7 +240,18 @@
         "[2, 5]",
         "(2, 5)",
         "[2, 5)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The set A = {x | x > 2}, B = {x | x ≤ 5}, then A ∩ B = ?",
+          "correct_answer": "(2, 5]",
+          "wrong_answers": [
+            "[2, 5]",
+            "(2, 5)",
+            "[2, 5)"
+          ]
+        }
+      }
     },
     {
       "id": "question_013",
@@ -129,7 +261,18 @@
         "{0}",
         "{∅}",
         "{1, 2}"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Which of the following sets is the empty set?",
+          "correct_answer": "{x | x² + 1 = 0, x ∈ R}",
+          "wrong_answers": [
+            "{0}",
+            "{∅}",
+            "{1, 2}"
+          ]
+        }
+      }
     },
     {
       "id": "question_014",
@@ -139,7 +282,18 @@
         "{x | x > 1}",
         "{x | x ≤ 1}",
         "R"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the domain of function f(x) = √(x - 1)?",
+          "correct_answer": "{x | x ≥ 1}",
+          "wrong_answers": [
+            "{x|x>1}",
+            "{x|x≤1}",
+            "R"
+          ]
+        }
+      }
     },
     {
       "id": "question_015",
@@ -149,7 +303,18 @@
         "{x | x > 2}",
         "R",
         "{x | x < 2}"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the domain of function f(x) = 1/(x - 2)?",
+          "correct_answer": "{x | x ≠ 2}",
+          "wrong_answers": [
+            "{x | x > 2}",
+            "R",
+            "{x | x < 2}"
+          ]
+        }
+      }
     },
     {
       "id": "question_016",
@@ -159,7 +324,18 @@
         "(-2, 2)",
         "R",
         "[0, 4]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the domain of function f(x) = √(4 - x²)?",
+          "correct_answer": "[-2, 2]",
+          "wrong_answers": [
+            "(-2, 2)",
+            "R",
+            "[0, 4]"
+          ]
+        }
+      }
     },
     {
       "id": "question_017",
@@ -169,7 +345,18 @@
         "{1, 4, 9}",
         "[1, 5]",
         "{0, 1, 2}"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the function f(x) = x² + 1, x ∈ {0, 1, 2}, what is the range of the function?",
+          "correct_answer": "{1, 2, 5}",
+          "wrong_answers": [
+            "{1, 4, 9}",
+            "[1, 5]",
+            "{0, 1, 2}"
+          ]
+        }
+      }
     },
     {
       "id": "question_018",
@@ -179,7 +366,18 @@
         "原点对称",
         "x 轴对称",
         "直线 y = x 对称"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the graph of the function f(x) = |x| about?",
+          "correct_answer": "y-axis symmetry",
+          "wrong_answers": [
+            "Symmetry at origin",
+            "x-axis symmetry",
+            "The line y = x is symmetrical"
+          ]
+        }
+      }
     },
     {
       "id": "question_019",
@@ -189,7 +387,18 @@
         "(1, +∞)",
         "(-∞, 2)",
         "(-1, +∞)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the monotonically increasing interval of the function f(x) = -x² + 2x?",
+          "correct_answer": "(-∞, 1)",
+          "wrong_answers": [
+            "(1, +∞)",
+            "(-∞, 2)",
+            "(-1, +∞)"
+          ]
+        }
+      }
     },
     {
       "id": "question_020",
@@ -199,7 +408,18 @@
         "偶函数",
         "非奇非偶函数",
         "既奇又偶函数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the function f(x) = x³?",
+          "correct_answer": "odd function",
+          "wrong_answers": [
+            "even function",
+            "non-odd and non-even functions",
+            "both odd and even functions"
+          ]
+        }
+      }
     },
     {
       "id": "question_021",
@@ -209,7 +429,18 @@
         "3",
         "0",
         "-2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If f(x) is an odd function defined on R and f(2) = 3, then f(-2) = ?",
+          "correct_answer": "-3",
+          "wrong_answers": [
+            "3",
+            "0",
+            "-2"
+          ]
+        }
+      }
     },
     {
       "id": "question_022",
@@ -219,7 +450,18 @@
         "f(-1) > f(2)",
         "f(-1) = f(2)",
         "无法确定"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If f(x) is an even function and increases monotonically on (0, +∞), what is the relationship between f(-1) and f(2)?",
+          "correct_answer": "f(-1) < f(2)",
+          "wrong_answers": [
+            "f(-1) > f(2)",
+            "f(-1) = f(2)",
+            "Unable to determine"
+          ]
+        }
+      }
     },
     {
       "id": "question_023",
@@ -229,7 +471,18 @@
         "2",
         "0",
         "-1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that f(x) is an odd function. When x > 0, f(x) = x² + 1, then f(-1) = ?",
+          "correct_answer": "-2",
+          "wrong_answers": [
+            "2",
+            "0",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_024",
@@ -239,7 +492,18 @@
         "2¹²",
         "4⁷",
         "2¹"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 2³ × 2⁴ = ?",
+          "correct_answer": "128",
+          "wrong_answers": [
+            "2¹²",
+            "4⁷",
+            "2¹"
+          ]
+        }
+      }
     },
     {
       "id": "question_025",
@@ -249,7 +513,18 @@
         "a⁵",
         "a⁸",
         "a⁹"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Simplify: (a²)³ = ?",
+          "correct_answer": "a⁶",
+          "wrong_answers": [
+            "a⁵",
+            "a⁸",
+            "a⁹"
+          ]
+        }
+      }
     },
     {
       "id": "question_026",
@@ -259,7 +534,18 @@
         "-9",
         "9",
         "-1/9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 3⁻² = ?",
+          "correct_answer": "1/9",
+          "wrong_answers": [
+            "-9",
+            "9",
+            "-1/9"
+          ]
+        }
+      }
     },
     {
       "id": "question_027",
@@ -269,7 +555,18 @@
         "1/2",
         "-2",
         "-1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: (1/2)⁻¹ = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1/2",
+            "-2",
+            "-1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_028",
@@ -279,7 +576,18 @@
         "a",
         "a²",
         "±a"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If a < 0, then √(a²) = ?",
+          "correct_answer": "-a",
+          "wrong_answers": [
+            "a",
+            "a²",
+            "±a"
+          ]
+        }
+      }
     },
     {
       "id": "question_029",
@@ -289,7 +597,18 @@
         "3",
         "1",
         "1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: log₃9 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_030",
@@ -299,7 +618,18 @@
         "1",
         "2",
         "-1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: log₂1 = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "2",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_031",
@@ -309,7 +639,18 @@
         "2",
         "10",
         "100"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: log₁₀1000 = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "10",
+            "100"
+          ]
+        }
+      }
     },
     {
       "id": "question_032",
@@ -319,7 +660,18 @@
         "0",
         "5",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: log₅5 = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "5",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_033",
@@ -329,7 +681,18 @@
         "5",
         "3",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: log₂8 + log₂2 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_034",
@@ -339,7 +702,18 @@
         "1/2",
         "1",
         "-2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: log₂(1/2) = ?",
+          "correct_answer": "-1",
+          "wrong_answers": [
+            "1/2",
+            "1",
+            "-2"
+          ]
+        }
+      }
     },
     {
       "id": "question_035",
@@ -349,7 +723,18 @@
         "1",
         "3",
         "1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: log₃2 × log₂9 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_036",
@@ -359,7 +744,18 @@
         "(1, 0)",
         "(0, 2)",
         "(1, 2)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The graph of the exponential function y = 2^x must pass through a fixed point?",
+          "correct_answer": "(0, 1)",
+          "wrong_answers": [
+            "(1, 0)",
+            "(0, 2)",
+            "(1, 2)"
+          ]
+        }
+      }
     },
     {
       "id": "question_037",
@@ -369,7 +765,18 @@
         "(0, 1)",
         "(0, 0)",
         "(1, 1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The graph of the logarithmic function y = log₂x must pass through a fixed point?",
+          "correct_answer": "(1, 0)",
+          "wrong_answers": [
+            "(0, 1)",
+            "(0, 0)",
+            "(1, 1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_038",
@@ -379,7 +786,18 @@
         "0 < a < 1",
         "a ≥ 1",
         "a 为任意正数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the conditions for the function y = a^x (a > 0 and a ≠ 1) to be monotonically increasing on R?",
+          "correct_answer": "a > 1",
+          "wrong_answers": [
+            "0 < a < 1",
+            "a ≥ 1",
+            "a is any positive number"
+          ]
+        }
+      }
     },
     {
       "id": "question_039",
@@ -389,7 +807,18 @@
         "a > 1",
         "a ≥ 1",
         "a = 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the condition for the function y = log_a x (a > 0 and a ≠ 1) to decrease monotonically on (0, +∞)?",
+          "correct_answer": "0 < a < 1",
+          "wrong_answers": [
+            "a > 1",
+            "a ≥ 1",
+            "a = 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_040",
@@ -399,7 +828,18 @@
         "2",
         "-1/2",
         "√2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The graph of the power function f(x) = x^α passes through the point (2, √2), then α = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "2",
+            "-1/2",
+            "√2"
+          ]
+        }
+      }
     },
     {
       "id": "question_041",
@@ -409,7 +849,18 @@
         "0",
         "1",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the number of zeros of the function f(x) = x² - 4x + 3?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "0",
+            "1",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_042",
@@ -419,7 +870,18 @@
         "(0, 1)",
         "(2, 3)",
         "(3, 4)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the interval where the zero point of function f(x) = ln x + x - 2 is located?",
+          "correct_answer": "(1, 2)",
+          "wrong_answers": [
+            "(0, 1)",
+            "(2, 3)",
+            "(3, 4)"
+          ]
+        }
+      }
     },
     {
       "id": "question_043",
@@ -429,7 +891,18 @@
         "1.5",
         "2.5",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Use the bisection method to find the zero point of the function f(x) in the interval [1, 3]. For the first time, take the midpoint x₁ = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1.5",
+            "2.5",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_044",
@@ -439,7 +912,18 @@
         "30%",
         "22%",
         "120%"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The price of a commodity increases by 10% in the first year and 20% in the second year. What is the approximate percentage increase in the two years?",
+          "correct_answer": "32%",
+          "wrong_answers": [
+            "30%",
+            "22%",
+            "120%"
+          ]
+        }
+      }
     },
     {
       "id": "question_045",
@@ -449,7 +933,18 @@
         "1",
         "0",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the minimum value of the function f(x) = x + 1/x (x > 0)?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "0",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_046",
@@ -459,7 +954,18 @@
         "0",
         "-1",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the maximum value of the known function f(x) = x² - 2x on the interval [0, 3]?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "0",
+            "-1",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_047",
@@ -469,7 +975,18 @@
         "2",
         "3",
         "-1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the abscissa of the intersection point of the functions y = 2x + 1 and y = -x + 4?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "2",
+            "3",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_048",
@@ -479,7 +996,18 @@
         "(2, 3)",
         "[2, +∞)",
         "(-∞, 3]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the domain of the function y = √(x - 2) + √(3 - x)?",
+          "correct_answer": "[2, 3]",
+          "wrong_answers": [
+            "(2, 3)",
+            "[2, +∞)",
+            "(-∞, 3]"
+          ]
+        }
+      }
     },
     {
       "id": "question_049",
@@ -489,7 +1017,18 @@
         "x² + 2x + 2",
         "x² + 2",
         "x² - 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that f(x + 1) = x² + 2x + 2, then f(x) = ?",
+          "correct_answer": "x² + 1",
+          "wrong_answers": [
+            "x² + 2x + 2",
+            "x² + 2",
+            "x²-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_050",
@@ -499,7 +1038,18 @@
         "[1/2, 2]",
         "[1, 4]",
         "[0, 4]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the range of function f(x) = 2^x on [-1, 2]?",
+          "correct_answer": "[1/2, 4]",
+          "wrong_answers": [
+            "[1/2, 2]",
+            "[1, 4]",
+            "[0, 4]"
+          ]
+        }
+      }
     },
     {
       "id": "question_051",
@@ -509,7 +1059,18 @@
         "在 (0, +∞) 上单调递增",
         "先增后减",
         "先减后增"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the monotonicity of the function f(x) = log₀.₅x?",
+          "correct_answer": "Decreases monotonically on (0, +∞)",
+          "wrong_answers": [
+            "monotonically increasing on (0, +∞)",
+            "Increase first and then decrease",
+            "Decrease first and then increase"
+          ]
+        }
+      }
     },
     {
       "id": "question_052",
@@ -519,7 +1080,18 @@
         "1",
         "log₃9",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Simplify: log₃4 + log₃5 - log₃20 = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "log₃9",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_053",
@@ -529,7 +1101,18 @@
         "{1}",
         "{2}",
         "{-1, -2}"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the set A = {x | x² - 3x + 2 = 0}, use the enumeration method to express A as?",
+          "correct_answer": "{1, 2}",
+          "wrong_answers": [
+            "{1}",
+            "{2}",
+            "{-1, -2}"
+          ]
+        }
+      }
     },
     {
       "id": "question_054",
@@ -539,7 +1122,18 @@
         "f(-2) < f(1)",
         "f(-2) = f(1)",
         "无法确定"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the function f(x) satisfies f(-x) = f(x), and f(x) increases monotonically on [0, +∞), what is the relationship between f(-2) and f(1)?",
+          "correct_answer": "f(-2) > f(1)",
+          "wrong_answers": [
+            "f(-2) < f(1)",
+            "f(-2) = f(1)",
+            "Unable to determine"
+          ]
+        }
+      }
     },
     {
       "id": "question_055",
@@ -549,7 +1143,18 @@
         "{x | x > -2}",
         "{x | x < 2}",
         "{x | x > 2}"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution set of the inequality (1/2)^x > 4?",
+          "correct_answer": "{x | x < -2}",
+          "wrong_answers": [
+            "{x | x > -2}",
+            "{x | x < 2}",
+            "{x | x > 2}"
+          ]
+        }
+      }
     },
     {
       "id": "question_056",
@@ -559,7 +1164,18 @@
         "3",
         "2",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution to equation 2^(x - 1) = 8?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_057",
@@ -569,7 +1185,18 @@
         "1",
         "0",
         "-1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the zeros of the function f(x) = x² - 1?",
+          "correct_answer": "-1 and 1",
+          "wrong_answers": [
+            "1",
+            "0",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_058",
@@ -579,7 +1206,18 @@
         "[0, 2]",
         "R",
         "(-∞, 0]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the range of the function y = √(x + 2)?",
+          "correct_answer": "[0, +∞)",
+          "wrong_answers": [
+            "[0, 2]",
+            "R",
+            "(-∞, 0]"
+          ]
+        }
+      }
     },
     {
       "id": "question_059",
@@ -589,7 +1227,18 @@
         "(1, 7)",
         "(3, -7)",
         "(-1, 7)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the vector a=(2, -3), b=(1, 4), then a+b = ?",
+          "correct_answer": "(3, 1)",
+          "wrong_answers": [
+            "(1, 7)",
+            "(3, -7)",
+            "(-1, 7)"
+          ]
+        }
+      }
     },
     {
       "id": "question_060",
@@ -599,7 +1248,18 @@
         "11",
         "-1",
         "7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the vector a=(3, -1), b=(2, 5), then a·b = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "11",
+            "-1",
+            "7"
+          ]
+        }
+      }
     },
     {
       "id": "question_061",
@@ -609,7 +1269,18 @@
         "7",
         "12",
         "25"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the vector a=(4, 3), then |a| = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "7",
+            "12",
+            "25"
+          ]
+        }
+      }
     },
     {
       "id": "question_062",
@@ -619,7 +1290,18 @@
         "垂直",
         "相等",
         "既不平行也不垂直"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the vectors a=(2, 1), b=(4, 2), what is the relationship between a and b?",
+          "correct_answer": "collinear (parallel)",
+          "wrong_answers": [
+            "vertical",
+            "equal",
+            "Neither parallel nor perpendicular"
+          ]
+        }
+      }
     },
     {
       "id": "question_063",
@@ -629,7 +1311,18 @@
         "平行",
         "相等",
         "既不平行也不垂直"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Given vectors a=(1, 2), b=(-2, 1), what is the relationship between a and b?",
+          "correct_answer": "vertical",
+          "wrong_answers": [
+            "parallel",
+            "equal",
+            "Neither parallel nor perpendicular"
+          ]
+        }
+      }
     },
     {
       "id": "question_064",
@@ -639,7 +1332,18 @@
         "7",
         "19",
         "25"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In △ABC, a=3, b=4, angle C=60°, then c² = ?",
+          "correct_answer": "13",
+          "wrong_answers": [
+            "7",
+            "19",
+            "25"
+          ]
+        }
+      }
     },
     {
       "id": "question_065",
@@ -649,7 +1353,18 @@
         "√2",
         "2√3",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In △ABC, angle A=30°, angle B=45°, a=2, then b = ?",
+          "correct_answer": "2√2",
+          "wrong_answers": [
+            "√2",
+            "2√3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_066",
@@ -659,7 +1374,18 @@
         "6+5i",
         "2+5i",
         "2-i"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Complex number (2+3i)+(4-2i) = ?",
+          "correct_answer": "6+i",
+          "wrong_answers": [
+            "6+5i",
+            "2+5i",
+            "2-i"
+          ]
+        }
+      }
     },
     {
       "id": "question_067",
@@ -669,7 +1395,18 @@
         "1+3i",
         "3-i",
         "1-i"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Complex numbers (1+i)(2-i) = ?",
+          "correct_answer": "3+i",
+          "wrong_answers": [
+            "1+3i",
+            "3-i",
+            "1-i"
+          ]
+        }
+      }
     },
     {
       "id": "question_068",
@@ -679,7 +1416,18 @@
         "-i",
         "1",
         "-1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Complex numbers (1+i)/(1-i) = ?",
+          "correct_answer": "i",
+          "wrong_answers": [
+            "-i",
+            "1",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_069",
@@ -689,7 +1437,18 @@
         "7",
         "-5",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Complex number z=3-4i, then |z| = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "7",
+            "-5",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_070",
@@ -699,7 +1458,18 @@
         "-2+5i",
         "2+5i",
         "-2-5i"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the complex conjugate of the complex number z=2+5i?",
+          "correct_answer": "2-5i",
+          "wrong_answers": [
+            "-2+5i",
+            "2+5i",
+            "-2-5i"
+          ]
+        }
+      }
     },
     {
       "id": "question_071",
@@ -709,7 +1479,18 @@
         "a=1 且 b=-2",
         "a≠1 且 b=-2",
         "a=1 或 b≠-2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the complex number (a-1)+(b+2)i is a purely imaginary number, then?",
+          "correct_answer": "a=1 and b≠-2",
+          "wrong_answers": [
+            "a=1 and b=-2",
+            "a≠1 and b=-2",
+            "a=1 or b≠-2"
+          ]
+        }
+      }
     },
     {
       "id": "question_072",
@@ -719,7 +1500,18 @@
         "8",
         "12",
         "48"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the edge length of a cube is 2, what is its surface area?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "8",
+            "12",
+            "48"
+          ]
+        }
+      }
     },
     {
       "id": "question_073",
@@ -729,7 +1521,18 @@
         "12π",
         "27π",
         "108π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The radius of the sphere is 3, what is the volume of the sphere?",
+          "correct_answer": "36π",
+          "wrong_answers": [
+            "12π",
+            "27π",
+            "108π"
+          ]
+        }
+      }
     },
     {
       "id": "question_074",
@@ -739,7 +1542,18 @@
         "12π",
         "18π",
         "30π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The base radius of a cone is 3 and the generatrix length is 5. What is its side area?",
+          "correct_answer": "15π",
+          "wrong_answers": [
+            "12π",
+            "18π",
+            "30π"
+          ]
+        }
+      }
     },
     {
       "id": "question_075",
@@ -749,7 +1563,18 @@
         "6π",
         "18π",
         "36π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The base radius of a cylinder is 2 and the height is 3, what is its volume?",
+          "correct_answer": "12π",
+          "wrong_answers": [
+            "6π",
+            "18π",
+            "36π"
+          ]
+        }
+      }
     },
     {
       "id": "question_076",
@@ -759,7 +1584,18 @@
         "平行",
         "异面",
         "相交"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If two straight lines in space have no common points, what is their positional relationship?",
+          "correct_answer": "parallel or opposite",
+          "wrong_answers": [
+            "parallel",
+            "Different side",
+            "intersect"
+          ]
+        }
+      }
     },
     {
       "id": "question_077",
@@ -769,7 +1605,18 @@
         "a 在 α 内",
         "a 与 α 相交",
         "a⊥α"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that straight line a is not in plane α, straight line b is in plane α, and a∥b, then what is the positional relationship between straight line a and plane α?",
+          "correct_answer": "a∥α",
+          "wrong_answers": [
+            "a within α",
+            "a intersects α",
+            "a⊥α"
+          ]
+        }
+      }
     },
     {
       "id": "question_078",
@@ -779,7 +1626,18 @@
         "45°",
         "60°",
         "120°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In a cube, what is the dihedral angle formed by two adjacent sides?",
+          "correct_answer": "90°",
+          "wrong_answers": [
+            "45°",
+            "60°",
+            "120°"
+          ]
+        }
+      }
     },
     {
       "id": "question_079",
@@ -789,7 +1647,18 @@
         "平行",
         "相交但不垂直",
         "在平面内"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "A straight line is perpendicular to two intersecting straight lines in a plane. What is the positional relationship between this straight line and the plane?",
+          "correct_answer": "vertical",
+          "wrong_answers": [
+            "parallel",
+            "Intersect but not perpendicular",
+            "in plane"
+          ]
+        }
+      }
     },
     {
       "id": "question_080",
@@ -799,7 +1668,18 @@
         "方便抽样",
         "判断抽样",
         "自愿抽样"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Which of the following sampling methods has an equal probability of being selected for each individual?",
+          "correct_answer": "simple random sampling",
+          "wrong_answers": [
+            "convenience sampling",
+            "judgment sampling",
+            "voluntary sampling"
+          ]
+        }
+      }
     },
     {
       "id": "question_081",
@@ -809,7 +1689,18 @@
         "5",
         "9",
         "35"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the mean of data 3, 5, 7, 9, 11?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "5",
+            "9",
+            "35"
+          ]
+        }
+      }
     },
     {
       "id": "question_082",
@@ -819,7 +1710,18 @@
         "1",
         "√2",
         "10"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the variance of data 1, 2, 3, 4, 5?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "√2",
+            "10"
+          ]
+        }
+      }
     },
     {
       "id": "question_083",
@@ -829,7 +1731,18 @@
         "30",
         "20",
         "40"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "There are 1,200 students in a school, and 100 students are selected using stratified sampling. If there are 300 students in the first grade of high school, what number should be selected from the first grade of high school?",
+          "correct_answer": "25",
+          "wrong_answers": [
+            "30",
+            "20",
+            "40"
+          ]
+        }
+      }
     },
     {
       "id": "question_084",
@@ -839,7 +1752,18 @@
         "频数",
         "组距",
         "频率/组距"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In a frequency distribution histogram, what is the area of each small rectangle?",
+          "correct_answer": "Relative frequency",
+          "wrong_answers": [
+            "Frequency count",
+            "Group distance",
+            "Frequency/group spacing"
+          ]
+        }
+      }
     },
     {
       "id": "question_085",
@@ -849,7 +1773,18 @@
         "1/4",
         "1/3",
         "3/4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If two fair coins are tossed at the same time, what is the probability of \"one head and one tail\"?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "1/4",
+            "1/3",
+            "3/4"
+          ]
+        }
+      }
     },
     {
       "id": "question_086",
@@ -859,7 +1794,18 @@
         "0.12",
         "0.58",
         "0.1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If events A and B are mutually exclusive, and P(A)=0.3, P(B)=0.4, then P(A∪B) = ?",
+          "correct_answer": "0.7",
+          "wrong_answers": [
+            "0.12",
+            "0.58",
+            "0.1"
+          ]
+        }
+      }
     },
     {
       "id": "question_087",
@@ -869,7 +1815,18 @@
         "0.2",
         "-0.2",
         "1.2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the probability of event A is 0.2, what is the probability of its opposite event?",
+          "correct_answer": "0.8",
+          "wrong_answers": [
+            "0.2",
+            "-0.2",
+            "1.2"
+          ]
+        }
+      }
     },
     {
       "id": "question_088",
@@ -879,7 +1836,18 @@
         "0.1",
         "0.5",
         "0.8"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Two people, A and B, shoot the same target independently. A's hit rate is 0.6 and B's hit rate is 0.5. What is the probability that they both hit the target at the same time?",
+          "correct_answer": "0.3",
+          "wrong_answers": [
+            "0.1",
+            "0.5",
+            "0.8"
+          ]
+        }
+      }
     },
     {
       "id": "question_089",
@@ -889,7 +1857,18 @@
         "5",
         "-1",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the space vector a=(1,2,3), b=(2,-1,1), then a·b = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "5",
+            "-1",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_090",
@@ -899,7 +1878,18 @@
         "(5,7,9)",
         "(-3,-3,-3)",
         "(1,1,1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Given points A(1,2,3) and B(4,5,6), what are the coordinates of vector AB?",
+          "correct_answer": "(3,3,3)",
+          "wrong_answers": [
+            "(5,7,9)",
+            "(-3,-3,-3)",
+            "(1,1,1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_091",
@@ -909,7 +1899,18 @@
         "√12",
         "√10",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the space vector a=(2,-1,3), then |a| = ?",
+          "correct_answer": "√14",
+          "wrong_answers": [
+            "√12",
+            "√10",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_092",
@@ -919,7 +1920,18 @@
         "1/2",
         "-1/√2",
         "1/√2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Given vectors a=(1,0,-1), b=(0,1,1), what is the cosine of the angle between a and b?",
+          "correct_answer": "-1/2",
+          "wrong_answers": [
+            "1/2",
+            "-1/√2",
+            "1/√2"
+          ]
+        }
+      }
     },
     {
       "id": "question_093",
@@ -929,7 +1941,18 @@
         "5",
         "-3",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the vectors a=(2,y,1) and b=(4,2,2) are perpendicular, then y = ?",
+          "correct_answer": "-5",
+          "wrong_answers": [
+            "5",
+            "-3",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_094",
@@ -939,7 +1962,18 @@
         "30°",
         "60°",
         "135°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the inclination angle of the line x - y + 2 = 0?",
+          "correct_answer": "45°",
+          "wrong_answers": [
+            "30°",
+            "60°",
+            "135°"
+          ]
+        }
+      }
     },
     {
       "id": "question_095",
@@ -949,7 +1983,18 @@
         "y = -3x - 1",
         "y = 3x - 1",
         "y = -3x + 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "A straight line passes through the point (1,2) and has a slope of -3. What is the equation of the straight line?",
+          "correct_answer": "y = -3x + 5",
+          "wrong_answers": [
+            "y = -3x - 1",
+            "y=3x-1",
+            "y = -3x + 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_096",
@@ -959,7 +2004,18 @@
         "垂直",
         "重合",
         "相交但不垂直"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the positional relationship between the straight line 2x + y - 1 = 0 and the straight line 4x + 2y + 3 = 0?",
+          "correct_answer": "parallel",
+          "wrong_answers": [
+            "vertical",
+            "overlap",
+            "Intersect but not perpendicular"
+          ]
+        }
+      }
     },
     {
       "id": "question_097",
@@ -969,7 +2025,18 @@
         "1/5",
         "3/5",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the distance from point (1,1) to line 3x + 4y - 5 = 0?",
+          "correct_answer": "2/5",
+          "wrong_answers": [
+            "1/5",
+            "3/5",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_098",
@@ -979,7 +2046,18 @@
         "1",
         "10",
         "5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the distance between two parallel straight lines 3x+4y-5=0 and 3x+4y+5=0?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "10",
+            "5"
+          ]
+        }
+      }
     },
     {
       "id": "question_099",
@@ -989,7 +2067,18 @@
         "(-1,2)",
         "(1,2)",
         "(-1,-2)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the coordinates of the center of the circle (x-1)² + (y+2)² = 9?",
+          "correct_answer": "(1,-2)",
+          "wrong_answers": [
+            "(-1,2)",
+            "(1,2)",
+            "(-1,-2)"
+          ]
+        }
+      }
     },
     {
       "id": "question_100",
@@ -999,7 +2088,18 @@
         "(-1,2)",
         "(2,-4)",
         "(-2,4)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the coordinates of the center of the circle x² + y² - 2x + 4y - 4 = 0?",
+          "correct_answer": "(1,-2)",
+          "wrong_answers": [
+            "(-1,2)",
+            "(2,-4)",
+            "(-2,4)"
+          ]
+        }
+      }
     },
     {
       "id": "question_101",
@@ -1009,7 +2109,18 @@
         "相切",
         "相离",
         "过圆心"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the positional relationship between the straight line y = x + 1 and the circle x² + y² = 1?",
+          "correct_answer": "intersect",
+          "wrong_answers": [
+            "tangent",
+            "separated",
+            "Pass the center of the circle"
+          ]
+        }
+      }
     },
     {
       "id": "question_102",
@@ -1019,7 +2130,18 @@
         "内切",
         "相交",
         "相离"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the positional relationship between the circle x² + y² = 4 and the circle (x-3)² + y² = 1?",
+          "correct_answer": "circumcision",
+          "wrong_answers": [
+            "cut inside",
+            "intersect",
+            "separated"
+          ]
+        }
+      }
     },
     {
       "id": "question_103",
@@ -1029,7 +2151,18 @@
         "(±√13, 0)",
         "(0, ±√5)",
         "(±5, 0)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the focal coordinates of the ellipse x²/9 + y²/4 = 1?",
+          "correct_answer": "(±√5, 0)",
+          "wrong_answers": [
+            "(±√13, 0)",
+            "(0, ±√5)",
+            "(±5, 0)"
+          ]
+        }
+      }
     },
     {
       "id": "question_104",
@@ -1039,7 +2172,18 @@
         "4",
         "16",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the length of the major axis of the ellipse x²/16 + y²/9 = 1?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "4",
+            "16",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_105",
@@ -1049,7 +2193,18 @@
         "y = ±(3/4)x",
         "y = ±(16/9)x",
         "y = ±(9/16)x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the asymptote equation of the hyperbola x²/9 - y²/16 = 1?",
+          "correct_answer": "y = ±(4/3)x",
+          "wrong_answers": [
+            "y = ±(3/4)x",
+            "y = ±(16/9)x",
+            "y = ±(9/16)x"
+          ]
+        }
+      }
     },
     {
       "id": "question_106",
@@ -1059,7 +2214,18 @@
         "2",
         "√5",
         "2√5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the length of the real axis of the hyperbola y²/4 - x²/5 = 1?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "2",
+            "√5",
+            "2√5"
+          ]
+        }
+      }
     },
     {
       "id": "question_107",
@@ -1069,7 +2235,18 @@
         "(4,0)",
         "(0,2)",
         "(0,4)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the focal coordinates of the parabola y² = 8x?",
+          "correct_answer": "(2,0)",
+          "wrong_answers": [
+            "(4,0)",
+            "(0,2)",
+            "(0,4)"
+          ]
+        }
+      }
     },
     {
       "id": "question_108",
@@ -1079,7 +2256,18 @@
         "y = -1/4",
         "y = 1/2",
         "y = -1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the directrix of the parabola y = -x²?",
+          "correct_answer": "y = 1/4",
+          "wrong_answers": [
+            "y = -1/4",
+            "y = 1/2",
+            "y = -1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_109",
@@ -1089,7 +2277,18 @@
         "4/5",
         "5/4",
         "1/5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the eccentricity of the ellipse x²/25 + y²/16 = 1?",
+          "correct_answer": "3/5",
+          "wrong_answers": [
+            "4/5",
+            "5/4",
+            "1/5"
+          ]
+        }
+      }
     },
     {
       "id": "question_110",
@@ -1099,7 +2298,18 @@
         "0°",
         "45°",
         "60°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the space vectors a=(1,0,1), b=(0,1,0), then what is the angle between a and b?",
+          "correct_answer": "90°",
+          "wrong_answers": [
+            "0°",
+            "45°",
+            "60°"
+          ]
+        }
+      }
     },
     {
       "id": "question_111",
@@ -1109,7 +2319,18 @@
         "45°",
         "30°",
         "90°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In cube ABCD-A1B1C1D1, what is the angle formed by straight lines A1B and AC?",
+          "correct_answer": "60°",
+          "wrong_answers": [
+            "45°",
+            "30°",
+            "90°"
+          ]
+        }
+      }
     },
     {
       "id": "question_112",
@@ -1119,7 +2340,18 @@
         "45°",
         "60°",
         "180°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the normal vectors of the two planes are n1=(1,0,0) and n2=(0,1,0), what is the size of the dihedral angle?",
+          "correct_answer": "90°",
+          "wrong_answers": [
+            "45°",
+            "60°",
+            "180°"
+          ]
+        }
+      }
     },
     {
       "id": "question_113",
@@ -1129,7 +2361,18 @@
         "1",
         "2",
         "-2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the straight line l1: ax + 2y + 3 = 0 is perpendicular to the straight line l2: 2x + y + 1 = 0, then a = ?",
+          "correct_answer": "-1",
+          "wrong_answers": [
+            "1",
+            "2",
+            "-2"
+          ]
+        }
+      }
     },
     {
       "id": "question_114",
@@ -1139,7 +2382,18 @@
         "x - 2y = 5",
         "2x + y = 5",
         "x + 2y = -5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the tangent to the circle x² + y² = 5 at point (1,2)?",
+          "correct_answer": "x + 2y = 5",
+          "wrong_answers": [
+            "x - 2y = 5",
+            "2x + y = 5",
+            "x + 2y = -5"
+          ]
+        }
+      }
     },
     {
       "id": "question_115",
@@ -1149,7 +2403,18 @@
         "y² = 4x",
         "y² = 16x",
         "x² = 8y"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The distance from the moving point P to the fixed point F(2,0) is equal to the distance to the fixed straight line x=-2, then what is the trajectory of P?",
+          "correct_answer": "y² = 8x",
+          "wrong_answers": [
+            "y² = 4x",
+            "y² = 16x",
+            "x² = 8y"
+          ]
+        }
+      }
     },
     {
       "id": "question_116",
@@ -1159,7 +2424,18 @@
         "(±2, 0)",
         "(0, ±1)",
         "(±√7, 0)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the focal coordinates of the ellipse x²/4 + y²/3 = 1?",
+          "correct_answer": "(±1, 0)",
+          "wrong_answers": [
+            "(±2, 0)",
+            "(0, ±1)",
+            "(±√7, 0)"
+          ]
+        }
+      }
     },
     {
       "id": "question_117",
@@ -1169,7 +2445,18 @@
         "√13/3",
         "√5/2",
         "3/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the eccentricity of the hyperbola x²/4 - y²/9 = 1?",
+          "correct_answer": "√13/2",
+          "wrong_answers": [
+            "√13/3",
+            "√5/2",
+            "3/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_118",
@@ -1179,7 +2466,18 @@
         "(1,1,1)",
         "(1,2,0)",
         "(0,2,1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Given vectors a=(1,1,0), b=(0,1,1), what are the coordinates of a+b?",
+          "correct_answer": "(1,2,1)",
+          "wrong_answers": [
+            "(1,1,1)",
+            "(1,2,0)",
+            "(0,2,1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_119",
@@ -1189,7 +2487,18 @@
         "9",
         "13",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence {aₙ}, a₁ = 3, and the common difference d = 2, then a₅ = ?",
+          "correct_answer": "11",
+          "wrong_answers": [
+            "9",
+            "13",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_120",
@@ -1199,7 +2508,18 @@
         "1",
         "3",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence {aₙ}, a₁ = 1, a₃ = 5, then the common difference d = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_121",
@@ -1209,7 +2529,18 @@
         "5000",
         "5100",
         "5500"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "1 + 2 + 3 + ... + 100 = ?",
+          "correct_answer": "5050",
+          "wrong_answers": [
+            "5000",
+            "5100",
+            "5500"
+          ]
+        }
+      }
     },
     {
       "id": "question_122",
@@ -1219,7 +2550,18 @@
         "2",
         "4",
         "5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence {aₙ}, a₂ = 3, a₅ = 12, then the common difference d = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "4",
+            "5"
+          ]
+        }
+      }
     },
     {
       "id": "question_123",
@@ -1229,7 +2571,18 @@
         "48",
         "36",
         "162"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the geometric sequence {aₙ}, a₁ = 2, and the common ratio q = 3, then a₄ = ?",
+          "correct_answer": "54",
+          "wrong_answers": [
+            "48",
+            "36",
+            "162"
+          ]
+        }
+      }
     },
     {
       "id": "question_124",
@@ -1239,7 +2592,18 @@
         "1/2",
         "1",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the geometric sequence {aₙ}, a₁ = 1, a₂ = 2, then the common ratio q = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1/2",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_125",
@@ -1249,7 +2613,18 @@
         "30",
         "32",
         "33"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "1 + 2 + 4 + 8 + 16 = ?",
+          "correct_answer": "31",
+          "wrong_answers": [
+            "30",
+            "32",
+            "33"
+          ]
+        }
+      }
     },
     {
       "id": "question_126",
@@ -1259,7 +2634,18 @@
         "1/2",
         "4",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the geometric sequence {aₙ}, a₂ = 4, a₃ = 8, then the common ratio q = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1/2",
+            "4",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_127",
@@ -1269,7 +2655,18 @@
         "2n + 1",
         "2n",
         "3n - 2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the nth term of the sequence 1, 3, 5, 7, ...?",
+          "correct_answer": "2n-1",
+          "wrong_answers": [
+            "2n+1",
+            "2n",
+            "3n-2"
+          ]
+        }
+      }
     },
     {
       "id": "question_128",
@@ -1279,7 +2676,18 @@
         "2n",
         "n^2",
         "2^(n-1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general formula of the sequence 2, 4, 8, 16, ...?",
+          "correct_answer": "2^n",
+          "wrong_answers": [
+            "2n",
+            "n^2",
+            "2^(n-1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_129",
@@ -1289,7 +2697,18 @@
         "3",
         "7",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The sequence {aₙ} satisfies a₁ = 1, aₙ = aₙ₋₁ + 2 (n ≥ 2), then a₃ = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "3",
+            "7",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_130",
@@ -1299,7 +2718,18 @@
         "100",
         "120",
         "200"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The sum formula of the first n terms of the arithmetic sequence is Sₙ = n(a₁ + aₙ)/2. If a₁ = 2, aₙ = 20, n = 10, then S₁₀ = ?",
+          "correct_answer": "110",
+          "wrong_answers": [
+            "100",
+            "120",
+            "200"
+          ]
+        }
+      }
     },
     {
       "id": "question_131",
@@ -1309,7 +2739,18 @@
         "15",
         "63",
         "30"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the geometric sequence {aₙ}, a₁ = 1 and the common ratio q = 2, then the sum of the first 5 terms is S₅ = ?",
+          "correct_answer": "31",
+          "wrong_answers": [
+            "15",
+            "63",
+            "30"
+          ]
+        }
+      }
     },
     {
       "id": "question_132",
@@ -1319,7 +2760,18 @@
         "0",
         "2",
         "不存在"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the limit of the sum of the first n terms of the sequence 1/2, 1/4, 1/8, ...?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "2",
+            "does not exist"
+          ]
+        }
+      }
     },
     {
       "id": "question_133",
@@ -1329,7 +2781,18 @@
         "20",
         "5",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence {aₙ}, a₁ + a₉ = 20, then a₅ = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "20",
+            "5",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_134",
@@ -1339,7 +2802,18 @@
         "x",
         "2",
         "2x²"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = x² is f'(x) = ?",
+          "correct_answer": "2x",
+          "wrong_answers": [
+            "x",
+            "2",
+            "2x²"
+          ]
+        }
+      }
     },
     {
       "id": "question_135",
@@ -1349,7 +2823,18 @@
         "3x²",
         "3x² + x",
         "3x² - 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = x³ + x is f'(x) = ?",
+          "correct_answer": "3x² + 1",
+          "wrong_answers": [
+            "3x²",
+            "3x² + x",
+            "3x² - 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_136",
@@ -1359,7 +2844,18 @@
         "-cos x",
         "-sin x",
         "1/x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of function f(x) = sin x?",
+          "correct_answer": "cos x",
+          "wrong_answers": [
+            "-cos x",
+            "-sin x",
+            "1/x"
+          ]
+        }
+      }
     },
     {
       "id": "question_137",
@@ -1369,7 +2865,18 @@
         "x",
         "-1/x",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative function of function f(x) = ln x?",
+          "correct_answer": "1/x",
+          "wrong_answers": [
+            "x",
+            "-1/x",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_138",
@@ -1379,7 +2886,18 @@
         "xe^(x-1)",
         "1/x",
         "-eˣ"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative function of function f(x) = eˣ?",
+          "correct_answer": "eˣ",
+          "wrong_answers": [
+            "xe^(x-1)",
+            "1/x",
+            "-eˣ"
+          ]
+        }
+      }
     },
     {
       "id": "question_139",
@@ -1389,7 +2907,18 @@
         "-1",
         "5",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of the function y = 2x² - 3x + 1 at x = 1?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "-1",
+            "5",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_140",
@@ -1399,7 +2928,18 @@
         "1",
         "0",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the slope of the tangent to the curve y = x² at point (1, 1)?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "0",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_141",
@@ -1409,7 +2949,18 @@
         "y = 3x + 2",
         "y = x",
         "y = 2x - 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the tangent to the curve y = x³ at point (1, 1)?",
+          "correct_answer": "y=3x-2",
+          "wrong_answers": [
+            "y = 3x + 2",
+            "y = x",
+            "y=2x-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_142",
@@ -1419,7 +2970,18 @@
         "(-1, 1)",
         "(-∞, +∞)",
         "(0, +∞)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the monotonically increasing interval of the function f(x) = x³ - 3x?",
+          "correct_answer": "(-∞, -1) and (1, +∞)",
+          "wrong_answers": [
+            "(-1, 1)",
+            "(-∞, +∞)",
+            "(0, +∞)"
+          ]
+        }
+      }
     },
     {
       "id": "question_143",
@@ -1429,7 +2991,18 @@
         "x = -1",
         "x = 0",
         "x = 2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the minimum point of function f(x) = x² - 2x?",
+          "correct_answer": "x = 1",
+          "wrong_answers": [
+            "x = -1",
+            "x = 0",
+            "x = 2"
+          ]
+        }
+      }
     },
     {
       "id": "question_144",
@@ -1439,7 +3012,18 @@
         "-2",
         "0",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the maximum value of the function f(x) = x³ - 3x?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-2",
+            "0",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_145",
@@ -1449,7 +3033,18 @@
         "单调递减",
         "为常数",
         "有极大值"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If f'(x) > 0 is always true on the interval I, then f(x) is on I?",
+          "correct_answer": "monotonically increasing",
+          "wrong_answers": [
+            "monotonically decreasing",
+            "is a constant",
+            "has a maximum value"
+          ]
+        }
+      }
     },
     {
       "id": "question_146",
@@ -1459,7 +3054,18 @@
         "sin x",
         "-cos x",
         "1/x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative function of function f(x) = cos x?",
+          "correct_answer": "-sin x",
+          "wrong_answers": [
+            "sin x",
+            "-cos x",
+            "1/x"
+          ]
+        }
+      }
     },
     {
       "id": "question_147",
@@ -1469,7 +3075,18 @@
         "y = x - 1",
         "y = eˣ",
         "y = 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the tangent to the curve y = eˣ at x = 0?",
+          "correct_answer": "y=x+1",
+          "wrong_answers": [
+            "y=x-1",
+            "y = eˣ",
+            "y=1"
+          ]
+        }
+      }
     },
     {
       "id": "question_148",
@@ -1479,7 +3096,18 @@
         "1/x²",
         "-x",
         "x²"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of function f(x) = 1/x?",
+          "correct_answer": "-1/x²",
+          "wrong_answers": [
+            "1/x²",
+            "-x",
+            "x²"
+          ]
+        }
+      }
     },
     {
       "id": "question_149",
@@ -1489,7 +3117,18 @@
         "12",
         "3",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "How many ways are there to choose from 3 different Chinese language books and 4 different mathematics books?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "12",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_150",
@@ -1499,7 +3138,18 @@
         "5",
         "8",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "There are 2 roads from A to B, and 3 roads from B to C. How many ways are there from A to C via B?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "5",
+            "8",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_151",
@@ -1509,7 +3159,18 @@
         "10",
         "25",
         "60"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculating A₅² (i.e. the number of permutations of 2 out of 5 elements) equals ?",
+          "correct_answer": "20",
+          "wrong_answers": [
+            "10",
+            "25",
+            "60"
+          ]
+        }
+      }
     },
     {
       "id": "question_152",
@@ -1519,7 +3180,18 @@
         "20",
         "5",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate C₅² (i.e. the number of combinations of 2 out of 5 elements) equal to ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "20",
+            "5",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_153",
@@ -1529,7 +3201,18 @@
         "20",
         "25",
         "5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "How many different ways are there to select 2 out of 5 students to participate in a competition?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "20",
+            "25",
+            "5"
+          ]
+        }
+      }
     },
     {
       "id": "question_154",
@@ -1539,7 +3222,18 @@
         "10",
         "25",
         "15"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "How many different ways are there to select 2 students from 5 students to serve as monitor and vice president respectively?",
+          "correct_answer": "20",
+          "wrong_answers": [
+            "10",
+            "25",
+            "15"
+          ]
+        }
+      }
     },
     {
       "id": "question_155",
@@ -1549,7 +3243,18 @@
         "1",
         "2",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "(x + 1)³ What is the coefficient of x² in the expansion?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "1",
+            "2",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_156",
@@ -1559,7 +3264,18 @@
         "n",
         "2n",
         "n - 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "(1 + x)ⁿ How many terms are there in the expansion?",
+          "correct_answer": "n+1",
+          "wrong_answers": [
+            "n",
+            "2n",
+            "n-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_157",
@@ -1569,7 +3285,18 @@
         "n²",
         "2n",
         "n!"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The sum of the binomial coefficients Cₙ⁰ + Cₙ¹ + ... + Cₙⁿ is equal to?",
+          "correct_answer": "2ⁿ",
+          "wrong_answers": [
+            "n²",
+            "2n",
+            "n!"
+          ]
+        }
+      }
     },
     {
       "id": "question_158",
@@ -1579,7 +3306,18 @@
         "0.2",
         "0.5",
         "0.7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that P(A) = 0.5 and P(AB) = 0.2, then the conditional probability P(B|A) = ?",
+          "correct_answer": "0.4",
+          "wrong_answers": [
+            "0.2",
+            "0.5",
+            "0.7"
+          ]
+        }
+      }
     },
     {
       "id": "question_159",
@@ -1589,7 +3327,18 @@
         "互斥事件一定是对立事件",
         "互斥事件一定不是对立事件",
         "对立事件不一定是互斥事件"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Which of the following event relationships is correct?",
+          "correct_answer": "Opposing events must be mutually exclusive events",
+          "wrong_answers": [
+            "Mutually exclusive events must be opposite events",
+            "Mutually exclusive events must not be opposite events",
+            "Opposing events are not necessarily mutually exclusive events"
+          ]
+        }
+      }
     },
     {
       "id": "question_160",
@@ -1599,7 +3348,18 @@
         "取值充满一个区间",
         "只能取整数",
         "取值不可数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the characteristics of discrete random variables?",
+          "correct_answer": "Values can be listed one by one",
+          "wrong_answers": [
+            "The value fills an interval",
+            "Can only take integers",
+            "The value is uncountable"
+          ]
+        }
+      }
     },
     {
       "id": "question_161",
@@ -1609,7 +3369,18 @@
         "Σ pᵢ",
         "Σ xᵢ",
         "x̄"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The mean (mathematical expectation) E(X) of a discrete random variable X is equal to?",
+          "correct_answer": "Σ xᵢ pᵢ",
+          "wrong_answers": [
+            "Σ pᵢ",
+            "Σxᵢ",
+            "x̄"
+          ]
+        }
+      }
     },
     {
       "id": "question_162",
@@ -1619,7 +3390,18 @@
         "a D(X) + b",
         "a² D(X) + b",
         "|a| D(X)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the variance of random variable X is D(X), then D(aX + b) = ?",
+          "correct_answer": "a² D(X)",
+          "wrong_answers": [
+            "a D(X) + b",
+            "a² D(X) + b",
+            "|a| D(X)"
+          ]
+        }
+      }
     },
     {
       "id": "question_163",
@@ -1629,7 +3411,18 @@
         "n",
         "p",
         "np(1-p)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the random variable X ~ B(n, p), then E(X) = ?",
+          "correct_answer": "np",
+          "wrong_answers": [
+            "n",
+            "p",
+            "np(1-p)"
+          ]
+        }
+      }
     },
     {
       "id": "question_164",
@@ -1639,7 +3432,18 @@
         "np",
         "np²",
         "n(1-p)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the random variable X ~ B(n, p), then D(X) = ?",
+          "correct_answer": "np(1-p)",
+          "wrong_answers": [
+            "np",
+            "np²",
+            "n(1-p)"
+          ]
+        }
+      }
     },
     {
       "id": "question_165",
@@ -1649,7 +3453,18 @@
         "二项分布",
         "正态分布",
         "均匀分布"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Among N products containing M defective products, any n products are selected, and the number of defective products X obeys?",
+          "correct_answer": "hypergeometric distribution",
+          "wrong_answers": [
+            "binomial distribution",
+            "normal distribution",
+            "uniformly distributed"
+          ]
+        }
+      }
     },
     {
       "id": "question_166",
@@ -1659,7 +3474,18 @@
         "x = 0",
         "x = σ",
         "x = μ + σ"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "About which straight line is the normal curve symmetrical?",
+          "correct_answer": "x = μ",
+          "wrong_answers": [
+            "x = 0",
+            "x = σ",
+            "x = μ + σ"
+          ]
+        }
+      }
     },
     {
       "id": "question_167",
@@ -1669,7 +3495,18 @@
         "陡峭",
         "位置偏左",
         "位置偏右"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the normal distribution, the larger σ, the sharper the curve?",
+          "correct_answer": "flat",
+          "wrong_answers": [
+            "steep",
+            "Position to the left",
+            "Position to the right"
+          ]
+        }
+      }
     },
     {
       "id": "question_168",
@@ -1679,7 +3516,18 @@
         "原点 (0,0)",
         "(x̄, 0)",
         "(0, ȳ)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the point that the linear regression equation y = bx + a must pass through?",
+          "correct_answer": "Sample center point (x̄, ȳ)",
+          "wrong_answers": [
+            "Origin (0,0)",
+            "(x̄, 0)",
+            "(0, ȳ)"
+          ]
+        }
+      }
     },
     {
       "id": "question_169",
@@ -1689,7 +3537,18 @@
         "(1, 3)",
         "(-∞, +∞)",
         "(-∞, 1]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the set A = (-∞, 3], B = [1, +∞), then A ∩ B = ?",
+          "correct_answer": "[1, 3]",
+          "wrong_answers": [
+            "(1, 3)",
+            "(-∞, +∞)",
+            "(-∞, 1]"
+          ]
+        }
+      }
     },
     {
       "id": "question_170",
@@ -1699,7 +3558,18 @@
         "[1, +∞)",
         "(0, +∞)",
         "(-∞, 1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the domain of the function f(x) = log₂(x - 1)?",
+          "correct_answer": "(1, +∞)",
+          "wrong_answers": [
+            "[1, +∞)",
+            "(0, +∞)",
+            "(-∞, 1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_171",
@@ -1709,7 +3579,18 @@
         "(-3, -4)",
         "(3, 4)",
         "(6, 5)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the vertex coordinates of the function f(x) = x² - 6x + 5?",
+          "correct_answer": "(3, -4)",
+          "wrong_answers": [
+            "(-3, -4)",
+            "(3, 4)",
+            "(6, 5)"
+          ]
+        }
+      }
     },
     {
       "id": "question_172",
@@ -1719,7 +3600,18 @@
         "x = 2 或 x = -3",
         "x = 3",
         "x = -2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution to the equation |2x - 1| = 5?",
+          "correct_answer": "x = 3 or x = -2",
+          "wrong_answers": [
+            "x = 2 or x = -3",
+            "x = 3",
+            "x = -2"
+          ]
+        }
+      }
     },
     {
       "id": "question_173",
@@ -1729,7 +3621,18 @@
         "x = 1",
         "x = 2",
         "x = 3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution to equation 3^(2x) = 27?",
+          "correct_answer": "x = 3/2",
+          "wrong_answers": [
+            "x = 1",
+            "x = 2",
+            "x = 3"
+          ]
+        }
+      }
     },
     {
       "id": "question_174",
@@ -1739,7 +3642,18 @@
         "x = 7",
         "x = 8",
         "x = 10"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution to the equation log₂(x - 1) = 3?",
+          "correct_answer": "x=9",
+          "wrong_answers": [
+            "x = 7",
+            "x = 8",
+            "x = 10"
+          ]
+        }
+      }
     },
     {
       "id": "question_175",
@@ -1749,7 +3663,18 @@
         "-1/2",
         "√3/2",
         "-√3/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "sin 150° = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "-1/2",
+            "√3/2",
+            "-√3/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_176",
@@ -1759,7 +3684,18 @@
         "0",
         "√2/2",
         "√3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "tan 45° = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "√2/2",
+            "√3"
+          ]
+        }
+      }
     },
     {
       "id": "question_177",
@@ -1769,7 +3705,18 @@
         "0",
         "sin 2α",
         "cos 2α"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "sin²α + cos²α = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "sin 2α",
+            "cos 2α"
+          ]
+        }
+      }
     },
     {
       "id": "question_178",
@@ -1779,7 +3726,18 @@
         "(3,4)",
         "(5,1)",
         "(3,-1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that the vector a=(2,1), b=(-1,3), then 2a-b = ?",
+          "correct_answer": "(5,-1)",
+          "wrong_answers": [
+            "(3,4)",
+            "(5,1)",
+            "(3,-1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_179",
@@ -1789,7 +3747,18 @@
         "-2",
         "1",
         "-1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the vectors a=(1,k) and b=(2,-1) are perpendicular, then k = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-2",
+            "1",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_180",
@@ -1799,7 +3768,18 @@
         "25",
         "49",
         "74"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In △ABC, a=5, b=7, angle C=60°, then c² = ?",
+          "correct_answer": "39",
+          "wrong_answers": [
+            "25",
+            "49",
+            "74"
+          ]
+        }
+      }
     },
     {
       "id": "question_181",
@@ -1809,7 +3789,18 @@
         "155",
         "170",
         "310"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence {aₙ}, a₁=4 and the common difference d=3, then the sum of the first 10 terms is S₁₀ = ?",
+          "correct_answer": "175",
+          "wrong_answers": [
+            "155",
+            "170",
+            "310"
+          ]
+        }
+      }
     },
     {
       "id": "question_182",
@@ -1819,7 +3810,18 @@
         "24",
         "32",
         "96"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the geometric sequence {aₙ}, a₁=3, and the common ratio q=2, then a₅ = ?",
+          "correct_answer": "48",
+          "wrong_answers": [
+            "24",
+            "32",
+            "96"
+          ]
+        }
+      }
     },
     {
       "id": "question_183",
@@ -1829,7 +3831,18 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The sequence satisfies a₁=1, a₂=2, aₙ=aₙ₋₁+aₙ₋₂ (n≥3), then a₄ = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "3",
+            "4",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_184",
@@ -1839,7 +3852,18 @@
         "-1+5i",
         "5-5i",
         "2+2i"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Complex numbers (2-i)(1+3i) = ?",
+          "correct_answer": "5+5i",
+          "wrong_answers": [
+            "-1+5i",
+            "5-5i",
+            "2+2i"
+          ]
+        }
+      }
     },
     {
       "id": "question_185",
@@ -1849,7 +3873,18 @@
         "2+i",
         "4+i",
         "4+3i"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If z + (1-i) = 3+2i, then z = ?",
+          "correct_answer": "2+3i",
+          "wrong_answers": [
+            "2+i",
+            "4+i",
+            "4+3i"
+          ]
+        }
+      }
     },
     {
       "id": "question_186",
@@ -1859,7 +3894,18 @@
         "y = 2x - 1",
         "y = x + 1",
         "y = 3x + 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of a straight line passing through points (0,1) and (2,5)?",
+          "correct_answer": "y = 2x + 1",
+          "wrong_answers": [
+            "y=2x-1",
+            "y=x+1",
+            "y = 3x + 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_187",
@@ -1869,7 +3915,18 @@
         "2",
         "8",
         "16"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the radius of circle (x+2)² + (y-1)² = 16?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "2",
+            "8",
+            "16"
+          ]
+        }
+      }
     },
     {
       "id": "question_188",
@@ -1879,7 +3936,18 @@
         "3√5/5",
         "6/5",
         "2√5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the distance from point (2,-1) to line x-2y+2=0?",
+          "correct_answer": "6√5/5",
+          "wrong_answers": [
+            "3√5/5",
+            "6/5",
+            "2√5"
+          ]
+        }
+      }
     },
     {
       "id": "question_189",
@@ -1889,7 +3957,18 @@
         "1/3",
         "√5/3",
         "4/5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the eccentricity of the ellipse x²/36 + y²/20 = 1?",
+          "correct_answer": "2/3",
+          "wrong_answers": [
+            "1/3",
+            "√5/3",
+            "4/5"
+          ]
+        }
+      }
     },
     {
       "id": "question_190",
@@ -1899,7 +3978,18 @@
         "(±3,0)",
         "(0,±4)",
         "(±√2,0)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the focal coordinates of the hyperbola x²/9 - y²/7 = 1?",
+          "correct_answer": "(±4,0)",
+          "wrong_answers": [
+            "(±3,0)",
+            "(0,±4)",
+            "(±√2,0)"
+          ]
+        }
+      }
     },
     {
       "id": "question_191",
@@ -1909,7 +3999,18 @@
         "(3,0)",
         "(0,6)",
         "(0,-3)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the focal coordinates of the parabola x² = 12y?",
+          "correct_answer": "(0,3)",
+          "wrong_answers": [
+            "(3,0)",
+            "(0,6)",
+            "(0,-3)"
+          ]
+        }
+      }
     },
     {
       "id": "question_192",
@@ -1919,7 +4020,18 @@
         "0.2",
         "0.5",
         "0.9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Events A and B are independent of each other, P(A)=0.4, P(B)=0.5, then P(A∪B) = ?",
+          "correct_answer": "0.7",
+          "wrong_answers": [
+            "0.2",
+            "0.5",
+            "0.9"
+          ]
+        }
+      }
     },
     {
       "id": "question_193",
@@ -1929,7 +4041,18 @@
         "5",
         "15",
         "20"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the coefficient of x³ in the expansion of (1+x)⁵?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "5",
+            "15",
+            "20"
+          ]
+        }
+      }
     },
     {
       "id": "question_194",
@@ -1939,7 +4062,18 @@
         "xeˣ",
         "eˣ",
         "(x-1)eˣ"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative function of function f(x)=xeˣ?",
+          "correct_answer": "(x+1)eˣ",
+          "wrong_answers": [
+            "xeˣ",
+            "eˣ",
+            "(x-1)eˣ"
+          ]
+        }
+      }
     },
     {
       "id": "question_195",
@@ -1949,7 +4083,18 @@
         "y = x + 1",
         "y = -x + 1",
         "y = 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the tangent to the curve y=ln x at point (1,0)?",
+          "correct_answer": "y=x-1",
+          "wrong_answers": [
+            "y=x+1",
+            "y = -x + 1",
+            "y=1"
+          ]
+        }
+      }
     },
     {
       "id": "question_196",
@@ -1959,7 +4104,18 @@
         "(0,2)",
         "(-∞,2)",
         "(0,+∞)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the monotonically increasing interval of the function f(x)=x³-3x²?",
+          "correct_answer": "(-∞,0) and (2,+∞)",
+          "wrong_answers": [
+            "(0,2)",
+            "(-∞,2)",
+            "(0,+∞)"
+          ]
+        }
+      }
     }
   ]
 }

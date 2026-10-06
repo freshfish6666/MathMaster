@@ -1,0 +1,11 @@
+// Actual gateway generation, separate from the structure-disabled collision world.
+allprojects {
+    afterEvaluate { p ->
+        p.sourceSets.main.java.srcDir(p.file('tools/checks/n-altar-offerings'))
+        p.tasks.named('compileJava').configure {
+            source(p.file('tools/checks/collision-check/com/freshfish/mathmaster/ritual/NAltarOfferingsCheck.java'))
+        }
+        p.dependencies.add('localRuntime', p.files("run/mods/curios-neoforge-${p.curios_version}.jar"))
+        p.neoForge.runs.server.gameDirectory = p.file('build/n-altar-offerings-check')
+    }
+}

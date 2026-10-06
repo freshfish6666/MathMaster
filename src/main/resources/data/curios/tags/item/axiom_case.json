@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:axiom_case",
+    "mathmaster:oracle_case",
+    "mathmaster:truth_case"
+  ]
+}

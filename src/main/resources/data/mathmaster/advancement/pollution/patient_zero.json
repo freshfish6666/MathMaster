@@ -1,0 +1,34 @@
+{
+  "parent": "mathmaster:quiz/root",
+  "display": {
+    "icon": {
+      "id": "mathmaster:pollution_effect_icon"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.pollution.patient_zero.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.pollution.patient_zero.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "infected": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "mathmaster:digital_pollution": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "infected"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

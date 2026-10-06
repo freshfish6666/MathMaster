@@ -1,6 +1,7 @@
 package com.freshfish.mathmaster.intellect;
 
 import com.freshfish.mathmaster.MathMaster;
+import com.freshfish.mathmaster.quiz.QuestionTranslations;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
@@ -20,6 +21,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.HexFormat;
 
 public final class InsightQuestionManager extends SimpleJsonResourceReloadListener {
     private static final Gson GSON = new GsonBuilder().disableHtmlEscaping().create();
@@ -110,10 +115,14 @@ public final class InsightQuestionManager extends SimpleJsonResourceReloadListen
             JsonArray questionElements = GsonHelper.getAsJsonArray(root, "questions");
             List<InsightQuestion> questions = new ArrayList<>(questionElements.size());
             Set<String> questionTexts = new HashSet<>();
+            Set<ResourceLocation> questionIds = new HashSet<>();
 
             for (int index = 0; index < questionElements.size(); index++) {
                 try {
-                    InsightQuestion question = parseQuestion(questionElements.get(index), index);
+                    InsightQuestion question = parseQuestion(questionElements.get(index), bankId, index);
+                    if (!questionIds.add(question.id())) {
+                        throw new IllegalArgumentException("duplicate question id " + question.id());
+                    }
                     if (!questionTexts.add(question.question())) {
                         throw new IllegalArgumentException("duplicate question text");
                     }
@@ -134,7 +143,11 @@ public final class InsightQuestionManager extends SimpleJsonResourceReloadListen
         }
     }
 
-    private static InsightQuestion parseQuestion(JsonElement element, int index) {
+    private static InsightQuestion parseQuestion(
+            JsonElement element,
+            ResourceLocation bankId,
+            int index
+    ) {
         JsonObject object = GsonHelper.convertToJsonObject(element, "question " + (index + 1));
         String question = requireText(GsonHelper.getAsString(object, "question"), "question");
         String correctAnswer = requireText(
@@ -159,7 +172,38 @@ public final class InsightQuestionManager extends SimpleJsonResourceReloadListen
             }
             wrongAnswers.add(answer);
         }
-        return new InsightQuestion(question, correctAnswer, List.copyOf(wrongAnswers));
+        String rawId = GsonHelper.getAsString(object, "id", "").trim();
+        ResourceLocation id;
+        if (rawId.isEmpty()) {
+            id = ResourceLocation.fromNamespaceAndPath(
+                    bankId.getNamespace(),
+                    "insight/" + bankId.getPath() + "/generated/" + contentHash(
+                            question, correctAnswer, wrongAnswers
+                    )
+            );
+            MathMaster.LOGGER.warn(
+                    "Insight question '{}' in {} has no explicit id; generated fallback id {}",
+                    question,
+                    bankId,
+                    id
+            );
+        } else {
+            id = rawId.indexOf(':') >= 0
+                    ? ResourceLocation.tryParse(rawId)
+                    : ResourceLocation.tryParse(
+                            bankId.getNamespace() + ":insight/" + bankId.getPath() + "/" + rawId
+                    );
+            if (id == null) {
+                throw new IllegalArgumentException("invalid question id " + rawId);
+            }
+        }
+        return new InsightQuestion(
+                id,
+                question,
+                correctAnswer,
+                List.copyOf(wrongAnswers),
+                QuestionTranslations.parse(object, "question " + (index + 1))
+        );
     }
 
     private static String requireText(String value, String field) {
@@ -167,5 +211,21 @@ public final class InsightQuestionManager extends SimpleJsonResourceReloadListen
             throw new IllegalArgumentException(field + " must not be blank");
         }
         return value;
+    }
+
+    private static String contentHash(String question, String correctAnswer, List<String> wrongAnswers) {
+        try {
+            MessageDigest digest = MessageDigest.getInstance("SHA-256");
+            digest.update(question.getBytes(StandardCharsets.UTF_8));
+            digest.update((byte) 0);
+            digest.update(correctAnswer.getBytes(StandardCharsets.UTF_8));
+            for (String answer : wrongAnswers) {
+                digest.update((byte) 0);
+                digest.update(answer.getBytes(StandardCharsets.UTF_8));
+            }
+            return HexFormat.of().formatHex(digest.digest(), 0, 8);
+        } catch (NoSuchAlgorithmException exception) {
+            throw new IllegalStateException("SHA-256 is unavailable", exception);
+        }
     }
 }

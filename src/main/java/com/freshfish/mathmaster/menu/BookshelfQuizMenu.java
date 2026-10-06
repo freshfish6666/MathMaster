@@ -49,6 +49,9 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
     private final String questionText;
     private final String correctAnswer;
     private final String[] wrongAnswers;
+    private final String englishQuestionText;
+    private final String englishCorrectAnswer;
+    private final String[] englishWrongAnswers;
     private final int correctOptionIndex;
     private final int difficulty;
     private final int intelligenceLevel;
@@ -64,6 +67,9 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
                 requireBank(data.readUtf()),
                 data.readResourceLocation(),
                 data.readInt(),
+                data.readUtf(),
+                data.readUtf(),
+                new String[]{data.readUtf(), data.readUtf(), data.readUtf()},
                 data.readUtf(),
                 data.readUtf(),
                 new String[]{data.readUtf(), data.readUtf(), data.readUtf()},
@@ -100,6 +106,9 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
                 question.question(),
                 question.correctAnswer(),
                 question.wrongAnswers().toArray(new String[0]),
+                question.text("en_us").question(),
+                question.text("en_us").correctAnswer(),
+                question.text("en_us").wrongAnswers().toArray(new String[0]),
                 correctOptionIndex,
                 difficulty,
                 intelligenceLevel,
@@ -119,6 +128,9 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
             String questionText,
             String correctAnswer,
             String[] wrongAnswers,
+            String englishQuestionText,
+            String englishCorrectAnswer,
+            String[] englishWrongAnswers,
             int correctOptionIndex,
             int difficulty,
             int intelligenceLevel,
@@ -134,6 +146,9 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
         this.questionText = questionText;
         this.correctAnswer = correctAnswer;
         this.wrongAnswers = wrongAnswers;
+        this.englishQuestionText = englishQuestionText;
+        this.englishCorrectAnswer = englishCorrectAnswer;
+        this.englishWrongAnswers = englishWrongAnswers;
         this.correctOptionIndex = correctOptionIndex;
         this.difficulty = difficulty;
         this.intelligenceLevel = intelligenceLevel;
@@ -151,12 +166,24 @@ public class BookshelfQuizMenu extends AbstractContainerMenu {
         return questionText;
     }
 
+    public String getQuestionText(boolean english) {
+        return english ? englishQuestionText : questionText;
+    }
+
     public String getCorrectAnswer() {
         return correctAnswer;
     }
 
+    public String getCorrectAnswer(boolean english) {
+        return english ? englishCorrectAnswer : correctAnswer;
+    }
+
     public String[] getWrongAnswers() {
         return wrongAnswers;
+    }
+
+    public String[] getWrongAnswers(boolean english) {
+        return english ? englishWrongAnswers : wrongAnswers;
     }
 
     public int getCorrectOptionIndex() {

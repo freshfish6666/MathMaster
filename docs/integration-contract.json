@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "mod_id": "mathmaster",
+  "introduced_in": "1.1.1",
+  "platform": {
+    "minecraft": "1.21.1",
+    "loader": "neoforge"
+  },
+  "api": {
+    "version": 1,
+    "entrypoint": "com.freshfish.mathmaster.api.MathMasterApi",
+    "source": "../src/main/java/com/freshfish/mathmaster/api/MathMasterApi.java"
+  },
+  "documentation": "integrations.md",
+  "capabilities": [
+    "entity_intellect",
+    "player_intellect",
+    "insight_state",
+    "quiz_book_tag",
+    "quiz_book_catalog",
+    "quiz_launch"
+  ],
+  "authority": "server",
+  "read_only": false,
+  "operations": {
+    "quiz_book_tag": {
+      "resource": "mathmaster:quiz_books",
+      "effect": "eligible_for_chiseled_bookshelf_and_lectern_placement"
+    },
+    "quiz_book_catalog": {
+      "method": "MathMasterApi.getAvailableQuizBooks()",
+      "result": "immutable_snapshot"
+    },
+    "quiz_launch": {
+      "method": "MathMasterApi.startQuiz(ServerPlayer, ResourceLocation)",
+      "validation": "server"
+    }
+  },
+  "optional_integrations": {
+    "madnesscore": {
+      "version_range": "[1.0.0,2.0.0)",
+      "bridge": "com.freshfish.mathmaster.compat.madnesscore.MadnessCoreIntegration",
+      "authority": "server",
+      "metric_source": "mathmaster:quiz_system",
+      "authority_source": "mathmaster:progression",
+      "migration": "none"
+    }
+  },
+  "internal_packages": [
+    "com.freshfish.mathmaster.intellect",
+    "com.freshfish.mathmaster.intelligence",
+    "com.freshfish.mathmaster.init",
+    "com.freshfish.mathmaster.menu",
+    "com.freshfish.mathmaster.network"
+  ]
+}

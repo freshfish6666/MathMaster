@@ -1,0 +1,29 @@
+{
+  "parent": "mathmaster:pollution/patient_zero",
+  "display": {
+    "icon": {
+      "id": "mathmaster:pollution_iron_to_dust_icon"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.pollution.iron_to_dust.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.pollution.iron_to_dust.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "completed"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

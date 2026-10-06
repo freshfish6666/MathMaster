@@ -32,12 +32,14 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+### Python ###
+__pycache__/
+*.py[cod]
+
 ### Minecraft Modding ###
 run/
 !**/src/**/run/
-**/src/generated/**/.cache/
-repo/
-!**/src/**/repo/
 
 # Local AI handoff context (never commit or package)
 MATHMASTER_CONTEXT.local.md
+.local-backups/

@@ -1,0 +1,176 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "mathmaster:n/blood_sacrifice",
+  "pools": [
+    {
+      "name": "guaranteed_geometry_sanctuary_map",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mathmaster:on_geometry_sanctuary_maps",
+              "decoration": "minecraft:red_x",
+              "zoom": 2,
+              "search_radius": 50,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mathmaster.geometry_sanctuary"
+              },
+              "target": "item_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "guaranteed_lingxu_ingots",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "random_rewards",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_nugget",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:prime_core",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:grade_2_math_study_note",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:junior_high_math_study_note",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_sword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_axe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_chestplate",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:prime_nugget",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mathmaster:lingxu_block",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

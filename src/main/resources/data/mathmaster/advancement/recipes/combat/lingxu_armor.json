@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lingxu_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mathmaster:lingxu_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mathmaster:lingxu_helmet",
+      "mathmaster:lingxu_chestplate",
+      "mathmaster:lingxu_leggings",
+      "mathmaster:lingxu_boots"
+    ]
+  }
+}

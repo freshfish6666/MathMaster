@@ -7,7 +7,19 @@
         "6",
         "8",
         "9"
-      ]
+      ],
+      "id": "question_001",
+      "translations": {
+        "en_us": {
+          "question": "3 + 4 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "9 - 5 = ?",
@@ -16,7 +28,19 @@
         "3",
         "5",
         "14"
-      ]
+      ],
+      "id": "question_002",
+      "translations": {
+        "en_us": {
+          "question": "9 - 5 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "6 × 3 = ?",
@@ -25,7 +49,19 @@
         "9",
         "16",
         "21"
-      ]
+      ],
+      "id": "question_003",
+      "translations": {
+        "en_us": {
+          "question": "6 × 3 = ?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "9",
+            "16",
+            "21"
+          ]
+        }
+      }
     },
     {
       "question": "20 ÷ 4 = ?",
@@ -34,7 +70,19 @@
         "4",
         "6",
         "16"
-      ]
+      ],
+      "id": "question_004",
+      "translations": {
+        "en_us": {
+          "question": "20 ÷ 4 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "4",
+            "6",
+            "16"
+          ]
+        }
+      }
     },
     {
       "question": "12 的一半是多少？",
@@ -43,7 +91,19 @@
         "4",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_005",
+      "translations": {
+        "en_us": {
+          "question": "What is half of 12?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "4",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "8 + 2 = ?",
@@ -52,7 +112,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_006",
+      "translations": {
+        "en_us": {
+          "question": "8 + 2 = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "11 + 7 = ?",
@@ -61,7 +133,19 @@
         "19",
         "17",
         "20"
-      ]
+      ],
+      "id": "question_007",
+      "translations": {
+        "en_us": {
+          "question": "11 + 7 = ?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "19",
+            "17",
+            "20"
+          ]
+        }
+      }
     },
     {
       "question": "14 + 12 = ?",
@@ -70,7 +154,19 @@
         "27",
         "25",
         "28"
-      ]
+      ],
+      "id": "question_008",
+      "translations": {
+        "en_us": {
+          "question": "14 + 12 = ?",
+          "correct_answer": "26",
+          "wrong_answers": [
+            "27",
+            "25",
+            "28"
+          ]
+        }
+      }
     },
     {
       "question": "17 + 17 = ?",
@@ -79,7 +175,19 @@
         "35",
         "33",
         "36"
-      ]
+      ],
+      "id": "question_009",
+      "translations": {
+        "en_us": {
+          "question": "17 + 17 = ?",
+          "correct_answer": "34",
+          "wrong_answers": [
+            "35",
+            "33",
+            "36"
+          ]
+        }
+      }
     },
     {
       "question": "20 + 4 = ?",
@@ -88,7 +196,19 @@
         "25",
         "23",
         "26"
-      ]
+      ],
+      "id": "question_010",
+      "translations": {
+        "en_us": {
+          "question": "20 + 4 = ?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "25",
+            "23",
+            "26"
+          ]
+        }
+      }
     },
     {
       "question": "23 + 9 = ?",
@@ -97,7 +217,19 @@
         "33",
         "31",
         "34"
-      ]
+      ],
+      "id": "question_011",
+      "translations": {
+        "en_us": {
+          "question": "23 + 9 = ?",
+          "correct_answer": "32",
+          "wrong_answers": [
+            "33",
+            "31",
+            "34"
+          ]
+        }
+      }
     },
     {
       "question": "26 + 14 = ?",
@@ -106,7 +238,19 @@
         "41",
         "39",
         "42"
-      ]
+      ],
+      "id": "question_012",
+      "translations": {
+        "en_us": {
+          "question": "26 + 14 = ?",
+          "correct_answer": "40",
+          "wrong_answers": [
+            "41",
+            "39",
+            "42"
+          ]
+        }
+      }
     },
     {
       "question": "29 + 19 = ?",
@@ -115,7 +259,19 @@
         "49",
         "47",
         "50"
-      ]
+      ],
+      "id": "question_013",
+      "translations": {
+        "en_us": {
+          "question": "29 + 19 = ?",
+          "correct_answer": "48",
+          "wrong_answers": [
+            "49",
+            "47",
+            "50"
+          ]
+        }
+      }
     },
     {
       "question": "32 + 6 = ?",
@@ -124,7 +280,19 @@
         "39",
         "37",
         "40"
-      ]
+      ],
+      "id": "question_014",
+      "translations": {
+        "en_us": {
+          "question": "32 + 6 = ?",
+          "correct_answer": "38",
+          "wrong_answers": [
+            "39",
+            "37",
+            "40"
+          ]
+        }
+      }
     },
     {
       "question": "35 + 11 = ?",
@@ -133,7 +301,19 @@
         "47",
         "45",
         "48"
-      ]
+      ],
+      "id": "question_015",
+      "translations": {
+        "en_us": {
+          "question": "35 + 11 = ?",
+          "correct_answer": "46",
+          "wrong_answers": [
+            "47",
+            "45",
+            "48"
+          ]
+        }
+      }
     },
     {
       "question": "38 + 16 = ?",
@@ -142,7 +322,19 @@
         "55",
         "53",
         "56"
-      ]
+      ],
+      "id": "question_016",
+      "translations": {
+        "en_us": {
+          "question": "38 + 16 = ?",
+          "correct_answer": "54",
+          "wrong_answers": [
+            "55",
+            "53",
+            "56"
+          ]
+        }
+      }
     },
     {
       "question": "41 + 3 = ?",
@@ -151,7 +343,19 @@
         "45",
         "43",
         "46"
-      ]
+      ],
+      "id": "question_017",
+      "translations": {
+        "en_us": {
+          "question": "41 + 3 = ?",
+          "correct_answer": "44",
+          "wrong_answers": [
+            "45",
+            "43",
+            "46"
+          ]
+        }
+      }
     },
     {
       "question": "44 + 8 = ?",
@@ -160,7 +364,19 @@
         "53",
         "51",
         "54"
-      ]
+      ],
+      "id": "question_018",
+      "translations": {
+        "en_us": {
+          "question": "44 + 8 = ?",
+          "correct_answer": "52",
+          "wrong_answers": [
+            "53",
+            "51",
+            "54"
+          ]
+        }
+      }
     },
     {
       "question": "47 + 13 = ?",
@@ -169,7 +385,19 @@
         "61",
         "59",
         "62"
-      ]
+      ],
+      "id": "question_019",
+      "translations": {
+        "en_us": {
+          "question": "47 + 13 = ?",
+          "correct_answer": "60",
+          "wrong_answers": [
+            "61",
+            "59",
+            "62"
+          ]
+        }
+      }
     },
     {
       "question": "50 + 18 = ?",
@@ -178,7 +406,19 @@
         "69",
         "67",
         "70"
-      ]
+      ],
+      "id": "question_020",
+      "translations": {
+        "en_us": {
+          "question": "50 + 18 = ?",
+          "correct_answer": "68",
+          "wrong_answers": [
+            "69",
+            "67",
+            "70"
+          ]
+        }
+      }
     },
     {
       "question": "53 + 5 = ?",
@@ -187,7 +427,19 @@
         "59",
         "57",
         "60"
-      ]
+      ],
+      "id": "question_021",
+      "translations": {
+        "en_us": {
+          "question": "53 + 5 = ?",
+          "correct_answer": "58",
+          "wrong_answers": [
+            "59",
+            "57",
+            "60"
+          ]
+        }
+      }
     },
     {
       "question": "56 + 10 = ?",
@@ -196,7 +448,19 @@
         "67",
         "65",
         "68"
-      ]
+      ],
+      "id": "question_022",
+      "translations": {
+        "en_us": {
+          "question": "56 + 10 = ?",
+          "correct_answer": "66",
+          "wrong_answers": [
+            "67",
+            "65",
+            "68"
+          ]
+        }
+      }
     },
     {
       "question": "59 + 15 = ?",
@@ -205,7 +469,19 @@
         "75",
         "73",
         "76"
-      ]
+      ],
+      "id": "question_023",
+      "translations": {
+        "en_us": {
+          "question": "59 + 15 = ?",
+          "correct_answer": "74",
+          "wrong_answers": [
+            "75",
+            "73",
+            "76"
+          ]
+        }
+      }
     },
     {
       "question": "62 + 2 = ?",
@@ -214,7 +490,19 @@
         "65",
         "63",
         "66"
-      ]
+      ],
+      "id": "question_024",
+      "translations": {
+        "en_us": {
+          "question": "62 + 2 = ?",
+          "correct_answer": "64",
+          "wrong_answers": [
+            "65",
+            "63",
+            "66"
+          ]
+        }
+      }
     },
     {
       "question": "35 - 4 = ?",
@@ -223,7 +511,19 @@
         "32",
         "30",
         "33"
-      ]
+      ],
+      "id": "question_025",
+      "translations": {
+        "en_us": {
+          "question": "35 - 4 = ?",
+          "correct_answer": "31",
+          "wrong_answers": [
+            "32",
+            "30",
+            "33"
+          ]
+        }
+      }
     },
     {
       "question": "38 - 6 = ?",
@@ -232,7 +532,19 @@
         "33",
         "31",
         "34"
-      ]
+      ],
+      "id": "question_026",
+      "translations": {
+        "en_us": {
+          "question": "38 - 6 = ?",
+          "correct_answer": "32",
+          "wrong_answers": [
+            "33",
+            "31",
+            "34"
+          ]
+        }
+      }
     },
     {
       "question": "41 - 8 = ?",
@@ -241,7 +553,19 @@
         "34",
         "32",
         "35"
-      ]
+      ],
+      "id": "question_027",
+      "translations": {
+        "en_us": {
+          "question": "41 - 8 = ?",
+          "correct_answer": "33",
+          "wrong_answers": [
+            "34",
+            "32",
+            "35"
+          ]
+        }
+      }
     },
     {
       "question": "44 - 10 = ?",
@@ -250,7 +574,19 @@
         "35",
         "33",
         "36"
-      ]
+      ],
+      "id": "question_028",
+      "translations": {
+        "en_us": {
+          "question": "44 - 10 = ?",
+          "correct_answer": "34",
+          "wrong_answers": [
+            "35",
+            "33",
+            "36"
+          ]
+        }
+      }
     },
     {
       "question": "47 - 12 = ?",
@@ -259,7 +595,19 @@
         "36",
         "34",
         "37"
-      ]
+      ],
+      "id": "question_029",
+      "translations": {
+        "en_us": {
+          "question": "47 - 12 = ?",
+          "correct_answer": "35",
+          "wrong_answers": [
+            "36",
+            "34",
+            "37"
+          ]
+        }
+      }
     },
     {
       "question": "50 - 14 = ?",
@@ -268,7 +616,19 @@
         "37",
         "35",
         "38"
-      ]
+      ],
+      "id": "question_030",
+      "translations": {
+        "en_us": {
+          "question": "50 - 14 = ?",
+          "correct_answer": "36",
+          "wrong_answers": [
+            "37",
+            "35",
+            "38"
+          ]
+        }
+      }
     },
     {
       "question": "53 - 16 = ?",
@@ -277,7 +637,19 @@
         "38",
         "36",
         "39"
-      ]
+      ],
+      "id": "question_031",
+      "translations": {
+        "en_us": {
+          "question": "53 - 16 = ?",
+          "correct_answer": "37",
+          "wrong_answers": [
+            "38",
+            "36",
+            "39"
+          ]
+        }
+      }
     },
     {
       "question": "56 - 18 = ?",
@@ -286,7 +658,19 @@
         "39",
         "37",
         "40"
-      ]
+      ],
+      "id": "question_032",
+      "translations": {
+        "en_us": {
+          "question": "56 - 18 = ?",
+          "correct_answer": "38",
+          "wrong_answers": [
+            "39",
+            "37",
+            "40"
+          ]
+        }
+      }
     },
     {
       "question": "59 - 20 = ?",
@@ -295,7 +679,19 @@
         "40",
         "38",
         "41"
-      ]
+      ],
+      "id": "question_033",
+      "translations": {
+        "en_us": {
+          "question": "59 - 20 = ?",
+          "correct_answer": "39",
+          "wrong_answers": [
+            "40",
+            "38",
+            "41"
+          ]
+        }
+      }
     },
     {
       "question": "62 - 22 = ?",
@@ -304,7 +700,19 @@
         "41",
         "39",
         "42"
-      ]
+      ],
+      "id": "question_034",
+      "translations": {
+        "en_us": {
+          "question": "62 - 22 = ?",
+          "correct_answer": "40",
+          "wrong_answers": [
+            "41",
+            "39",
+            "42"
+          ]
+        }
+      }
     },
     {
       "question": "65 - 24 = ?",
@@ -313,7 +721,19 @@
         "42",
         "40",
         "43"
-      ]
+      ],
+      "id": "question_035",
+      "translations": {
+        "en_us": {
+          "question": "65 - 24 = ?",
+          "correct_answer": "41",
+          "wrong_answers": [
+            "42",
+            "40",
+            "43"
+          ]
+        }
+      }
     },
     {
       "question": "68 - 5 = ?",
@@ -322,7 +742,19 @@
         "64",
         "62",
         "65"
-      ]
+      ],
+      "id": "question_036",
+      "translations": {
+        "en_us": {
+          "question": "68 - 5 = ?",
+          "correct_answer": "63",
+          "wrong_answers": [
+            "64",
+            "62",
+            "65"
+          ]
+        }
+      }
     },
     {
       "question": "71 - 7 = ?",
@@ -331,7 +763,19 @@
         "65",
         "63",
         "66"
-      ]
+      ],
+      "id": "question_037",
+      "translations": {
+        "en_us": {
+          "question": "71 - 7 = ?",
+          "correct_answer": "64",
+          "wrong_answers": [
+            "65",
+            "63",
+            "66"
+          ]
+        }
+      }
     },
     {
       "question": "74 - 9 = ?",
@@ -340,7 +784,19 @@
         "66",
         "64",
         "67"
-      ]
+      ],
+      "id": "question_038",
+      "translations": {
+        "en_us": {
+          "question": "74 - 9 = ?",
+          "correct_answer": "65",
+          "wrong_answers": [
+            "66",
+            "64",
+            "67"
+          ]
+        }
+      }
     },
     {
       "question": "77 - 11 = ?",
@@ -349,7 +805,19 @@
         "67",
         "65",
         "68"
-      ]
+      ],
+      "id": "question_039",
+      "translations": {
+        "en_us": {
+          "question": "77 - 11 = ?",
+          "correct_answer": "66",
+          "wrong_answers": [
+            "67",
+            "65",
+            "68"
+          ]
+        }
+      }
     },
     {
       "question": "80 - 13 = ?",
@@ -358,7 +826,19 @@
         "68",
         "66",
         "69"
-      ]
+      ],
+      "id": "question_040",
+      "translations": {
+        "en_us": {
+          "question": "80 - 13 = ?",
+          "correct_answer": "67",
+          "wrong_answers": [
+            "68",
+            "66",
+            "69"
+          ]
+        }
+      }
     },
     {
       "question": "83 - 15 = ?",
@@ -367,7 +847,19 @@
         "69",
         "67",
         "70"
-      ]
+      ],
+      "id": "question_041",
+      "translations": {
+        "en_us": {
+          "question": "83 - 15 = ?",
+          "correct_answer": "68",
+          "wrong_answers": [
+            "69",
+            "67",
+            "70"
+          ]
+        }
+      }
     },
     {
       "question": "86 - 17 = ?",
@@ -376,7 +868,19 @@
         "70",
         "68",
         "71"
-      ]
+      ],
+      "id": "question_042",
+      "translations": {
+        "en_us": {
+          "question": "86 - 17 = ?",
+          "correct_answer": "69",
+          "wrong_answers": [
+            "70",
+            "68",
+            "71"
+          ]
+        }
+      }
     },
     {
       "question": "89 - 19 = ?",
@@ -385,7 +889,19 @@
         "71",
         "69",
         "72"
-      ]
+      ],
+      "id": "question_043",
+      "translations": {
+        "en_us": {
+          "question": "89 - 19 = ?",
+          "correct_answer": "70",
+          "wrong_answers": [
+            "71",
+            "69",
+            "72"
+          ]
+        }
+      }
     },
     {
       "question": "2 × 2 = ?",
@@ -394,7 +910,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_044",
+      "translations": {
+        "en_us": {
+          "question": "2 × 2 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "2 × 3 = ?",
@@ -403,7 +931,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_045",
+      "translations": {
+        "en_us": {
+          "question": "2 × 3 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "2 × 4 = ?",
@@ -412,7 +952,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_046",
+      "translations": {
+        "en_us": {
+          "question": "2 × 4 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "2 × 5 = ?",
@@ -421,7 +973,19 @@
         "11",
         "9",
         "12"
-      ]
+      ],
+      "id": "question_047",
+      "translations": {
+        "en_us": {
+          "question": "2 × 5 = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "11",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "2 × 6 = ?",
@@ -430,7 +994,19 @@
         "13",
         "11",
         "14"
-      ]
+      ],
+      "id": "question_048",
+      "translations": {
+        "en_us": {
+          "question": "2 × 6 = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "13",
+            "11",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "2 × 7 = ?",
@@ -439,7 +1015,19 @@
         "15",
         "13",
         "16"
-      ]
+      ],
+      "id": "question_049",
+      "translations": {
+        "en_us": {
+          "question": "2 × 7 = ?",
+          "correct_answer": "14",
+          "wrong_answers": [
+            "15",
+            "13",
+            "16"
+          ]
+        }
+      }
     },
     {
       "question": "2 × 8 = ?",
@@ -448,7 +1036,19 @@
         "17",
         "15",
         "18"
-      ]
+      ],
+      "id": "question_050",
+      "translations": {
+        "en_us": {
+          "question": "2 × 8 = ?",
+          "correct_answer": "16",
+          "wrong_answers": [
+            "17",
+            "15",
+            "18"
+          ]
+        }
+      }
     },
     {
       "question": "2 × 9 = ?",
@@ -457,7 +1057,19 @@
         "19",
         "17",
         "20"
-      ]
+      ],
+      "id": "question_051",
+      "translations": {
+        "en_us": {
+          "question": "2 × 9 = ?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "19",
+            "17",
+            "20"
+          ]
+        }
+      }
     },
     {
       "question": "3 × 2 = ?",
@@ -466,7 +1078,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_052",
+      "translations": {
+        "en_us": {
+          "question": "3 × 2 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "3 × 3 = ?",
@@ -475,7 +1099,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_053",
+      "translations": {
+        "en_us": {
+          "question": "3 × 3 = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "3 × 4 = ?",
@@ -484,7 +1120,19 @@
         "13",
         "11",
         "14"
-      ]
+      ],
+      "id": "question_054",
+      "translations": {
+        "en_us": {
+          "question": "3 × 4 = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "13",
+            "11",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "3 × 5 = ?",
@@ -493,7 +1141,19 @@
         "16",
         "14",
         "17"
-      ]
+      ],
+      "id": "question_055",
+      "translations": {
+        "en_us": {
+          "question": "3 × 5 = ?",
+          "correct_answer": "15",
+          "wrong_answers": [
+            "16",
+            "14",
+            "17"
+          ]
+        }
+      }
     },
     {
       "question": "3 × 6 = ?",
@@ -502,7 +1162,19 @@
         "19",
         "17",
         "20"
-      ]
+      ],
+      "id": "question_056",
+      "translations": {
+        "en_us": {
+          "question": "3 × 6 = ?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "19",
+            "17",
+            "20"
+          ]
+        }
+      }
     },
     {
       "question": "3 × 7 = ?",
@@ -511,7 +1183,19 @@
         "22",
         "20",
         "23"
-      ]
+      ],
+      "id": "question_057",
+      "translations": {
+        "en_us": {
+          "question": "3 × 7 = ?",
+          "correct_answer": "21",
+          "wrong_answers": [
+            "22",
+            "20",
+            "23"
+          ]
+        }
+      }
     },
     {
       "question": "3 × 8 = ?",
@@ -520,7 +1204,19 @@
         "25",
         "23",
         "26"
-      ]
+      ],
+      "id": "question_058",
+      "translations": {
+        "en_us": {
+          "question": "3 × 8 = ?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "25",
+            "23",
+            "26"
+          ]
+        }
+      }
     },
     {
       "question": "3 × 9 = ?",
@@ -529,7 +1225,19 @@
         "28",
         "26",
         "29"
-      ]
+      ],
+      "id": "question_059",
+      "translations": {
+        "en_us": {
+          "question": "3 × 9 = ?",
+          "correct_answer": "27",
+          "wrong_answers": [
+            "28",
+            "26",
+            "29"
+          ]
+        }
+      }
     },
     {
       "question": "4 × 2 = ?",
@@ -538,7 +1246,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_060",
+      "translations": {
+        "en_us": {
+          "question": "4 × 2 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "4 × 3 = ?",
@@ -547,7 +1267,19 @@
         "13",
         "11",
         "14"
-      ]
+      ],
+      "id": "question_061",
+      "translations": {
+        "en_us": {
+          "question": "4 × 3 = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "13",
+            "11",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "4 × 4 = ?",
@@ -556,7 +1288,19 @@
         "17",
         "15",
         "18"
-      ]
+      ],
+      "id": "question_062",
+      "translations": {
+        "en_us": {
+          "question": "4 × 4 = ?",
+          "correct_answer": "16",
+          "wrong_answers": [
+            "17",
+            "15",
+            "18"
+          ]
+        }
+      }
     },
     {
       "question": "4 ÷ 2 = ?",
@@ -565,7 +1309,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_063",
+      "translations": {
+        "en_us": {
+          "question": "4 ÷ 2 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "6 ÷ 2 = ?",
@@ -574,7 +1330,19 @@
         "4",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_064",
+      "translations": {
+        "en_us": {
+          "question": "6 ÷ 2 = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "4",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "8 ÷ 2 = ?",
@@ -583,7 +1351,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_065",
+      "translations": {
+        "en_us": {
+          "question": "8 ÷ 2 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "10 ÷ 2 = ?",
@@ -592,7 +1372,19 @@
         "6",
         "4",
         "7"
-      ]
+      ],
+      "id": "question_066",
+      "translations": {
+        "en_us": {
+          "question": "10 ÷ 2 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "6",
+            "4",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "12 ÷ 2 = ?",
@@ -601,7 +1393,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_067",
+      "translations": {
+        "en_us": {
+          "question": "12 ÷ 2 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "14 ÷ 2 = ?",
@@ -610,7 +1414,19 @@
         "8",
         "6",
         "9"
-      ]
+      ],
+      "id": "question_068",
+      "translations": {
+        "en_us": {
+          "question": "14 ÷ 2 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "8",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "16 ÷ 2 = ?",
@@ -619,7 +1435,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_069",
+      "translations": {
+        "en_us": {
+          "question": "16 ÷ 2 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "18 ÷ 2 = ?",
@@ -628,7 +1456,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_070",
+      "translations": {
+        "en_us": {
+          "question": "18 ÷ 2 = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "6 ÷ 3 = ?",
@@ -637,7 +1477,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_071",
+      "translations": {
+        "en_us": {
+          "question": "6 ÷ 3 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "9 ÷ 3 = ?",
@@ -646,7 +1498,19 @@
         "4",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_072",
+      "translations": {
+        "en_us": {
+          "question": "9 ÷ 3 = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "4",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "12 ÷ 3 = ?",
@@ -655,7 +1519,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_073",
+      "translations": {
+        "en_us": {
+          "question": "12 ÷ 3 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "15 ÷ 3 = ?",
@@ -664,7 +1540,19 @@
         "6",
         "4",
         "7"
-      ]
+      ],
+      "id": "question_074",
+      "translations": {
+        "en_us": {
+          "question": "15 ÷ 3 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "6",
+            "4",
+            "7"
+          ]
+        }
+      }
     },
     {
       "question": "18 ÷ 3 = ?",
@@ -673,7 +1561,19 @@
         "7",
         "5",
         "8"
-      ]
+      ],
+      "id": "question_075",
+      "translations": {
+        "en_us": {
+          "question": "18 ÷ 3 = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "7",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "question": "21 ÷ 3 = ?",
@@ -682,7 +1582,19 @@
         "8",
         "6",
         "9"
-      ]
+      ],
+      "id": "question_076",
+      "translations": {
+        "en_us": {
+          "question": "21 ÷ 3 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "8",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "24 ÷ 3 = ?",
@@ -691,7 +1603,19 @@
         "9",
         "7",
         "10"
-      ]
+      ],
+      "id": "question_077",
+      "translations": {
+        "en_us": {
+          "question": "24 ÷ 3 = ?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "9",
+            "7",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "27 ÷ 3 = ?",
@@ -700,7 +1624,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_078",
+      "translations": {
+        "en_us": {
+          "question": "27 ÷ 3 = ?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "8 ÷ 4 = ?",
@@ -709,7 +1645,19 @@
         "3",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_079",
+      "translations": {
+        "en_us": {
+          "question": "8 ÷ 4 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "12 ÷ 4 = ?",
@@ -718,7 +1666,19 @@
         "4",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_080",
+      "translations": {
+        "en_us": {
+          "question": "12 ÷ 4 = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "4",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "16 ÷ 4 = ?",
@@ -727,7 +1687,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_081",
+      "translations": {
+        "en_us": {
+          "question": "16 ÷ 4 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "在 24 和 19 中，哪个数更大？",
@@ -736,7 +1708,19 @@
         "19",
         "一样大",
         "43"
-      ]
+      ],
+      "id": "question_082",
+      "translations": {
+        "en_us": {
+          "question": "Which number is greater between 24 and 19?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "19",
+            "same size",
+            "43"
+          ]
+        }
+      }
     },
     {
       "question": "在 31 和 24 中，哪个数更大？",
@@ -745,7 +1729,19 @@
         "24",
         "一样大",
         "55"
-      ]
+      ],
+      "id": "question_083",
+      "translations": {
+        "en_us": {
+          "question": "Which number is greater between 31 and 24?",
+          "correct_answer": "31",
+          "wrong_answers": [
+            "24",
+            "same size",
+            "55"
+          ]
+        }
+      }
     },
     {
       "question": "在 38 和 29 中，哪个数更大？",
@@ -754,7 +1750,19 @@
         "29",
         "一样大",
         "67"
-      ]
+      ],
+      "id": "question_084",
+      "translations": {
+        "en_us": {
+          "question": "Which number is greater between 38 and 29?",
+          "correct_answer": "38",
+          "wrong_answers": [
+            "29",
+            "same size",
+            "67"
+          ]
+        }
+      }
     },
     {
       "question": "在 45 和 34 中，哪个数更大？",
@@ -763,7 +1771,19 @@
         "34",
         "一样大",
         "79"
-      ]
+      ],
+      "id": "question_085",
+      "translations": {
+        "en_us": {
+          "question": "Which number is greater, 45 or 34?",
+          "correct_answer": "45",
+          "wrong_answers": [
+            "34",
+            "same size",
+            "79"
+          ]
+        }
+      }
     },
     {
       "question": "在 52 和 39 中，哪个数更大？",
@@ -772,7 +1792,19 @@
         "39",
         "一样大",
         "91"
-      ]
+      ],
+      "id": "question_086",
+      "translations": {
+        "en_us": {
+          "question": "Which number is greater, 52 or 39?",
+          "correct_answer": "52",
+          "wrong_answers": [
+            "39",
+            "same size",
+            "91"
+          ]
+        }
+      }
     },
     {
       "question": "7 的 2 倍是多少？",
@@ -781,7 +1813,19 @@
         "15",
         "13",
         "16"
-      ]
+      ],
+      "id": "question_087",
+      "translations": {
+        "en_us": {
+          "question": "What is 2 times 7?",
+          "correct_answer": "14",
+          "wrong_answers": [
+            "15",
+            "13",
+            "16"
+          ]
+        }
+      }
     },
     {
       "question": "11 的 2 倍是多少？",
@@ -790,7 +1834,19 @@
         "23",
         "21",
         "24"
-      ]
+      ],
+      "id": "question_088",
+      "translations": {
+        "en_us": {
+          "question": "What is 2 times 11?",
+          "correct_answer": "22",
+          "wrong_answers": [
+            "23",
+            "21",
+            "24"
+          ]
+        }
+      }
     },
     {
       "question": "15 的 2 倍是多少？",
@@ -799,7 +1855,19 @@
         "31",
         "29",
         "32"
-      ]
+      ],
+      "id": "question_089",
+      "translations": {
+        "en_us": {
+          "question": "What is 2 times 15?",
+          "correct_answer": "30",
+          "wrong_answers": [
+            "31",
+            "29",
+            "32"
+          ]
+        }
+      }
     },
     {
       "question": "19 的 2 倍是多少？",
@@ -808,7 +1876,19 @@
         "39",
         "37",
         "40"
-      ]
+      ],
+      "id": "question_090",
+      "translations": {
+        "en_us": {
+          "question": "What is 2 times 19?",
+          "correct_answer": "38",
+          "wrong_answers": [
+            "39",
+            "37",
+            "40"
+          ]
+        }
+      }
     },
     {
       "question": "23 的 2 倍是多少？",
@@ -817,7 +1897,19 @@
         "47",
         "45",
         "48"
-      ]
+      ],
+      "id": "question_091",
+      "translations": {
+        "en_us": {
+          "question": "What is 2 times 23?",
+          "correct_answer": "46",
+          "wrong_answers": [
+            "47",
+            "45",
+            "48"
+          ]
+        }
+      }
     },
     {
       "question": "14 的一半是多少？",
@@ -826,7 +1918,19 @@
         "8",
         "6",
         "9"
-      ]
+      ],
+      "id": "question_092",
+      "translations": {
+        "en_us": {
+          "question": "What is half of 14?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "8",
+            "6",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "18 的一半是多少？",
@@ -835,7 +1939,19 @@
         "10",
         "8",
         "11"
-      ]
+      ],
+      "id": "question_093",
+      "translations": {
+        "en_us": {
+          "question": "What is half of 18?",
+          "correct_answer": "9",
+          "wrong_answers": [
+            "10",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "24 的一半是多少？",
@@ -844,7 +1960,19 @@
         "13",
         "11",
         "14"
-      ]
+      ],
+      "id": "question_094",
+      "translations": {
+        "en_us": {
+          "question": "What is half of 24?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "13",
+            "11",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "30 的一半是多少？",
@@ -853,7 +1981,19 @@
         "16",
         "14",
         "17"
-      ]
+      ],
+      "id": "question_095",
+      "translations": {
+        "en_us": {
+          "question": "What is half of 30?",
+          "correct_answer": "15",
+          "wrong_answers": [
+            "16",
+            "14",
+            "17"
+          ]
+        }
+      }
     },
     {
       "question": "小明有 18 个苹果，又得到 7 个，现在有多少个？",
@@ -862,7 +2002,19 @@
         "26",
         "24",
         "27"
-      ]
+      ],
+      "id": "question_096",
+      "translations": {
+        "en_us": {
+          "question": "Xiao Ming had 18 apples and got 7 more. How many apples are there now?",
+          "correct_answer": "25",
+          "wrong_answers": [
+            "26",
+            "24",
+            "27"
+          ]
+        }
+      }
     },
     {
       "question": "盒里有 32 支铅笔，拿走 9 支，还剩多少支？",
@@ -871,7 +2023,19 @@
         "24",
         "22",
         "25"
-      ]
+      ],
+      "id": "question_097",
+      "translations": {
+        "en_us": {
+          "question": "There are 32 pencils in the box. If 9 are taken away, how many are left?",
+          "correct_answer": "23",
+          "wrong_answers": [
+            "24",
+            "22",
+            "25"
+          ]
+        }
+      }
     },
     {
       "question": "4 个篮子各有 6 个橘子，共有多少个？",
@@ -880,7 +2044,19 @@
         "25",
         "23",
         "26"
-      ]
+      ],
+      "id": "question_098",
+      "translations": {
+        "en_us": {
+          "question": "There are 6 oranges in each of the 4 baskets. How many oranges are there in total?",
+          "correct_answer": "24",
+          "wrong_answers": [
+            "25",
+            "23",
+            "26"
+          ]
+        }
+      }
     },
     {
       "question": "28 块饼干平均分给 7 人，每人几块？",
@@ -889,7 +2065,19 @@
         "5",
         "3",
         "6"
-      ]
+      ],
+      "id": "question_099",
+      "translations": {
+        "en_us": {
+          "question": "28 cookies are divided equally among 7 people. How many cookies do each person have?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "3",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "一根绳子长 45 米，用去 16 米，还剩多少米？",
@@ -898,7 +2086,19 @@
         "30",
         "28",
         "31"
-      ]
+      ],
+      "id": "question_100",
+      "translations": {
+        "en_us": {
+          "question": "A rope is 45 meters long and 16 meters are used. How many meters are left?",
+          "correct_answer": "29",
+          "wrong_answers": [
+            "30",
+            "28",
+            "31"
+          ]
+        }
+      }
     }
   ]
 }

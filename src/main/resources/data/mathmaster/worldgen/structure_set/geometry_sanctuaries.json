@@ -1,0 +1,14 @@
+{
+  "structures": [{ "structure": "mathmaster:trials/geometry_sanctuary", "weight": 1 }],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 24,
+    "frequency": 0.75,
+    "salt": 184735117,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 12
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "mathmaster:block/purple_collatz_planks"
+  }
+}

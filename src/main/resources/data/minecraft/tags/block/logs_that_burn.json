@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:collatz_log",
+    "#mathmaster:collatz_logs",
+    "mathmaster:purple_collatz_log",
+    "mathmaster:blue_collatz_log",
+    "#mathmaster:purple_collatz_logs",
+    "#mathmaster:blue_collatz_logs"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:collatz_planks",
+    "mathmaster:purple_collatz_planks",
+    "mathmaster:blue_collatz_planks"
+  ]
+}

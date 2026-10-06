@@ -44,7 +44,9 @@ public class BookshelfQuizScreen extends AbstractContainerScreen<BookshelfQuizMe
     private final List<WrappedAnswerButton> answerButtons = new ArrayList<>(BookshelfQuizMenu.ANSWER_BUTTON_COUNT);
     private Button nextQuestionButton;
     private Button exitButton;
+    private Button languageButton;
     private boolean answerPending;
+    private boolean english;
 
     public BookshelfQuizScreen(BookshelfQuizMenu menu, Inventory playerInventory, Component title) {
         super(menu, playerInventory, title);
@@ -55,6 +57,7 @@ public class BookshelfQuizScreen extends AbstractContainerScreen<BookshelfQuizMe
         this.imageWidth = Math.max(1, Math.min(MAX_PANEL_WIDTH, this.width - 16));
         this.imageHeight = Math.max(1, Math.min(MAX_PANEL_HEIGHT, this.height - 16));
         super.init();
+        this.english = QuizLanguagePreference.useEnglish(this.minecraft);
         this.answerButtons.clear();
         this.answerPending = false;
 
@@ -66,7 +69,7 @@ public class BookshelfQuizScreen extends AbstractContainerScreen<BookshelfQuizMe
 
         int contentWidth = Math.max(1, this.imageWidth - PANEL_PADDING * 2);
         List<FormattedCharSequence> allQuestionLines = this.font.split(
-                Component.literal(this.menu.getQuestionText()),
+                Component.literal(this.menu.getQuestionText(this.english)),
                 contentWidth
         );
         int reservedButtonHeight = MIN_BUTTON_HEIGHT * BookshelfQuizMenu.ANSWER_BUTTON_COUNT
@@ -119,11 +122,11 @@ public class BookshelfQuizScreen extends AbstractContainerScreen<BookshelfQuizMe
                 + ACTION_ROW_GAP;
         int actionButtonWidth = Math.max(1, (contentWidth - ACTION_BUTTON_GAP) / 2);
         this.nextQuestionButton = this.addRenderableWidget(Button.builder(
-                Component.translatable("screen.mathmaster.next_question"),
+                Component.literal(this.english ? "Next Question" : "下一题"),
                 button -> this.clickMenuButton(BookshelfQuizMenu.NEXT_QUESTION_BUTTON_ID)
         ).bounds(startX, actionY, actionButtonWidth, ACTION_BUTTON_HEIGHT).build());
         this.exitButton = this.addRenderableWidget(Button.builder(
-                Component.translatable("screen.mathmaster.exit"),
+                Component.literal(this.english ? "Exit" : "退出"),
                 button -> this.clickMenuButton(BookshelfQuizMenu.EXIT_BUTTON_ID)
         ).bounds(
                 startX + actionButtonWidth + ACTION_BUTTON_GAP,
@@ -131,6 +134,13 @@ public class BookshelfQuizScreen extends AbstractContainerScreen<BookshelfQuizMe
                 contentWidth - actionButtonWidth - ACTION_BUTTON_GAP,
                 ACTION_BUTTON_HEIGHT
         ).build());
+        this.languageButton = this.addRenderableWidget(Button.builder(
+                Component.literal(this.english ? "中文" : "EN"),
+                button -> {
+                    this.english = QuizLanguagePreference.toggle(this.minecraft);
+                    this.rebuildWidgets();
+                }
+        ).bounds(this.leftPos + 8, this.topPos + 5, 42, 16).build());
         updateAnswerControls();
     }
 
@@ -333,13 +343,13 @@ public class BookshelfQuizScreen extends AbstractContainerScreen<BookshelfQuizMe
 
     private String[] buildOptions() {
         String[] options = new String[4];
-        String[] wrongAnswers = this.menu.getWrongAnswers();
+        String[] wrongAnswers = this.menu.getWrongAnswers(this.english);
         int correctIndex = this.menu.getCorrectOptionIndex();
         int wrongIndex = 0;
 
         for (int i = 0; i < options.length; i++) {
             if (i == correctIndex) {
-                options[i] = this.menu.getCorrectAnswer();
+                options[i] = this.menu.getCorrectAnswer(this.english);
             } else {
                 options[i] = wrongAnswers[wrongIndex++];
             }
@@ -350,7 +360,7 @@ public class BookshelfQuizScreen extends AbstractContainerScreen<BookshelfQuizMe
 
     private void updateFontWarning(String[] options) {
         List<String> displayedTexts = new ArrayList<>(options.length + 1);
-        displayedTexts.add(this.menu.getQuestionText());
+        displayedTexts.add(this.menu.getQuestionText(this.english));
         displayedTexts.addAll(List.of(options));
         String missingSymbols = MathSymbolFontChecker.findMissingSymbols(this.font, displayedTexts);
 

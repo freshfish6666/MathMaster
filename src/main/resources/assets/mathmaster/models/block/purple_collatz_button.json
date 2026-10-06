@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "mathmaster:block/purple_collatz_planks"
+  }
+}

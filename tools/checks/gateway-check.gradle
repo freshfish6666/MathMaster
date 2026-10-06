@@ -1,0 +1,8 @@
+// Opt-in integration check; uses a disposable world and is excluded from releases.
+allprojects {
+    afterEvaluate { p ->
+        p.sourceSets.main.java.srcDir(p.file('tools/checks/gateway-check'))
+        p.dependencies.add('localRuntime', p.files("run/mods/curios-neoforge-${p.curios_version}.jar"))
+        p.neoForge.runs.server.gameDirectory = p.file('build/gateway-check')
+    }
+}

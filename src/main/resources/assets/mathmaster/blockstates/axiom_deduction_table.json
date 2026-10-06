@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mathmaster:block/axiom_deduction_table" },
+    "facing=east": { "model": "mathmaster:block/axiom_deduction_table", "y": 90 },
+    "facing=south": { "model": "mathmaster:block/axiom_deduction_table", "y": 180 },
+    "facing=west": { "model": "mathmaster:block/axiom_deduction_table", "y": 270 }
+  }
+}

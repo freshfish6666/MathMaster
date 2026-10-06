@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:collatz_fence_gate",
+    "mathmaster:purple_collatz_fence_gate",
+    "mathmaster:blue_collatz_fence_gate"
+  ]
+}

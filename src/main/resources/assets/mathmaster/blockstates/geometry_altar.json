@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "summoning=false": {
+      "model": "mathmaster:block/geometry_altar"
+    },
+    "summoning=true": {
+      "model": "mathmaster:block/geometry_altar_summoning"
+    }
+  }
+}

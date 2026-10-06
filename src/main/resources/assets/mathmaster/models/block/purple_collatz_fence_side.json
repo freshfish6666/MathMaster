@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "mathmaster:block/purple_collatz_planks"
+  }
+}

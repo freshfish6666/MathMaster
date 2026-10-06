@@ -19,6 +19,7 @@ public final class InsightResultData implements INBTSerializable<CompoundTag> {
     private long cumulativeQuestions;
     private int lastCorrectAnswers;
     private int lastTotalQuestions;
+    private boolean nAltarUnlocked;
     private final Set<ResourceLocation> successfullyInsightEntityTypes = new HashSet<>();
 
     public void record(
@@ -64,6 +65,14 @@ public final class InsightResultData implements INBTSerializable<CompoundTag> {
         return this.successfullyInsightEntityTypes.size();
     }
 
+    public boolean hasUnlockedNAltar() {
+        return this.nAltarUnlocked;
+    }
+
+    public void unlockNAltar() {
+        this.nAltarUnlocked = true;
+    }
+
     public boolean hasSuccessfullyInsighted(ResourceLocation entityTypeId) {
         return this.successfullyInsightEntityTypes.contains(entityTypeId);
     }
@@ -87,11 +96,13 @@ public final class InsightResultData implements INBTSerializable<CompoundTag> {
                 .map(StringTag::valueOf)
                 .forEach(entityTypes::add);
         tag.put("successfully_insight_entity_types", entityTypes);
+        tag.putBoolean("n_altar_unlocked", this.nAltarUnlocked);
         return tag;
     }
 
     @Override
     public void deserializeNBT(HolderLookup.Provider provider, CompoundTag tag) {
+        this.nAltarUnlocked = tag.getBoolean("n_altar_unlocked");
         this.completedInsights = Math.max(0L, tag.getLong("completed_insights"));
         this.cumulativeCorrectAnswers = Math.max(0L, tag.getLong("cumulative_correct_answers"));
         this.cumulativeQuestions = Math.max(

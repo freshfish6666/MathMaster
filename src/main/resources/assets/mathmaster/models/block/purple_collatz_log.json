@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mathmaster:block/purple_collatz_log_top",
+    "side": "mathmaster:block/purple_collatz_log"
+  }
+}

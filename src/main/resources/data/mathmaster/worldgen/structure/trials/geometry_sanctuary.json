@@ -1,0 +1,8 @@
+{
+  "type": "mathmaster:geometry_sanctuary",
+  "biomes": "#mathmaster:has_structure/geometry_sanctuary",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "template": "mathmaster:trials/geometry_sanctuary"
+}

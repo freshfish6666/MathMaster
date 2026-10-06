@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mathmaster:block/purple_collatz_sapling"
+  },
+  "render_type": "minecraft:cutout"
+}

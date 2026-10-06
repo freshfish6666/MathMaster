@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "mathmaster:axiom_deduction_table" }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mathmaster:blocks/axiom_deduction_table"
+}

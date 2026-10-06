@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mathmaster:item/junior_high_math_study_note"
+  }
+}

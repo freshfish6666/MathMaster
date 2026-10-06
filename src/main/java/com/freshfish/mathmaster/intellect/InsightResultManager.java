@@ -56,6 +56,7 @@ public final class InsightResultManager {
                 experienceIqCap
         );
 
+        com.freshfish.mathmaster.ritual.NAltarAccess.tryUnlock(player);
         int percent = safeTotal == 0 ? 0 : safeCorrect * 100 / safeTotal;
         player.sendSystemMessage(Component.translatable(
                 safeTotal > 0 && safeCorrect == safeTotal

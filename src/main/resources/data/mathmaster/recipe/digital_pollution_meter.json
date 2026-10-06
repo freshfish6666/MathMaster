@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "F": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "mathmaster:lingxu_ingot"
+    },
+    "P": {
+      "item": "mathmaster:prime_core"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "GPG",
+    "RCR",
+    "FIF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mathmaster:digital_pollution_meter"
+  }
+}

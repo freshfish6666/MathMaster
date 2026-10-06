@@ -7,7 +7,19 @@
         "-1",
         "5",
         "-5"
-      ]
+      ],
+      "id": "question_001",
+      "translations": {
+        "en_us": {
+          "question": "Function f(x) = 2x + 3, find the value of f(-1).",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "-1",
+            "5",
+            "-5"
+          ]
+        }
+      }
     },
     {
       "question": "方程 x^2 - 7x + 10 = 0 的两个根是？",
@@ -16,7 +28,19 @@
         "1 和 10",
         "-2 和 -5",
         "3 和 4"
-      ]
+      ],
+      "id": "question_002",
+      "translations": {
+        "en_us": {
+          "question": "What are the two roots of the equation x^2 - 7x + 10 = 0?",
+          "correct_answer": "2 and 5",
+          "wrong_answers": [
+            "1 and 10",
+            "-2 and -5",
+            "3 and 4"
+          ]
+        }
+      }
     },
     {
       "question": "不等式 2x - 6 > 0 的解集是？",
@@ -25,7 +49,19 @@
         "x < 3",
         "x > -3",
         "x < -3"
-      ]
+      ],
+      "id": "question_003",
+      "translations": {
+        "en_us": {
+          "question": "What is the solution set of the inequality 2x - 6 > 0?",
+          "correct_answer": "x > 3",
+          "wrong_answers": [
+            "x < 3",
+            "x > -3",
+            "x < -3"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = log_2(x) 的定义域是？",
@@ -34,7 +70,19 @@
         "x >= 0",
         "x < 0",
         "x ≠ 0"
-      ]
+      ],
+      "id": "question_004",
+      "translations": {
+        "en_us": {
+          "question": "What is the domain of the function y = log_2(x)?",
+          "correct_answer": "x > 0",
+          "wrong_answers": [
+            "x >= 0",
+            "x < 0",
+            "x ≠ 0"
+          ]
+        }
+      }
     },
     {
       "question": "若 3^(x+1) = 27，则 x = ?",
@@ -43,7 +91,19 @@
         "1",
         "3",
         "4"
-      ]
+      ],
+      "id": "question_005",
+      "translations": {
+        "en_us": {
+          "question": "If 3^(x+1) = 27, then x = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "二次函数 y = x^2 - 4x + 3 的对称轴是？",
@@ -52,7 +112,19 @@
         "x = -2",
         "x = 4",
         "x = -4"
-      ]
+      ],
+      "id": "question_006",
+      "translations": {
+        "en_us": {
+          "question": "What is the axis of symmetry of the quadratic function y = x^2 - 4x + 3?",
+          "correct_answer": "x = 2",
+          "wrong_answers": [
+            "x = -2",
+            "x = 4",
+            "x = -4"
+          ]
+        }
+      }
     },
     {
       "question": "不等式 x^2 - 4 < 0 的解集为？",
@@ -61,7 +133,19 @@
         "x > 2 或 x < -2",
         "x > 2",
         "x < -2"
-      ]
+      ],
+      "id": "question_007",
+      "translations": {
+        "en_us": {
+          "question": "What is the solution set of the inequality x^2 - 4 < 0?",
+          "correct_answer": "-2 < x < 2",
+          "wrong_answers": [
+            "x > 2 or x < -2",
+            "x > 2",
+            "x < -2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = 1/(x-2) 的定义域是？",
@@ -70,7 +154,19 @@
         "x ≠ -2",
         "x > 2",
         "x < 2"
-      ]
+      ],
+      "id": "question_008",
+      "translations": {
+        "en_us": {
+          "question": "What is the domain of function f(x) = 1/(x-2)?",
+          "correct_answer": "x ≠ 2",
+          "wrong_answers": [
+            "x≠-2",
+            "x > 2",
+            "x < 2"
+          ]
+        }
+      }
     },
     {
       "question": "若 log_5(x) = 2，则 x = ?",
@@ -79,7 +175,19 @@
         "10",
         "5",
         "125"
-      ]
+      ],
+      "id": "question_009",
+      "translations": {
+        "en_us": {
+          "question": "If log_5(x) = 2, then x = ?",
+          "correct_answer": "25",
+          "wrong_answers": [
+            "10",
+            "5",
+            "125"
+          ]
+        }
+      }
     },
     {
       "question": "方程 |x - 3| = 5 的解为？",
@@ -88,7 +196,19 @@
         "x = 8 或 x = 2",
         "x = -8 或 x = 2",
         "x = -8 或 x = -2"
-      ]
+      ],
+      "id": "question_010",
+      "translations": {
+        "en_us": {
+          "question": "What is the solution to the equation |x - 3| = 5?",
+          "correct_answer": "x = 8 or x = -2",
+          "wrong_answers": [
+            "x = 8 or x = 2",
+            "x = -8 or x = 2",
+            "x = -8 or x = -2"
+          ]
+        }
+      }
     },
     {
       "question": "设 f(x) = x^2 + 2x，求 f(2) 的值。",
@@ -97,7 +217,19 @@
         "6",
         "10",
         "4"
-      ]
+      ],
+      "id": "question_011",
+      "translations": {
+        "en_us": {
+          "question": "Let f(x) = x^2 + 2x, find the value of f(2).",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "6",
+            "10",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "不等式 (x-1)(x+3) > 0 的解集是？",
@@ -106,7 +238,19 @@
         "-3 < x < 1",
         "x < -3",
         "x < -1 或 x > 3"
-      ]
+      ],
+      "id": "question_012",
+      "translations": {
+        "en_us": {
+          "question": "What is the solution set of the inequality (x-1)(x+3) > 0?",
+          "correct_answer": "x < -3 or x > 1",
+          "wrong_answers": [
+            "-3 < x < 1",
+            "x < -3",
+            "x < -1 or x > 3"
+          ]
+        }
+      }
     },
     {
       "question": "方程 2^x = 1/8，则 x = ?",
@@ -115,7 +259,19 @@
         "3",
         "-4",
         "1/3"
-      ]
+      ],
+      "id": "question_013",
+      "translations": {
+        "en_us": {
+          "question": "The equation 2^x = 1/8, then x = ?",
+          "correct_answer": "-3",
+          "wrong_answers": [
+            "3",
+            "-4",
+            "1/3"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = 3x^2 - 6x + 1 的最小值是？",
@@ -124,7 +280,19 @@
         "2",
         "-3",
         "1"
-      ]
+      ],
+      "id": "question_014",
+      "translations": {
+        "en_us": {
+          "question": "What is the minimum value of the function y = 3x^2 - 6x + 1?",
+          "correct_answer": "-2",
+          "wrong_answers": [
+            "2",
+            "-3",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "不等式 -x + 4 < 2 的解集为？",
@@ -133,7 +301,19 @@
         "x < 2",
         "x > -2",
         "x < -2"
-      ]
+      ],
+      "id": "question_015",
+      "translations": {
+        "en_us": {
+          "question": "What is the solution set of the inequality -x + 4 < 2?",
+          "correct_answer": "x > 2",
+          "wrong_answers": [
+            "x < 2",
+            "x > -2",
+            "x < -2"
+          ]
+        }
+      }
     },
     {
       "question": "若 f(x) = 2x^2 + 3x - 1，则 f(-2) = ?",
@@ -142,7 +322,19 @@
         "-1",
         "7",
         "13"
-      ]
+      ],
+      "id": "question_016",
+      "translations": {
+        "en_us": {
+          "question": "If f(x) = 2x^2 + 3x - 1, then f(-2) = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "-1",
+            "7",
+            "13"
+          ]
+        }
+      }
     },
     {
       "question": "方程 log_3(9x) = 3，则 x = ?",
@@ -151,7 +343,19 @@
         "1/3",
         "9",
         "27"
-      ]
+      ],
+      "id": "question_017",
+      "translations": {
+        "en_us": {
+          "question": "The equation log_3(9x) = 3, then x = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "1/3",
+            "9",
+            "27"
+          ]
+        }
+      }
     },
     {
       "question": "不等式 x/(x-1) >= 0 的解集为？",
@@ -160,7 +364,19 @@
         "0 <= x < 1",
         "x > 1",
         "x >= 0 且 x ≠ 1"
-      ]
+      ],
+      "id": "question_018",
+      "translations": {
+        "en_us": {
+          "question": "What is the solution set of the inequality x/(x-1) >= 0?",
+          "correct_answer": "x <= 0 or x > 1",
+          "wrong_answers": [
+            "0 <= x < 1",
+            "x > 1",
+            "x >= 0 and x ≠ 1"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = 2/(x+1) - 3 在 x = -3 时的值是？",
@@ -169,7 +385,19 @@
         "-2",
         "-5",
         "1"
-      ]
+      ],
+      "id": "question_019",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of the function y = 2/(x+1) - 3 when x = -3?",
+          "correct_answer": "-4",
+          "wrong_answers": [
+            "-2",
+            "-5",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "若 f(x) = x^2 - 3x + 2，则方程 f(x) = 0 的两根之和为？",
@@ -178,7 +406,19 @@
         "-3",
         "2",
         "-2"
-      ]
+      ],
+      "id": "question_020",
+      "translations": {
+        "en_us": {
+          "question": "If f(x) = x^2 - 3x + 2, what is the sum of the two roots of the equation f(x) = 0?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "-3",
+            "2",
+            "-2"
+          ]
+        }
+      }
     },
     {
       "question": "sin 30° 的值是？",
@@ -187,7 +427,19 @@
         "√2/2",
         "√3/2",
         "1"
-      ]
+      ],
+      "id": "question_021",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of sin 30°?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "√2/2",
+            "√3/2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "cos 60° 的值是？",
@@ -196,7 +448,19 @@
         "√3/2",
         "√2/2",
         "1"
-      ]
+      ],
+      "id": "question_022",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of cos 60°?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "√3/2",
+            "√2/2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "tan 45° 的值是？",
@@ -205,7 +469,19 @@
         "0",
         "√3",
         "√3/3"
-      ]
+      ],
+      "id": "question_023",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of tan 45°?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "√3",
+            "√3/3"
+          ]
+        }
+      }
     },
     {
       "question": "若 sin θ = 3/5 且 θ 为锐角，则 cos θ = ?",
@@ -214,7 +490,19 @@
         "2/5",
         "3/4",
         "5/4"
-      ]
+      ],
+      "id": "question_024",
+      "translations": {
+        "en_us": {
+          "question": "If sin θ = 3/5 and θ is an acute angle, then cos θ = ?",
+          "correct_answer": "4/5",
+          "wrong_answers": [
+            "2/5",
+            "3/4",
+            "5/4"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = sin x 的最大值是？",
@@ -223,7 +511,19 @@
         "-1",
         "0",
         "2"
-      ]
+      ],
+      "id": "question_025",
+      "translations": {
+        "en_us": {
+          "question": "What is the maximum value of the function y = sin x?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "-1",
+            "0",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = 2cos x 的最小值是？",
@@ -232,7 +532,19 @@
         "2",
         "-1",
         "0"
-      ]
+      ],
+      "id": "question_026",
+      "translations": {
+        "en_us": {
+          "question": "What is the minimum value of the function y = 2cos x?",
+          "correct_answer": "-2",
+          "wrong_answers": [
+            "2",
+            "-1",
+            "0"
+          ]
+        }
+      }
     },
     {
       "question": "sin(π/6) 的值是？",
@@ -241,7 +553,19 @@
         "√3/2",
         "√2/2",
         "1"
-      ]
+      ],
+      "id": "question_027",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of sin(π/6)?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "√3/2",
+            "√2/2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "cos(π/3) 的值是？",
@@ -250,7 +574,19 @@
         "√3/2",
         "√2/2",
         "0"
-      ]
+      ],
+      "id": "question_028",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of cos(π/3)?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "√3/2",
+            "√2/2",
+            "0"
+          ]
+        }
+      }
     },
     {
       "question": "tan(π/4) 的值是？",
@@ -259,7 +595,19 @@
         "√3",
         "√3/3",
         "0"
-      ]
+      ],
+      "id": "question_029",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of tan(π/4)?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "√3",
+            "√3/3",
+            "0"
+          ]
+        }
+      }
     },
     {
       "question": "已知 sin θ = 1/2 且 0° ≤ θ ≤ 90°，则 θ = ?",
@@ -268,7 +616,19 @@
         "60°",
         "45°",
         "90°"
-      ]
+      ],
+      "id": "question_030",
+      "translations": {
+        "en_us": {
+          "question": "It is known that sin θ = 1/2 and 0° ≤ θ ≤ 90°, then θ = ?",
+          "correct_answer": "30°",
+          "wrong_answers": [
+            "60°",
+            "45°",
+            "90°"
+          ]
+        }
+      }
     },
     {
       "question": "已知 cos θ = -1/2 且 0° ≤ θ ≤ 180°，则 θ = ?",
@@ -277,7 +637,19 @@
         "60°",
         "150°",
         "240°"
-      ]
+      ],
+      "id": "question_031",
+      "translations": {
+        "en_us": {
+          "question": "It is known that cos θ = -1/2 and 0° ≤ θ ≤ 180°, then θ = ?",
+          "correct_answer": "120°",
+          "wrong_answers": [
+            "60°",
+            "150°",
+            "240°"
+          ]
+        }
+      }
     },
     {
       "question": "若 sin θ = 0.6，则 cos θ 的绝对值是？",
@@ -286,7 +658,19 @@
         "3/5",
         "1",
         "2/5"
-      ]
+      ],
+      "id": "question_032",
+      "translations": {
+        "en_us": {
+          "question": "If sin θ = 0.6, what is the absolute value of cos θ?",
+          "correct_answer": "4/5",
+          "wrong_answers": [
+            "3/5",
+            "1",
+            "2/5"
+          ]
+        }
+      }
     },
     {
       "question": "化简 sin^2 x + cos^2 x 的结果是？",
@@ -295,7 +679,19 @@
         "0",
         "sin x",
         "cos x"
-      ]
+      ],
+      "id": "question_033",
+      "translations": {
+        "en_us": {
+          "question": "What is the result of simplifying sin^2 x + cos^2 x?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "sin x",
+            "cos x"
+          ]
+        }
+      }
     },
     {
       "question": "化简 1 - sin^2 x 的结果是？",
@@ -304,7 +700,19 @@
         "sin^2 x",
         "1 + cos^2 x",
         "-cos^2 x"
-      ]
+      ],
+      "id": "question_034",
+      "translations": {
+        "en_us": {
+          "question": "What is the result of simplifying 1 - sin^2 x?",
+          "correct_answer": "cos^2 x",
+          "wrong_answers": [
+            "sin^2 x",
+            "1 + cos^2 x",
+            "-cos^2 x"
+          ]
+        }
+      }
     },
     {
       "question": "化简 (sin x)/(cos x) 的结果是？",
@@ -313,7 +721,19 @@
         "cot x",
         "sec x",
         "csc x"
-      ]
+      ],
+      "id": "question_035",
+      "translations": {
+        "en_us": {
+          "question": "What is the result of simplifying (sin x)/(cos x)?",
+          "correct_answer": "tan x",
+          "wrong_answers": [
+            "cot x",
+            "sec x",
+            "xcsc"
+          ]
+        }
+      }
     },
     {
       "question": "若 tan x = 3/4 且 x 为锐角，则 sin x = ?",
@@ -322,7 +742,19 @@
         "4/5",
         "5/3",
         "3/4"
-      ]
+      ],
+      "id": "question_036",
+      "translations": {
+        "en_us": {
+          "question": "If tan x = 3/4 and x is an acute angle, then sin x = ?",
+          "correct_answer": "3/5",
+          "wrong_answers": [
+            "4/5",
+            "5/3",
+            "3/4"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = 3sin(2x) 的周期是？",
@@ -331,7 +763,19 @@
         "2π",
         "π/2",
         "4π"
-      ]
+      ],
+      "id": "question_037",
+      "translations": {
+        "en_us": {
+          "question": "What is the period of the function y = 3sin(2x)?",
+          "correct_answer": "π",
+          "wrong_answers": [
+            "2π",
+            "π/2",
+            "4π"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = cos(x/2) 的周期是？",
@@ -340,7 +784,19 @@
         "2π",
         "π",
         "π/2"
-      ]
+      ],
+      "id": "question_038",
+      "translations": {
+        "en_us": {
+          "question": "What is the period of the function y = cos(x/2)?",
+          "correct_answer": "4π",
+          "wrong_answers": [
+            "2π",
+            "π",
+            "π/2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = tan(3x) 的周期是？",
@@ -349,7 +805,19 @@
         "π",
         "3π",
         "2π/3"
-      ]
+      ],
+      "id": "question_039",
+      "translations": {
+        "en_us": {
+          "question": "What is the period of the function y = tan(3x)?",
+          "correct_answer": "π/3",
+          "wrong_answers": [
+            "π",
+            "3π",
+            "2π/3"
+          ]
+        }
+      }
     },
     {
       "question": "将 120° 化为弧度是？",
@@ -358,7 +826,19 @@
         "π/3",
         "3π/4",
         "5π/6"
-      ]
+      ],
+      "id": "question_040",
+      "translations": {
+        "en_us": {
+          "question": "Convert 120° to radians?",
+          "correct_answer": "2π/3",
+          "wrong_answers": [
+            "π/3",
+            "3π/4",
+            "5π/6"
+          ]
+        }
+      }
     },
     {
       "question": "将 5π/6 化为角度是？",
@@ -367,7 +847,19 @@
         "120°",
         "135°",
         "180°"
-      ]
+      ],
+      "id": "question_041",
+      "translations": {
+        "en_us": {
+          "question": "What is 5π/6 converted into an angle?",
+          "correct_answer": "150°",
+          "wrong_answers": [
+            "120°",
+            "135°",
+            "180°"
+          ]
+        }
+      }
     },
     {
       "question": "在 ΔABC 中，若 sin A = sin 30° 且 A 为钝角，则 A = ?",
@@ -376,7 +868,19 @@
         "30°",
         "120°",
         "60°"
-      ]
+      ],
+      "id": "question_042",
+      "translations": {
+        "en_us": {
+          "question": "In ΔABC, if sin A = sin 30° and A is an obtuse angle, then A = ?",
+          "correct_answer": "150°",
+          "wrong_answers": [
+            "30°",
+            "120°",
+            "60°"
+          ]
+        }
+      }
     },
     {
       "question": "cos 90° 的值是？",
@@ -385,7 +889,19 @@
         "1",
         "-1",
         "1/2"
-      ]
+      ],
+      "id": "question_043",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of cos 90°?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "-1",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "question": "sin 0° 的值是？",
@@ -394,7 +910,19 @@
         "1",
         "-1",
         "1/2"
-      ]
+      ],
+      "id": "question_044",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of sin 0°?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "-1",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "question": "若 cos(90° - x) = 0.5，则 sin x 的值是？",
@@ -403,7 +931,19 @@
         "-0.5",
         "√3/2",
         "0"
-      ]
+      ],
+      "id": "question_045",
+      "translations": {
+        "en_us": {
+          "question": "If cos(90° - x) = 0.5, what is the value of sin x?",
+          "correct_answer": "0.5",
+          "wrong_answers": [
+            "-0.5",
+            "√3/2",
+            "0"
+          ]
+        }
+      }
     },
     {
       "question": "若 sin(π - x) = 1/3，则 sin x 的值是？",
@@ -412,7 +952,19 @@
         "-1/3",
         "2/3",
         "-2/3"
-      ]
+      ],
+      "id": "question_046",
+      "translations": {
+        "en_us": {
+          "question": "If sin(π - x) = 1/3, what is the value of sin x?",
+          "correct_answer": "1/3",
+          "wrong_answers": [
+            "-1/3",
+            "2/3",
+            "-2/3"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = sin x 在区间 [0, 2π] 内的零点个数是？",
@@ -421,7 +973,19 @@
         "2",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_047",
+      "translations": {
+        "en_us": {
+          "question": "What is the number of zeros of the function y = sin x in the interval [0, 2π]?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = cos x 在区间 [0, 2π] 内取最大值时 x 可以是？",
@@ -430,7 +994,19 @@
         "π/2 和 3π/2",
         "π",
         "π/2"
-      ]
+      ],
+      "id": "question_048",
+      "translations": {
+        "en_us": {
+          "question": "What can x be when the function y = cos x takes the maximum value in the interval [0, 2π]?",
+          "correct_answer": "0 and 2π",
+          "wrong_answers": [
+            "π/2 and 3π/2",
+            "π",
+            "π/2"
+          ]
+        }
+      }
     },
     {
       "question": "若 sin θ = √2/2 且 θ 为锐角，则 θ = ?",
@@ -439,7 +1015,19 @@
         "30°",
         "60°",
         "90°"
-      ]
+      ],
+      "id": "question_049",
+      "translations": {
+        "en_us": {
+          "question": "If sin θ = √2/2 and θ is an acute angle, then θ = ?",
+          "correct_answer": "45°",
+          "wrong_answers": [
+            "30°",
+            "60°",
+            "90°"
+          ]
+        }
+      }
     },
     {
       "question": "若 tan θ = 1 且 θ 为锐角，则 θ = ?",
@@ -448,7 +1036,19 @@
         "30°",
         "60°",
         "0°"
-      ]
+      ],
+      "id": "question_050",
+      "translations": {
+        "en_us": {
+          "question": "If tan θ = 1 and θ is an acute angle, then θ = ?",
+          "correct_answer": "45°",
+          "wrong_answers": [
+            "30°",
+            "60°",
+            "0°"
+          ]
+        }
+      }
     },
     {
       "question": "在锐角三角形中，已知 sin A = 1/2，则 cos A 的值是？",
@@ -457,7 +1057,19 @@
         "1/2",
         "√2/2",
         "1"
-      ]
+      ],
+      "id": "question_051",
+      "translations": {
+        "en_us": {
+          "question": "In an acute triangle, given sin A = 1/2, what is the value of cos A?",
+          "correct_answer": "√3/2",
+          "wrong_answers": [
+            "1/2",
+            "√2/2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "已知 cos x = 1/3，则 sin^2 x 的值是？",
@@ -466,7 +1078,19 @@
         "2/3",
         "1/9",
         "4/9"
-      ]
+      ],
+      "id": "question_052",
+      "translations": {
+        "en_us": {
+          "question": "Given that cos x = 1/3, what is the value of sin^2 x?",
+          "correct_answer": "8/9",
+          "wrong_answers": [
+            "2/3",
+            "1/9",
+            "4/9"
+          ]
+        }
+      }
     },
     {
       "question": "已知 tan x = 2，则 (sin x)/(cos x) 的值是？",
@@ -475,7 +1099,19 @@
         "1/2",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_053",
+      "translations": {
+        "en_us": {
+          "question": "Given that tan x = 2, what is the value of (sin x)/(cos x)?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1/2",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "化简 (1 - cos x)(1 + cos x) 的结果是？",
@@ -484,7 +1120,19 @@
         "cos^2 x",
         "1 - cos^2 x",
         "1 + cos^2 x"
-      ]
+      ],
+      "id": "question_054",
+      "translations": {
+        "en_us": {
+          "question": "What is the result of simplifying (1 - cos x)(1 + cos x)?",
+          "correct_answer": "sin^2 x",
+          "wrong_answers": [
+            "cos^2 x",
+            "1 - cos^2 x",
+            "1 + cos^2 x"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = -2sin x 的最大值是？",
@@ -493,7 +1141,19 @@
         "-2",
         "0",
         "1"
-      ]
+      ],
+      "id": "question_055",
+      "translations": {
+        "en_us": {
+          "question": "What is the maximum value of the function y = -2sin x?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-2",
+            "0",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列 3、7、11……的第 10 项是？",
@@ -502,7 +1162,19 @@
         "36",
         "42",
         "43"
-      ]
+      ],
+      "id": "question_056",
+      "translations": {
+        "en_us": {
+          "question": "What is the 10th term of the arithmetic sequence 3, 7, 11...?",
+          "correct_answer": "39",
+          "wrong_answers": [
+            "36",
+            "42",
+            "43"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列首项为 2，公差为 -3，则第 8 项是？",
@@ -511,7 +1183,19 @@
         "-22",
         "-16",
         "19"
-      ]
+      ],
+      "id": "question_057",
+      "translations": {
+        "en_us": {
+          "question": "The first term of an arithmetic sequence is 2 and the common difference is -3. What is the 8th term?",
+          "correct_answer": "-19",
+          "wrong_answers": [
+            "-22",
+            "-16",
+            "19"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列中 a_1 = 5，a_5 = 17，则公差 d = ?",
@@ -520,7 +1204,19 @@
         "2",
         "4",
         "6"
-      ]
+      ],
+      "id": "question_058",
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence, a_1 = 5 and a_5 = 17, then the common difference d = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "4",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列首项为 1，公差为 2，前 10 项和是？",
@@ -529,7 +1225,19 @@
         "90",
         "110",
         "120"
-      ]
+      ],
+      "id": "question_059",
+      "translations": {
+        "en_us": {
+          "question": "The first term of an arithmetic sequence is 1 and the common difference is 2. What is the sum of the first 10 terms?",
+          "correct_answer": "100",
+          "wrong_answers": [
+            "90",
+            "110",
+            "120"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列 2、5、8……的前 20 项和是？",
@@ -538,7 +1246,19 @@
         "600",
         "620",
         "590"
-      ]
+      ],
+      "id": "question_060",
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the first 20 terms of the arithmetic sequence 2, 5, 8...?",
+          "correct_answer": "610",
+          "wrong_answers": [
+            "600",
+            "620",
+            "590"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列 2、6、18……的第 6 项是？",
@@ -547,7 +1267,19 @@
         "324",
         "729",
         "432"
-      ]
+      ],
+      "id": "question_061",
+      "translations": {
+        "en_us": {
+          "question": "What is the sixth term of the geometric sequence 2, 6, 18...?",
+          "correct_answer": "486",
+          "wrong_answers": [
+            "324",
+            "729",
+            "432"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列首项为 3，公比为 -2，则第 5 项是？",
@@ -556,7 +1288,19 @@
         "-48",
         "96",
         "-96"
-      ]
+      ],
+      "id": "question_062",
+      "translations": {
+        "en_us": {
+          "question": "The first term of a geometric sequence is 3 and the common ratio is -2. What is the fifth term?",
+          "correct_answer": "48",
+          "wrong_answers": [
+            "-48",
+            "96",
+            "-96"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列首项为 1，公比为 2，前 8 项和是？",
@@ -565,7 +1309,19 @@
         "256",
         "128",
         "510"
-      ]
+      ],
+      "id": "question_063",
+      "translations": {
+        "en_us": {
+          "question": "The first term of a geometric sequence is 1 and the common ratio is 2. What is the sum of the first 8 terms?",
+          "correct_answer": "255",
+          "wrong_answers": [
+            "256",
+            "128",
+            "510"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列 1、1/2、1/4……的前 6 项和是？",
@@ -574,7 +1330,19 @@
         "31/16",
         "63/64",
         "31/32"
-      ]
+      ],
+      "id": "question_064",
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the first six terms of the geometric sequence 1, 1/2, 1/4...?",
+          "correct_answer": "63/32",
+          "wrong_answers": [
+            "31/16",
+            "63/64",
+            "31/32"
+          ]
+        }
+      }
     },
     {
       "question": "2 和 8 的等比中项（正数）是？",
@@ -583,7 +1351,19 @@
         "5",
         "16",
         "10"
-      ]
+      ],
+      "id": "question_065",
+      "translations": {
+        "en_us": {
+          "question": "What is the middle term (positive number) of the ratio of 2 and 8?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "16",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "3 和 11 的等差中项是？",
@@ -592,7 +1372,19 @@
         "6",
         "8",
         "14"
-      ]
+      ],
+      "id": "question_066",
+      "translations": {
+        "en_us": {
+          "question": "What is the arithmetic median of 3 and 11?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "6",
+            "8",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列中 a_2 = 5，a_6 = 13，则公差 d = ?",
@@ -601,7 +1393,19 @@
         "1",
         "3",
         "4"
-      ]
+      ],
+      "id": "question_067",
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence, a_2 = 5, a_6 = 13, then the common difference d = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列中 a_3 = 4，a_5 = 16，则公比（正数）q = ?",
@@ -610,7 +1414,19 @@
         "1",
         "3",
         "4"
-      ]
+      ],
+      "id": "question_068",
+      "translations": {
+        "en_us": {
+          "question": "In the geometric sequence, a_3 = 4, a_5 = 16, then the common ratio (positive number) q = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "数列通项 a_n = 2n - 3，则 a_5 = ?",
@@ -619,7 +1435,19 @@
         "5",
         "9",
         "6"
-      ]
+      ],
+      "id": "question_069",
+      "translations": {
+        "en_us": {
+          "question": "The general term of the sequence a_n = 2n - 3, then a_5 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "5",
+            "9",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "数列通项 a_n = n^2 + 1，则 a_4 = ?",
@@ -628,7 +1456,19 @@
         "15",
         "16",
         "18"
-      ]
+      ],
+      "id": "question_070",
+      "translations": {
+        "en_us": {
+          "question": "The general term of the sequence a_n = n^2 + 1, then a_4 = ?",
+          "correct_answer": "17",
+          "wrong_answers": [
+            "15",
+            "16",
+            "18"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列前 n 项和 S_n = n^2 + 2n，则 a_3 = ?",
@@ -637,7 +1477,19 @@
         "5",
         "9",
         "11"
-      ]
+      ],
+      "id": "question_071",
+      "translations": {
+        "en_us": {
+          "question": "The sum of the first n terms of the arithmetic sequence S_n = n^2 + 2n, then a_3 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "5",
+            "9",
+            "11"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列首项为 2，公比为 3，前 4 项和是？",
@@ -646,7 +1498,19 @@
         "40",
         "60",
         "100"
-      ]
+      ],
+      "id": "question_072",
+      "translations": {
+        "en_us": {
+          "question": "The first term of the geometric sequence is 2 and the common ratio is 3. What is the sum of the first 4 terms?",
+          "correct_answer": "80",
+          "wrong_answers": [
+            "40",
+            "60",
+            "100"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列 a_1 = 3，d = 2，前 8 项和是？",
@@ -655,7 +1519,19 @@
         "72",
         "88",
         "64"
-      ]
+      ],
+      "id": "question_073",
+      "translations": {
+        "en_us": {
+          "question": "Arithmetic sequence a_1 = 3, d = 2, what is the sum of the first 8 terms?",
+          "correct_answer": "80",
+          "wrong_answers": [
+            "72",
+            "88",
+            "64"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列首项为 5，公比为 -2，前 4 项和是？",
@@ -664,7 +1540,19 @@
         "25",
         "-15",
         "15"
-      ]
+      ],
+      "id": "question_074",
+      "translations": {
+        "en_us": {
+          "question": "The first term of the geometric sequence is 5 and the common ratio is -2. What is the sum of the first 4 terms?",
+          "correct_answer": "-25",
+          "wrong_answers": [
+            "25",
+            "-15",
+            "15"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列中 a_3 = 8，a_7 = 20，则 a_1 = ?",
@@ -673,7 +1561,19 @@
         "0",
         "4",
         "6"
-      ]
+      ],
+      "id": "question_075",
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence, a_3 = 8, a_7 = 20, then a_1 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "0",
+            "4",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列中 a_2 = 6，a_4 = 24，公比 q > 0，则 a_1 = ?",
@@ -682,7 +1582,19 @@
         "2",
         "4",
         "6"
-      ]
+      ],
+      "id": "question_076",
+      "translations": {
+        "en_us": {
+          "question": "In the geometric sequence, a_2 = 6, a_4 = 24, and the common ratio q > 0, then a_1 = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "4",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "数列 a_n 满足 a_1 = 1，a_(n+1) = a_n + 3，则 a_10 = ?",
@@ -691,7 +1603,19 @@
         "30",
         "31",
         "27"
-      ]
+      ],
+      "id": "question_077",
+      "translations": {
+        "en_us": {
+          "question": "The sequence a_n satisfies a_1 = 1, a_(n+1) = a_n + 3, then a_10 = ?",
+          "correct_answer": "28",
+          "wrong_answers": [
+            "30",
+            "31",
+            "27"
+          ]
+        }
+      }
     },
     {
       "question": "数列 a_n 满足 a_1 = 2，a_(n+1) = 2a_n，则 a_5 = ?",
@@ -700,7 +1624,19 @@
         "16",
         "64",
         "24"
-      ]
+      ],
+      "id": "question_078",
+      "translations": {
+        "en_us": {
+          "question": "The sequence a_n satisfies a_1 = 2, a_(n+1) = 2a_n, then a_5 = ?",
+          "correct_answer": "32",
+          "wrong_answers": [
+            "16",
+            "64",
+            "24"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列前 5 项和为 20，首项为 2，则公差 d = ?",
@@ -709,7 +1645,19 @@
         "2",
         "3",
         "4"
-      ]
+      ],
+      "id": "question_079",
+      "translations": {
+        "en_us": {
+          "question": "The sum of the first five terms of the arithmetic sequence is 20, and the first term is 2, then the common difference d = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列首项为 1，公比为 3，前 3 项和是？",
@@ -718,7 +1666,19 @@
         "9",
         "12",
         "27"
-      ]
+      ],
+      "id": "question_080",
+      "translations": {
+        "en_us": {
+          "question": "The first term of a geometric sequence is 1 and the common ratio is 3. What is the sum of the first three terms?",
+          "correct_answer": "13",
+          "wrong_answers": [
+            "9",
+            "12",
+            "27"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列 a_1 = 10，d = -2，前 6 项和是？",
@@ -727,7 +1687,19 @@
         "24",
         "36",
         "18"
-      ]
+      ],
+      "id": "question_081",
+      "translations": {
+        "en_us": {
+          "question": "Arithmetic sequence a_1 = 10, d = -2, what is the sum of the first 6 terms?",
+          "correct_answer": "30",
+          "wrong_answers": [
+            "24",
+            "36",
+            "18"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列中 a_1 + a_5 = 10，则 a_3 = ?",
@@ -736,7 +1708,19 @@
         "4",
         "6",
         "10"
-      ]
+      ],
+      "id": "question_082",
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence, a_1 + a_5 = 10, then a_3 = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "4",
+            "6",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列中 a_1 * a_5 = 16 且 a_1 > 0，则 a_3 = ?",
@@ -745,7 +1729,19 @@
         "2",
         "8",
         "16"
-      ]
+      ],
+      "id": "question_083",
+      "translations": {
+        "en_us": {
+          "question": "In the geometric sequence a_1 * a_5 = 16 and a_1 > 0, then a_3 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "2",
+            "8",
+            "16"
+          ]
+        }
+      }
     },
     {
       "question": "数列 a_n = (-1)^n 的前 100 项和是？",
@@ -754,7 +1750,19 @@
         "1",
         "50",
         "100"
-      ]
+      ],
+      "id": "question_084",
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the first 100 terms of the sequence a_n = (-1)^n?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "50",
+            "100"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列 2、5、8……前 n 项和为 155，则 n = ?",
@@ -763,7 +1771,19 @@
         "9",
         "11",
         "12"
-      ]
+      ],
+      "id": "question_085",
+      "translations": {
+        "en_us": {
+          "question": "The sum of the first n terms of the arithmetic sequence 2, 5, 8... is 155, then n = ?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "9",
+            "11",
+            "12"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列公比为 2，前 5 项和为 62，则首项 a_1 = ?",
@@ -772,7 +1792,19 @@
         "1",
         "3",
         "4"
-      ]
+      ],
+      "id": "question_086",
+      "translations": {
+        "en_us": {
+          "question": "The common ratio of the geometric sequence is 2, and the sum of the first five terms is 62, then the first term a_1 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "数列 a_n = 3n - 2 的前 8 项和是？",
@@ -781,7 +1813,19 @@
         "88",
         "96",
         "100"
-      ]
+      ],
+      "id": "question_087",
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the first 8 terms of the sequence a_n = 3n - 2?",
+          "correct_answer": "92",
+          "wrong_answers": [
+            "88",
+            "96",
+            "100"
+          ]
+        }
+      }
     },
     {
       "question": "等差数列中 a_2 = 7，a_5 = 16，则前 10 项和 S_10 = ?",
@@ -790,7 +1834,19 @@
         "170",
         "180",
         "165"
-      ]
+      ],
+      "id": "question_088",
+      "translations": {
+        "en_us": {
+          "question": "In the arithmetic sequence, a_2 = 7, a_5 = 16, then the sum of the first 10 terms is S_10 = ?",
+          "correct_answer": "175",
+          "wrong_answers": [
+            "170",
+            "180",
+            "165"
+          ]
+        }
+      }
     },
     {
       "question": "等比数列 a_1 = 2，q = 1/2，前 5 项和是？",
@@ -799,7 +1855,19 @@
         "31/16",
         "15/8",
         "63/16"
-      ]
+      ],
+      "id": "question_089",
+      "translations": {
+        "en_us": {
+          "question": "Geometric sequence a_1 = 2, q = 1/2, what is the sum of the first 5 terms?",
+          "correct_answer": "31/8",
+          "wrong_answers": [
+            "31/16",
+            "15/8",
+            "63/16"
+          ]
+        }
+      }
     },
     {
       "question": "数列 1、1、2、3、5、8……的下一项是？",
@@ -808,7 +1876,19 @@
         "11",
         "12",
         "14"
-      ]
+      ],
+      "id": "question_090",
+      "translations": {
+        "en_us": {
+          "question": "What is the next term in the sequence 1, 1, 2, 3, 5, 8...?",
+          "correct_answer": "13",
+          "wrong_answers": [
+            "11",
+            "12",
+            "14"
+          ]
+        }
+      }
     },
     {
       "question": "向量 a = (1, 2)，b = (3, -1)，则 a + b = ?",
@@ -817,7 +1897,19 @@
         "(4, 3)",
         "(2, 1)",
         "(-2, 3)"
-      ]
+      ],
+      "id": "question_091",
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, 2), b = (3, -1), then a + b = ?",
+          "correct_answer": "(4, 1)",
+          "wrong_answers": [
+            "(4, 3)",
+            "(2, 1)",
+            "(-2, 3)"
+          ]
+        }
+      }
     },
     {
       "question": "向量 a = (2, 3)，则 |a| 等于？",
@@ -826,7 +1918,19 @@
         "5",
         "13",
         "√5"
-      ]
+      ],
+      "id": "question_092",
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (2, 3), then |a| is equal to?",
+          "correct_answer": "√13",
+          "wrong_answers": [
+            "5",
+            "13",
+            "√5"
+          ]
+        }
+      }
     },
     {
       "question": "向量 a = (1, 2)，b = (-2, 1)，则 a · b = ?",
@@ -835,7 +1939,19 @@
         "4",
         "-4",
         "1"
-      ]
+      ],
+      "id": "question_093",
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, 2), b = (-2, 1), then a · b = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "4",
+            "-4",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "与向量 a = (3, 4) 同向的单位向量是？",
@@ -844,7 +1960,19 @@
         "(4/5, 3/5)",
         "(3/4, 1)",
         "(1, 1)"
-      ]
+      ],
+      "id": "question_094",
+      "translations": {
+        "en_us": {
+          "question": "What is the unit vector in the same direction as vector a = (3, 4)?",
+          "correct_answer": "(3/5, 4/5)",
+          "wrong_answers": [
+            "(4/5, 3/5)",
+            "(3/4, 1)",
+            "(1, 1)"
+          ]
+        }
+      }
     },
     {
       "question": "已知向量 a = (1, 1)，b = (1, -1)，则 a 与 b 的夹角为？",
@@ -853,7 +1981,19 @@
         "0°",
         "45°",
         "60°"
-      ]
+      ],
+      "id": "question_095",
+      "translations": {
+        "en_us": {
+          "question": "Given vectors a = (1, 1), b = (1, -1), what is the angle between a and b?",
+          "correct_answer": "90°",
+          "wrong_answers": [
+            "0°",
+            "45°",
+            "60°"
+          ]
+        }
+      }
     },
     {
       "question": "向量 a = (1, √3)，则 a 与 x 轴正方向的夹角为？",
@@ -862,7 +2002,19 @@
         "30°",
         "45°",
         "120°"
-      ]
+      ],
+      "id": "question_096",
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, √3), then the angle between a and the positive direction of the x-axis is?",
+          "correct_answer": "60°",
+          "wrong_answers": [
+            "30°",
+            "45°",
+            "120°"
+          ]
+        }
+      }
     },
     {
       "question": "若向量 a = (x, 2)，b = (3, -1)，且 a · b = 4，则 x = ?",
@@ -871,7 +2023,19 @@
         "-2",
         "1",
         "3"
-      ]
+      ],
+      "id": "question_097",
+      "translations": {
+        "en_us": {
+          "question": "If the vector a = (x, 2), b = (3, -1), and a · b = 4, then x = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-2",
+            "1",
+            "3"
+          ]
+        }
+      }
     },
     {
       "question": "若向量 a = (2, 1)，b = (1, y)，且 a 与 b 平行，则 y = ?",
@@ -880,7 +2044,19 @@
         "2",
         "1",
         "-1/2"
-      ]
+      ],
+      "id": "question_098",
+      "translations": {
+        "en_us": {
+          "question": "If vector a = (2, 1), b = (1, y), and a is parallel to b, then y = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "2",
+            "1",
+            "-1/2"
+          ]
+        }
+      }
     },
     {
       "question": "向量 a = (1, 2)，b = (2, 1)，则 |a - b| = ?",
@@ -889,7 +2065,19 @@
         "2",
         "1",
         "√10"
-      ]
+      ],
+      "id": "question_099",
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, 2), b = (2, 1), then |a - b| = ?",
+          "correct_answer": "√2",
+          "wrong_answers": [
+            "2",
+            "1",
+            "√10"
+          ]
+        }
+      }
     },
     {
       "question": "过点 (1, 2) 且斜率为 3 的直线方程是？",
@@ -898,7 +2086,19 @@
         "y = 3x + 1",
         "y = 3x - 5",
         "y = 2x + 1"
-      ]
+      ],
+      "id": "question_100",
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the straight line passing through the point (1, 2) with slope 3?",
+          "correct_answer": "y=3x-1",
+          "wrong_answers": [
+            "y = 3x + 1",
+            "y=3x-5",
+            "y = 2x + 1"
+          ]
+        }
+      }
     },
     {
       "question": "直线 2x - y + 3 = 0 的斜率是？",
@@ -907,7 +2107,19 @@
         "-2",
         "1/2",
         "-1/2"
-      ]
+      ],
+      "id": "question_101",
+      "translations": {
+        "en_us": {
+          "question": "What is the slope of the line 2x - y + 3 = 0?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-2",
+            "1/2",
+            "-1/2"
+          ]
+        }
+      }
     },
     {
       "question": "点 (1, 2) 到直线 3x - 4y + 5 = 0 的距离是？",
@@ -916,7 +2128,19 @@
         "1",
         "2",
         "5"
-      ]
+      ],
+      "id": "question_102",
+      "translations": {
+        "en_us": {
+          "question": "What is the distance from point (1, 2) to line 3x - 4y + 5 = 0?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "question": "直线 y = 2x + 1 与 y = -x + 7 的交点坐标是？",
@@ -925,7 +2149,19 @@
         "(2, 3)",
         "(1, 3)",
         "(3, 7)"
-      ]
+      ],
+      "id": "question_103",
+      "translations": {
+        "en_us": {
+          "question": "What are the coordinates of the intersection of straight lines y = 2x + 1 and y = -x + 7?",
+          "correct_answer": "(2, 5)",
+          "wrong_answers": [
+            "(2, 3)",
+            "(1, 3)",
+            "(3, 7)"
+          ]
+        }
+      }
     },
     {
       "question": "圆 x^2 + y^2 = 25 的半径是？",
@@ -934,7 +2170,19 @@
         "25",
         "10",
         "√5"
-      ]
+      ],
+      "id": "question_104",
+      "translations": {
+        "en_us": {
+          "question": "What is the radius of the circle x^2 + y^2 = 25?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "25",
+            "10",
+            "√5"
+          ]
+        }
+      }
     },
     {
       "question": "圆 (x - 1)^2 + (y + 2)^2 = 9 的圆心坐标是？",
@@ -943,7 +2191,19 @@
         "(-1, 2)",
         "(1, 2)",
         "(-1, -2)"
-      ]
+      ],
+      "id": "question_105",
+      "translations": {
+        "en_us": {
+          "question": "What are the coordinates of the center of the circle (x - 1)^2 + (y + 2)^2 = 9?",
+          "correct_answer": "(1, -2)",
+          "wrong_answers": [
+            "(-1, 2)",
+            "(1, 2)",
+            "(-1, -2)"
+          ]
+        }
+      }
     },
     {
       "question": "直线 2x + 3y - 6 = 0 的横截距是？",
@@ -952,7 +2212,19 @@
         "-3",
         "2",
         "6"
-      ]
+      ],
+      "id": "question_106",
+      "translations": {
+        "en_us": {
+          "question": "What is the cross-intercept of the line 2x + 3y - 6 = 0?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "-3",
+            "2",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "两条直线 y = 2x + 1 与 y = 2x - 3 的位置关系是？",
@@ -961,7 +2233,19 @@
         "相交",
         "重合",
         "垂直"
-      ]
+      ],
+      "id": "question_107",
+      "translations": {
+        "en_us": {
+          "question": "What is the positional relationship between the two straight lines y = 2x + 1 and y = 2x - 3?",
+          "correct_answer": "parallel",
+          "wrong_answers": [
+            "intersect",
+            "overlap",
+            "vertical"
+          ]
+        }
+      }
     },
     {
       "question": "过点 (0, 1) 且与直线 y = 3x + 2 平行的直线斜率是？",
@@ -970,7 +2254,19 @@
         "1/3",
         "-3",
         "2"
-      ]
+      ],
+      "id": "question_108",
+      "translations": {
+        "en_us": {
+          "question": "What is the slope of the line passing through the point (0, 1) and parallel to the line y = 3x + 2?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "1/3",
+            "-3",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "若直线 ax + 2y + 1 = 0 与 x + y + 1 = 0 平行，则 a = ?",
@@ -979,7 +2275,19 @@
         "-2",
         "1",
         "-1"
-      ]
+      ],
+      "id": "question_109",
+      "translations": {
+        "en_us": {
+          "question": "If the straight lines ax + 2y + 1 = 0 are parallel to x + y + 1 = 0, then a = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-2",
+            "1",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "question": "已知向量 a = (2, 3)，b = (-1, 2)，则 2a - b = ?",
@@ -988,7 +2296,19 @@
         "(3, 8)",
         "(5, 8)",
         "(3, 4)"
-      ]
+      ],
+      "id": "question_110",
+      "translations": {
+        "en_us": {
+          "question": "It is known that the vector a = (2, 3), b = (-1, 2), then 2a - b = ?",
+          "correct_answer": "(5, 4)",
+          "wrong_answers": [
+            "(3, 8)",
+            "(5, 8)",
+            "(3, 4)"
+          ]
+        }
+      }
     },
     {
       "question": "向量 a = (1, 2)，b = (2, 1)，则 a · b = ?",
@@ -997,7 +2317,19 @@
         "3",
         "5",
         "0"
-      ]
+      ],
+      "id": "question_111",
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, 2), b = (2, 1), then a · b = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "0"
+          ]
+        }
+      }
     },
     {
       "question": "若向量 a 与 b 的夹角为 60°，|a| = 2，|b| = 3，则 a · b = ?",
@@ -1006,7 +2338,19 @@
         "6",
         "1.5",
         "√3"
-      ]
+      ],
+      "id": "question_112",
+      "translations": {
+        "en_us": {
+          "question": "If the angle between vectors a and b is 60°, |a| = 2, |b| = 3, then a · b = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "6",
+            "1.5",
+            "√3"
+          ]
+        }
+      }
     },
     {
       "question": "向量 a = (x, 1)，b = (2, x)，若 a · b = 5，则 x = ?",
@@ -1015,7 +2359,19 @@
         "2",
         "1",
         "3"
-      ]
+      ],
+      "id": "question_113",
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (x, 1), b = (2, x), if a · b = 5, then x = ?",
+          "correct_answer": "5/3",
+          "wrong_answers": [
+            "2",
+            "1",
+            "3"
+          ]
+        }
+      }
     },
     {
       "question": "三角形三个顶点 A(0, 0)，B(2, 0)，C(1, √3)，则边 AB 上的高为？",
@@ -1024,7 +2380,19 @@
         "2",
         "√2",
         "1"
-      ]
+      ],
+      "id": "question_114",
+      "translations": {
+        "en_us": {
+          "question": "The three vertices of the triangle are A(0, 0), B(2, 0), C(1, √3), then the height on side AB is?",
+          "correct_answer": "√3",
+          "wrong_answers": [
+            "2",
+            "√2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "已知直线 l 经过点 (1, 1) 和 (3, 5)，则斜率是？",
@@ -1033,7 +2401,19 @@
         "1/2",
         "1",
         "4"
-      ]
+      ],
+      "id": "question_115",
+      "translations": {
+        "en_us": {
+          "question": "It is known that straight line l passes through points (1, 1) and (3, 5), what is the slope?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1/2",
+            "1",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "直线 y = -2x + 3 与 y 轴的交点坐标是？",
@@ -1042,7 +2422,19 @@
         "(3, 0)",
         "(0, -3)",
         "(1, 1)"
-      ]
+      ],
+      "id": "question_116",
+      "translations": {
+        "en_us": {
+          "question": "What are the coordinates of the intersection point of the straight line y = -2x + 3 and the y-axis?",
+          "correct_answer": "(0, 3)",
+          "wrong_answers": [
+            "(3, 0)",
+            "(0, -3)",
+            "(1, 1)"
+          ]
+        }
+      }
     },
     {
       "question": "圆 x^2 + y^2 - 2x + 4y - 4 = 0 的半径是？",
@@ -1051,7 +2443,19 @@
         "1",
         "5",
         "√5"
-      ]
+      ],
+      "id": "question_117",
+      "translations": {
+        "en_us": {
+          "question": "What is the radius of the circle x^2 + y^2 - 2x + 4y - 4 = 0?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "1",
+            "5",
+            "√5"
+          ]
+        }
+      }
     },
     {
       "question": "过点 (2, 1) 且法向量为 (1, 2) 的直线方程是？",
@@ -1060,7 +2464,19 @@
         "x + 2y - 5 = 0",
         "2x + y - 5 = 0",
         "x - 2y = 0"
-      ]
+      ],
+      "id": "question_118",
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the straight line passing through the point (2, 1) with the normal vector (1, 2)?",
+          "correct_answer": "x + 2y - 4 = 0",
+          "wrong_answers": [
+            "x + 2y - 5 = 0",
+            "2x + y - 5 = 0",
+            "x - 2y = 0"
+          ]
+        }
+      }
     },
     {
       "question": "向量 a = (1, 0)，b = (0, 1)，则 a · b = ?",
@@ -1069,7 +2485,19 @@
         "1",
         "-1",
         "2"
-      ]
+      ],
+      "id": "question_119",
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, 0), b = (0, 1), then a · b = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "-1",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "若直线 y = kx + 2 经过点 (1, 5)，则 k = ?",
@@ -1078,7 +2506,19 @@
         "2",
         "5",
         "-3"
-      ]
+      ],
+      "id": "question_120",
+      "translations": {
+        "en_us": {
+          "question": "If the straight line y = kx + 2 passes through the point (1, 5), then k = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "5",
+            "-3"
+          ]
+        }
+      }
     },
     {
       "question": "抛一枚均匀硬币两次，恰好一次正面朝上的概率是？",
@@ -1087,7 +2527,19 @@
         "1/4",
         "3/4",
         "1/3"
-      ]
+      ],
+      "id": "question_121",
+      "translations": {
+        "en_us": {
+          "question": "If you toss an fair coin twice, what is the probability that exactly one of them lands heads?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "1/4",
+            "3/4",
+            "1/3"
+          ]
+        }
+      }
     },
     {
       "question": "掷一颗均匀骰子，点数为奇数的概率是？",
@@ -1096,7 +2548,19 @@
         "1/3",
         "2/3",
         "1/6"
-      ]
+      ],
+      "id": "question_122",
+      "translations": {
+        "en_us": {
+          "question": "If a uniform die is thrown, what is the probability that the number will be an odd number?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "1/3",
+            "2/3",
+            "1/6"
+          ]
+        }
+      }
     },
     {
       "question": "从1到10中随机取一个整数，取到质数的概率是？",
@@ -1105,7 +2569,19 @@
         "1/2",
         "3/10",
         "1/5"
-      ]
+      ],
+      "id": "question_123",
+      "translations": {
+        "en_us": {
+          "question": "Pick an integer at random from 1 to 10. What is the probability of getting a prime number?",
+          "correct_answer": "2/5",
+          "wrong_answers": [
+            "1/2",
+            "3/10",
+            "1/5"
+          ]
+        }
+      }
     },
     {
       "question": "袋中有3个红球2个白球，随机取1个球，取到红球的概率是？",
@@ -1114,7 +2590,19 @@
         "2/5",
         "1/2",
         "2/3"
-      ]
+      ],
+      "id": "question_124",
+      "translations": {
+        "en_us": {
+          "question": "There are 3 red balls and 2 white balls in the bag. One ball is picked at random. What is the probability of getting a red ball?",
+          "correct_answer": "3/5",
+          "wrong_answers": [
+            "2/5",
+            "1/2",
+            "2/3"
+          ]
+        }
+      }
     },
     {
       "question": "同时掷两枚均匀硬币，至少一枚正面的概率是？",
@@ -1123,7 +2611,19 @@
         "1/2",
         "1/4",
         "1/3"
-      ]
+      ],
+      "id": "question_125",
+      "translations": {
+        "en_us": {
+          "question": "When two fair coins are tossed simultaneously, what is the probability that at least one will be heads?",
+          "correct_answer": "3/4",
+          "wrong_answers": [
+            "1/2",
+            "1/4",
+            "1/3"
+          ]
+        }
+      }
     },
     {
       "question": "掷两枚均匀骰子，点数之和为7的概率是？",
@@ -1132,7 +2632,19 @@
         "1/12",
         "5/36",
         "1/8"
-      ]
+      ],
+      "id": "question_126",
+      "translations": {
+        "en_us": {
+          "question": "If two even dice are rolled, what is the probability that the sum of the numbers is 7?",
+          "correct_answer": "1/6",
+          "wrong_answers": [
+            "1/12",
+            "5/36",
+            "1/8"
+          ]
+        }
+      }
     },
     {
       "question": "掷两枚均匀骰子，点数之和为8的概率是？",
@@ -1141,7 +2653,19 @@
         "1/6",
         "1/12",
         "7/36"
-      ]
+      ],
+      "id": "question_127",
+      "translations": {
+        "en_us": {
+          "question": "If two even dice are rolled, what is the probability that the sum of the numbers is 8?",
+          "correct_answer": "5/36",
+          "wrong_answers": [
+            "1/6",
+            "1/12",
+            "7/36"
+          ]
+        }
+      }
     },
     {
       "question": "从5名男生3名女生中随机选1人，选到女生的概率是？",
@@ -1150,7 +2674,19 @@
         "5/8",
         "1/3",
         "3/5"
-      ]
+      ],
+      "id": "question_128",
+      "translations": {
+        "en_us": {
+          "question": "From 5 boys and 3 girls, 1 person is randomly selected. What is the probability of selecting a girl?",
+          "correct_answer": "3/8",
+          "wrong_answers": [
+            "5/8",
+            "1/3",
+            "3/5"
+          ]
+        }
+      }
     },
     {
       "question": "从5名男生3名女生中随机选2人，恰好1男1女的概率是？",
@@ -1159,7 +2695,19 @@
         "3/8",
         "5/14",
         "1/2"
-      ]
+      ],
+      "id": "question_129",
+      "translations": {
+        "en_us": {
+          "question": "If you randomly select 2 people from 5 boys and 3 girls, what is the probability that there will be exactly 1 boy and 1 girl?",
+          "correct_answer": "15/28",
+          "wrong_answers": [
+            "3/8",
+            "5/14",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "question": "从1、2、3、4中任取2个数字，和为奇数的概率是？",
@@ -1168,7 +2716,19 @@
         "1/2",
         "1/3",
         "3/4"
-      ]
+      ],
+      "id": "question_130",
+      "translations": {
+        "en_us": {
+          "question": "Take any two numbers from 1, 2, 3, and 4, and what is the probability that the sum is an odd number?",
+          "correct_answer": "2/3",
+          "wrong_answers": [
+            "1/2",
+            "1/3",
+            "3/4"
+          ]
+        }
+      }
     },
     {
       "question": "从1、2、3、4、5中任取3个数字，取到1的概率是？",
@@ -1177,7 +2737,19 @@
         "1/5",
         "2/5",
         "4/5"
-      ]
+      ],
+      "id": "question_131",
+      "translations": {
+        "en_us": {
+          "question": "Pick any three numbers from 1, 2, 3, 4, and 5. What is the probability of getting 1?",
+          "correct_answer": "3/5",
+          "wrong_answers": [
+            "1/5",
+            "2/5",
+            "4/5"
+          ]
+        }
+      }
     },
     {
       "question": "事件A与B独立，P(A)=2/5，P(B)=1/2，则P(A∩B)=?",
@@ -1186,7 +2758,19 @@
         "1/2",
         "4/5",
         "3/10"
-      ]
+      ],
+      "id": "question_132",
+      "translations": {
+        "en_us": {
+          "question": "Events A and B are independent, P(A)=2/5, P(B)=1/2, then P(A∩B)=?",
+          "correct_answer": "1/5",
+          "wrong_answers": [
+            "1/2",
+            "4/5",
+            "3/10"
+          ]
+        }
+      }
     },
     {
       "question": "事件A与B互斥，P(A)=3/5，P(B)=3/10，则P(A∪B)=?",
@@ -1195,7 +2779,19 @@
         "3/10",
         "1",
         "1/2"
-      ]
+      ],
+      "id": "question_133",
+      "translations": {
+        "en_us": {
+          "question": "Events A and B are mutually exclusive, P(A)=3/5, P(B)=3/10, then P(A∪B)=?",
+          "correct_answer": "9/10",
+          "wrong_answers": [
+            "3/10",
+            "1",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "question": "已知P(A)=1/2，P(A∩B)=1/5，则P(B|A)=?",
@@ -1204,7 +2800,19 @@
         "1/10",
         "1/5",
         "3/10"
-      ]
+      ],
+      "id": "question_134",
+      "translations": {
+        "en_us": {
+          "question": "It is known that P(A)=1/2, P(A∩B)=1/5, then P(B|A)=?",
+          "correct_answer": "2/5",
+          "wrong_answers": [
+            "1/10",
+            "1/5",
+            "3/10"
+          ]
+        }
+      }
     },
     {
       "question": "随机变量X服从二项分布B(4, 1/2)，则P(X=2)=?",
@@ -1213,7 +2821,19 @@
         "1/4",
         "1/2",
         "5/16"
-      ]
+      ],
+      "id": "question_135",
+      "translations": {
+        "en_us": {
+          "question": "The random variable X obeys the binomial distribution B(4, 1/2), then P(X=2)=?",
+          "correct_answer": "3/8",
+          "wrong_answers": [
+            "1/4",
+            "1/2",
+            "5/16"
+          ]
+        }
+      }
     },
     {
       "question": "随机变量X的分布列为P(X=1)=1/5，P(X=2)=1/2，P(X=3)=3/10，则E(X)=?",
@@ -1222,7 +2842,19 @@
         "2",
         "11/5",
         "23/10"
-      ]
+      ],
+      "id": "question_136",
+      "translations": {
+        "en_us": {
+          "question": "A random variable X has distribution P(X=1)=1/5, P(X=2)=1/2, and P(X=3)=3/10. What is E(X)?",
+          "correct_answer": "21/10",
+          "wrong_answers": [
+            "2",
+            "11/5",
+            "23/10"
+          ]
+        }
+      }
     },
     {
       "question": "一组数据2、4、4、4、5、5、7、9的众数是？",
@@ -1231,7 +2863,19 @@
         "5",
         "4.5",
         "6"
-      ]
+      ],
+      "id": "question_137",
+      "translations": {
+        "en_us": {
+          "question": "What is the mode of a set of data 2, 4, 4, 4, 5, 5, 7, 9?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "5",
+            "4.5",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "一组数据2、4、4、5、5、5、7、9的中位数是？",
@@ -1240,7 +2884,19 @@
         "4",
         "5.5",
         "6"
-      ]
+      ],
+      "id": "question_138",
+      "translations": {
+        "en_us": {
+          "question": "What is the median of a set of data 2, 4, 4, 5, 5, 5, 7, 9?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "4",
+            "5.5",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "一组数据1、2、3、4、5的平均数是？",
@@ -1249,7 +2905,19 @@
         "2.5",
         "3.5",
         "4"
-      ]
+      ],
+      "id": "question_139",
+      "translations": {
+        "en_us": {
+          "question": "What is the average of a set of data 1, 2, 3, 4, and 5?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2.5",
+            "3.5",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "一组数据1、2、3、4、5的方差是？",
@@ -1258,7 +2926,19 @@
         "1",
         "√2",
         "4"
-      ]
+      ],
+      "id": "question_140",
+      "translations": {
+        "en_us": {
+          "question": "What is the variance of a set of data 1, 2, 3, 4, and 5?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "√2",
+            "4"
+          ]
+        }
+      }
     },
     {
       "question": "从集合{1,2,3,4}中随机取一个数，取到偶数的概率是？",
@@ -1267,7 +2947,19 @@
         "1/4",
         "3/4",
         "2/3"
-      ]
+      ],
+      "id": "question_141",
+      "translations": {
+        "en_us": {
+          "question": "Pick a random number from the set {1,2,3,4}, what is the probability of getting an even number?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "1/4",
+            "3/4",
+            "2/3"
+          ]
+        }
+      }
     },
     {
       "question": "某班50名学生中有30名男生，随机选1人，选到男生的概率是？",
@@ -1276,7 +2968,19 @@
         "2/5",
         "1/2",
         "3/4"
-      ]
+      ],
+      "id": "question_142",
+      "translations": {
+        "en_us": {
+          "question": "There are 30 boys among 50 students in a class. If one person is randomly selected, what is the probability of selecting a boy?",
+          "correct_answer": "3/5",
+          "wrong_answers": [
+            "2/5",
+            "1/2",
+            "3/4"
+          ]
+        }
+      }
     },
     {
       "question": "甲、乙独立射击，命中率分别为3/5和1/2，两人都命中的概率是？",
@@ -1285,7 +2989,19 @@
         "1/5",
         "2/5",
         "1/2"
-      ]
+      ],
+      "id": "question_143",
+      "translations": {
+        "en_us": {
+          "question": "A and B shoot independently. The hit rates are 3/5 and 1/2 respectively. What is the probability that both of them hit?",
+          "correct_answer": "3/10",
+          "wrong_answers": [
+            "1/5",
+            "2/5",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "question": "从数字1、2、3、4、5中任取两个数字，其和为偶数的概率是？",
@@ -1294,7 +3010,19 @@
         "3/5",
         "1/2",
         "1/5"
-      ]
+      ],
+      "id": "question_144",
+      "translations": {
+        "en_us": {
+          "question": "Take any two numbers from the numbers 1, 2, 3, 4, and 5. What is the probability that their sum is an even number?",
+          "correct_answer": "2/5",
+          "wrong_answers": [
+            "3/5",
+            "1/2",
+            "1/5"
+          ]
+        }
+      }
     },
     {
       "question": "袋中有2个红球3个白球，不放回地依次取两个球，第一个是红球第二个是白球的概率是？",
@@ -1303,7 +3031,19 @@
         "1/5",
         "2/5",
         "3/5"
-      ]
+      ],
+      "id": "question_145",
+      "translations": {
+        "en_us": {
+          "question": "There are 2 red balls and 3 white balls in the bag. Two balls are taken in sequence without replacement. What is the probability that the first one is a red ball and the second one is a white ball?",
+          "correct_answer": "3/10",
+          "wrong_answers": [
+            "1/5",
+            "2/5",
+            "3/5"
+          ]
+        }
+      }
     },
     {
       "question": "从1到6中随机取两个不同数字，乘积为偶数的概率是？",
@@ -1312,7 +3052,19 @@
         "3/5",
         "1/2",
         "2/5"
-      ]
+      ],
+      "id": "question_146",
+      "translations": {
+        "en_us": {
+          "question": "What is the probability that the product of two different numbers randomly chosen from 1 to 6 is an even number?",
+          "correct_answer": "4/5",
+          "wrong_answers": [
+            "3/5",
+            "1/2",
+            "2/5"
+          ]
+        }
+      }
     },
     {
       "question": "将一枚均匀硬币抛3次，恰有2次正面的概率是？",
@@ -1321,7 +3073,19 @@
         "1/2",
         "1/4",
         "5/8"
-      ]
+      ],
+      "id": "question_147",
+      "translations": {
+        "en_us": {
+          "question": "If you toss an fair coin 3 times, what is the probability that exactly 2 heads will come out?",
+          "correct_answer": "3/8",
+          "wrong_answers": [
+            "1/2",
+            "1/4",
+            "5/8"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = x^2 的导数是？",
@@ -1330,7 +3094,19 @@
         "x",
         "x^2",
         "2"
-      ]
+      ],
+      "id": "question_148",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of function f(x) = x^2?",
+          "correct_answer": "2x",
+          "wrong_answers": [
+            "x",
+            "x^2",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = 3x^3 - 2x + 1 的导数是？",
@@ -1339,7 +3115,19 @@
         "9x^2 + 2",
         "3x^2 - 2",
         "6x^2 - 2"
-      ]
+      ],
+      "id": "question_149",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of the function f(x) = 3x^3 - 2x + 1?",
+          "correct_answer": "9x^2 - 2",
+          "wrong_answers": [
+            "9x^2 + 2",
+            "3x^2 - 2",
+            "6x^2 - 2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = 1/x 的导数是？",
@@ -1348,7 +3136,19 @@
         "1/x^2",
         "-1/x",
         "x^2"
-      ]
+      ],
+      "id": "question_150",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of the function f(x) = 1/x?",
+          "correct_answer": "-1/x^2",
+          "wrong_answers": [
+            "1/x^2",
+            "-1/x",
+            "x^2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = √x 的导数是？",
@@ -1357,7 +3157,19 @@
         "√x/2",
         "2/√x",
         "1/√x"
-      ]
+      ],
+      "id": "question_151",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of the function f(x) = √x?",
+          "correct_answer": "1/(2√x)",
+          "wrong_answers": [
+            "√x/2",
+            "2/√x",
+            "1/√x"
+          ]
+        }
+      }
     },
     {
       "question": "曲线 y = x^2 + 1 在 x = 1 处的切线斜率是？",
@@ -1366,7 +3178,19 @@
         "1",
         "3",
         "0"
-      ]
+      ],
+      "id": "question_152",
+      "translations": {
+        "en_us": {
+          "question": "What is the slope of the tangent to the curve y = x^2 + 1 at x = 1?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "0"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = x^3 - 3x 的单调递增区间是？",
@@ -1375,7 +3199,19 @@
         "-1 < x < 1",
         "x > 0",
         "x < 0"
-      ]
+      ],
+      "id": "question_153",
+      "translations": {
+        "en_us": {
+          "question": "What is the monotonically increasing interval of the function f(x) = x^3 - 3x?",
+          "correct_answer": "x < -1 or x > 1",
+          "wrong_answers": [
+            "-1 < x < 1",
+            "x > 0",
+            "x < 0"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = x^2 - 4x + 5 的极小值是？",
@@ -1384,7 +3220,19 @@
         "-1",
         "0",
         "2"
-      ]
+      ],
+      "id": "question_154",
+      "translations": {
+        "en_us": {
+          "question": "What is the minimum value of the function f(x) = x^2 - 4x + 5?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "-1",
+            "0",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = -x^2 + 2x 的最大值是？",
@@ -1393,7 +3241,19 @@
         "-1",
         "0",
         "2"
-      ]
+      ],
+      "id": "question_155",
+      "translations": {
+        "en_us": {
+          "question": "What is the maximum value of the function f(x) = -x^2 + 2x?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "-1",
+            "0",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = e^x 的导数是？",
@@ -1402,7 +3262,19 @@
         "x*e^(x-1)",
         "e^(x+1)",
         "1/e^x"
-      ]
+      ],
+      "id": "question_156",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of function f(x) = e^x?",
+          "correct_answer": "e^x",
+          "wrong_answers": [
+            "x*e^(x-1)",
+            "e^(x+1)",
+            "1/e^x"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = ln x 的导数是？",
@@ -1411,7 +3283,19 @@
         "x",
         "ln x",
         "-1/x"
-      ]
+      ],
+      "id": "question_157",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of function f(x) = ln x?",
+          "correct_answer": "1/x",
+          "wrong_answers": [
+            "x",
+            "xx",
+            "-1/x"
+          ]
+        }
+      }
     },
     {
       "question": "已知 f'(x) = 3x^2 且 f(0) = 1，则 f(x) = ?",
@@ -1420,7 +3304,19 @@
         "x^3 + 2",
         "3x^2 + 1",
         "x^3 - 1"
-      ]
+      ],
+      "id": "question_158",
+      "translations": {
+        "en_us": {
+          "question": "It is known that f'(x) = 3x^2 and f(0) = 1, then f(x) = ?",
+          "correct_answer": "x^3 + 1",
+          "wrong_answers": [
+            "x^3 + 2",
+            "3x^2 + 1",
+            "x^3-1"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = x^3 在 x = -1 处的切线斜率是？",
@@ -1429,7 +3325,19 @@
         "-3",
         "1",
         "-1"
-      ]
+      ],
+      "id": "question_159",
+      "translations": {
+        "en_us": {
+          "question": "What is the slope of the tangent line to the function f(x) = x^3 at x = -1?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "-3",
+            "1",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = 2x^3 - 6x 在 x = 1 处的切线斜率是？",
@@ -1438,7 +3346,19 @@
         "6",
         "-6",
         "2"
-      ]
+      ],
+      "id": "question_160",
+      "translations": {
+        "en_us": {
+          "question": "What is the slope of the tangent line to the function f(x) = 2x^3 - 6x at x = 1?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "6",
+            "-6",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = x^2 - 2x 在区间 [0,2] 上的最小值是？",
@@ -1447,7 +3367,19 @@
         "0",
         "1",
         "-2"
-      ]
+      ],
+      "id": "question_161",
+      "translations": {
+        "en_us": {
+          "question": "What is the minimum value of the function f(x) = x^2 - 2x on the interval [0,2]?",
+          "correct_answer": "-1",
+          "wrong_answers": [
+            "0",
+            "1",
+            "-2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 y = x^3 - 3x 的极小值点 x 的值是？",
@@ -1456,7 +3388,19 @@
         "-1",
         "0",
         "2"
-      ]
+      ],
+      "id": "question_162",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of x at the minimum point of function y = x^3 - 3x?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "-1",
+            "0",
+            "2"
+          ]
+        }
+      }
     },
     {
       "question": "曲线 y = x^3 + x 在点 (1,2) 处的切线方程是？",
@@ -1465,7 +3409,19 @@
         "y = 3x - 1",
         "y = 2x",
         "y = 4x + 2"
-      ]
+      ],
+      "id": "question_163",
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the tangent to the curve y = x^3 + x at point (1,2)?",
+          "correct_answer": "y = 4x - 2",
+          "wrong_answers": [
+            "y=3x-1",
+            "y = 2x",
+            "y = 4x + 2"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = cos x 的导数是？",
@@ -1474,7 +3430,19 @@
         "sin x",
         "-cos x",
         "tan x"
-      ]
+      ],
+      "id": "question_164",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of function f(x) = cos x?",
+          "correct_answer": "-sin x",
+          "wrong_answers": [
+            "sin x",
+            "-cos x",
+            "tan x"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = sin x 的导数是？",
@@ -1483,7 +3451,19 @@
         "-cos x",
         "sin x",
         "-sin x"
-      ]
+      ],
+      "id": "question_165",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of the function f(x) = sin x?",
+          "correct_answer": "cos x",
+          "wrong_answers": [
+            "-cos x",
+            "sin x",
+            "-sin x"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = x^2 + 3x 在 x = 2 处的导数值是？",
@@ -1492,7 +3472,19 @@
         "4",
         "5",
         "10"
-      ]
+      ],
+      "id": "question_166",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative value of the function f(x) = x^2 + 3x at x = 2?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "4",
+            "5",
+            "10"
+          ]
+        }
+      }
     },
     {
       "question": "函数 f(x) = 1/x 在 x = 2 处的导数值是？",
@@ -1501,7 +3493,19 @@
         "1/4",
         "-1/2",
         "1/2"
-      ]
+      ],
+      "id": "question_167",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of the function f(x) = 1/x at x = 2?",
+          "correct_answer": "-1/4",
+          "wrong_answers": [
+            "1/4",
+            "-1/2",
+            "1/2"
+          ]
+        }
+      }
     }
   ]
 }

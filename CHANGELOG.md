@@ -1,5 +1,159 @@
 # MathMaster 更新日志
 
+## 1.3.0 — 2026-10-06
+
+### 中文
+
+本次更新补全了从数学学习、遗迹探索到首个Boss挑战的主世界冒险流程。
+
+#### 探索与试炼
+
+- 新增N类试炼和几何圣所，扩充主世界未完成传送门，并加入下界未完成传送门。
+- 各类遗迹使用独立战利品表，提供材料、装备、笔记和探索地图。
+- 主世界未完成传送门的箱子有概率出现N类试炼地图；完成N祭坛血祭后，必定获得一张几何圣所地图和2～3个灵虚锭，另有随机奖励。
+
+#### N祭坛
+
+- 新增血祭与正常献祭两种模式。血祭默认需要20点贡献，附近玩家的平均有效IQ越高，怪物获得的增益越少，并逐步转为减益。
+- 本人有效IQ大于50，且使用智识之镜成功洞悉至少5种生物后，永久解锁正常献祭。
+- 求知之物：献上铁锭、金锭、绿宝石或钻石，有概率获得低级神谕。
+- 合意之物：献上考拉兹果实获得智识经验；献上素数核心可指引附近未完成主世界传送门。
+- 亵渎之物：献上特定物品会受到雷击、失明等随机惩罚。
+- 加入专属血祭音乐，以及范围渐变、完整循环和仪式结束尾声。
+
+#### 几何持有者
+
+- 新增首个Boss“几何持有者”，具有200点生命、20点护甲，生命低于40%时进入第二阶段。
+- 拥有光环震荡、画地为牢、蓄力光线、炸弹抛掷、十字波和天地为牢六种技能。近战、远程与大招独立释放，第二阶段增强部分技能并提高释放频率。
+- 加入发光模型、阶段颜色渐变、专属Boss血条、技能音效和两阶段战斗音乐，支持转阶段与击败后的音乐平滑过渡。
+- 新增使用激光攻击的几何构造体，击杀必定掉落一个几何核心。
+- 使用几何核心右键几何祭坛可开启召唤；再次右键取消并返还材料。祭坛支持重复挑战，生存模式不可破坏。
+- 击败几何持有者掉落2～3个素锭。
+
+#### 公理与材料
+
+- 新增“测地线”：2～5级几何类主动公理，提供短距离瞬移和沿视线飞行。
+- 新增“回归”：2～5级逻辑类主动公理，记录维度与坐标锚点，蓄力后返回，可在同一维度使用。
+- 新增“素数连击”：2～5级数论类主动公理，消耗素数核心，按素数序列递增近战额外伤害。
+- 新增“香农熵”：1～5级混沌类被动公理，使攻击与承伤产生随机倍率。
+- 新增素锭、素粒、素块及相互合成配方。
+- 新增红、紫、蓝三种考拉兹树及木材系列、果实。树苗附有红色种植安全提示。
+- 新增数字生物5的4×4画作，可在创造模式获取，不参与随机画作放置。
+
+#### 调整与优化
+
+- 新增数字污染水及可按维度配置的环境污染等级；穿戴完整灵虚套装可降低一档有效污染效果等级。
+- 数字生物6～9的攻击有概率增加玩家污染。
+- 灵虚五种工具的基础攻击力调整为对应下界合金工具加2。
+- 皮亚诺公理补充击杀数字7后生成数字8的效果。
+- 改善几何持有者的悬浮移动、转向和空档追近，修复高度受阻时停止攻击的问题。
+- 修复使用回归跨维度时，满污染未正常致死的问题。
+- 优化洞悉界面的状态更新，简化公理物品说明和JEI描述；加入Jade信息框对Boss血条的避让。
+- 更新玩法文档与主世界流程说明。
+
+Curios仍为客户端和服务端必需前置；Jade、JEI、MadnessCore、MCphone和Touhou Little Maid仍为可选联动。保持旧存档兼容。新增自然生成结构需要探索新区域。
+
+### English
+
+- Completed the Overworld exploration route with N Trials and Geometry Sanctuaries, expanded unfinished Overworld gateways, and added unfinished Nether gateways. Structures have separate loot tables. Gateway loot can include N Trial maps; N altar blood-sacrifice rewards guarantee a Geometry Sanctuary map and 2–3 Lingxu Ingots.
+- Implemented N altar blood sacrifices and normal offerings. Blood sacrifices require 20 contributions by default, with nearby players' average effective IQ determining creature buffs. Effective IQ above 50 and successful insight into at least five creature types permanently unlock normal offerings. Knowledge offerings draw from an extensible low-tier oracle pool; favored offerings grant Intellect experience or gateway guidance, while profane offerings trigger random punishments.
+- Added the first boss, Geometry Holder, with 200 health, 20 armor, and a second phase below 40% health. Independently scheduled melee, ranged, and ultimate skills include Halo Shock, Geometric Prison, Charged Beam, Cube Bombs, Cross Waves, and Heaven-and-Earth Prison. The encounter includes an emissive model, gradual phase coloration, a custom boss bar, dedicated sounds, and two-phase music. Defeating it drops 2–3 Prime Ingots.
+- Added Geometry Constructs, Geometry Cores, and the Geometry Altar. Constructs attack with lasers and always drop one core. Right-clicking the altar consumes a core to summon the boss; another right-click cancels the ritual and refunds it. Repeat challenges are supported, and the altar cannot be broken in Survival.
+- Added Geodesic (Geometry, active, levels 2–5), Return (Logic, active, levels 2–5), Prime Combo (Number Theory, active, levels 2–5), and Shannon Entropy (Chaos, passive, levels 1–5), providing teleportation and flight, dimension-coordinate anchors, prime-sequence melee bonuses, and randomized damage multipliers.
+- Added Prime Ingots, Nuggets, Blocks, and conversion recipes; red, purple, and blue Collatz trees with complete wood families, fruit, and sapling warnings. Added a 4×4 vanilla Number 5 painting, available in Creative and excluded from random painting placement.
+- Added Digitally Polluted Water, configurable dimension-based environmental pollution tiers, and a full Lingxu armor set bonus that lowers environmental pollution tiers. Numbers 6–9 can inflict pollution on attack. Increased each Lingxu tool's base attack damage to its Netherite counterpart plus two and extended Peano's number conversion from 7 to 8.
+- Fixed boss attacks stalling when vertical movement is blocked, improved pursuit and movement between casts, and fixed lethal full pollution being lost during Return's dimension travel. Improved state-based insight UI updates, shortened axiom and JEI descriptions, and revised the 1.3.0 gameplay documentation.
+
+Curios remains required on both sides. Jade, JEI, MadnessCore, MCphone, and Touhou Little Maid remain optional. Existing registry IDs, network encoding, and save compatibility are preserved.
+
+发布产物 / Release artifact: `build/libs/mathmaster-1.3.0.jar`
+SHA-256: `0C13DE43F772A25363CF51B3A0365C8346DB90F978DC8169E87A0BF9D79BDA24`
+
+## 1.2.2 — 2026-10-01
+
+### 中文
+
+- 新增“被数字污染的方块”：具有幽匿块风格的属性，站在其上的玩家和有智识生物会获得短暂数字污染效果，离开即解除；挖掘时有1%概率额外掉落灵虚粒，时运可提高概率。
+- 有智识的非玩家生物开始自然净化污染，连续无污染效果的时间越长，净化速度越快；数字污染效果生效或污染增加时重新计时。
+- 新增逻辑类5级主动公理“对合”：与智识更低的非Boss生物交换外观，并获得其原版旁观视野；双方控制、属性和AI保持原状，可正常使用物品、方块和其他技能。该技能保留实验警告。
+- 实装2～4级逻辑类被动公理“数学归纳法”：把其他同匣逻辑公理的有效等级提升至至少自身等级+1，不降低更高等级、不提升自身，多份只取最高等级。当前固定5级的对合不受提升。
+- 新增仅创造模式获取的“数理之戒”，佩戴于Curios戒指槽位后使用公理无冷却。
+- 新增巨大数字生物5的实验原型：固定位置的血肉平台，可承托生物并浮于水面；5刷怪蛋标注“此物品仍在研制中”，暂不自然生成。
+- 重绘灵虚套、公理匣、神谕匣、真理匣和数字化污染计量仪的物品栏纹理，统一为更接近原版的16×16像素风；灵虚护甲穿戴纹理保持不变。
+- 创造栏中的数字生物刷怪蛋按5、6、7、8、9排列。
+- 修复玩家清醒时污染每分钟意外降低10点：主世界日常自然净化恢复为每分钟1点，成功睡过夜跳过的时间仍按每分钟10点净化。
+
+Curios仍为双端必需前置；Jade、JEI、MadnessCore、MCphone和Touhou Little Maid仍为可选联动。
+
+### English
+
+- Added the Digitally Corrupted Block with sculk-like properties. Players and intelligent creatures standing on it receive a brief Digital Pollution effect, which ends when they leave. Mining has a 1% chance to drop an extra Lingxu Nugget, increased by Fortune.
+- Intelligent non-player creatures now naturally purify pollution at an increasing rate while free of the Digital Pollution effect. Receiving pollution or having the effect resets the purification timer.
+- Added Involution, a level-5 active Logic axiom: exchange appearances with a non-boss creature of lower Intellect and gain its vanilla spectator vision. Both retain their controls, attributes, and AI, with normal item, block, and skill use. The experimental warning remains.
+- Implemented Mathematical Induction, a level-2–4 passive Logic axiom. Other Logic axioms in the same case have an effective level of at least its level + 1. Higher levels are retained; it cannot boost itself, and only the highest copy applies. The current level-5 Involution receives no boost.
+- Added the creative-only Ring of Mathematical Principles. Wearing it in a Curios ring slot removes axiom cooldowns.
+- Added an experimental giant Number 5: a stationary flesh platform that supports creatures and floats on water. Its spawn egg is marked as still in development; it does not spawn naturally.
+- Redrew the inventory icons for Lingxu armor, the three axiom cases, and the Digital Pollution Meter in a vanilla-style 16×16 pixel palette. Worn armor textures are unchanged.
+- Ordered number-creature spawn eggs as 5, 6, 7, 8, 9 in the creative tab.
+- Fixed pollution unexpectedly dropping by 10 every minute while awake. Normal Overworld purification is restored to 1 point per minute; time skipped by successful sleep still purifies 10 points per minute.
+
+Curios remains required on both sides. Jade, JEI, MadnessCore, MCphone, and Touhou Little Maid remain optional.
+
+发布产物 / Release artifact: `build/libs/mathmaster-1.2.2.jar`
+SHA-256: `FAAEA3DA9F334739F817C0829937047067F6FD6032743867C488B0DB92856CCE`
+
+## 1.2.1 — 2026-09-21
+
+### 中文
+
+#### 新内容
+
+- 新增数字生物 7 和 6，以及各自的模型、纹理、声音和刷怪蛋。7 穿戴钻石风格护甲；6 是体型更大的血肉化失败产物，攻击可暂时禁用盾牌，死亡必定掉落受抢夺影响的灵虚锭。
+- 新增几何类主动技能“普莱费尔公理”：指定有智识生物作为基点，沿选定轴线行动时可阻止其接近和伤害玩家；淡石英色粒子提示可行动方向与边界。
+- 新增可装备在 Curios `trinkets` 槽位的“数字化污染计量仪”及配方，屏幕右下角实时显示污染值。
+- 新增会切换图像的“集合”与独立的“空集”物品。
+- 全部 1228 道内置数学书和洞悉题目提供英文版本；答题界面可即时切换中英文，同一道题共用题目 ID、答案与完成进度。
+- 数学手册加入简短的“研读之后”引导。
+- 数字污染较高时出现像素风扭曲符文、乱码文本和多语种低语；曾制作的血肉插图资源保留，但污染效果不会显示它。
+
+#### 修复与调整
+
+- 修复数字 7 被攻击击退后可能陷入沙块等方块的问题，并将其刷怪蛋名称统一为“7刷怪蛋”。
+- 主世界每累计 1 分钟降低 10 点数字污染；成功睡过夜时，跳过的时间也计入净化。
+- 清理未使用的构建模板配置与少量冗余代码，保留现有注册 ID 和存档数据格式。
+
+Curios 仍是客户端和服务端必需前置；Jade、JEI、MadnessCore、MCphone 和 Touhou Little Maid 仍是可选联动。
+
+#### 发布产物
+
+- 文件：`build/libs/mathmaster-1.2.1.jar`
+- SHA-256：`1D76C38A3FE2DC6D039A8A781EF816B8E88C715169552BC44DD594C24D6902D5`
+
+### English
+
+#### New content
+
+- Added Number 7 and Number 6, each with its own model, textures, sounds, and spawn egg. Number 7 has diamond-themed armor; Number 6 is a larger, flesh-like failed transformation that can temporarily disable shields and always drops a Lingxu Ingot on death, with the amount affected by Looting.
+- Added Playfair's Axiom, an active geometry skill. Designate a creature with intellect as the base point, then move along a chosen axis to keep it from approaching or harming you. Pale quartz particles show the available directions and boundaries.
+- Added the Digital Pollution Meter and its crafting recipe. Equip it in the Curios `trinkets` slot to see your pollution level in a pixel-style HUD.
+- Added Set, an item with a changing image, and Empty Set as a separate item.
+- Added English translations for all 1,228 built-in math-book and insight questions. You can switch between Chinese and English in the quiz screens; both languages use the same question IDs, answers, and completion progress.
+- Added a short “After Studying” introduction to the MathMaster guide.
+- High digital pollution now brings distorted pixel-style symbols, garbled text, and multilingual whispers. The experimental flesh-overlay image remains in the resources but is not shown by pollution effects.
+
+#### Fixes and adjustments
+
+- Fixed Number 7 sometimes being knocked into sand or other blocks. Its Chinese spawn egg name is now consistently “7刷怪蛋”.
+- Digital pollution decreases by 10 points for each accumulated minute in the Overworld. Time skipped by a successful night's sleep also counts toward this reduction.
+- Removed unused build-template configuration and minor redundant code while retaining existing registry IDs and save-data formats.
+
+Curios remains required on both client and server. Jade, JEI, MadnessCore, MCphone, and Touhou Little Maid remain optional integrations.
+
+#### Release artifact
+
+- File: `build/libs/mathmaster-1.2.1.jar`
+- SHA-256: `1D76C38A3FE2DC6D039A8A781EF816B8E88C715169552BC44DD594C24D6902D5`
+
 ## 1.2.0 — 2026-09-13
 
 本版本将 MathMaster 从数学问答模组扩展为以数学公理、智识与数字化污染为核心的冒险玩法模组。Curios 自本版本起成为客户端与服务端均必需的前置。

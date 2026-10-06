@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "mathmaster:block/purple_collatz_planks"
+  }
+}

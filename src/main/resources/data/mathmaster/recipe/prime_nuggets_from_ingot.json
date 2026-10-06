@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mathmaster:prime_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "mathmaster:prime_nugget"
+  }
+}

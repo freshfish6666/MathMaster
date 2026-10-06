@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mathmaster:item/pollution_high_tower_falls_icon"
+  }
+}

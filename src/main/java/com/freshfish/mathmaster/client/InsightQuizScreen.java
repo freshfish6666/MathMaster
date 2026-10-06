@@ -23,8 +23,15 @@ public final class InsightQuizScreen extends AbstractContainerScreen<InsightQuiz
     private List<FormattedCharSequence> questionLines = List.of();
     private Button nextButton;
     private Button closeButton;
+    private Button languageButton;
     private boolean answerPending;
+    private boolean english;
     private int displayedQuestionNumber = -1;
+    private boolean controlsInitialized;
+    private boolean controlsEnglish;
+    private boolean controlsLastQuestion;
+    private boolean controlsAnswered;
+    private boolean controlsAnswerPending;
 
     public InsightQuizScreen(InsightQuizMenu menu, Inventory inventory, Component title) {
         super(menu, inventory, title);
@@ -35,8 +42,10 @@ public final class InsightQuizScreen extends AbstractContainerScreen<InsightQuiz
         this.imageWidth = Math.max(1, Math.min(MAX_WIDTH, this.width - 16));
         this.imageHeight = Math.max(1, Math.min(MAX_HEIGHT, this.height - 16));
         super.init();
+        this.english = QuizLanguagePreference.useEnglish(this.minecraft);
         this.answerButtons.clear();
         this.answerPending = false;
+        this.controlsInitialized = false;
         this.displayedQuestionNumber = this.menu.getCurrentQuestionNumber();
 
         int contentWidth = this.imageWidth - PADDING * 2;
@@ -69,24 +78,33 @@ public final class InsightQuizScreen extends AbstractContainerScreen<InsightQuiz
         }
 
         this.nextButton = this.addRenderableWidget(Button.builder(
-                Component.translatable("screen.mathmaster.insight.next"),
+                Component.literal(this.english ? "Next Question" : "下一题"),
                 ignored -> clickMenuButton(InsightQuizMenu.NEXT_BUTTON_ID)
         ).bounds(this.leftPos + this.imageWidth / 2 - 104, closeY, 100, 20).build());
         this.closeButton = this.addRenderableWidget(Button.builder(
-                Component.translatable("screen.mathmaster.insight.close"),
+                Component.literal(this.english ? "End Insight" : "结束洞悉"),
                 ignored -> clickMenuButton(InsightQuizMenu.CLOSE_BUTTON_ID)
         ).bounds(this.leftPos + this.imageWidth / 2 + 4, closeY, 100, 20).build());
+        this.languageButton = this.addRenderableWidget(Button.builder(
+                Component.literal(this.english ? "中文" : "EN"),
+                button -> {
+                    this.english = QuizLanguagePreference.toggle(this.minecraft);
+                    updateQuestionContent(this.imageWidth - PADDING * 2);
+                    updateControls();
+                    button.setMessage(Component.literal(this.english ? "中文" : "EN"));
+                }
+        ).bounds(this.leftPos + 8, this.topPos + 7, 42, 16).build());
         updateControls();
     }
 
     private void updateQuestionContent(int contentWidth) {
         List<FormattedCharSequence> allLines = this.font.split(
-                Component.literal(this.menu.getQuestion()),
+                Component.literal(this.menu.getQuestion(this.english)),
                 contentWidth
         );
         this.questionLines = List.copyOf(allLines.subList(0, Math.min(6, allLines.size())));
 
-        List<String> answers = this.menu.getAnswers();
+        List<String> answers = this.menu.getAnswers(this.english);
         for (int index = 0; index < this.answerButtons.size(); index++) {
             char label = (char) ('A' + index);
             this.answerButtons.get(index).setMessage(
@@ -125,16 +143,30 @@ public final class InsightQuizScreen extends AbstractContainerScreen<InsightQuiz
         if (this.closeButton == null || this.nextButton == null) {
             return;
         }
-        if (this.menu.isAnswered()) {
+        boolean answered = this.menu.isAnswered();
+        boolean lastQuestion = this.menu.isLastQuestion();
+        if (answered) {
             this.answerPending = false;
         }
-        for (WrappedAnswerButton button : this.answerButtons) {
-            button.active = !this.menu.isAnswered() && !this.answerPending;
+        if (!this.controlsInitialized || this.controlsAnswered != answered
+                || this.controlsAnswerPending != this.answerPending) {
+            for (WrappedAnswerButton button : this.answerButtons) {
+                button.active = !answered && !this.answerPending;
+            }
+            this.nextButton.active = answered;
         }
-        this.nextButton.active = this.menu.isAnswered();
-        this.nextButton.setMessage(Component.translatable(this.menu.isLastQuestion()
-                ? "screen.mathmaster.insight.finish"
-                : "screen.mathmaster.insight.next"));
+        if (!this.controlsInitialized || this.controlsEnglish != this.english
+                || this.controlsLastQuestion != lastQuestion) {
+            this.nextButton.setMessage(Component.literal(lastQuestion
+                    ? (this.english ? "Complete Insight" : "完成洞悉")
+                    : (this.english ? "Next Question" : "下一题")));
+            this.closeButton.setMessage(Component.literal(this.english ? "End Insight" : "结束洞悉"));
+        }
+        this.controlsEnglish = this.english;
+        this.controlsLastQuestion = lastQuestion;
+        this.controlsAnswered = answered;
+        this.controlsAnswerPending = this.answerPending;
+        this.controlsInitialized = true;
     }
 
     @Override

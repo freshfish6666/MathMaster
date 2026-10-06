@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "mathmaster:block/collatz_planks",
+    "side": "mathmaster:block/collatz_planks",
+    "top": "mathmaster:block/collatz_planks"
+  }
+}

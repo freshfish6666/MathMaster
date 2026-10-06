@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "mathmaster:advanced_math_workbook" },
+  "base": { "item": "mathmaster:axiom_case" },
+  "addition": { "item": "minecraft:amethyst_block" },
+  "result": {
+    "count": 1,
+    "id": "mathmaster:oracle_case"
+  }
+}

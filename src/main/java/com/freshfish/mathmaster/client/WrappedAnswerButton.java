@@ -10,6 +10,17 @@ import net.minecraft.util.FormattedCharSequence;
 import java.util.List;
 
 public final class WrappedAnswerButton extends Button {
+    private static long layoutGeneration;
+    private long cachedGeneration = -1;
+    private int cachedWidth = -1;
+    private Font cachedFont;
+    private Component cachedMessage;
+    private List<FormattedCharSequence> cachedLines = List.of();
+
+    public static void invalidateLayouts() {
+        layoutGeneration++;
+    }
+
     public WrappedAnswerButton(
             int x,
             int y,
@@ -23,8 +34,23 @@ public final class WrappedAnswerButton extends Button {
     }
 
     @Override
+    public void setMessage(Component message) {
+        super.setMessage(message);
+        this.setTooltip(Tooltip.create(message));
+    }
+
+    @Override
     public void renderString(GuiGraphics graphics, Font font, int color) {
-        List<FormattedCharSequence> lines = font.split(this.getMessage(), Math.max(1, this.getWidth() - 24));
+        int wrapWidth = Math.max(1, this.getWidth() - 24);
+        if (this.cachedGeneration != layoutGeneration || this.cachedFont != font
+                || this.cachedWidth != wrapWidth || !this.getMessage().equals(this.cachedMessage)) {
+            this.cachedLines = font.split(this.getMessage(), wrapWidth);
+            this.cachedMessage = this.getMessage().copy();
+            this.cachedFont = font;
+            this.cachedWidth = wrapWidth;
+            this.cachedGeneration = layoutGeneration;
+        }
+        List<FormattedCharSequence> lines = this.cachedLines;
         int maxLines = Math.max(1, (this.getHeight() - 4) / font.lineHeight);
         int visibleLines = Math.min(lines.size(), maxLines);
         int startY = this.getY() + (this.getHeight() - visibleLines * font.lineHeight) / 2 + 1;

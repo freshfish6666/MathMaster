@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mathmaster:has_digital_mob_spawns",
+  "spawners": [
+    {
+      "type": "mathmaster:nine",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "mathmaster:eight",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

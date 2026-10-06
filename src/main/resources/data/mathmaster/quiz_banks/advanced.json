@@ -9,7 +9,18 @@
         "(-∞, -2/3]",
         "[2/3, +∞)",
         "(-∞, 2/3]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = √(3x + 2)?",
+          "correct_answer": "[-2/3, +∞)",
+          "wrong_answers": [
+            "(-∞, -2/3]",
+            "[2/3, +∞)",
+            "(-∞, 2/3]"
+          ]
+        }
+      }
     },
     {
       "id": "question_002",
@@ -19,7 +30,18 @@
         "x ≠ 1",
         "x ≠ 0",
         "全体实数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = 1 / (1 - x²)?",
+          "correct_answer": "x ≠ ±1",
+          "wrong_answers": [
+            "x ≠ 1",
+            "x ≠ 0",
+            "All real numbers"
+          ]
+        }
+      }
     },
     {
       "id": "question_003",
@@ -29,7 +51,18 @@
         "[-2, 2]",
         "(-∞, -2) ∪ (2, +∞)",
         "(0, 2)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = 1 / √(4 - x²)?",
+          "correct_answer": "(-2, 2)",
+          "wrong_answers": [
+            "[-2, 2]",
+            "(-∞, -2) ∪ (2, +∞)",
+            "(0, 2)"
+          ]
+        }
+      }
     },
     {
       "id": "question_004",
@@ -39,7 +72,18 @@
         "[-1, +∞)",
         "(0, +∞)",
         "(-∞, -1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = ln(x + 1)?",
+          "correct_answer": "(-1, +∞)",
+          "wrong_answers": [
+            "[-1, +∞)",
+            "(0, +∞)",
+            "(-∞, -1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_005",
@@ -49,7 +93,18 @@
         "x > 0",
         "全体实数",
         "x ≥ 0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = e^(1/x)?",
+          "correct_answer": "x ≠ 0",
+          "wrong_answers": [
+            "x > 0",
+            "All real numbers",
+            "x ≥ 0"
+          ]
+        }
+      }
     },
     {
       "id": "question_006",
@@ -59,7 +114,18 @@
         "[-1, 1]",
         "[3, 4]",
         "[-4, -2]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = arcsin(x - 3)?",
+          "correct_answer": "[2, 4]",
+          "wrong_answers": [
+            "[-1, 1]",
+            "[3, 4]",
+            "[-4, -2]"
+          ]
+        }
+      }
     },
     {
       "id": "question_007",
@@ -69,7 +135,18 @@
         "相同",
         "不同，对应法则不同",
         "不同，值域不同"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Are the functions f(x) = lg(x²) and g(x) = 2lg(x) the same?",
+          "correct_answer": "Different, different definition domain",
+          "wrong_answers": [
+            "Same",
+            "Different, the corresponding rules are different",
+            "Different, different value range"
+          ]
+        }
+      }
     },
     {
       "id": "question_008",
@@ -79,7 +156,18 @@
         "相同",
         "不同，定义域不同",
         "不同，值域不同"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Are the functions f(x) = x and g(x) = √(x²) the same?",
+          "correct_answer": "Different, the corresponding rules are different",
+          "wrong_answers": [
+            "Same",
+            "Different, different definition domain",
+            "Different, different value range"
+          ]
+        }
+      }
     },
     {
       "id": "question_009",
@@ -89,7 +177,18 @@
         "√2/2",
         "√3/2",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Assume φ(x) = |sin x| (|x| < π/3), find φ(π/6) = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "√2/2",
+            "√3/2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_010",
@@ -99,7 +198,18 @@
         "1/2",
         "√3/2",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Assume φ(x) = |sin x| (|x| < π/3), find φ(π/4) = ?",
+          "correct_answer": "√2/2",
+          "wrong_answers": [
+            "1/2",
+            "√3/2",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_011",
@@ -109,7 +219,18 @@
         "奇函数",
         "非奇非偶",
         "既是奇函数又是偶函数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the function y = x²(1 - x²)?",
+          "correct_answer": "even function",
+          "wrong_answers": [
+            "odd function",
+            "Neither odd nor even",
+            "It is both an odd function and an even function"
+          ]
+        }
+      }
     },
     {
       "id": "question_012",
@@ -119,7 +240,18 @@
         "奇函数",
         "偶函数",
         "既是奇函数又是偶函数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the function y = 3x² - x³?",
+          "correct_answer": "Neither odd nor even",
+          "wrong_answers": [
+            "odd function",
+            "even function",
+            "It is both an odd function and an even function"
+          ]
+        }
+      }
     },
     {
       "id": "question_013",
@@ -129,7 +261,18 @@
         "奇函数",
         "非奇非偶",
         "既是奇函数又是偶函数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the function y = (1 - x²) / (1 + x²)?",
+          "correct_answer": "even function",
+          "wrong_answers": [
+            "odd function",
+            "Neither odd nor even",
+            "It is both an odd function and an even function"
+          ]
+        }
+      }
     },
     {
       "id": "question_014",
@@ -139,7 +282,18 @@
         "偶函数",
         "非奇非偶",
         "既是奇函数又是偶函数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the function y = x(x - 1)(x + 1)?",
+          "correct_answer": "odd function",
+          "wrong_answers": [
+            "even function",
+            "Neither odd nor even",
+            "It is both an odd function and an even function"
+          ]
+        }
+      }
     },
     {
       "id": "question_015",
@@ -149,7 +303,18 @@
         "π",
         "π/2",
         "4π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the period of the function y = cos(x - 2)?",
+          "correct_answer": "2π",
+          "wrong_answers": [
+            "π",
+            "π/2",
+            "4π"
+          ]
+        }
+      }
     },
     {
       "id": "question_016",
@@ -159,7 +324,18 @@
         "2π",
         "π",
         "π/4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the period of the function y = cos(4x)?",
+          "correct_answer": "π/2",
+          "wrong_answers": [
+            "2π",
+            "π",
+            "π/4"
+          ]
+        }
+      }
     },
     {
       "id": "question_017",
@@ -169,7 +345,18 @@
         "2π",
         "π",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the period of the function y = 1 + sin(πx)?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "2π",
+            "π",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_018",
@@ -179,7 +366,18 @@
         "2π",
         "π/2",
         "不是周期函数"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the period of the function y = sin²x?",
+          "correct_answer": "π",
+          "wrong_answers": [
+            "2π",
+            "π/2",
+            "Not a periodic function"
+          ]
+        }
+      }
     },
     {
       "id": "question_019",
@@ -189,7 +387,18 @@
         "y = x³ + 1",
         "y = (x + 1)³",
         "y = (x - 1)³"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the inverse function of the function y = ³√(x + 1)?",
+          "correct_answer": "y = x³ - 1",
+          "wrong_answers": [
+            "y = x³ + 1",
+            "y = (x + 1)³",
+            "y = (x - 1)³"
+          ]
+        }
+      }
     },
     {
       "id": "question_020",
@@ -199,7 +408,18 @@
         "y = e^(x+1) - 2",
         "y = e^x - 2",
         "y = e^(x-1) + 2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the inverse function of the function y = 1 + ln(x + 2)?",
+          "correct_answer": "y = e^(x-1) - 2",
+          "wrong_answers": [
+            "y = e^(x+1) - 2",
+            "y = e^x - 2",
+            "y = e^(x-1) + 2"
+          ]
+        }
+      }
     },
     {
       "id": "question_021",
@@ -209,7 +429,18 @@
         "(-1, 1)",
         "[-1, 1]",
         "(1, +∞)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = ln(x² - 1)?",
+          "correct_answer": "(-∞, -1) ∪ (1, +∞)",
+          "wrong_answers": [
+            "(-1, 1)",
+            "[-1, 1]",
+            "(1, +∞)"
+          ]
+        }
+      }
     },
     {
       "id": "question_022",
@@ -219,7 +450,18 @@
         "(-1, 1)",
         "[1, 3]",
         "[-1, 1]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = arccos(x - 1)?",
+          "correct_answer": "[0, 2]",
+          "wrong_answers": [
+            "(-1, 1)",
+            "[1, 3]",
+            "[-1, 1]"
+          ]
+        }
+      }
     },
     {
       "id": "question_023",
@@ -229,7 +471,18 @@
         "(1, 2]",
         "(1, 2)",
         "[1, 2]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the natural domain of the function y = √(x - 1) + ln(2 - x)?",
+          "correct_answer": "[1, 2)",
+          "wrong_answers": [
+            "(1, 2]",
+            "(1, 2)",
+            "[1, 2]"
+          ]
+        }
+      }
     },
     {
       "id": "question_024",
@@ -239,7 +492,18 @@
         "完全相同",
         "完全不同",
         "仅在 x = 1 处相同"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "How is the function f(x) = (x² - 1)/(x - 1) related to g(x) = x + 1?",
+          "correct_answer": "Same except x = 1",
+          "wrong_answers": [
+            "exactly the same",
+            "completely different",
+            "Same only at x = 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_025",
@@ -249,7 +513,18 @@
         "1",
         "0",
         "不存在"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→1) (x² - 1)/(x - 1) = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "0",
+            "does not exist"
+          ]
+        }
+      }
     },
     {
       "id": "question_026",
@@ -259,7 +534,18 @@
         "1",
         "1/3",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→0) sin(3x)/x = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "1",
+            "1/3",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_027",
@@ -269,7 +555,18 @@
         "e",
         "1",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→∞) (1 + 2/x)^x = ?",
+          "correct_answer": "e²",
+          "wrong_answers": [
+            "e",
+            "1",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_028",
@@ -279,7 +576,18 @@
         "1 - cos x",
         "x²",
         "√x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "When x→0, what is the infinitesimal equivalent of x?",
+          "correct_answer": "tan x",
+          "wrong_answers": [
+            "1 - cos x",
+            "x²",
+            "√x"
+          ]
+        }
+      }
     },
     {
       "id": "question_029",
@@ -289,7 +597,18 @@
         "1",
         "不存在",
         "-1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the limit of the function f(x) = x sin(1/x) at x = 0?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "does not exist",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_030",
@@ -299,7 +618,18 @@
         "左连续但右不连续",
         "右连续但左不连续",
         "不连续"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Piecewise function f(x) = { x², x < 1; 2x - 1, x ≥ 1 } at x = 1?",
+          "correct_answer": "continuous",
+          "wrong_answers": [
+            "Continuous on the left but discontinuous on the right",
+            "Continuous on the right but discontinuous on the left",
+            "discontinuous"
+          ]
+        }
+      }
     },
     {
       "id": "question_031",
@@ -309,7 +639,18 @@
         "0",
         "1",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→0) (1 - cos x)/x² = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "0",
+            "1",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_032",
@@ -319,7 +660,18 @@
         "0",
         "e",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→0) (e^x - 1)/x = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "e",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_033",
@@ -329,7 +681,18 @@
         "1",
         "3",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→∞) (2x + 3)/(x - 1) = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_034",
@@ -339,7 +702,18 @@
         "可去间断点",
         "跳跃间断点",
         "第一类间断点"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the type of discontinuity at x = 0 for the function y = e^(1/x)?",
+          "correct_answer": "Type II discontinuities",
+          "wrong_answers": [
+            "Can remove discontinuities",
+            "jump break point",
+            "Discontinuities of the first kind"
+          ]
+        }
+      }
     },
     {
       "id": "question_035",
@@ -349,7 +723,18 @@
         "(-1, 1)",
         "(-∞, +∞)",
         "(1, +∞)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the continuous interval of the function y = ln(x² - 1)?",
+          "correct_answer": "(-∞, -1) ∪ (1, +∞)",
+          "wrong_answers": [
+            "(-1, 1)",
+            "(-∞, +∞)",
+            "(1, +∞)"
+          ]
+        }
+      }
     },
     {
       "id": "question_036",
@@ -359,7 +744,18 @@
         "0",
         "1",
         "1/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→0) (tan x - sin x)/x³ = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "0",
+            "1",
+            "1/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_037",
@@ -369,7 +765,18 @@
         "跳跃间断点",
         "无穷间断点",
         "连续点"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the function f(x) = (x² - 4)/(x - 2) at x = 2?",
+          "correct_answer": "Can remove discontinuities",
+          "wrong_answers": [
+            "jump break point",
+            "infinite discontinuity",
+            "continuous points"
+          ]
+        }
+      }
     },
     {
       "id": "question_038",
@@ -379,7 +786,18 @@
         "存在且为 0",
         "存在且为 1",
         "存在且为 ∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Does the limit lim(x→0) sin(1/x) exist?",
+          "correct_answer": "does not exist",
+          "wrong_answers": [
+            "exists and is 0",
+            "exists and is 1",
+            "exists and is ∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_039",
@@ -389,7 +807,18 @@
         "x²",
         "sin x",
         "1 - cos x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "When x→0, which of the following infinitesimals has the highest order?",
+          "correct_answer": "tan x - sin x",
+          "wrong_answers": [
+            "x²",
+            "sin x",
+            "1 - cos x"
+          ]
+        }
+      }
     },
     {
       "id": "question_040",
@@ -399,7 +828,18 @@
         "1",
         "不存在",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→0) x · sin(1/x) = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "does not exist",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_041",
@@ -409,7 +849,18 @@
         "3x + 2",
         "6x + 1",
         "2x + 2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = 3x² + 2x - 1 is f'(x) = ?",
+          "correct_answer": "6x+2",
+          "wrong_answers": [
+            "3x + 2",
+            "6x+1",
+            "2x+2"
+          ]
+        }
+      }
     },
     {
       "id": "question_042",
@@ -419,7 +870,18 @@
         "6",
         "8",
         "18"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative value of the function f(x) = x³ at x = 2 f'(2) = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "6",
+            "8",
+            "18"
+          ]
+        }
+      }
     },
     {
       "id": "question_043",
@@ -429,7 +891,18 @@
         "2/√x",
         "1/√x",
         "√x/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = √x is f'(x) = ?",
+          "correct_answer": "1/(2√x)",
+          "wrong_answers": [
+            "2/√x",
+            "1/√x",
+            "√x/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_044",
@@ -439,7 +912,18 @@
         "e^(3x)",
         "3e^x",
         "e^(3x)/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = e^(3x) is f'(x) = ?",
+          "correct_answer": "3e^(3x)",
+          "wrong_answers": [
+            "e^(3x)",
+            "3e^x",
+            "e^(3x)/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_045",
@@ -449,7 +933,18 @@
         "1/(2x)",
         "2/x",
         "ln 2 + 1/x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f'(x) = ? of the function f(x) = ln(2x)",
+          "correct_answer": "1/x",
+          "wrong_answers": [
+            "1/(2x)",
+            "2/x",
+            "ln 2 + 1/x"
+          ]
+        }
+      }
     },
     {
       "id": "question_046",
@@ -459,7 +954,18 @@
         "eˣ",
         "xeˣ",
         "(x - 1)eˣ"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = x·eˣ f'(x) = ?",
+          "correct_answer": "(x + 1)eˣ",
+          "wrong_answers": [
+            "eˣ",
+            "xeˣ",
+            "(x - 1)eˣ"
+          ]
+        }
+      }
     },
     {
       "id": "question_047",
@@ -469,7 +975,18 @@
         "cos(3x)",
         "3sin(3x)",
         "-3cos(3x)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = sin(3x) is f'(x) = ?",
+          "correct_answer": "3cos(3x)",
+          "wrong_answers": [
+            "cos(3x)",
+            "3sin(3x)",
+            "-3cos(3x)"
+          ]
+        }
+      }
     },
     {
       "id": "question_048",
@@ -479,7 +996,18 @@
         "-sin(x²)",
         "2x·cos(x²)",
         "-2x·cos(x²)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Derivative function f'(x) = ? of function f(x) = cos(x²)",
+          "correct_answer": "-2x·sin(x²)",
+          "wrong_answers": [
+            "-sin(x²)",
+            "2x·cos(x²)",
+            "-2x·cos(x²)"
+          ]
+        }
+      }
     },
     {
       "id": "question_049",
@@ -489,7 +1017,18 @@
         "1/x²",
         "-1/x",
         "1/x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = 1/x is f'(x) = ?",
+          "correct_answer": "-1/x²",
+          "wrong_answers": [
+            "1/x²",
+            "-1/x",
+            "1/x"
+          ]
+        }
+      }
     },
     {
       "id": "question_050",
@@ -499,7 +1038,18 @@
         "sec x·tan x",
         "csc²x",
         "-sec²x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Derivative function f(x) = tan x f'(x) = ?",
+          "correct_answer": "sec²x",
+          "wrong_answers": [
+            "sec x·tan x",
+            "csc²x",
+            "-sec²x"
+          ]
+        }
+      }
     },
     {
       "id": "question_051",
@@ -509,7 +1059,18 @@
         "x/y",
         "-y/x",
         "y/x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The implicit function y = y(x) determined by the equation x² + y² = 4, dy/dx = ?",
+          "correct_answer": "-x/y",
+          "wrong_answers": [
+            "x/y",
+            "-y/x",
+            "y/x"
+          ]
+        }
+      }
     },
     {
       "id": "question_052",
@@ -519,7 +1080,18 @@
         "(2/3)t",
         "3t/2",
         "2t/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Parametric equation x = t², y = t³ Determined function y = y(x), dy/dx = ?",
+          "correct_answer": "(3/2)t",
+          "wrong_answers": [
+            "(2/3)t",
+            "3t/2",
+            "2t/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_053",
@@ -529,7 +1101,18 @@
         "tan x",
         "1/sin x",
         "cos x/sin²x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = ln(sin x) is f'(x) = ?",
+          "correct_answer": "cot x",
+          "wrong_answers": [
+            "tan x",
+            "1/sin x",
+            "cos x/sin²x"
+          ]
+        }
+      }
     },
     {
       "id": "question_054",
@@ -539,7 +1122,18 @@
         "-1/√(1 - x²)",
         "1/√(1 + x²)",
         "1/(1 - x²)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Derivative function f(x) = arcsin x f'(x) = ?",
+          "correct_answer": "1/√(1 - x²)",
+          "wrong_answers": [
+            "-1/√(1 - x²)",
+            "1/√(1 + x²)",
+            "1/(1 - x²)"
+          ]
+        }
+      }
     },
     {
       "id": "question_055",
@@ -549,7 +1143,18 @@
         "2x·ln x + 1",
         "2x·ln x + x²",
         "x·ln x + x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Function f(x) = x²·ln Derivative function f'(x) = ?",
+          "correct_answer": "2x·ln x + x",
+          "wrong_answers": [
+            "2x·ln x + 1",
+            "2x·ln x + x²",
+            "x·ln x + x"
+          ]
+        }
+      }
     },
     {
       "id": "question_056",
@@ -559,7 +1164,18 @@
         "3x²",
         "x² dx",
         "3x dx"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Differential of function y = x³ dy = ?",
+          "correct_answer": "3x²dx",
+          "wrong_answers": [
+            "3x²",
+            "x²dx",
+            "3xdx"
+          ]
+        }
+      }
     },
     {
       "id": "question_057",
@@ -569,7 +1185,18 @@
         "eˣ(cos x - sin x)",
         "eˣ·sin x",
         "eˣ(sin x - cos x)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = eˣ·sin x is f'(x) = ?",
+          "correct_answer": "eˣ(sin x + cos x)",
+          "wrong_answers": [
+            "eˣ(cos x - sin x)",
+            "eˣ·sin x",
+            "eˣ(sin x - cos x)"
+          ]
+        }
+      }
     },
     {
       "id": "question_058",
@@ -579,7 +1206,18 @@
         "4x³",
         "8x³",
         "12x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The second derivative of the function f(x) = x⁴ f''(x) = ?",
+          "correct_answer": "12x²",
+          "wrong_answers": [
+            "4x³",
+            "8x³",
+            "12x"
+          ]
+        }
+      }
     },
     {
       "id": "question_059",
@@ -589,7 +1227,18 @@
         "-1/(1 + x²)",
         "1/√(1 - x²)",
         "1/(1 - x²)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "For f(x) = arctan x, what is f'(x)?",
+          "correct_answer": "1/(1 + x²)",
+          "wrong_answers": [
+            "-1/(1 + x²)",
+            "1/√(1 - x²)",
+            "1/(1 - x²)"
+          ]
+        }
+      }
     },
     {
       "id": "question_060",
@@ -599,7 +1248,18 @@
         "5(2x + 1)⁴",
         "10(2x + 1)⁵",
         "10x(2x + 1)⁴"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The derivative function f(x) = (2x + 1)⁵ f'(x) = ?",
+          "correct_answer": "10(2x + 1)⁴",
+          "wrong_answers": [
+            "5(2x + 1)⁴",
+            "10(2x + 1)⁵",
+            "10x(2x + 1)⁴"
+          ]
+        }
+      }
     },
     {
       "id": "question_061",
@@ -609,7 +1269,18 @@
         "函数在闭区间上连续",
         "函数在开区间内可导",
         "函数在区间端点处函数值相等"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Which of the following is not included in the three conditions of Rolle's theorem?",
+          "correct_answer": "A function is second-order differentiable in an open interval",
+          "wrong_answers": [
+            "The function is continuous on a closed interval",
+            "The function is differentiable in the open interval",
+            "Functions have equal function values at the endpoints of the interval"
+          ]
+        }
+      }
     },
     {
       "id": "question_062",
@@ -619,7 +1290,18 @@
         "不满足，因为不可导",
         "满足，ξ = 0",
         "满足，因为 f'(-1) = f'(1) = 0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Does the function f(x) = x³ - 3x satisfy Rolle's theorem on the interval [-1, 1]?",
+          "correct_answer": "Not satisfied because f(-1) ≠ f(1)",
+          "wrong_answers": [
+            "Not satisfied because it is not derivable",
+            "Satisfy, ξ = 0",
+            "satisfies, since f'(-1) = f'(1) = 0"
+          ]
+        }
+      }
     },
     {
       "id": "question_063",
@@ -629,7 +1311,18 @@
         "能，ξ = 0",
         "不能，因为 f(-1) ≠ f(1)",
         "能，但不唯一"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Does the function f(x) = |x| apply Rolle's theorem on the interval [-1, 1]?",
+          "correct_answer": "No, because it is not differentiable at x = 0",
+          "wrong_answers": [
+            "Energy, ξ = 0",
+            "No, because f(-1) ≠ f(1)",
+            "Yes, but not the only one"
+          ]
+        }
+      }
     },
     {
       "id": "question_064",
@@ -639,7 +1332,18 @@
         "f'(ξ) = 0",
         "f(b) - f(a) = f'(ξ)(a - b)",
         "f(ξ) = [f(a) + f(b)] / 2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The conclusion of Lagrange's mean value theorem is: there is at least one point ξ in (a, b), such that?",
+          "correct_answer": "f'(ξ) = [f(b) - f(a)] / (b - a)",
+          "wrong_answers": [
+            "f'(ξ) = 0",
+            "f(b) - f(a) = f'(ξ)(a - b)",
+            "f(ξ) = [f(a) + f(b)] / 2"
+          ]
+        }
+      }
     },
     {
       "id": "question_065",
@@ -649,7 +1353,18 @@
         "0",
         "2",
         "√2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The function f(x) = x² satisfies Lagrange’s mean value theorem on the interval [0, 2], then ξ = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "2",
+            "√2"
+          ]
+        }
+      }
     },
     {
       "id": "question_066",
@@ -659,7 +1374,18 @@
         "0",
         "1",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Using Lópida's rule, the limit lim(x→0) (eˣ - 1 - x) / x² = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "0",
+            "1",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_067",
@@ -669,7 +1395,18 @@
         "(-∞, -1) ∪ (1, +∞)",
         "(-∞, 0)",
         "(0, +∞)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the monotonically decreasing interval of the function f(x) = x³ - 3x?",
+          "correct_answer": "(-1, 1)",
+          "wrong_answers": [
+            "(-∞, -1) ∪ (1, +∞)",
+            "(-∞, 0)",
+            "(0, +∞)"
+          ]
+        }
+      }
     },
     {
       "id": "question_068",
@@ -679,7 +1416,18 @@
         "x = 1",
         "x = 0",
         "x = 3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the maximum point of the function f(x) = x³ - 3x?",
+          "correct_answer": "x = -1",
+          "wrong_answers": [
+            "x = 1",
+            "x = 0",
+            "x = 3"
+          ]
+        }
+      }
     },
     {
       "id": "question_069",
@@ -689,7 +1437,18 @@
         "-2",
         "0",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the maximum value of the function f(x) = x³ - 3x on the interval [-2, 2]?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-2",
+            "0",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_070",
@@ -699,7 +1458,18 @@
         "在 (-∞, 0) 上凸，在 (0, +∞) 上凹",
         "在 R 上凹",
         "在 R 上凸"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The second derivative f''(x) = 6x of the function f(x) = x³, then the concavity and convexity of f(x) is?",
+          "correct_answer": "concave on (-∞, 0) and convex on (0, +∞)",
+          "wrong_answers": [
+            "Convex on (-∞, 0) and concave on (0, +∞)",
+            "Concave on R",
+            "Convex on R"
+          ]
+        }
+      }
     },
     {
       "id": "question_071",
@@ -709,7 +1479,18 @@
         "(1, 1)",
         "(-1, -1)",
         "不存在"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the inflection point of the function f(x) = x³?",
+          "correct_answer": "(0, 0)",
+          "wrong_answers": [
+            "(1, 1)",
+            "(-1, -1)",
+            "does not exist"
+          ]
+        }
+      }
     },
     {
       "id": "question_072",
@@ -719,7 +1500,18 @@
         "x = 0",
         "y = 1",
         "x = 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the horizontal asymptote of the curve y = 1/x?",
+          "correct_answer": "y = 0",
+          "wrong_answers": [
+            "x = 0",
+            "y=1",
+            "x = 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_073",
@@ -729,7 +1521,18 @@
         "y = 0",
         "x = 0",
         "y = 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the vertical asymptote of the curve y = 1/(x - 1)?",
+          "correct_answer": "x = 1",
+          "wrong_answers": [
+            "y = 0",
+            "x = 0",
+            "y=1"
+          ]
+        }
+      }
     },
     {
       "id": "question_074",
@@ -739,7 +1542,18 @@
         "1",
         "0",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the minimum value of the function f(x) = x + 1/x (x > 0)?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "0",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_075",
@@ -749,7 +1563,18 @@
         "存在 ξ ∈ (a, b)，使 f'(ξ) = g'(ξ)",
         "存在 ξ ∈ (a, b)，使 f'(ξ) = 0",
         "存在 ξ ∈ (a, b)，使 g'(ξ) = 0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In Cauchy's mean value theorem, if f(x) and g(x) are continuous on [a, b], differentiable in (a, b), and g'(x) ≠ 0, what is the conclusion?",
+          "correct_answer": "There exists ξ ∈ (a, b) such that [f(b) - f(a)] / [g(b) - g(a)] = f'(ξ) / g'(ξ)",
+          "wrong_answers": [
+            "There exists ξ ∈ (a, b) such that f'(ξ) = g'(ξ)",
+            "There exists ξ ∈ (a, b) such that f'(ξ) = 0",
+            "There exists ξ ∈ (a, b) such that g'(ξ) = 0"
+          ]
+        }
+      }
     },
     {
       "id": "question_076",
@@ -759,7 +1584,18 @@
         "x³ + C",
         "2x + C",
         "x²/2 + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ x² dx = ?",
+          "correct_answer": "x³/3 + C",
+          "wrong_answers": [
+            "x³ + C",
+            "2x+C",
+            "x²/2 + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_077",
@@ -769,7 +1605,18 @@
         "3x³ + 2x² + x + C",
         "6x + 2 + C",
         "x³/3 + x² + x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ (3x² + 2x + 1) dx = ?",
+          "correct_answer": "x³ + x² + x + C",
+          "wrong_answers": [
+            "3x³ + 2x² + x + C",
+            "6x+2+C",
+            "x³/3 + x² + x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_078",
@@ -779,7 +1626,18 @@
         "x + C",
         "1/x² + C",
         "-1/x² + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ 1/x dx = ?",
+          "correct_answer": "ln|x| + C",
+          "wrong_answers": [
+            "x + C",
+            "1/x² + C",
+            "-1/x² + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_079",
@@ -789,7 +1647,18 @@
         "eˣ/x + C",
         "xeˣ + C",
         "e^(x+1) + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ eˣ dx = ?",
+          "correct_answer": "eˣ + C",
+          "wrong_answers": [
+            "eˣ/x + C",
+            "xeˣ + C",
+            "e^(x+1) + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_080",
@@ -799,7 +1668,18 @@
         "2ˣ + C",
         "2ˣ ln2 + C",
         "x·2^(x-1) + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ 2ˣ dx = ?",
+          "correct_answer": "2ˣ/ln2 + C",
+          "wrong_answers": [
+            "2ˣ + C",
+            "2ˣ ln2 + C",
+            "x·2^(x-1) + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_081",
@@ -809,7 +1689,18 @@
         "cos x + C",
         "-sin x + C",
         "tan x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ sin x dx = ?",
+          "correct_answer": "-cos x + C",
+          "wrong_answers": [
+            "cos x + C",
+            "-sin x + C",
+            "tan x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_082",
@@ -819,7 +1710,18 @@
         "-sin x + C",
         "cos x + C",
         "sec x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ cos x dx = ?",
+          "correct_answer": "sin x + C",
+          "wrong_answers": [
+            "-sin x + C",
+            "cos x + C",
+            "sec x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_083",
@@ -829,7 +1731,18 @@
         "-cot x + C",
         "sec x + C",
         "csc x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ sec²x dx = ?",
+          "correct_answer": "tan x + C",
+          "wrong_answers": [
+            "-cot x + C",
+            "sec x + C",
+            "csc x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_084",
@@ -839,7 +1752,18 @@
         "cot x + C",
         "tan x + C",
         "-tan x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ csc²x dx = ?",
+          "correct_answer": "-cot x + C",
+          "wrong_answers": [
+            "cot x + C",
+            "tan x + C",
+            "-tan x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_085",
@@ -849,7 +1773,18 @@
         "arcsin x + C",
         "ln(1 + x²) + C",
         "tan x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ 1/(1 + x²) dx = ?",
+          "correct_answer": "arctan x + C",
+          "wrong_answers": [
+            "arcsin x + C",
+            "ln(1 + x²) + C",
+            "tan x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_086",
@@ -859,7 +1794,18 @@
         "arccos x + C",
         "arctan x + C",
         "ln|x + √(1-x²)| + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ 1/√(1 - x²) dx = ?",
+          "correct_answer": "arcsin x + C",
+          "wrong_answers": [
+            "arccos x + C",
+            "arctan x + C",
+            "ln|x + √(1-x²)| + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_087",
@@ -869,7 +1815,18 @@
         "5(2x + 3)⁴ + C",
         "(2x + 3)⁵/5 + C",
         "2(2x + 3)⁶ + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ (2x + 3)⁵ dx = ?",
+          "correct_answer": "(2x + 3)⁶/12 + C",
+          "wrong_answers": [
+            "5(2x + 3)⁴ + C",
+            "(2x + 3)⁵/5 + C",
+            "2(2x + 3)⁶ + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_088",
@@ -879,7 +1836,18 @@
         "e^(x²) + C",
         "2e^(x²) + C",
         "(1/2)e^(x²) + x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ x·e^(x²) dx = ?",
+          "correct_answer": "(1/2)e^(x²) + C",
+          "wrong_answers": [
+            "e^(x²) + C",
+            "2e^(x²) + C",
+            "(1/2)e^(x²) + x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_089",
@@ -889,7 +1857,18 @@
         "sin(3x) + C",
         "3sin(3x) + C",
         "- (1/3)sin(3x) + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ cos(3x) dx = ?",
+          "correct_answer": "(1/3)sin(3x) + C",
+          "wrong_answers": [
+            "sin(3x) + C",
+            "3sin(3x)+C",
+            "- (1/3)sin(3x) + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_090",
@@ -899,7 +1878,18 @@
         "(1/2)cos(2x + 1) + C",
         "cos(2x + 1) + C",
         "-(1/2)sin(2x + 1) + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ sin(2x + 1) dx = ?",
+          "correct_answer": "-(1/2)cos(2x + 1) + C",
+          "wrong_answers": [
+            "(1/2)cos(2x + 1) + C",
+            "cos(2x + 1) + C",
+            "-(1/2)sin(2x + 1) + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_091",
@@ -909,7 +1899,18 @@
         "ln|x| + 2 + C",
         "1/(x+2)² + C",
         "ln|x - 2| + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ 1/(x + 2) dx = ?",
+          "correct_answer": "ln|x + 2| + C",
+          "wrong_answers": [
+            "ln|x| + 2 + C",
+            "1/(x+2)² + C",
+            "ln|x - 2| + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_092",
@@ -919,7 +1920,18 @@
         "ln|x² + 1| + C",
         "arctan x + C",
         "1/(x² + 1) + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ x/(x² + 1) dx = ?",
+          "correct_answer": "(1/2)ln|x² + 1| + C",
+          "wrong_answers": [
+            "ln|x² + 1| + C",
+            "arctan x + C",
+            "1/(x² + 1) + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_093",
@@ -929,7 +1941,18 @@
         "xeˣ + C",
         "(x + 1)eˣ + C",
         "x²eˣ/2 + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ x·eˣ dx = ?",
+          "correct_answer": "(x - 1)eˣ + C",
+          "wrong_answers": [
+            "xeˣ + C",
+            "(x + 1)eˣ + C",
+            "x²eˣ/2 + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_094",
@@ -939,7 +1962,18 @@
         "x·cos x + sin x + C",
         "-x·sin x + cos x + C",
         "x·cos x - sin x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ x·sin x dx = ?",
+          "correct_answer": "-x·cos x + sin x + C",
+          "wrong_answers": [
+            "x·cos x + sin x + C",
+            "-x·sin x + cos x + C",
+            "x·cos x - sin x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_095",
@@ -949,7 +1983,18 @@
         "x·ln x + x + C",
         "ln x + C",
         "x·ln x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ ln x dx = ?",
+          "correct_answer": "x·ln x - x + C",
+          "wrong_answers": [
+            "x·ln x + x + C",
+            "lnx+C",
+            "x·ln x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_096",
@@ -959,7 +2004,18 @@
         "(x²/2)ln x + C",
         "x·ln x + C",
         "(x²/2)ln x + x²/4 + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ x·ln x dx = ?",
+          "correct_answer": "(x²/2)ln x - x²/4 + C",
+          "wrong_answers": [
+            "(x²/2)ln x + C",
+            "x·ln x + C",
+            "(x²/2)ln x + x²/4 + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_097",
@@ -969,7 +2025,18 @@
         "ln|sin x| + C",
         "ln|sec x + tan x| + C",
         "-ln|sin x| + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ tan x dx = ?",
+          "correct_answer": "-ln|cos x| + C",
+          "wrong_answers": [
+            "ln|sin x| + C",
+            "ln|sec x + tan x| + C",
+            "-ln|sin x| + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_098",
@@ -979,7 +2046,18 @@
         "-ln|cos x| + C",
         "-ln|sin x| + C",
         "ln|tan x| + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ cot x dx = ?",
+          "correct_answer": "ln|sin x| + C",
+          "wrong_answers": [
+            "-ln|cos x| + C",
+            "-ln|sin x| + C",
+            "ln|tan x| + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_099",
@@ -989,7 +2067,18 @@
         "-sec x + C",
         "tan x + C",
         "csc x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ sec x·tan x dx = ?",
+          "correct_answer": "sec x + C",
+          "wrong_answers": [
+            "-sec x + C",
+            "tan x + C",
+            "csc x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_100",
@@ -999,7 +2088,18 @@
         "csc x + C",
         "-cot x + C",
         "cot x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ csc x·cot x dx = ?",
+          "correct_answer": "-csc x + C",
+          "wrong_answers": [
+            "csc x + C",
+            "-cot x + C",
+            "cot x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_101",
@@ -1009,7 +2109,18 @@
         "arctan(x/2) + C",
         "2arctan(x/2) + C",
         "(1/4)arctan(x/2) + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ 1/(x² + 4) dx = ?",
+          "correct_answer": "(1/2)arctan(x/2) + C",
+          "wrong_answers": [
+            "arctan(x/2) + C",
+            "2arctan(x/2) + C",
+            "(1/4)arctan(x/2) + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_102",
@@ -1019,7 +2130,18 @@
         "arccos(x/2) + C",
         "2arcsin(x/2) + C",
         "arcsin(x) + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ 1/√(4 - x²) dx = ?",
+          "correct_answer": "arcsin(x/2) + C",
+          "wrong_answers": [
+            "arccos(x/2) + C",
+            "2arcsin(x/2) + C",
+            "arcsin(x) + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_103",
@@ -1029,7 +2151,18 @@
         "3e^(3x) + C",
         "e^(3x) + C",
         "(1/3)e^(3x) + 3x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ e^(3x) dx = ?",
+          "correct_answer": "(1/3)e^(3x) + C",
+          "wrong_answers": [
+            "3e^(3x) + C",
+            "e^(3x) + C",
+            "(1/3)e^(3x) + 3x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_104",
@@ -1039,7 +2172,18 @@
         "ln|x² + 2x + 3| + C",
         "arctan(x + 1) + C",
         "(1/2)ln|x + 1| + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ (x + 1)/(x² + 2x + 3) dx = ?",
+          "correct_answer": "(1/2)ln|x² + 2x + 3| + C",
+          "wrong_answers": [
+            "ln|x² + 2x + 3| + C",
+            "arctan(x + 1) + C",
+            "(1/2)ln|x + 1| + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_105",
@@ -1049,7 +2193,18 @@
         "(1/2)ln|x² + x + 1| + C",
         "arctan(x + 1/2) + C",
         "2ln|x² + x + 1| + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ (2x + 1)/(x² + x + 1) dx = ?",
+          "correct_answer": "ln|x² + x + 1| + C",
+          "wrong_answers": [
+            "(1/2)ln|x² + x + 1| + C",
+            "arctan(x + 1/2) + C",
+            "2ln|x² + x + 1| + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_106",
@@ -1059,7 +2214,18 @@
         "1",
         "0",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] x dx = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "1",
+            "0",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_107",
@@ -1069,7 +2235,18 @@
         "4",
         "2/3",
         "8"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,2] x² dx = ?",
+          "correct_answer": "8/3",
+          "wrong_answers": [
+            "4",
+            "2/3",
+            "8"
+          ]
+        }
+      }
     },
     {
       "id": "question_108",
@@ -1079,7 +2256,18 @@
         "e",
         "e-1",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[1,e] 1/x dx = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "e",
+            "e-1",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_109",
@@ -1089,7 +2277,18 @@
         "0",
         "π",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,π] sin x dx = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "0",
+            "π",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_110",
@@ -1099,7 +2298,18 @@
         "e",
         "1 - e",
         "e + 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] eˣ dx = ?",
+          "correct_answer": "e-1",
+          "wrong_answers": [
+            "e",
+            "1-e",
+            "e+1"
+          ]
+        }
+      }
     },
     {
       "id": "question_111",
@@ -1109,7 +2319,18 @@
         "0",
         "-1",
         "π/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,π/2] cos x dx = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "-1",
+            "π/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_112",
@@ -1119,7 +2340,18 @@
         "1",
         "-1",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[-1,1] x³ dx = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "-1",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_113",
@@ -1129,7 +2361,18 @@
         "1",
         "3",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] (2x + 1) dx = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_114",
@@ -1139,7 +2382,18 @@
         "2",
         "ln2",
         "e - 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,ln2] eˣ dx = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "2",
+            "ln2",
+            "e-1"
+          ]
+        }
+      }
     },
     {
       "id": "question_115",
@@ -1149,7 +2403,18 @@
         "1",
         "-1/2",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[1,2] 1/x² dx = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "1",
+            "-1/2",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_116",
@@ -1159,7 +2424,18 @@
         "e - 1",
         "e/2",
         "(e + 1)/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] x·e^(x²) dx = ?",
+          "correct_answer": "(e - 1)/2",
+          "wrong_answers": [
+            "e-1",
+            "e/2",
+            "(e + 1)/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_117",
@@ -1169,7 +2445,18 @@
         "2",
         "-2",
         "π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,π] cos x dx = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "2",
+            "-2",
+            "π"
+          ]
+        }
+      }
     },
     {
       "id": "question_118",
@@ -1179,7 +2466,18 @@
         "π/2",
         "1",
         "π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] 1/(1 + x²) dx = ?",
+          "correct_answer": "π/4",
+          "wrong_answers": [
+            "π/2",
+            "1",
+            "π"
+          ]
+        }
+      }
     },
     {
       "id": "question_119",
@@ -1189,7 +2487,18 @@
         "π/2",
         "1",
         "π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] √(1 - x²) dx = ?",
+          "correct_answer": "π/4",
+          "wrong_answers": [
+            "π/2",
+            "1",
+            "π"
+          ]
+        }
+      }
     },
     {
       "id": "question_120",
@@ -1199,7 +2508,18 @@
         "3/2",
         "2",
         "5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[-1,2] |x| dx = ?",
+          "correct_answer": "5/2",
+          "wrong_answers": [
+            "3/2",
+            "2",
+            "5"
+          ]
+        }
+      }
     },
     {
       "id": "question_121",
@@ -1209,7 +2529,18 @@
         "π/2",
         "1/2",
         "π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,π/2] sin²x dx = ?",
+          "correct_answer": "π/4",
+          "wrong_answers": [
+            "π/2",
+            "1/2",
+            "π"
+          ]
+        }
+      }
     },
     {
       "id": "question_122",
@@ -1219,7 +2550,18 @@
         "2/ln2",
         "ln2",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] 2ˣ dx = ?",
+          "correct_answer": "1/ln2",
+          "wrong_answers": [
+            "2/ln2",
+            "ln2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_123",
@@ -1229,7 +2571,18 @@
         "4",
         "1",
         "2√2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[1,4] 1/√x dx = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "4",
+            "1",
+            "2√2"
+          ]
+        }
+      }
     },
     {
       "id": "question_124",
@@ -1239,7 +2592,18 @@
         "1/6",
         "0",
         "-1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] (x² - x) dx = ?",
+          "correct_answer": "-1/6",
+          "wrong_answers": [
+            "1/6",
+            "0",
+            "-1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_125",
@@ -1249,7 +2613,18 @@
         "8",
         "2",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,2] (3x² - 2x) dx = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "8",
+            "2",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_126",
@@ -1259,7 +2634,18 @@
         "y = 2x + C",
         "y = x²",
         "y = 2x² + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation dy/dx = 2x?",
+          "correct_answer": "y = x² + C",
+          "wrong_answers": [
+            "y = 2x + C",
+            "y = x²",
+            "y = 2x² + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_127",
@@ -1269,7 +2655,18 @@
         "y = Ce^{-x}",
         "y = e^x + C",
         "y = Cx"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation dy/dx = y?",
+          "correct_answer": "y = Ce^x",
+          "wrong_answers": [
+            "y = Ce^{-x}",
+            "y = e^x + C",
+            "y=Cx"
+          ]
+        }
+      }
     },
     {
       "id": "question_128",
@@ -1279,7 +2676,18 @@
         "y = Ce^x",
         "y = e^x + C",
         "y = C - x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation y' + y = 0?",
+          "correct_answer": "y = Ce^{-x}",
+          "wrong_answers": [
+            "y = Ce^x",
+            "y = e^x + C",
+            "y=C-x"
+          ]
+        }
+      }
     },
     {
       "id": "question_129",
@@ -1289,7 +2697,18 @@
         "y = 3e^{-2x}",
         "y = 2e^{3x}",
         "y = e^{2x} + 3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the specific solution of the differential equation y' - 2y = 0 that satisfies y(0) = 3?",
+          "correct_answer": "y = 3e^{2x}",
+          "wrong_answers": [
+            "y = 3e^{-2x}",
+            "y = 2e^{3x}",
+            "y = e^{2x} + 3"
+          ]
+        }
+      }
     },
     {
       "id": "question_130",
@@ -1299,7 +2718,18 @@
         "e^{y} = e^x + C",
         "y = e^x + C",
         "e^{-y} = e^x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation dy/dx = e^{x+y}?",
+          "correct_answer": "e^{-y} = -e^x + C",
+          "wrong_answers": [
+            "e^{y} = e^x + C",
+            "y = e^x + C",
+            "e^{-y} = e^x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_131",
@@ -1309,7 +2739,18 @@
         "y = e^x + Ce^{-x}",
         "y = (1/2)e^x + Ce^x",
         "y = e^{-x} + Ce^x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation y' + y = e^x?",
+          "correct_answer": "y = (1/2)e^x + Ce^{-x}",
+          "wrong_answers": [
+            "y = e^x + Ce^{-x}",
+            "y = (1/2)e^x + Ce^x",
+            "y = e^{-x} + Ce^x"
+          ]
+        }
+      }
     },
     {
       "id": "question_132",
@@ -1319,7 +2760,18 @@
         "可分离变量方程",
         "一阶线性方程",
         "伯努利方程"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the type of differential equation (x + y) dx + x dy = 0?",
+          "correct_answer": "homogeneous equation",
+          "wrong_answers": [
+            "separable variable equation",
+            "first order linear equation",
+            "Bernoulli equation"
+          ]
+        }
+      }
     },
     {
       "id": "question_133",
@@ -1329,7 +2781,18 @@
         "1/x",
         "e^x",
         "ln x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The differential equation y' + (1/x)y = x² is a first-order linear equation whose general solution has an integration factor μ(x) = ?",
+          "correct_answer": "x",
+          "wrong_answers": [
+            "1/x",
+            "e^x",
+            "xx"
+          ]
+        }
+      }
     },
     {
       "id": "question_134",
@@ -1339,7 +2802,18 @@
         "1",
         "-1",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The differential equation y' + y = xy² is Bernoulli's equation. Let z = y^{1-n}, then n = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "-1",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_135",
@@ -1349,7 +2823,18 @@
         "r² + 3r + 2 = 0",
         "r² - 2r + 3 = 0",
         "r² - 3r - 2 = 0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the characteristic equation of the differential equation y'' - 3y' + 2y = 0?",
+          "correct_answer": "r² - 3r + 2 = 0",
+          "wrong_answers": [
+            "r² + 3r + 2 = 0",
+            "r² - 2r + 3 = 0",
+            "r² - 3r - 2 = 0"
+          ]
+        }
+      }
     },
     {
       "id": "question_136",
@@ -1359,7 +2844,18 @@
         "y = C₁e^x + C₂e^{-2x}",
         "y = (C₁ + C₂x)e^x",
         "y = C₁cos x + C₂sin x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation y'' - 3y' + 2y = 0?",
+          "correct_answer": "y = C₁e^x + C₂e^{2x}",
+          "wrong_answers": [
+            "y = C₁e^x + C₂e^{-2x}",
+            "y = (C₁ + C₂x)e^x",
+            "y = C₁cos x + C₂sin x"
+          ]
+        }
+      }
     },
     {
       "id": "question_137",
@@ -1369,7 +2865,18 @@
         "y = C₁e^{-x} + C₂e^{x}",
         "y = C₁cos x + C₂sin x",
         "y = C₁e^{-2x} + C₂"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation y'' + 2y' + y = 0?",
+          "correct_answer": "y = (C₁ + C₂x)e^{-x}",
+          "wrong_answers": [
+            "y = C₁e^{-x} + C₂e^{x}",
+            "y = C₁cos x + C₂sin x",
+            "y = C₁e^{-2x} + C₂"
+          ]
+        }
+      }
     },
     {
       "id": "question_138",
@@ -1379,7 +2886,18 @@
         "y = C₁e^x + C₂e^{-x}",
         "y = C₁cos x + C₂cos x",
         "y = C₁sin x + C₂sin x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation y'' + y = 0?",
+          "correct_answer": "y = C₁cos x + C₂sin x",
+          "wrong_answers": [
+            "y = C₁e^x + C₂e^{-x}",
+            "y = C₁cos x + C₂cos x",
+            "y = C₁sin x + C₂sin x"
+          ]
+        }
+      }
     },
     {
       "id": "question_139",
@@ -1389,7 +2907,18 @@
         "r = ±2",
         "r = 1, 4",
         "r = -1, -4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the characteristic roots of the differential equation y'' + 4y' + 4y = 0?",
+          "correct_answer": "r = -2 (double root)",
+          "wrong_answers": [
+            "r = ±2",
+            "r = 1, 4",
+            "r = -1, -4"
+          ]
+        }
+      }
     },
     {
       "id": "question_140",
@@ -1399,7 +2928,18 @@
         "Axe^x",
         "Ae^{-x}",
         "Ax + B"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "A special solution form of the differential equation y'' + y = e^x can be set as?",
+          "correct_answer": "Ae^x",
+          "wrong_answers": [
+            "Axe^x",
+            "Ae^{-x}",
+            "Ax+B"
+          ]
+        }
+      }
     },
     {
       "id": "question_141",
@@ -1409,7 +2949,18 @@
         "y = C₁cos x + C₂sin x",
         "y = (C₁ + C₂x)e^x",
         "y = C₁e^{2x} + C₂"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation y'' - y = 0?",
+          "correct_answer": "y = C₁e^x + C₂e^{-x}",
+          "wrong_answers": [
+            "y = C₁cos x + C₂sin x",
+            "y = (C₁ + C₂x)e^x",
+            "y = C₁e^{2x} + C₂"
+          ]
+        }
+      }
     },
     {
       "id": "question_142",
@@ -1419,7 +2970,18 @@
         "1",
         "3",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the number of arbitrary constants in the general solution of the second-order linear homogeneous differential equation y'' + p(x)y' + q(x)y = 0?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_143",
@@ -1429,7 +2991,18 @@
         "y₂ = xe^x",
         "y₂ = e^{2x}",
         "y₂ = cos x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "It is known that y₁ = e^x is a solution of the differential equation y'' - y = 0, what is another linearly independent solution?",
+          "correct_answer": "y₂ = e^{-x}",
+          "wrong_answers": [
+            "y₂ = xe^x",
+            "y₂ = e^{2x}",
+            "y₂ = cos x"
+          ]
+        }
+      }
     },
     {
       "id": "question_144",
@@ -1439,7 +3012,18 @@
         "y = e^x + xe^x",
         "y = e^x",
         "y = (1 + x)e^x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the specific solution of the differential equation y'' - 2y' + y = 0 that satisfies y(0) = 1, y'(0) = 0?",
+          "correct_answer": "y = e^x - xe^x",
+          "wrong_answers": [
+            "y = e^x + xe^x",
+            "y = e^x",
+            "y = (1 + x)e^x"
+          ]
+        }
+      }
     },
     {
       "id": "question_145",
@@ -1449,7 +3033,18 @@
         "y = e^{2x}",
         "y = e^{x²} + 1",
         "y = x² + 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the specific solution of the differential equation dy/dx = 2xy that satisfies y(0) = 1?",
+          "correct_answer": "y = e^{x²}",
+          "wrong_answers": [
+            "y = e^{2x}",
+            "y = e^{x²} + 1",
+            "y = x² + 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_146",
@@ -1459,7 +3054,18 @@
         "28",
         "30",
         "34"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, 2, 3), b = (4, 5, 6), then a·b = ?",
+          "correct_answer": "32",
+          "wrong_answers": [
+            "28",
+            "30",
+            "34"
+          ]
+        }
+      }
     },
     {
       "id": "question_147",
@@ -1469,7 +3075,18 @@
         "(0, 0, -1)",
         "(1, 1, 0)",
         "(0, 1, 0)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, 0, 0), b = (0, 1, 0), then a×b = ?",
+          "correct_answer": "(0, 0, 1)",
+          "wrong_answers": [
+            "(0, 0, -1)",
+            "(1, 1, 0)",
+            "(0, 1, 0)"
+          ]
+        }
+      }
     },
     {
       "id": "question_148",
@@ -1479,7 +3096,18 @@
         "(5, 8, 11)",
         "(-3, -4, -5)",
         "(4, 6, 8)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Given the points A(1, 2, 3) and B(4, 6, 8), the vector AB = ?",
+          "correct_answer": "(3, 4, 5)",
+          "wrong_answers": [
+            "(5, 8, 11)",
+            "(-3, -4, -5)",
+            "(4, 6, 8)"
+          ]
+        }
+      }
     },
     {
       "id": "question_149",
@@ -1489,7 +3117,18 @@
         "2",
         "5",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Vector a = (1, 2, 2), then |a| = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "5",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_150",
@@ -1499,7 +3138,18 @@
         "x + y + z = 3",
         "x + 2y + 3z = 6",
         "x - y - z = 0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the equation of the plane passing through the point (1, 2, 3) and having the normal vector (1, 1, 1)?",
+          "correct_answer": "x + y + z = 6",
+          "wrong_answers": [
+            "x + y + z = 3",
+            "x + 2y + 3z = 6",
+            "x - y - z = 0"
+          ]
+        }
+      }
     },
     {
       "id": "question_151",
@@ -1509,7 +3159,18 @@
         "(x + 1)/1 = y/2 = (z + 2)/(-1)",
         "(x - 1)/2 = y/1 = (z - 2)/(-1)",
         "x/1 = (y - 2)/2 = (z + 1)/(-1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the symmetry equation of a straight line passing through the point (1, 0, 2) with the direction vector (1, 2, -1)?",
+          "correct_answer": "(x - 1)/1 = y/2 = (z - 2)/(-1)",
+          "wrong_answers": [
+            "(x + 1)/1 = y/2 = (z + 2)/(-1)",
+            "(x - 1)/2 = y/1 = (z - 2)/(-1)",
+            "x/1 = (y - 2)/2 = (z + 1)/(-1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_152",
@@ -1519,7 +3180,18 @@
         "(-1, 2, -3)",
         "(2, -4, 6)",
         "(1, 2, 3)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Spherical equation x² + y² + z² - 2x + 4y - 6z = 0 What are the coordinates of the center of the sphere?",
+          "correct_answer": "(1, -2, 3)",
+          "wrong_answers": [
+            "(-1, 2, -3)",
+            "(2, -4, 6)",
+            "(1, 2, 3)"
+          ]
+        }
+      }
     },
     {
       "id": "question_153",
@@ -1529,7 +3201,18 @@
         "3",
         "2",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the distance from point P(1, 2, 3) to plane 2x + 2y + z - 6 = 0?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "3",
+            "2",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_154",
@@ -1539,7 +3222,18 @@
         "3",
         "0",
         "7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the dot product of vectors a = (2, -1, 3) and b = (1, 2, -1)?",
+          "correct_answer": "-3",
+          "wrong_answers": [
+            "3",
+            "0",
+            "7"
+          ]
+        }
+      }
     },
     {
       "id": "question_155",
@@ -1549,7 +3243,18 @@
         "以 a、b 为邻边的三角形面积",
         "以 a、b 为邻边的矩形面积",
         "a 与 b 的点积的绝对值"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The modulus of the cross product a×b of vectors a and b is equal to?",
+          "correct_answer": "Area of the parallelogram with a and b as adjacent sides",
+          "wrong_answers": [
+            "The area of a triangle with a and b as adjacent sides",
+            "The area of the rectangle with a and b as adjacent sides",
+            "The absolute value of the dot product of a and b"
+          ]
+        }
+      }
     },
     {
       "id": "question_156",
@@ -1559,7 +3264,18 @@
         "2xy + x²",
         "x² + 2xy",
         "xy + y²"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Partial derivative of function f(x,y) = x²y + xy² with respect to x ∂f/∂x = ?",
+          "correct_answer": "2xy + y²",
+          "wrong_answers": [
+            "2xy + x²",
+            "x² + 2xy",
+            "xy + y²"
+          ]
+        }
+      }
     },
     {
       "id": "question_157",
@@ -1569,7 +3285,18 @@
         "2xy + y²",
         "x² + y²",
         "x + 2y"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Partial derivative of function f(x,y) = x²y + xy² with respect to y ∂f/∂y = ?",
+          "correct_answer": "x² + 2xy",
+          "wrong_answers": [
+            "2xy + y²",
+            "x² + y²",
+            "x+2y"
+          ]
+        }
+      }
     },
     {
       "id": "question_158",
@@ -1579,7 +3306,18 @@
         "x·e^(xy)",
         "e^(xy)",
         "xy·e^(xy)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Partial derivative of function f(x,y) = e^(xy) with respect to x ∂f/∂x = ?",
+          "correct_answer": "y·e^(xy)",
+          "wrong_answers": [
+            "x·e^(xy)",
+            "e^(xy)",
+            "xy·e^(xy)"
+          ]
+        }
+      }
     },
     {
       "id": "question_159",
@@ -1589,7 +3327,18 @@
         "2y/(x² + y²)",
         "1/(x² + y²)",
         "x/(x² + y²)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the partial derivative of function f(x,y) = ln(x² + y²) with respect to x?",
+          "correct_answer": "2x/(x² + y²)",
+          "wrong_answers": [
+            "2y/(x² + y²)",
+            "1/(x² + y²)",
+            "x/(x² + y²)"
+          ]
+        }
+      }
     },
     {
       "id": "question_160",
@@ -1599,7 +3348,18 @@
         "y·cos(xy)",
         "cos(xy)",
         "-x·cos(xy)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the partial derivative of function f(x,y) = sin(xy) with respect to y?",
+          "correct_answer": "x·cos(xy)",
+          "wrong_answers": [
+            "y·cos(xy)",
+            "cos(xy)",
+            "-x·cos(xy)"
+          ]
+        }
+      }
     },
     {
       "id": "question_161",
@@ -1609,7 +3369,18 @@
         "2dx + 2dy",
         "4dx + 2dy",
         "dx + 2dy"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Total differential of function f(x,y) = x² + y² at point (1,2) dz = ?",
+          "correct_answer": "2dx + 4dy",
+          "wrong_answers": [
+            "2dx + 2dy",
+            "4dx + 2dy",
+            "dx+2dy"
+          ]
+        }
+      }
     },
     {
       "id": "question_162",
@@ -1619,7 +3390,18 @@
         "4dx + 2dy",
         "2dx + dy",
         "2xy dx + x² dy"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Total differential of function f(x,y) = x²y at point (1,2) dz = ?",
+          "correct_answer": "4dx+dy",
+          "wrong_answers": [
+            "4dx + 2dy",
+            "2dx+dy",
+            "2xydx+x²dy"
+          ]
+        }
+      }
     },
     {
       "id": "question_163",
@@ -1629,7 +3411,18 @@
         "-3",
         "0",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The second-order mixed partial derivative of the function f(x,y) = x³ - y³ + 3xy ∂²f/∂x∂y = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "-3",
+            "0",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_164",
@@ -1639,7 +3432,18 @@
         "x²·∂f/∂u + e^x·∂f/∂v",
         "2x·∂f/∂u - e^x·∂f/∂v",
         "2x + e^x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Assume z = f(u, v), u = x², v = e^x, then dz/dx = ?",
+          "correct_answer": "2x·∂f/∂u + e^x·∂f/∂v",
+          "wrong_answers": [
+            "x²·∂f/∂u + e^x·∂f/∂v",
+            "2x·∂f/∂u - e^x·∂f/∂v",
+            "2x + e^x"
+          ]
+        }
+      }
     },
     {
       "id": "question_165",
@@ -1649,7 +3453,18 @@
         "f'(x² + y²)",
         "2x·f(x² + y²)",
         "2y·f'(x² + y²)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Assume z = f(x² + y²), then ∂z/∂x = ?",
+          "correct_answer": "2x·f'(x² + y²)",
+          "wrong_answers": [
+            "f'(x² + y²)",
+            "2x·f(x² + y²)",
+            "2y·f'(x² + y²)"
+          ]
+        }
+      }
     },
     {
       "id": "question_166",
@@ -1659,7 +3474,18 @@
         "x/z",
         "-z/x",
         "z/x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The implicit function z = z(x,y) determined by the equation x² + y² + z² = 4, ∂z/∂x = ?",
+          "correct_answer": "-x/z",
+          "wrong_answers": [
+            "x/z",
+            "-z/x",
+            "z/x"
+          ]
+        }
+      }
     },
     {
       "id": "question_167",
@@ -1669,7 +3495,18 @@
         "(x + z)/(y + x)",
         "-(y + z)/(y + x)",
         "(y + z)/(x + z)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The implicit function z = z(x,y) determined by the equation xy + yz + zx = 1, ∂z/∂y = ?",
+          "correct_answer": "-(x + z)/(y + x)",
+          "wrong_answers": [
+            "(x + z)/(y + x)",
+            "-(y + z)/(y + x)",
+            "(y + z)/(x + z)"
+          ]
+        }
+      }
     },
     {
       "id": "question_168",
@@ -1679,7 +3516,18 @@
         "(1, 1)",
         "(2, 0)",
         "(0, 2)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The gradient of function f(x,y) = x² + y² at point (1,1) grad f = ?",
+          "correct_answer": "(2, 2)",
+          "wrong_answers": [
+            "(1, 1)",
+            "(2, 0)",
+            "(0, 2)"
+          ]
+        }
+      }
     },
     {
       "id": "question_169",
@@ -1689,7 +3537,18 @@
         "(4, 2)",
         "(2, 4)",
         "(1, 4)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The gradient of function f(x,y) = x²y at point (2,1) grad f = ?",
+          "correct_answer": "(4, 4)",
+          "wrong_answers": [
+            "(4, 2)",
+            "(2, 4)",
+            "(1, 4)"
+          ]
+        }
+      }
     },
     {
       "id": "question_170",
@@ -1699,7 +3558,18 @@
         "2",
         "√2",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the directional derivative of the function f(x,y) = x² + y² at the point (1,1) along the direction l = (1/√2, 1/√2)?",
+          "correct_answer": "2√2",
+          "wrong_answers": [
+            "2",
+            "√2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_171",
@@ -1709,7 +3579,18 @@
         "2",
         "-2",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the directional derivative of the function f(x,y) = x² + y² along the positive y-axis at point (1,0)?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "2",
+            "-2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_172",
@@ -1719,7 +3600,18 @@
         "(1, 1)",
         "(0, 1)",
         "(1, 0)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the minimum point of the function f(x,y) = x² + y²?",
+          "correct_answer": "(0, 0)",
+          "wrong_answers": [
+            "(1, 1)",
+            "(0, 1)",
+            "(1, 0)"
+          ]
+        }
+      }
     },
     {
       "id": "question_173",
@@ -1729,7 +3621,18 @@
         "取得极大值",
         "取得极小值",
         "无法判断"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Function f(x,y) = x² - y² at point (0,0)?",
+          "correct_answer": "Not an extreme point (saddle point)",
+          "wrong_answers": [
+            "Get maximum value",
+            "get minimum value",
+            "Unable to judge"
+          ]
+        }
+      }
     },
     {
       "id": "question_174",
@@ -1739,7 +3642,18 @@
         "均不等于 0",
         "只有一个等于 0",
         "不存在"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The partial derivative of the function f(x,y) = xy is at the point (0,0)?",
+          "correct_answer": "equal to 0",
+          "wrong_answers": [
+            "None are equal to 0",
+            "Only one is equal to 0",
+            "does not exist"
+          ]
+        }
+      }
     },
     {
       "id": "question_175",
@@ -1749,7 +3663,18 @@
         "(1, 1)",
         "(-1, -1)",
         "(1, -1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the stationary point of the function f(x,y) = x² + xy + y²?",
+          "correct_answer": "(0, 0)",
+          "wrong_answers": [
+            "(1, 1)",
+            "(-1, -1)",
+            "(1, -1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_176",
@@ -1759,7 +3684,18 @@
         "1/2",
         "2",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D (x + y) dxdy where D: 0 ≤ x ≤ 1, 0 ≤ y ≤ 1.",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "1/2",
+            "2",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_177",
@@ -1769,7 +3705,18 @@
         "2",
         "1/2",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D xy dxdy where D: 0 ≤ x ≤ 2, 0 ≤ y ≤ 1.",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "2",
+            "1/2",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_178",
@@ -1779,7 +3726,18 @@
         "1/3",
         "4/3",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D x² dxdy where D: 0 ≤ x ≤ 1, 0 ≤ y ≤ 2.",
+          "correct_answer": "2/3",
+          "wrong_answers": [
+            "1/3",
+            "4/3",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_179",
@@ -1789,7 +3747,18 @@
         "1",
         "1/3",
         "2/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D (x + y) dxdy, where D is bounded by y = x, y = 0, x = 1.",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "1",
+            "1/3",
+            "2/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_180",
@@ -1799,7 +3768,18 @@
         "1/5",
         "1/4",
         "1/6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D y dxdy where D is bounded by y = x², y = 0, x = 1.",
+          "correct_answer": "1/10",
+          "wrong_answers": [
+            "1/5",
+            "1/4",
+            "1/6"
+          ]
+        }
+      }
     },
     {
       "id": "question_181",
@@ -1809,7 +3789,18 @@
         "2π(e - 1)",
         "πe",
         "2πe"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate ∫∫_D e^(x²+y²) dxdy using polar coordinates, where D: x² + y² ≤ 1.",
+          "correct_answer": "π(e-1)",
+          "wrong_answers": [
+            "2π(e-1)",
+            "πe",
+            "2πe"
+          ]
+        }
+      }
     },
     {
       "id": "question_182",
@@ -1819,7 +3810,18 @@
         "π/4",
         "π",
         "2π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D (x² + y²) dxdy, where D: x² + y² ≤ 1.",
+          "correct_answer": "π/2",
+          "wrong_answers": [
+            "π/4",
+            "π",
+            "2π"
+          ]
+        }
+      }
     },
     {
       "id": "question_183",
@@ -1829,7 +3831,18 @@
         "∫₀¹ ∫₀ʸ f(x, y) dx dy",
         "∫₀¹ ∫_x¹ f(x, y) dy dx",
         "∫₀¹ ∫_yˣ f(x, y) dx dy"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Exchange the order of integration: ∫₀¹ ∫₀ˣ f(x, y) dy dx = ?",
+          "correct_answer": "∫₀¹ ∫_y¹ f(x, y) dx dy",
+          "wrong_answers": [
+            "∫₀¹ ∫₀ʸ f(x, y) dx dy",
+            "∫₀¹ ∫_x¹ f(x, y) dy dx",
+            "∫₀¹ ∫_yˣ f(x, y) dx dy"
+          ]
+        }
+      }
     },
     {
       "id": "question_184",
@@ -1839,7 +3852,18 @@
         "1",
         "4",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate the cumulative integral ∫₀² ∫₀ʸ dx dy.",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "4",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_185",
@@ -1849,7 +3873,18 @@
         "1",
         "2",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D (2x + 3y) dxdy where D: 0 ≤ x ≤ 1, 0 ≤ y ≤ 1.",
+          "correct_answer": "5/2",
+          "wrong_answers": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_186",
@@ -1859,7 +3894,18 @@
         "12",
         "3",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the triple integral ∫∫∫_V dxdydz where V: 0 ≤ x ≤ 1, 0 ≤ y ≤ 2, 0 ≤ z ≤ 3.",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "12",
+            "3",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_187",
@@ -1869,7 +3915,18 @@
         "6",
         "1/2",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the triple integral ∫∫∫_V x dxdydz where V: 0 ≤ x ≤ 1, 0 ≤ y ≤ 2, 0 ≤ z ≤ 3.",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "6",
+            "1/2",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_188",
@@ -1879,7 +3936,18 @@
         "1/2",
         "1",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the triple integral ∫∫∫_V (x + y + z) dxdydz where V: 0 ≤ x ≤ 1, 0 ≤ y ≤ 1, 0 ≤ z ≤ 1.",
+          "correct_answer": "3/2",
+          "wrong_answers": [
+            "1/2",
+            "1",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_189",
@@ -1889,7 +3957,18 @@
         "0",
         "1",
         "π/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D sin(x + y) dxdy where D: 0 ≤ x ≤ π/2, 0 ≤ y ≤ π/2.",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "0",
+            "1",
+            "π/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_190",
@@ -1899,7 +3978,18 @@
         "1/3",
         "1/2",
         "1/12"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D y dxdy where D is bounded by x = 0, y = 0, x + y = 1.",
+          "correct_answer": "1/6",
+          "wrong_answers": [
+            "1/3",
+            "1/2",
+            "1/12"
+          ]
+        }
+      }
     },
     {
       "id": "question_191",
@@ -1909,7 +3999,18 @@
         "8π/3",
         "4π/3",
         "32π/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate ∫∫_D √(x² + y²) dxdy using polar coordinates, where D: x² + y² ≤ 4.",
+          "correct_answer": "16π/3",
+          "wrong_answers": [
+            "8π/3",
+            "4π/3",
+            "32π/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_192",
@@ -1919,7 +4020,18 @@
         "1/3",
         "0",
         "1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D x dxdy, where D is the semicircle x² + y² ≤ 1, x ≥ 0.",
+          "correct_answer": "2/3",
+          "wrong_answers": [
+            "1/3",
+            "0",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_193",
@@ -1929,7 +4041,18 @@
         "∫₀¹ ∫_√y^y f(x, y) dx dy",
         "∫₀¹ ∫_y^y² f(x, y) dx dy",
         "∫₀¹ ∫_0^y f(x, y) dx dy"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Exchange the order of integration: ∫₀¹ ∫_(x²)^x f(x, y) dy dx = ?",
+          "correct_answer": "∫₀¹ ∫_y^√y f(x, y) dx dy",
+          "wrong_answers": [
+            "∫₀¹ ∫_√y^y f(x, y) dx dy",
+            "∫₀¹ ∫_y^y² f(x, y) dx dy",
+            "∫₀¹ ∫_0^y f(x, y) dx dy"
+          ]
+        }
+      }
     },
     {
       "id": "question_194",
@@ -1939,7 +4062,18 @@
         "1",
         "1/3",
         "1/6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the triple integral ∫∫∫_V z dxdydz where V: 0 ≤ x ≤ 1, 0 ≤ y ≤ 1, 0 ≤ z ≤ 1.",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "1",
+            "1/3",
+            "1/6"
+          ]
+        }
+      }
     },
     {
       "id": "question_195",
@@ -1949,7 +4083,18 @@
         "2",
         "-2",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D (x - y) dxdy where D: 0 ≤ x ≤ 2, 0 ≤ y ≤ 2.",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "2",
+            "-2",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_196",
@@ -1959,7 +4104,18 @@
         "收敛",
         "条件收敛",
         "绝对收敛"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence property of the series ∑(n=1..∞) 1/n?",
+          "correct_answer": "diverge",
+          "wrong_answers": [
+            "Convergence",
+            "Conditional convergence",
+            "Absolute convergence"
+          ]
+        }
+      }
     },
     {
       "id": "question_197",
@@ -1969,7 +4125,18 @@
         "发散",
         "条件收敛",
         "不确定"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence property of the series ∑(n=1..∞) 1/n²?",
+          "correct_answer": "Convergence",
+          "wrong_answers": [
+            "diverge",
+            "Conditional convergence",
+            "Not sure"
+          ]
+        }
+      }
     },
     {
       "id": "question_198",
@@ -1979,7 +4146,18 @@
         "绝对收敛",
         "发散",
         "既不收敛也不发散"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence and divergence of the series ∑(n=1..∞) (-1)^(n-1)/n?",
+          "correct_answer": "Conditional convergence",
+          "wrong_answers": [
+            "Absolute convergence",
+            "diverge",
+            "neither convergent nor divergent"
+          ]
+        }
+      }
     },
     {
       "id": "question_199",
@@ -1989,7 +4167,18 @@
         "2",
         "1/2",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the series ∑(n=1..∞) 1/[n(n+1)]?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "2",
+            "1/2",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_200",
@@ -1999,7 +4188,18 @@
         "1",
         "1/2",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the geometric series ∑(n=0..∞) 1/2^n?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "1/2",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_201",
@@ -2009,7 +4209,18 @@
         "|r| ≤ 1",
         "r < 1",
         "|r| > 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the conditions for the convergence of the geometric series ∑(n=0..∞) ar^n?",
+          "correct_answer": "|r| < 1",
+          "wrong_answers": [
+            "|r| ≤ 1",
+            "r < 1",
+            "|r| > 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_202",
@@ -2019,7 +4230,18 @@
         "p ≥ 1",
         "p < 1",
         "p ≤ 1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the conditions for the convergence of the p series ∑(n=1..∞) 1/n^p?",
+          "correct_answer": "p > 1",
+          "wrong_answers": [
+            "p ≥ 1",
+            "p < 1",
+            "p ≤ 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_203",
@@ -2029,7 +4251,18 @@
         "级数发散",
         "级数条件收敛",
         "无法判断"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Positive term series ∑(n=1..∞) a_n, if lim(n→∞) a_{n+1}/a_n = ρ < 1, then?",
+          "correct_answer": "Series convergence",
+          "wrong_answers": [
+            "series divergence",
+            "Series conditional convergence",
+            "Unable to judge"
+          ]
+        }
+      }
     },
     {
       "id": "question_204",
@@ -2039,7 +4272,18 @@
         "0",
         "∞",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The convergence radius R of the power series ∑(n=0..∞) x^n = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "∞",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_205",
@@ -2049,7 +4293,18 @@
         "0",
         "∞",
         "1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The convergence radius R of the power series ∑(n=1..∞) x^n/n = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "∞",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_206",
@@ -2059,7 +4314,18 @@
         "∞",
         "1",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The convergence radius of the power series ∑(n=0..∞) n! x^n R = ?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "∞",
+            "1",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_207",
@@ -2069,7 +4335,18 @@
         "0",
         "1",
         "e"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The convergence radius R = ? of the power series ∑(n=0..∞) x^n/n!",
+          "correct_answer": "∞",
+          "wrong_answers": [
+            "0",
+            "1",
+            "e"
+          ]
+        }
+      }
     },
     {
       "id": "question_208",
@@ -2079,7 +4356,18 @@
         "[-1, 1]",
         "[0, 2)",
         "(1, 3)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence interval of the power series ∑(n=0..∞) (x-1)^n?",
+          "correct_answer": "(0, 2)",
+          "wrong_answers": [
+            "[-1, 1]",
+            "[0, 2)",
+            "(1, 3)"
+          ]
+        }
+      }
     },
     {
       "id": "question_209",
@@ -2089,7 +4377,18 @@
         "(-1, 1)",
         "[-1, 1)",
         "(-1, 1]"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence region of the power series ∑(n=1..∞) x^n/n²?",
+          "correct_answer": "[-1, 1]",
+          "wrong_answers": [
+            "(-1, 1)",
+            "[-1, 1)",
+            "(-1, 1]"
+          ]
+        }
+      }
     },
     {
       "id": "question_210",
@@ -2099,7 +4398,18 @@
         "∑(n=1..∞) x^n/n",
         "∑(n=0..∞) x^n/n!",
         "∑(n=1..∞) x^(n-1)/n"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the power series expansion of function f(x) = 1/(1-x) in |x| < 1?",
+          "correct_answer": "∑(n=0..∞) x^n",
+          "wrong_answers": [
+            "∑(n=1..∞) x^n/n",
+            "∑(n=0..∞) x^n/n!",
+            "∑(n=1..∞) x^(n-1)/n"
+          ]
+        }
+      }
     },
     {
       "id": "question_211",
@@ -2109,7 +4419,18 @@
         "∑(n=1..∞) x^n/n",
         "∑(n=0..∞) (-1)^n x^n/n!",
         "∑(n=0..∞) x^(2n)/(2n)!"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the Maclaurin series of the function f(x) = e^x?",
+          "correct_answer": "∑(n=0..∞) x^n/n!",
+          "wrong_answers": [
+            "∑(n=1..∞) x^n/n",
+            "∑(n=0..∞) (-1)^n x^n/n!",
+            "∑(n=0..∞) x^(2n)/(2n)!"
+          ]
+        }
+      }
     },
     {
       "id": "question_212",
@@ -2119,7 +4440,18 @@
         "∑(n=0..∞) (-1)^n x^(2n)/(2n)!",
         "∑(n=0..∞) x^(2n+1)/(2n+1)!",
         "∑(n=0..∞) (-1)^n x^(n)/n!"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the Maclaurin series of the function f(x) = sin x?",
+          "correct_answer": "∑(n=0..∞) (-1)^n x^(2n+1)/(2n+1)!",
+          "wrong_answers": [
+            "∑(n=0..∞) (-1)^n x^(2n)/(2n)!",
+            "∑(n=0..∞) x^(2n+1)/(2n+1)!",
+            "∑(n=0..∞) (-1)^n x^(n)/n!"
+          ]
+        }
+      }
     },
     {
       "id": "question_213",
@@ -2129,7 +4461,18 @@
         "∑(n=0..∞) (-1)^n x^(2n+1)/(2n+1)!",
         "∑(n=0..∞) x^(2n)/(2n)!",
         "∑(n=0..∞) (-1)^n x^n/n!"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the Maclaurin series of the function f(x) = cos x?",
+          "correct_answer": "∑(n=0..∞) (-1)^n x^(2n)/(2n)!",
+          "wrong_answers": [
+            "∑(n=0..∞) (-1)^n x^(2n+1)/(2n+1)!",
+            "∑(n=0..∞) x^(2n)/(2n)!",
+            "∑(n=0..∞) (-1)^n x^n/n!"
+          ]
+        }
+      }
     },
     {
       "id": "question_214",
@@ -2139,7 +4482,18 @@
         "∑(n=1..∞) x^n/n",
         "∑(n=0..∞) (-1)^n x^(n+1)/(n+1)",
         "∑(n=1..∞) (-1)^(n) x^(n-1)/n"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the Maclaurin series of the function f(x) = ln(1+x) in |x| < 1?",
+          "correct_answer": "∑(n=1..∞) (-1)^(n-1) x^n/n",
+          "wrong_answers": [
+            "∑(n=1..∞) x^n/n",
+            "∑(n=0..∞) (-1)^n x^(n+1)/(n+1)",
+            "∑(n=1..∞) (-1)^(n) x^(n-1)/n"
+          ]
+        }
+      }
     },
     {
       "id": "question_215",
@@ -2149,7 +4503,18 @@
         "绝对收敛",
         "发散",
         "无法判断"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence property of the alternating series ∑(n=1..∞) (-1)^(n-1)/√n?",
+          "correct_answer": "Conditional convergence",
+          "wrong_answers": [
+            "Absolute convergence",
+            "diverge",
+            "Unable to judge"
+          ]
+        }
+      }
     },
     {
       "id": "question_216",
@@ -2159,7 +4524,18 @@
         "发散",
         "条件收敛",
         "无法判断"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence and divergence of the series ∑(n=0..∞) 2^n/n!?",
+          "correct_answer": "Convergence",
+          "wrong_answers": [
+            "diverge",
+            "Conditional convergence",
+            "Unable to judge"
+          ]
+        }
+      }
     },
     {
       "id": "question_217",
@@ -2169,7 +4545,18 @@
         "1",
         "∞",
         "1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the series ∑(n=0..∞) n/2^n?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "∞",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_218",
@@ -2179,7 +4566,18 @@
         "发散",
         "条件收敛",
         "不确定"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence and divergence of the series ∑(n=1..∞) 1/(n²+1)?",
+          "correct_answer": "Convergence",
+          "wrong_answers": [
+            "diverge",
+            "Conditional convergence",
+            "Not sure"
+          ]
+        }
+      }
     },
     {
       "id": "question_219",
@@ -2189,7 +4587,18 @@
         "条件收敛",
         "绝对收敛",
         "收敛"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence property of the series ∑(n=1..∞) (-1)^n·n/(n+1)?",
+          "correct_answer": "diverge",
+          "wrong_answers": [
+            "Conditional convergence",
+            "Absolute convergence",
+            "Convergence"
+          ]
+        }
+      }
     },
     {
       "id": "question_220",
@@ -2199,7 +4608,18 @@
         "收敛",
         "条件收敛",
         "无法判断"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence property of the series ∑(n=1..∞) cos n?",
+          "correct_answer": "diverge",
+          "wrong_answers": [
+            "Convergence",
+            "Conditional convergence",
+            "Unable to judge"
+          ]
+        }
+      }
     },
     {
       "id": "question_221",
@@ -2209,7 +4629,18 @@
         "0",
         "∞",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The convergence radius R of the power series ∑(n=1..∞) n x^n = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "∞",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_222",
@@ -2219,7 +4650,18 @@
         "1/3",
         "1",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The convergence radius R of the power series ∑(n=1..∞) x^n/(n·3^n) = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "1/3",
+            "1",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_223",
@@ -2229,7 +4671,18 @@
         "收敛",
         "条件收敛",
         "无法判断"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence and divergence of the series ∑(n=2..∞) 1/(n ln n)?",
+          "correct_answer": "diverge",
+          "wrong_answers": [
+            "Convergence",
+            "Conditional convergence",
+            "Unable to judge"
+          ]
+        }
+      }
     },
     {
       "id": "question_224",
@@ -2239,7 +4692,18 @@
         "发散",
         "条件收敛",
         "无法确定"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The power series ∑(n=0..∞) a_n x^n converges at x = 2, then it is at x = -1?",
+          "correct_answer": "Absolute convergence",
+          "wrong_answers": [
+            "diverge",
+            "Conditional convergence",
+            "Unable to determine"
+          ]
+        }
+      }
     },
     {
       "id": "question_225",
@@ -2249,7 +4713,18 @@
         "0",
         "e",
         "不存在"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→0) ln(1+x)/x = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "e",
+            "does not exist"
+          ]
+        }
+      }
     },
     {
       "id": "question_226",
@@ -2259,7 +4734,18 @@
         "0",
         "1",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→∞) (3x²-1)/(x²+2) = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "0",
+            "1",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_227",
@@ -2269,7 +4755,18 @@
         "1/(x²+1)",
         "2/(x²+1)",
         "2x·ln(x²+1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative function of function f(x)=ln(x²+1)?",
+          "correct_answer": "2x/(x²+1)",
+          "wrong_answers": [
+            "1/(x²+1)",
+            "2/(x²+1)",
+            "2x·ln(x²+1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_228",
@@ -2279,7 +4776,18 @@
         "cos x",
         "sin x",
         "-cos x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the second derivative of the function f(x)=sin x?",
+          "correct_answer": "-sin x",
+          "wrong_answers": [
+            "cos x",
+            "sin x",
+            "-cos x"
+          ]
+        }
+      }
     },
     {
       "id": "question_229",
@@ -2289,7 +4797,18 @@
         "2/(x-1)²",
         "1/(x-1)²",
         "-2/(x+1)²"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative function of function f(x)=(x+1)/(x-1)?",
+          "correct_answer": "-2/(x-1)²",
+          "wrong_answers": [
+            "2/(x-1)²",
+            "1/(x-1)²",
+            "-2/(x+1)²"
+          ]
+        }
+      }
     },
     {
       "id": "question_230",
@@ -2299,7 +4818,18 @@
         "x·sin x - cos x + C",
         "x·cos x + sin x + C",
         "sin x + C"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫ x·cos x dx = ?",
+          "correct_answer": "x·sin x + cos x + C",
+          "wrong_answers": [
+            "x·sin x - cos x + C",
+            "x·cos x + sin x + C",
+            "sin x + C"
+          ]
+        }
+      }
     },
     {
       "id": "question_231",
@@ -2309,7 +4839,18 @@
         "1/3",
         "3/2",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "∫[0,1] 3x² dx = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "1/3",
+            "3/2",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_232",
@@ -2319,7 +4860,18 @@
         "0",
         "1/2",
         "发散"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Improper integral ∫[1,+∞) 1/x² dx = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "1/2",
+            "diverge"
+          ]
+        }
+      }
     },
     {
       "id": "question_233",
@@ -2329,7 +4881,18 @@
         "1/3",
         "1/2",
         "2/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the area of the figure enclosed by the curves y=x and y=x² on the interval [0,1]?",
+          "correct_answer": "1/6",
+          "wrong_answers": [
+            "1/3",
+            "1/2",
+            "2/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_234",
@@ -2339,7 +4902,18 @@
         "π/2",
         "π",
         "2π/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the volume of the solid formed by rotating the figure surrounded by the curve y=x, the straight line x=1 and the x-axis around the x-axis?",
+          "correct_answer": "π/3",
+          "wrong_answers": [
+            "π/2",
+            "π",
+            "2π/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_235",
@@ -2349,7 +4923,18 @@
         "y=3e^(2x)",
         "y=2e^x",
         "y=2e^(-3x)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the special solution of the differential equation y'=3y that satisfies y(0)=2?",
+          "correct_answer": "y=2e^(3x)",
+          "wrong_answers": [
+            "y=3e^(2x)",
+            "y=2e^x",
+            "y=2e^(-3x)"
+          ]
+        }
+      }
     },
     {
       "id": "question_236",
@@ -2359,7 +4944,18 @@
         "y=C₁cos x+C₂sin x",
         "y=C₁e^(2x)+C₂e^(-2x)",
         "y=(C₁+C₂x)e^(-2x)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the general solution of the differential equation y''+4y=0?",
+          "correct_answer": "y=C₁cos(2x)+C₂sin(2x)",
+          "wrong_answers": [
+            "y=C₁cos x+C₂sin x",
+            "y=C₁e^(2x)+C₂e^(-2x)",
+            "y=(C₁+C₂x)e^(-2x)"
+          ]
+        }
+      }
     },
     {
       "id": "question_237",
@@ -2369,7 +4965,18 @@
         "(6,3,1)",
         "(-6,3,-1)",
         "(1,3,3)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Vector a=(1,2,0), b=(0,1,3), then a×b = ?",
+          "correct_answer": "(6,-3,1)",
+          "wrong_answers": [
+            "(6,3,1)",
+            "(-6,3,-1)",
+            "(1,3,3)"
+          ]
+        }
+      }
     },
     {
       "id": "question_238",
@@ -2379,7 +4986,18 @@
         "(2,1,2)",
         "(1,-2,2)",
         "(2,-1,5)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is a normal vector to the plane 2x-y+2z=5?",
+          "correct_answer": "(2,-1,2)",
+          "wrong_answers": [
+            "(2,1,2)",
+            "(1,-2,2)",
+            "(2,-1,5)"
+          ]
+        }
+      }
     },
     {
       "id": "question_239",
@@ -2389,7 +5007,18 @@
         "x·e^(x+y)",
         "y·e^(x+y)",
         "e^(xy)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the partial derivative of function f(x,y)=e^(x+y) with respect to x?",
+          "correct_answer": "e^(x+y)",
+          "wrong_answers": [
+            "x·e^(x+y)",
+            "y·e^(x+y)",
+            "e^(xy)"
+          ]
+        }
+      }
     },
     {
       "id": "question_240",
@@ -2399,7 +5028,18 @@
         "2dx+3dy",
         "6dx+6dy",
         "3dx-2dy"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the total differential dz of the function z=xy at point (2,3)?",
+          "correct_answer": "3dx+2dy",
+          "wrong_answers": [
+            "2dx+3dy",
+            "6dx+6dy",
+            "3dx-2dy"
+          ]
+        }
+      }
     },
     {
       "id": "question_241",
@@ -2409,7 +5049,18 @@
         "1/3",
         "1/2",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D (x²+y²) dxdy, where D: 0≤x≤1, 0≤y≤1.",
+          "correct_answer": "2/3",
+          "wrong_answers": [
+            "1/3",
+            "1/2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_242",
@@ -2419,7 +5070,18 @@
         "π/2",
         "2π",
         "π²"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the double integral ∫∫_D 1 dxdy where D: x²+y²≤1.",
+          "correct_answer": "π",
+          "wrong_answers": [
+            "π/2",
+            "2π",
+            "π²"
+          ]
+        }
+      }
     },
     {
       "id": "question_243",
@@ -2429,7 +5091,18 @@
         "1/4",
         "1/6",
         "1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Evaluate the triple integral ∫∫∫_V xyz dxdydz where V: 0≤x≤1, 0≤y≤1, 0≤z≤1.",
+          "correct_answer": "1/8",
+          "wrong_answers": [
+            "1/4",
+            "1/6",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_244",
@@ -2439,7 +5112,18 @@
         "1/2",
         "1",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the geometric series ∑(n=0..∞) (1/3)^n?",
+          "correct_answer": "3/2",
+          "wrong_answers": [
+            "1/2",
+            "1",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_245",
@@ -2449,7 +5133,18 @@
         "条件收敛",
         "发散",
         "无法判断"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence and divergence of the series ∑(n=1..∞) (-1)^(n-1)/n²?",
+          "correct_answer": "Absolute convergence",
+          "wrong_answers": [
+            "Conditional convergence",
+            "diverge",
+            "Unable to judge"
+          ]
+        }
+      }
     },
     {
       "id": "question_246",
@@ -2459,7 +5154,18 @@
         "1/2",
         "1",
         "∞"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The convergence radius R of the power series ∑(n=0..∞) x^n/2^n = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1/2",
+            "1",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "id": "question_247",
@@ -2469,7 +5175,18 @@
         "x",
         "1+x²",
         "1+x+x²/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the first-order Maclaurin polynomial of the function e^x at x=0?",
+          "correct_answer": "1+x",
+          "wrong_answers": [
+            "x",
+            "1+x²",
+            "1+x+x²/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_248",
@@ -2479,7 +5196,18 @@
         "2",
         "8",
         "11"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the determinant of the second-order matrix [[2,1],[3,4]]?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "2",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "id": "question_249",
@@ -2489,7 +5217,18 @@
         "x=2, y=3",
         "x=4, y=1",
         "x=3, y=-2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution of the linear equation system x+y=5, x-y=1?",
+          "correct_answer": "x=3, y=2",
+          "wrong_answers": [
+            "x=2, y=3",
+            "x=4, y=1",
+            "x=3, y=-2"
+          ]
+        }
+      }
     },
     {
       "id": "question_250",
@@ -2499,7 +5238,18 @@
         "0 和 5",
         "1 和 6",
         "-2 和 -3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the two eigenvalues of the diagonal matrix [[2,0],[0,3]]?",
+          "correct_answer": "2 and 3",
+          "wrong_answers": [
+            "0 and 5",
+            "1 and 6",
+            "-2 and -3"
+          ]
+        }
+      }
     }
   ]
 }

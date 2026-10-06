@@ -1,0 +1,8 @@
+{
+  "size": 1,
+  "order": 240,
+  "icon": "mathmaster:slot/empty_axiom_case_slot",
+  "validators": [
+    "curios:tag"
+  ]
+}

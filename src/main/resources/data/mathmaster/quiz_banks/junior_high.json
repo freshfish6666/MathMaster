@@ -9,7 +9,18 @@
         "3",
         "5",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Solve the equation: 2x + 3 = 11, x = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_002",
@@ -19,7 +30,18 @@
         "-2",
         "8",
         "-8"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate: (-3) + 5 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-2",
+            "8",
+            "-8"
+          ]
+        }
+      }
     },
     {
       "id": "question_003",
@@ -29,7 +51,18 @@
         "4",
         "5",
         "8"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Solve the equation: 3(x - 2) = 12, x = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "4",
+            "5",
+            "8"
+          ]
+        }
+      }
     },
     {
       "id": "question_004",
@@ -39,7 +72,18 @@
         "2/5",
         "1/5",
         "1/6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 1/2 + 1/3 = ?",
+          "correct_answer": "5/6",
+          "wrong_answers": [
+            "2/5",
+            "1/5",
+            "1/6"
+          ]
+        }
+      }
     },
     {
       "id": "question_005",
@@ -49,7 +93,18 @@
         "-5",
         "-1",
         "1"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If a = 2, b = -3, then a - b = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "-5",
+            "-1",
+            "1"
+          ]
+        }
+      }
     },
     {
       "id": "question_006",
@@ -59,7 +114,18 @@
         "2πr",
         "πd",
         "πr"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the formula for the area of a circle?",
+          "correct_answer": "πr²",
+          "wrong_answers": [
+            "2πr",
+            "πd",
+            "πr"
+          ]
+        }
+      }
     },
     {
       "id": "question_007",
@@ -69,7 +135,18 @@
         "20",
         "25",
         "5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is 20% of 50?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "20",
+            "25",
+            "5"
+          ]
+        }
+      }
     },
     {
       "id": "question_008",
@@ -79,7 +156,18 @@
         "4",
         "-4",
         "8"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "x² = 16, then x = ?",
+          "correct_answer": "±4",
+          "wrong_answers": [
+            "4",
+            "-4",
+            "8"
+          ]
+        }
+      }
     },
     {
       "id": "question_009",
@@ -89,7 +177,18 @@
         "-20",
         "9",
         "-9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate: (-5) × (-4) = ?",
+          "correct_answer": "20",
+          "wrong_answers": [
+            "-20",
+            "9",
+            "-9"
+          ]
+        }
+      }
     },
     {
       "id": "question_010",
@@ -99,7 +198,18 @@
         "4",
         "-9",
         "9"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: -12 ÷ 3 = ?",
+          "correct_answer": "-4",
+          "wrong_answers": [
+            "4",
+            "-9",
+            "9"
+          ]
+        }
+      }
     },
     {
       "id": "question_011",
@@ -109,7 +219,18 @@
         "5",
         "-5",
         "84"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Solve the equation: x - 7 = 12, x = ?",
+          "correct_answer": "19",
+          "wrong_answers": [
+            "5",
+            "-5",
+            "84"
+          ]
+        }
+      }
     },
     {
       "id": "question_012",
@@ -119,7 +240,18 @@
         "24",
         "16",
         "1/5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Solve the equation: 4x = 20, x = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "24",
+            "16",
+            "1/5"
+          ]
+        }
+      }
     },
     {
       "id": "question_013",
@@ -129,7 +261,18 @@
         "2",
         "9",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Solve the equation: x/3 = 6, x = ?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "2",
+            "9",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_014",
@@ -139,7 +282,18 @@
         "4",
         "8",
         "10"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Solve the equation: 2x - 1 = 9, x = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "4",
+            "8",
+            "10"
+          ]
+        }
+      }
     },
     {
       "id": "question_015",
@@ -149,7 +303,18 @@
         "6a",
         "5a²",
         "6a²"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Simplify: 3a + 2a = ?",
+          "correct_answer": "5a",
+          "wrong_answers": [
+            "6a",
+            "5a²",
+            "6a²"
+          ]
+        }
+      }
     },
     {
       "id": "question_016",
@@ -159,7 +324,18 @@
         "8x + 2",
         "2x - 2",
         "10x"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Simplify: 5x - 3x + 2 = ?",
+          "correct_answer": "2x+2",
+          "wrong_answers": [
+            "8x+2",
+            "2x - 2",
+            "10x"
+          ]
+        }
+      }
     },
     {
       "id": "question_017",
@@ -169,7 +345,18 @@
         "12",
         "36",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If x = 3, then 2x² = ?",
+          "correct_answer": "18",
+          "wrong_answers": [
+            "12",
+            "36",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_018",
@@ -179,7 +366,18 @@
         "-6",
         "-12",
         "12"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If a = 4, b = -2, then ab + a = ?",
+          "correct_answer": "-4",
+          "wrong_answers": [
+            "-6",
+            "-12",
+            "12"
+          ]
+        }
+      }
     },
     {
       "id": "question_019",
@@ -189,7 +387,18 @@
         "8",
         "-6",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate: (-2)³ = ?",
+          "correct_answer": "-8",
+          "wrong_answers": [
+            "8",
+            "-6",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_020",
@@ -199,7 +408,18 @@
         "-7",
         "49",
         "24.5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: √49 = ?",
+          "correct_answer": "7",
+          "wrong_answers": [
+            "-7",
+            "49",
+            "24.5"
+          ]
+        }
+      }
     },
     {
       "id": "question_021",
@@ -209,7 +429,18 @@
         "4",
         "8",
         "3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: ∛8 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "4",
+            "8",
+            "3"
+          ]
+        }
+      }
     },
     {
       "id": "question_022",
@@ -219,7 +450,18 @@
         "90°",
         "360°",
         "270°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the interior angles of a triangle?",
+          "correct_answer": "180°",
+          "wrong_answers": [
+            "90°",
+            "360°",
+            "270°"
+          ]
+        }
+      }
     },
     {
       "id": "question_023",
@@ -229,7 +471,18 @@
         "30°",
         "90°",
         "120°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The supplement of an angle is 120°. What is this angle?",
+          "correct_answer": "60°",
+          "wrong_answers": [
+            "30°",
+            "90°",
+            "120°"
+          ]
+        }
+      }
     },
     {
       "id": "question_024",
@@ -239,7 +492,18 @@
         "180°",
         "45°",
         "60°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the two acute angles of a right triangle?",
+          "correct_answer": "90°",
+          "wrong_answers": [
+            "180°",
+            "45°",
+            "60°"
+          ]
+        }
+      }
     },
     {
       "id": "question_025",
@@ -249,7 +513,18 @@
         "5",
         "8",
         "12"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If a:b = 2:3, and a = 4, then b = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "5",
+            "8",
+            "12"
+          ]
+        }
+      }
     },
     {
       "id": "question_026",
@@ -259,7 +534,18 @@
         "60",
         "100",
         "1500"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "20% of a number is 30. What is this number?",
+          "correct_answer": "150",
+          "wrong_answers": [
+            "60",
+            "100",
+            "1500"
+          ]
+        }
+      }
     },
     {
       "id": "question_027",
@@ -269,7 +555,18 @@
         "5/9",
         "7/20",
         "1/6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 2/5 × 3/4 = ?",
+          "correct_answer": "3/10",
+          "wrong_answers": [
+            "5/9",
+            "7/20",
+            "1/6"
+          ]
+        }
+      }
     },
     {
       "id": "question_028",
@@ -279,7 +576,18 @@
         "1/8",
         "1/2",
         "4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 1/2 ÷ 1/4 = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1/8",
+            "1/2",
+            "4"
+          ]
+        }
+      }
     },
     {
       "id": "question_029",
@@ -289,7 +597,18 @@
         "x = 4",
         "x = 5",
         "x = 7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution to the equation 3x - 5 = 2x + 1?",
+          "correct_answer": "x = 6",
+          "wrong_answers": [
+            "x = 4",
+            "x=5",
+            "x = 7"
+          ]
+        }
+      }
     },
     {
       "id": "question_030",
@@ -299,7 +618,18 @@
         "x < 4",
         "x > 6",
         "x < 6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the set of solutions to the inequality 2x > 8?",
+          "correct_answer": "x > 4",
+          "wrong_answers": [
+            "x < 4",
+            "x > 6",
+            "x < 6"
+          ]
+        }
+      }
     },
     {
       "id": "question_031",
@@ -309,7 +639,18 @@
         "13",
         "25",
         "36"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 2³ + 3² = ?",
+          "correct_answer": "17",
+          "wrong_answers": [
+            "13",
+            "25",
+            "36"
+          ]
+        }
+      }
     },
     {
       "id": "question_032",
@@ -319,7 +660,18 @@
         "2",
         "1",
         "-3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the degree of the monomial -3x²y?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "2",
+            "1",
+            "-3"
+          ]
+        }
+      }
     },
     {
       "id": "question_033",
@@ -329,7 +681,18 @@
         "3",
         "1",
         "0"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the degree of the polynomial 2x² - 3x + 1?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "0"
+          ]
+        }
+      }
     },
     {
       "id": "question_034",
@@ -339,7 +702,18 @@
         "3m",
         "11m",
         "-11m"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Combine similar items: 4m - 7m = ?",
+          "correct_answer": "-3m",
+          "wrong_answers": [
+            "3m",
+            "11m",
+            "-11m"
+          ]
+        }
+      }
     },
     {
       "id": "question_035",
@@ -349,7 +723,18 @@
         "x - 3",
         "-x - 3",
         "x + 3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Simplify: -(x - 3) = ?",
+          "correct_answer": "-x+3",
+          "wrong_answers": [
+            "x-3",
+            "-x-3",
+            "x+3"
+          ]
+        }
+      }
     },
     {
       "id": "question_036",
@@ -359,7 +744,18 @@
         "x² + 4",
         "x² - 4x + 4",
         "x² + 4x + 4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate: (x + 2)(x - 2) = ?",
+          "correct_answer": "x² - 4",
+          "wrong_answers": [
+            "x² + 4",
+            "x² - 4x + 4",
+            "x² + 4x + 4"
+          ]
+        }
+      }
     },
     {
       "id": "question_037",
@@ -369,7 +765,18 @@
         "a² + 9",
         "a² + 3a + 9",
         "a² + 6a + 6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate: (a + 3)² = ?",
+          "correct_answer": "a² + 6a + 9",
+          "wrong_answers": [
+            "a² + 9",
+            "a² + 3a + 9",
+            "a² + 6a + 6"
+          ]
+        }
+      }
     },
     {
       "id": "question_038",
@@ -379,7 +786,18 @@
         "第一象限",
         "第二象限",
         "第三象限"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the coordinates of point A are (2, -3), then where is point A?",
+          "correct_answer": "Quadrant 4",
+          "wrong_answers": [
+            "Quadrant 1",
+            "second quadrant",
+            "Quadrant 3"
+          ]
+        }
+      }
     },
     {
       "id": "question_039",
@@ -389,7 +807,18 @@
         "x轴上",
         "原点",
         "第一象限"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Point (0, 5) is at?",
+          "correct_answer": "on y-axis",
+          "wrong_answers": [
+            "on the x-axis",
+            "origin",
+            "Quadrant 1"
+          ]
+        }
+      }
     },
     {
       "id": "question_040",
@@ -399,7 +828,18 @@
         "4",
         "6",
         "10"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the mean of data 2, 4, 6, 8?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "4",
+            "6",
+            "10"
+          ]
+        }
+      }
     },
     {
       "id": "question_041",
@@ -409,7 +849,18 @@
         "3",
         "1",
         "5"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the median of data 3, 1, 2, 2, 7?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "3",
+            "1",
+            "5"
+          ]
+        }
+      }
     },
     {
       "id": "question_042",
@@ -419,7 +870,18 @@
         "8",
         "9",
         "12"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the mode of the data 5, 5, 8, 9, 12?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "8",
+            "9",
+            "12"
+          ]
+        }
+      }
     },
     {
       "id": "question_043",
@@ -429,7 +891,18 @@
         "1/2",
         "1/6",
         "2/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If you roll a uniform die, what is the probability that the number is greater than 4?",
+          "correct_answer": "1/3",
+          "wrong_answers": [
+            "1/2",
+            "1/6",
+            "2/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_044",
@@ -439,7 +912,18 @@
         "2/5",
         "1/2",
         "3/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "There are 3 red balls and 2 white balls in a bag. What is the probability that a randomly drawn ball is a red ball?",
+          "correct_answer": "3/5",
+          "wrong_answers": [
+            "2/5",
+            "1/2",
+            "3/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_045",
@@ -449,7 +933,18 @@
         "πr²",
         "πd²",
         "2πd"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the formula for the circumference of a circle?",
+          "correct_answer": "2πr",
+          "wrong_answers": [
+            "πr²",
+            "πd²",
+            "2πd"
+          ]
+        }
+      }
     },
     {
       "id": "question_046",
@@ -459,7 +954,18 @@
         "6π",
         "3π",
         "12π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the area of a circle with radius 3?",
+          "correct_answer": "9π",
+          "wrong_answers": [
+            "6π",
+            "3π",
+            "12π"
+          ]
+        }
+      }
     },
     {
       "id": "question_047",
@@ -469,7 +975,18 @@
         "3",
         "5",
         "6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The length of a rectangle is 6, the width is x, and the area is 24, then x = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "5",
+            "6"
+          ]
+        }
+      }
     },
     {
       "id": "question_048",
@@ -479,7 +996,18 @@
         "45°",
         "65°",
         "145°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If two angles are supplementary to each other, one angle is 35° and the other angle is?",
+          "correct_answer": "55°",
+          "wrong_answers": [
+            "45°",
+            "65°",
+            "145°"
+          ]
+        }
+      }
     },
     {
       "id": "question_049",
@@ -489,7 +1017,18 @@
         "1",
         "-2",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Given that x = -1, what is the value of -x²?",
+          "correct_answer": "-1",
+          "wrong_answers": [
+            "1",
+            "-2",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_050",
@@ -499,7 +1038,18 @@
         "-8",
         "8",
         "-2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: |-5| + (-3) = ?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "-8",
+            "8",
+            "-2"
+          ]
+        }
+      }
     },
     {
       "id": "question_051",
@@ -509,7 +1059,18 @@
         "4",
         "-4",
         "1/2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 2⁻² = ?",
+          "correct_answer": "1/4",
+          "wrong_answers": [
+            "4",
+            "-4",
+            "1/2"
+          ]
+        }
+      }
     },
     {
       "id": "question_052",
@@ -519,7 +1080,18 @@
         "x + 2",
         "x + 3",
         "5x + 6"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Simplify: 3(x + 2) - 2x = ?",
+          "correct_answer": "x+6",
+          "wrong_answers": [
+            "x+2",
+            "x+3",
+            "5x+6"
+          ]
+        }
+      }
     },
     {
       "id": "question_053",
@@ -529,7 +1101,18 @@
         "x = -3",
         "x = 7",
         "x = -7"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution to Equation 5 - x = 2?",
+          "correct_answer": "x = 3",
+          "wrong_answers": [
+            "x = -3",
+            "x = 7",
+            "x = -7"
+          ]
+        }
+      }
     },
     {
       "id": "question_054",
@@ -539,7 +1122,18 @@
         "60°",
         "80°",
         "140°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The vertex angle of an isosceles triangle is 40°. What is one of its base angles?",
+          "correct_answer": "70°",
+          "wrong_answers": [
+            "60°",
+            "80°",
+            "140°"
+          ]
+        }
+      }
     },
     {
       "id": "question_055",
@@ -549,7 +1143,18 @@
         "-3",
         "1/3",
         "-1/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If the opposite of a is -3, then a = ?",
+          "correct_answer": "3",
+          "wrong_answers": [
+            "-3",
+            "1/3",
+            "-1/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_056",
@@ -559,7 +1164,18 @@
         "10",
         "0.1",
         "100"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 0.25 × 4 = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "10",
+            "0.1",
+            "100"
+          ]
+        }
+      }
     },
     {
       "id": "question_057",
@@ -569,7 +1185,18 @@
         "5.2×10³",
         "5.2×10⁵",
         "2.5×10⁴"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Express 52000 in scientific notation?",
+          "correct_answer": "5.2×10⁴",
+          "wrong_answers": [
+            "5.2×10³",
+            "5.2×10⁵",
+            "2.5×10⁴"
+          ]
+        }
+      }
     },
     {
       "id": "question_058",
@@ -579,7 +1206,18 @@
         "3×10³",
         "3×10⁻²",
         "3×10⁻⁴"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Express 0.003 in scientific notation?",
+          "correct_answer": "3×10⁻³",
+          "wrong_answers": [
+            "3×10³",
+            "3×10⁻²",
+            "3×10⁻⁴"
+          ]
+        }
+      }
     },
     {
       "id": "question_059",
@@ -589,7 +1227,18 @@
         "12",
         "-2",
         "2"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculate: (-7) + (-5) = ?",
+          "correct_answer": "-12",
+          "wrong_answers": [
+            "12",
+            "-2",
+            "2"
+          ]
+        }
+      }
     },
     {
       "id": "question_060",
@@ -599,7 +1248,18 @@
         "5",
         "7",
         "8"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Solve the equation: 4x + 7 = 31, x = ?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "5",
+            "7",
+            "8"
+          ]
+        }
+      }
     },
     {
       "id": "question_061",
@@ -609,7 +1269,18 @@
         "4/3",
         "2/3",
         "1/3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 5/6 - 1/3 = ?",
+          "correct_answer": "1/2",
+          "wrong_answers": [
+            "4/3",
+            "2/3",
+            "1/3"
+          ]
+        }
+      }
     },
     {
       "id": "question_062",
@@ -619,7 +1290,18 @@
         "0.4",
         "3",
         "40"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: 1.2 ÷ 0.3 = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "0.4",
+            "3",
+            "40"
+          ]
+        }
+      }
     },
     {
       "id": "question_063",
@@ -629,7 +1311,18 @@
         "20",
         "65",
         "75"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "An item with an original price of 80 yuan is sold at 75% of the original price. How much is the selling price?",
+          "correct_answer": "60",
+          "wrong_answers": [
+            "20",
+            "65",
+            "75"
+          ]
+        }
+      }
     },
     {
       "id": "question_064",
@@ -639,7 +1332,18 @@
         "2",
         "3",
         "4xy"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What are the coefficients of the monomial 4x²y?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "2",
+            "3",
+            "4xy"
+          ]
+        }
+      }
     },
     {
       "id": "question_065",
@@ -649,7 +1353,18 @@
         "(x - 3)²",
         "(x + 3)²",
         "(x - 9)(x + 1)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Factoring: x² - 9 = ?",
+          "correct_answer": "(x - 3)(x + 3)",
+          "wrong_answers": [
+            "(x - 3)²",
+            "(x + 3)²",
+            "(x - 9)(x + 1)"
+          ]
+        }
+      }
     },
     {
       "id": "question_066",
@@ -659,7 +1374,18 @@
         "3",
         "7",
         "20"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Solve the equation: x/4 + 2 = 5, x = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "3",
+            "7",
+            "20"
+          ]
+        }
+      }
     },
     {
       "id": "question_067",
@@ -669,7 +1395,18 @@
         "x < -3",
         "x > 3",
         "x < 3"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution set of the inequality -3x < 9?",
+          "correct_answer": "x > -3",
+          "wrong_answers": [
+            "x < -3",
+            "x > 3",
+            "x < 3"
+          ]
+        }
+      }
     },
     {
       "id": "question_068",
@@ -679,7 +1416,18 @@
         "9",
         "10",
         "18"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "Calculation: √81 + ∛27 = ?",
+          "correct_answer": "12",
+          "wrong_answers": [
+            "9",
+            "10",
+            "18"
+          ]
+        }
+      }
     },
     {
       "id": "question_069",
@@ -689,7 +1437,18 @@
         "90°",
         "180°",
         "540°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the three exterior angles of a triangle (take one from each vertex)?",
+          "correct_answer": "360°",
+          "wrong_answers": [
+            "90°",
+            "180°",
+            "540°"
+          ]
+        }
+      }
     },
     {
       "id": "question_070",
@@ -699,7 +1458,18 @@
         "20°",
         "70°",
         "140°"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "One interior angle of a parallelogram is 70°. What is the adjacent interior angle?",
+          "correct_answer": "110°",
+          "wrong_answers": [
+            "20°",
+            "70°",
+            "140°"
+          ]
+        }
+      }
     },
     {
       "id": "question_071",
@@ -709,7 +1479,18 @@
         "7",
         "12",
         "14"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The lengths of the two right-angled sides of a right triangle are 6 and 8 respectively. What is the length of the hypotenuse?",
+          "correct_answer": "10",
+          "wrong_answers": [
+            "7",
+            "12",
+            "14"
+          ]
+        }
+      }
     },
     {
       "id": "question_072",
@@ -719,7 +1500,18 @@
         "5π",
         "20π",
         "25π"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the circumference of a circle with radius 5?",
+          "correct_answer": "10π",
+          "wrong_answers": [
+            "5π",
+            "20π",
+            "25π"
+          ]
+        }
+      }
     },
     {
       "id": "question_073",
@@ -729,7 +1521,18 @@
         "(2, 1)",
         "(-1, 2)",
         "(1, 4)"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The two endpoints of the line segment are A(-2, 4) and B(4, 0). What are the coordinates of its midpoint?",
+          "correct_answer": "(1, 2)",
+          "wrong_answers": [
+            "(2, 1)",
+            "(-1, 2)",
+            "(1, 4)"
+          ]
+        }
+      }
     },
     {
       "id": "question_074",
@@ -739,7 +1542,18 @@
         "2",
         "8",
         "11"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the linear function y = 2x - 3, when x = 4, y = ?",
+          "correct_answer": "5",
+          "wrong_answers": [
+            "2",
+            "8",
+            "11"
+          ]
+        }
+      }
     },
     {
       "id": "question_075",
@@ -749,7 +1563,18 @@
         "3",
         "9",
         "36"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "In the inverse proportional function y = 12/x, when x = 3, y = ?",
+          "correct_answer": "4",
+          "wrong_answers": [
+            "3",
+            "9",
+            "36"
+          ]
+        }
+      }
     },
     {
       "id": "question_076",
@@ -759,7 +1584,18 @@
         "5",
         "6",
         "16"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the range of data 4, 7, 9, and 12?",
+          "correct_answer": "8",
+          "wrong_answers": [
+            "5",
+            "6",
+            "16"
+          ]
+        }
+      }
     },
     {
       "id": "question_077",
@@ -769,7 +1605,18 @@
         "84",
         "85",
         "88"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The two test scores are 80 and 90 respectively, and the weights are 40% and 60% respectively. What is the weighted average score?",
+          "correct_answer": "86",
+          "wrong_answers": [
+            "84",
+            "85",
+            "88"
+          ]
+        }
+      }
     },
     {
       "id": "question_078",
@@ -779,7 +1626,18 @@
         "1/2",
         "1/3",
         "3/4"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "If two fair coins are tossed simultaneously, what is the probability that both come out heads?",
+          "correct_answer": "1/4",
+          "wrong_answers": [
+            "1/2",
+            "1/3",
+            "3/4"
+          ]
+        }
+      }
     },
     {
       "id": "question_079",
@@ -789,7 +1647,18 @@
         "80",
         "125",
         "200"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "A random inspection of 50 products found 8 defective products. Based on this estimate, how many defective products are there in 1,000 products?",
+          "correct_answer": "160",
+          "wrong_answers": [
+            "80",
+            "125",
+            "200"
+          ]
+        }
+      }
     },
     {
       "id": "question_080",
@@ -799,7 +1668,18 @@
         "5",
         "8",
         "12"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "The ratio of corresponding sides of two similar triangles is 2:3, the length of one side of the smaller triangle is 4, and the length of the corresponding side of the larger triangle is?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "5",
+            "8",
+            "12"
+          ]
+        }
+      }
     },
     {
       "id": "question_081",
@@ -809,7 +1689,18 @@
         "x = 3",
         "x = 5",
         "x = 17"
-      ]
+      ],
+      "translations": {
+        "en_us": {
+          "question": "What is the solution to the equation √(x + 1) = 4?",
+          "correct_answer": "x=15",
+          "wrong_answers": [
+            "x = 3",
+            "x=5",
+            "x = 17"
+          ]
+        }
+      }
     }
   ]
 }

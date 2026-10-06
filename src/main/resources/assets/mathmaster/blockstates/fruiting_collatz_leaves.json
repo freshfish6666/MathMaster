@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mathmaster:block/fruiting_collatz_leaves"
+    }
+  }
+}

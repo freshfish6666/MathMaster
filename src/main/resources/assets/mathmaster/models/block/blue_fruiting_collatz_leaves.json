@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "mathmaster:block/blue_fruiting_collatz_leaves"
+  },
+  "render_type": "minecraft:cutout_mipped"
+}

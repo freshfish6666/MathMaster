@@ -7,7 +7,19 @@
         "x·xˣ⁻¹",
         "xˣln x",
         "xˣ⁻¹"
-      ]
+      ],
+      "id": "question_001",
+      "translations": {
+        "en_us": {
+          "question": "What is the derivative of the function xˣ for x > 0?",
+          "correct_answer": "xˣ(ln x + 1)",
+          "wrong_answers": [
+            "x·xˣ⁻¹",
+            "xˣln x",
+            "xˣ⁻¹"
+          ]
+        }
+      }
     },
     {
       "question": "广义积分 ∫₀∞ e⁻ˣ dx = ?",
@@ -16,7 +28,19 @@
         "0",
         "e",
         "发散"
-      ]
+      ],
+      "id": "question_002",
+      "translations": {
+        "en_us": {
+          "question": "Improper integral ∫₀∞ e⁻ˣ dx = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "e",
+            "diverge"
+          ]
+        }
+      }
     },
     {
       "question": "黎曼 ζ 函数在 2 处的值 ζ(2) 是？",
@@ -25,7 +49,19 @@
         "π/2",
         "π²/2",
         "2π"
-      ]
+      ],
+      "id": "question_003",
+      "translations": {
+        "en_us": {
+          "question": "What is the value ζ(2) of the Riemann ζ function at 2?",
+          "correct_answer": "π²/6",
+          "wrong_answers": [
+            "π/2",
+            "π²/2",
+            "2π"
+          ]
+        }
+      }
     },
     {
       "question": "高斯积分 ∫₋∞∞ e^(-x²) dx = ?",
@@ -34,7 +70,19 @@
         "π",
         "√(2π)",
         "1"
-      ]
+      ],
+      "id": "question_004",
+      "translations": {
+        "en_us": {
+          "question": "Gaussian integral ∫₋∞∞ e^(-x²) dx = ?",
+          "correct_answer": "√π",
+          "wrong_answers": [
+            "π",
+            "√(2π)",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "广义积分 ∫₋∞∞ 1/(1 + x²) dx = ?",
@@ -43,7 +91,19 @@
         "π/2",
         "2π",
         "发散"
-      ]
+      ],
+      "id": "question_005",
+      "translations": {
+        "en_us": {
+          "question": "Improper integral ∫₋∞∞ 1/(1 + x²) dx = ?",
+          "correct_answer": "π",
+          "wrong_answers": [
+            "π/2",
+            "2π",
+            "diverge"
+          ]
+        }
+      }
     },
     {
       "question": "数列极限 lim(n→∞) (1 + 1/n)^n = ?",
@@ -52,7 +112,19 @@
         "1",
         "2",
         "∞"
-      ]
+      ],
+      "id": "question_006",
+      "translations": {
+        "en_us": {
+          "question": "Sequence limit lim(n→∞) (1 + 1/n)^n = ?",
+          "correct_answer": "e",
+          "wrong_answers": [
+            "1",
+            "2",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "question": "广义积分 ∫₀∞ xe⁻ˣ dx = ?",
@@ -61,7 +133,19 @@
         "0",
         "2",
         "发散"
-      ]
+      ],
+      "id": "question_007",
+      "translations": {
+        "en_us": {
+          "question": "Improper integral ∫₀∞ xe⁻ˣ dx = ?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "0",
+            "2",
+            "diverge"
+          ]
+        }
+      }
     },
     {
       "question": "Gamma 函数的值 Gamma(1/2) 是？",
@@ -70,7 +154,19 @@
         "π",
         "1/2",
         "2√π"
-      ]
+      ],
+      "id": "question_008",
+      "translations": {
+        "en_us": {
+          "question": "What is the value of the Gamma function Gamma(1/2)?",
+          "correct_answer": "√π",
+          "wrong_answers": [
+            "π",
+            "1/2",
+            "2√π"
+          ]
+        }
+      }
     },
     {
       "question": "幂级数 ∑(n=0..∞) n!x^n 的收敛半径是？",
@@ -79,7 +175,19 @@
         "1",
         "e",
         "∞"
-      ]
+      ],
+      "id": "question_009",
+      "translations": {
+        "en_us": {
+          "question": "What is the convergence radius of the power series ∑(n=0..∞) n!x^n?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "e",
+            "∞"
+          ]
+        }
+      }
     },
     {
       "question": "级数 ∑(n=1..∞) 1/[n(n+1)] 的和是？",
@@ -88,7 +196,19 @@
         "1/2",
         "2",
         "发散"
-      ]
+      ],
+      "id": "question_010",
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the series ∑(n=1..∞) 1/[n(n+1)]?",
+          "correct_answer": "1",
+          "wrong_answers": [
+            "1/2",
+            "2",
+            "diverge"
+          ]
+        }
+      }
     },
     {
       "question": "交错调和级数 ∑(n=1..∞) (-1)^(n-1)/n 的和是？",
@@ -97,7 +217,19 @@
         "1",
         "π/2",
         "e - 1"
-      ]
+      ],
+      "id": "question_011",
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the alternating harmonic series ∑(n=1..∞) (-1)^(n-1)/n?",
+          "correct_answer": "ln 2",
+          "wrong_answers": [
+            "1",
+            "π/2",
+            "e-1"
+          ]
+        }
+      }
     },
     {
       "question": "定积分 ∫₀¹ ln x dx = ?",
@@ -106,7 +238,19 @@
         "0",
         "1",
         "发散"
-      ]
+      ],
+      "id": "question_012",
+      "translations": {
+        "en_us": {
+          "question": "Definite integral ∫₀¹ ln x dx = ?",
+          "correct_answer": "-1",
+          "wrong_answers": [
+            "0",
+            "1",
+            "diverge"
+          ]
+        }
+      }
     },
     {
       "question": "定积分 ∫₀^(π/2) ln(sin x) dx = ?",
@@ -115,7 +259,19 @@
         "(π/2)ln 2",
         "-πln 2",
         "-ln 2"
-      ]
+      ],
+      "id": "question_013",
+      "translations": {
+        "en_us": {
+          "question": "Definite integral ∫₀^(π/2) ln(sin x) dx = ?",
+          "correct_answer": "-(π/2)ln 2",
+          "wrong_answers": [
+            "(π/2)ln 2",
+            "-πln 2",
+            "-ln 2"
+          ]
+        }
+      }
     },
     {
       "question": "极限 lim(x→0) (tan x - x)/x³ = ?",
@@ -124,7 +280,19 @@
         "0",
         "1/2",
         "1"
-      ]
+      ],
+      "id": "question_014",
+      "translations": {
+        "en_us": {
+          "question": "Limit lim(x→0) (tan x - x)/x³ = ?",
+          "correct_answer": "1/3",
+          "wrong_answers": [
+            "0",
+            "1/2",
+            "1"
+          ]
+        }
+      }
     },
     {
       "question": "广义积分 ∫₀∞ 1/(1 + x²) dx = ?",
@@ -133,7 +301,19 @@
         "π",
         "1",
         "发散"
-      ]
+      ],
+      "id": "question_015",
+      "translations": {
+        "en_us": {
+          "question": "Improper integral ∫₀∞ 1/(1 + x²) dx = ?",
+          "correct_answer": "π/2",
+          "wrong_answers": [
+            "π",
+            "1",
+            "diverge"
+          ]
+        }
+      }
     },
     {
       "question": "三阶单位矩阵的全部特征值是？",
@@ -142,7 +322,19 @@
         "0、0、0",
         "1、2、3",
         "-1、0、1"
-      ]
+      ],
+      "id": "question_016",
+      "translations": {
+        "en_us": {
+          "question": "What are all the eigenvalues of the third-order identity matrix?",
+          "correct_answer": "1, 1, 1",
+          "wrong_answers": [
+            "0, 0, 0",
+            "1, 2, 3",
+            "-1, 0, 1"
+          ]
+        }
+      }
     },
     {
       "question": "实矩阵 [[0,-1],[1,0]] 的复特征值是？",
@@ -151,7 +343,19 @@
         "1 和 -1",
         "0 和 0",
         "i 和 i"
-      ]
+      ],
+      "id": "question_017",
+      "translations": {
+        "en_us": {
+          "question": "What is the complex eigenvalue of the real matrix [[0,-1],[1,0]]?",
+          "correct_answer": "i and -i",
+          "wrong_answers": [
+            "1 and -1",
+            "0 and 0",
+            "i and i"
+          ]
+        }
+      }
     },
     {
       "question": "矩阵 [[1,1,1],[1,2,4],[1,3,9]] 的行列式是？",
@@ -160,7 +364,19 @@
         "0",
         "1",
         "6"
-      ]
+      ],
+      "id": "question_018",
+      "translations": {
+        "en_us": {
+          "question": "What is the determinant of the matrix [[1,1,1],[1,2,4],[1,3,9]]?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "0",
+            "1",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "方阵的迹等于其全部特征值的什么量？",
@@ -169,7 +385,19 @@
         "乘积",
         "最大值",
         "绝对值之和"
-      ]
+      ],
+      "id": "question_019",
+      "translations": {
+        "en_us": {
+          "question": "The trace of a square matrix is equal to what quantity of all its eigenvalues?",
+          "correct_answer": "Sum under algebraic multiplicity counting",
+          "wrong_answers": [
+            "product",
+            "maximum value",
+            "sum of absolute values"
+          ]
+        }
+      }
     },
     {
       "question": "对任意复方阵 A，det(e^A) 等于？",
@@ -178,7 +406,19 @@
         "e^(det A)",
         "tr(e^A)",
         "det A"
-      ]
+      ],
+      "id": "question_020",
+      "translations": {
+        "en_us": {
+          "question": "For any complex square matrix A, det(e^A) is equal to?",
+          "correct_answer": "e^(tr A)",
+          "wrong_answers": [
+            "e^(det A)",
+            "tr(e^A)",
+            "det A"
+          ]
+        }
+      }
     },
     {
       "question": "线性映射的定义域维数为 n，则秩与零度之和是？",
@@ -187,7 +427,19 @@
         "n - 1",
         "2n",
         "无法确定"
-      ]
+      ],
+      "id": "question_021",
+      "translations": {
+        "en_us": {
+          "question": "If a linear map has an n-dimensional domain, what is the sum of its rank and nullity?",
+          "correct_answer": "n",
+          "wrong_answers": [
+            "n-1",
+            "2n",
+            "Unable to determine"
+          ]
+        }
+      }
     },
     {
       "question": "上三角矩阵的特征值是什么？",
@@ -196,7 +448,19 @@
         "第一行元素",
         "所有非零元素",
         "各列元素之和"
-      ]
+      ],
+      "id": "question_022",
+      "translations": {
+        "en_us": {
+          "question": "What are the eigenvalues of an upper triangular matrix?",
+          "correct_answer": "Its diagonal entries",
+          "wrong_answers": [
+            "First row of elements",
+            "all non-zero elements",
+            "sum of elements in each column"
+          ]
+        }
+      }
     },
     {
       "question": "实正交矩阵的行列式可能是？",
@@ -205,7 +469,19 @@
         "只能是 1",
         "只能是 -1",
         "任意实数"
-      ]
+      ],
+      "id": "question_023",
+      "translations": {
+        "en_us": {
+          "question": "What might be the determinant of a real orthogonal matrix?",
+          "correct_answer": "1 or -1",
+          "wrong_answers": [
+            "can only be 1",
+            "Can only be -1",
+            "any real number"
+          ]
+        }
+      }
     },
     {
       "question": "幂零矩阵的全部特征值是？",
@@ -214,7 +490,19 @@
         "1",
         "-1",
         "无法确定"
-      ]
+      ],
+      "id": "question_024",
+      "translations": {
+        "en_us": {
+          "question": "What are all the eigenvalues of a nilpotent matrix?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "-1",
+            "Unable to determine"
+          ]
+        }
+      }
     },
     {
       "question": "有限群的阶为质数 p，则该群一定是？",
@@ -223,7 +511,19 @@
         "非交换群",
         "无限群",
         "对称群"
-      ]
+      ],
+      "id": "question_025",
+      "translations": {
+        "en_us": {
+          "question": "If the order of a finite group is a prime number p, then the group must be?",
+          "correct_answer": "cyclic group",
+          "wrong_answers": [
+            "non-commutative group",
+            "infinite group",
+            "Symmetry group"
+          ]
+        }
+      }
     },
     {
       "question": "欧几里得关于质数的经典结论是？",
@@ -232,7 +532,19 @@
         "质数只有有限多个",
         "所有奇数都是质数",
         "相邻质数之差恒定"
-      ]
+      ],
+      "id": "question_026",
+      "translations": {
+        "en_us": {
+          "question": "What is Euclid's classic conclusion about prime numbers?",
+          "correct_answer": "There are infinitely many prime numbers",
+          "wrong_answers": [
+            "There are only a finite number of prime numbers",
+            "All odd numbers are prime numbers",
+            "The difference between adjacent prime numbers is constant"
+          ]
+        }
+      }
     },
     {
       "question": "gcd(2^m - 1, 2^n - 1) 等于？",
@@ -241,7 +553,19 @@
         "2^(m+n) - 1",
         "2^gcd(m,n)",
         "gcd(m,n) - 1"
-      ]
+      ],
+      "id": "question_027",
+      "translations": {
+        "en_us": {
+          "question": "gcd(2^m - 1, 2^n - 1) is equal to?",
+          "correct_answer": "2^gcd(m,n)-1",
+          "wrong_answers": [
+            "2^(m+n)-1",
+            "2^gcd(m,n)",
+            "gcd(m,n)-1"
+          ]
+        }
+      }
     },
     {
       "question": "若 p 为质数且 k ≥ 1，则欧拉函数 φ(p^k) 等于？",
@@ -250,7 +574,19 @@
         "p^k - 1",
         "p^(k-1)",
         "p^k + p^(k-1)"
-      ]
+      ],
+      "id": "question_028",
+      "translations": {
+        "en_us": {
+          "question": "If p is a prime number and k ≥ 1, then the Euler's totient function φ(p^k) is equal to?",
+          "correct_answer": "p^k - p^(k-1)",
+          "wrong_answers": [
+            "p^k-1",
+            "p^(k-1)",
+            "p^k + p^(k-1)"
+          ]
+        }
+      }
     },
     {
       "question": "若 p 为质数且 p 不整除 a，费马小定理给出？",
@@ -259,7 +595,19 @@
         "a^p 除以 p 的余数为 0",
         "a^(p-1) 除以 p 的余数为 0",
         "a^p 除以 p 的余数为 1"
-      ]
+      ],
+      "id": "question_029",
+      "translations": {
+        "en_us": {
+          "question": "If p is a prime number and p does not divide a, what is Fermat's little theorem given?",
+          "correct_answer": "The remainder when a^(p-1) is divided by p is 1",
+          "wrong_answers": [
+            "The remainder when a^p is divided by p is 0",
+            "The remainder when a^(p-1) is divided by p is 0",
+            "The remainder of a^p divided by p is 1"
+          ]
+        }
+      }
     },
     {
       "question": "中国剩余定理中，两两互质模数下的解具有什么唯一性？",
@@ -268,7 +616,19 @@
         "在实数范围内唯一",
         "不存在唯一性",
         "只能有两个解"
-      ]
+      ],
+      "id": "question_030",
+      "translations": {
+        "en_us": {
+          "question": "In the Chinese Remainder Theorem, what is the uniqueness of the solution under pairwise coprime modulus?",
+          "correct_answer": "Unique in the sense of modulo product",
+          "wrong_answers": [
+            "Unique in the range of real numbers",
+            "There is no uniqueness",
+            "There can only be two solutions"
+          ]
+        }
+      }
     },
     {
       "question": "奇质数 p 的非零平方剩余共有多少个？",
@@ -277,7 +637,19 @@
         "p - 1",
         "(p + 1)/2",
         "p/2"
-      ]
+      ],
+      "id": "question_031",
+      "translations": {
+        "en_us": {
+          "question": "How many non-zero square residues are there for an odd prime number p?",
+          "correct_answer": "(p - 1)/2",
+          "wrong_answers": [
+            "p-1",
+            "(p + 1)/2",
+            "p/2"
+          ]
+        }
+      }
     },
     {
       "question": "质数幂 p^k 的正因数和是？",
@@ -286,7 +658,19 @@
         "p^k - 1",
         "p^(k+1) - 1",
         "k·p"
-      ]
+      ],
+      "id": "question_032",
+      "translations": {
+        "en_us": {
+          "question": "What is the sum of the positive factors of prime powers p^k?",
+          "correct_answer": "(p^(k+1) - 1)/(p - 1)",
+          "wrong_answers": [
+            "p^k-1",
+            "p^(k+1) - 1",
+            "k·p"
+          ]
+        }
+      }
     },
     {
       "question": "莫比乌斯函数 μ(n) 在什么情况下等于 0？",
@@ -295,7 +679,19 @@
         "n 是质数",
         "n 是奇数",
         "n 与 2 互质"
-      ]
+      ],
+      "id": "question_033",
+      "translations": {
+        "en_us": {
+          "question": "Under what circumstances does the Möbius function μ(n) equal 0?",
+          "correct_answer": "n is divisible by the square of some prime number",
+          "wrong_answers": [
+            "n is a prime number",
+            "n is an odd number",
+            "n and 2 are relatively prime"
+          ]
+        }
+      }
     },
     {
       "question": "完全图 K_n 的生成树数量是？",
@@ -304,7 +700,19 @@
         "n!",
         "2^n",
         "n(n-1)/2"
-      ]
+      ],
+      "id": "question_034",
+      "translations": {
+        "en_us": {
+          "question": "What is the number of spanning trees for the complete graph K_n?",
+          "correct_answer": "n^(n-2)",
+          "wrong_answers": [
+            "n!",
+            "2^n",
+            "n(n-1)/2"
+          ]
+        }
+      }
     },
     {
       "question": "经典拉姆齐数 R(3,3) 等于？",
@@ -313,7 +721,19 @@
         "3",
         "5",
         "9"
-      ]
+      ],
+      "id": "question_035",
+      "translations": {
+        "en_us": {
+          "question": "The classical Ramsey number R(3,3) is equal to?",
+          "correct_answer": "6",
+          "wrong_answers": [
+            "3",
+            "5",
+            "9"
+          ]
+        }
+      }
     },
     {
       "question": "黎曼猜想断言非平凡零点位于哪条直线上？",
@@ -322,7 +742,19 @@
         "Re(s) = 0",
         "Im(s) = 1/2",
         "|s| = 1"
-      ]
+      ],
+      "id": "question_036",
+      "translations": {
+        "en_us": {
+          "question": "The Riemann Hypothesis asserts that the nontrivial zero points lie on which straight line?",
+          "correct_answer": "Re(s) = 1/2",
+          "wrong_answers": [
+            "Re(s) = 0",
+            "Im(s) = 1/2",
+            "|s| = 1"
+          ]
+        }
+      }
     },
     {
       "question": "P vs NP 问题属于哪个数学与计算机领域？",
@@ -331,7 +763,19 @@
         "微分几何",
         "流体力学",
         "代数拓扑"
-      ]
+      ],
+      "id": "question_037",
+      "translations": {
+        "en_us": {
+          "question": "Which area of mathematics and computing does the P vs NP problem belong to?",
+          "correct_answer": "computational complexity theory",
+          "wrong_answers": [
+            "differential geometry",
+            "fluid mechanics",
+            "algebraic topology"
+          ]
+        }
+      }
     },
     {
       "question": "千禧年七大难题中目前唯一已解决的是？",
@@ -340,7 +784,19 @@
         "黎曼猜想",
         "P vs NP 问题",
         "霍奇猜想"
-      ]
+      ],
+      "id": "question_038",
+      "translations": {
+        "en_us": {
+          "question": "Which of the seven Millennium Prize Problems is the only one that has been solved so far?",
+          "correct_answer": "Poincaré conjecture",
+          "wrong_answers": [
+            "Riemann Hypothesis",
+            "P vs NP problem",
+            "Hodge conjecture"
+          ]
+        }
+      }
     },
     {
       "question": "伯奇和斯温纳顿-戴尔猜想主要研究哪类对象？",
@@ -349,7 +805,19 @@
         "素数间隔",
         "流体方程",
         "有限简单群"
-      ]
+      ],
+      "id": "question_039",
+      "translations": {
+        "en_us": {
+          "question": "What type of objects did Birch and Swinnerton-Dale conjecture study?",
+          "correct_answer": "elliptic curve",
+          "wrong_answers": [
+            "prime interval",
+            "fluid equation",
+            "finite simple group"
+          ]
+        }
+      }
     },
     {
       "question": "霍奇猜想属于数学的哪个分支？",
@@ -358,7 +826,19 @@
         "数值分析",
         "初等数论",
         "随机过程"
-      ]
+      ],
+      "id": "question_040",
+      "translations": {
+        "en_us": {
+          "question": "Which branch of mathematics does Hodge's conjecture belong to?",
+          "correct_answer": "algebraic geometry",
+          "wrong_answers": [
+            "numerical analysis",
+            "Elementary number theory",
+            "stochastic process"
+          ]
+        }
+      }
     },
     {
       "question": "杨-米尔斯存在性与质量间隙问题关联哪种理论？",
@@ -367,7 +847,19 @@
         "经典热力学",
         "欧氏几何",
         "计算复杂性理论"
-      ]
+      ],
+      "id": "question_041",
+      "translations": {
+        "en_us": {
+          "question": "Which theory relates Yang-Mills existence to the mass gap problem?",
+          "correct_answer": "Quantum Gauge Theory",
+          "wrong_answers": [
+            "classical thermodynamics",
+            "Euclidean geometry",
+            "computational complexity theory"
+          ]
+        }
+      }
     },
     {
       "question": "纳维-斯托克斯存在性与光滑性问题描述哪类运动？",
@@ -376,7 +868,19 @@
         "行星运动",
         "整数迭代",
         "遗传演化"
-      ]
+      ],
+      "id": "question_042",
+      "translations": {
+        "en_us": {
+          "question": "What type of motion does the Navier-Stokes existence and smoothness problem describe?",
+          "correct_answer": "fluid motion",
+          "wrong_answers": [
+            "planetary motion",
+            "integer iteration",
+            "genetic evolution"
+          ]
+        }
+      }
     },
     {
       "question": "哥德巴赫猜想的经典表述是？",
@@ -385,7 +889,19 @@
         "每个奇数都是两个质数之和",
         "每个质数都是两个平方数之和",
         "相邻质数之差恒为 2"
-      ]
+      ],
+      "id": "question_043",
+      "translations": {
+        "en_us": {
+          "question": "What is the classic expression of Goldbach's conjecture?",
+          "correct_answer": "Every even number greater than 2 is the sum of two prime numbers",
+          "wrong_answers": [
+            "Every odd number is the sum of two prime numbers",
+            "Every prime number is the sum of two square numbers",
+            "The difference between adjacent prime numbers is always 2"
+          ]
+        }
+      }
     },
     {
       "question": "孪生质数猜想中的孪生质数相差多少？",
@@ -394,7 +910,19 @@
         "1",
         "4",
         "6"
-      ]
+      ],
+      "id": "question_044",
+      "translations": {
+        "en_us": {
+          "question": "How different are the twin primes in the twin prime conjecture?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "1",
+            "4",
+            "6"
+          ]
+        }
+      }
     },
     {
       "question": "考拉兹猜想对奇数采用的变换是？",
@@ -403,7 +931,19 @@
         "乘 2 再加 1",
         "减 1 后除以 2",
         "平方后加 1"
-      ]
+      ],
+      "id": "question_045",
+      "translations": {
+        "en_us": {
+          "question": "What is the transformation used by Collatz conjecture for odd numbers?",
+          "correct_answer": "Multiply by 3 and add 1",
+          "wrong_answers": [
+            "Multiply by 2 and add 1",
+            "Subtract 1 and divide by 2",
+            "Add 1 after the square"
+          ]
+        }
+      }
     },
     {
       "question": "二维球面的欧拉示性数是多少？",
@@ -412,7 +952,19 @@
         "0",
         "1",
         "-2"
-      ]
+      ],
+      "id": "question_046",
+      "translations": {
+        "en_us": {
+          "question": "What is the Euler characteristic number of a two-dimensional sphere?",
+          "correct_answer": "2",
+          "wrong_answers": [
+            "0",
+            "1",
+            "-2"
+          ]
+        }
+      }
     },
     {
       "question": "二维环面的欧拉示性数是多少？",
@@ -421,7 +973,19 @@
         "1",
         "2",
         "-1"
-      ]
+      ],
+      "id": "question_047",
+      "translations": {
+        "en_us": {
+          "question": "What is the Euler characteristic number of a two-dimensional torus?",
+          "correct_answer": "0",
+          "wrong_answers": [
+            "1",
+            "2",
+            "-1"
+          ]
+        }
+      }
     },
     {
       "question": "圆周 S¹ 的基本群同构于？",
@@ -430,7 +994,19 @@
         "平凡群",
         "实数加法群 R",
         "二阶循环群"
-      ]
+      ],
+      "id": "question_048",
+      "translations": {
+        "en_us": {
+          "question": "The fundamental group of the circle S¹ is isomorphic to?",
+          "correct_answer": "Additive group of integers Z",
+          "wrong_answers": [
+            "Ordinary group",
+            "Additive group of real numbers R",
+            "second order cyclic group"
+          ]
+        }
+      }
     },
     {
       "question": "哥德尔第一不完备定理说明，足够强且一致的可有效公理化系统中存在？",
@@ -439,7 +1015,19 @@
         "所有命题都可判定",
         "系统能证明自身一致性",
         "不存在不可判定命题"
-      ]
+      ],
+      "id": "question_049",
+      "translations": {
+        "en_us": {
+          "question": "Gödel's first incompleteness theorem states that there exists a system that is sufficiently strong and consistent to be effectively axiomatic?",
+          "correct_answer": "A proposition that can neither be proven nor disproved",
+          "wrong_answers": [
+            "All propositions are decidable",
+            "The system can prove itself consistent",
+            "There is no undecidable proposition"
+          ]
+        }
+      }
     },
     {
       "question": "三门问题中，主持人打开一扇空门后换门获胜的概率是？",
@@ -448,7 +1036,19 @@
         "1/3",
         "1/2",
         "1"
-      ]
+      ],
+      "id": "question_050",
+      "translations": {
+        "en_us": {
+          "question": "In the three-door problem, what is the probability of the host winning by opening an empty door and then switching doors?",
+          "correct_answer": "2/3",
+          "wrong_answers": [
+            "1/3",
+            "1/2",
+            "1"
+          ]
+        }
+      }
     }
   ]
 }

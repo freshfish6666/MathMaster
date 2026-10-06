@@ -1,0 +1,8 @@
+// Opt-in server regression check; test code is excluded from ordinary builds.
+allprojects {
+    afterEvaluate { p ->
+        p.sourceSets.main.java.srcDir(p.file('tools/checks/collision-check'))
+        p.dependencies.add('localRuntime', p.files("run/mods/curios-neoforge-${p.curios_version}.jar"))
+        p.neoForge.runs.server.gameDirectory = p.file('build/seven-collision-check')
+    }
+}

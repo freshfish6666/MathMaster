@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "mathmaster:trials/n_trial",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 18,
+    "frequency": 0.5,
+    "salt": 184735071
+  }
+}

@@ -6,6 +6,7 @@ import com.freshfish.mathmaster.intellect.InsightQuestion;
 import com.freshfish.mathmaster.intellect.InsightQuestionManager;
 import com.freshfish.mathmaster.intellect.InsightResultManager;
 import com.freshfish.mathmaster.intelligence.IntelligenceManager;
+import com.freshfish.mathmaster.quiz.LocalizedQuestionText;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -155,8 +156,16 @@ public final class InsightQuizMenu extends AbstractContainerMenu {
         return currentQuestion().question();
     }
 
+    public String getQuestion(boolean english) {
+        return english ? currentQuestion().englishQuestion() : currentQuestion().question();
+    }
+
     public List<String> getAnswers() {
         return currentQuestion().answers();
+    }
+
+    public List<String> getAnswers(boolean english) {
+        return english ? currentQuestion().englishAnswers() : currentQuestion().answers();
     }
 
     public int getSelectedAnswerIndex() {
@@ -257,13 +266,20 @@ public final class InsightQuizMenu extends AbstractContainerMenu {
 
     private static SessionQuestion prepareQuestion(InsightQuestion question) {
         List<IndexedAnswer> shuffled = new ArrayList<>(ANSWER_COUNT);
-        shuffled.add(new IndexedAnswer(question.correctAnswer(), true));
-        for (String wrongAnswer : question.wrongAnswers()) {
-            shuffled.add(new IndexedAnswer(wrongAnswer, false));
+        shuffled.add(new IndexedAnswer(-1, true));
+        for (int index = 0; index < question.wrongAnswers().size(); index++) {
+            shuffled.add(new IndexedAnswer(index, false));
         }
         Collections.shuffle(shuffled);
 
-        List<String> answers = shuffled.stream().map(IndexedAnswer::text).toList();
+        LocalizedQuestionText base = question.baseText();
+        LocalizedQuestionText english = question.translation("en_us").orElse(base);
+        List<String> answers = shuffled.stream()
+                .map(answer -> answer.text(base))
+                .toList();
+        List<String> englishAnswers = shuffled.stream()
+                .map(answer -> answer.text(english))
+                .toList();
         int correctIndex = -1;
         for (int index = 0; index < shuffled.size(); index++) {
             if (shuffled.get(index).correct()) {
@@ -271,7 +287,13 @@ public final class InsightQuizMenu extends AbstractContainerMenu {
                 break;
             }
         }
-        return new SessionQuestion(question.question(), answers, correctIndex);
+        return new SessionQuestion(
+                base.question(),
+                answers,
+                english.question(),
+                englishAnswers,
+                correctIndex
+        );
     }
 
     private static void writeOpenData(
@@ -288,6 +310,10 @@ public final class InsightQuizMenu extends AbstractContainerMenu {
         for (SessionQuestion question : questions) {
             buffer.writeUtf(question.question());
             for (String answer : question.answers()) {
+                buffer.writeUtf(answer);
+            }
+            buffer.writeUtf(question.englishQuestion());
+            for (String answer : question.englishAnswers()) {
                 buffer.writeUtf(answer);
             }
         }
@@ -311,18 +337,41 @@ public final class InsightQuizMenu extends AbstractContainerMenu {
                     buffer.readUtf(),
                     buffer.readUtf()
             );
-            questions.add(new SessionQuestion(question, answers, -1));
+            String englishQuestion = buffer.readUtf();
+            List<String> englishAnswers = List.of(
+                    buffer.readUtf(),
+                    buffer.readUtf(),
+                    buffer.readUtf(),
+                    buffer.readUtf()
+            );
+            questions.add(new SessionQuestion(
+                    question,
+                    answers,
+                    englishQuestion,
+                    englishAnswers,
+                    -1
+            ));
         }
         return new OpenData(targetName, targetIntellect, playerIq, List.copyOf(questions));
     }
 
-    private record IndexedAnswer(String text, boolean correct) {
+    private record IndexedAnswer(int wrongIndex, boolean correct) {
+        private String text(LocalizedQuestionText source) {
+            return correct ? source.correctAnswer() : source.wrongAnswers().get(wrongIndex);
+        }
     }
 
-    private record SessionQuestion(String question, List<String> answers, int correctAnswerIndex) {
+    private record SessionQuestion(
+            String question,
+            List<String> answers,
+            String englishQuestion,
+            List<String> englishAnswers,
+            int correctAnswerIndex
+    ) {
         private SessionQuestion {
             answers = List.copyOf(answers);
-            if (answers.size() != ANSWER_COUNT) {
+            englishAnswers = List.copyOf(englishAnswers);
+            if (answers.size() != ANSWER_COUNT || englishAnswers.size() != ANSWER_COUNT) {
                 throw new IllegalArgumentException("Insight question must have four answers");
             }
         }

@@ -1,0 +1,29 @@
+{
+  "parent": "mathmaster:pollution/patient_zero",
+  "display": {
+    "icon": {
+      "id": "mathmaster:pollution_high_tower_falls_icon"
+    },
+    "title": {
+      "translate": "advancements.mathmaster.pollution.high_tower_falls.title"
+    },
+    "description": {
+      "translate": "advancements.mathmaster.pollution.high_tower_falls.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "completed"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "mathmaster:purple_collatz_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "mathmaster:purple_collatz_planks"
+  }
+}

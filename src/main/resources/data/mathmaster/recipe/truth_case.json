@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "mathmaster:millennium_problems_math" },
+  "base": { "item": "mathmaster:oracle_case" },
+  "addition": { "item": "mathmaster:lingxu_block" },
+  "result": {
+    "count": 1,
+    "id": "mathmaster:truth_case"
+  }
+}

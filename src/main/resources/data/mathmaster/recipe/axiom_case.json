@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": { "item": "minecraft:book" },
+    "C": { "item": "minecraft:chest" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "L": { "item": "minecraft:leather" }
+  },
+  "pattern": [
+    "LGL",
+    "BCB",
+    "LGL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mathmaster:axiom_case"
+  }
+}

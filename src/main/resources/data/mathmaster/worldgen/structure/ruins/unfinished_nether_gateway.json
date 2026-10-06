@@ -1,0 +1,14 @@
+{
+  "type": "mathmaster:unfinished_nether_gateway",
+  "biomes": "#mathmaster:has_structure/unfinished_nether_gateway",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "templates": [
+    "mathmaster:ruins/unfinished_nether_gateway_1",
+    "mathmaster:ruins/unfinished_nether_gateway_2",
+    "mathmaster:ruins/unfinished_nether_gateway_3",
+    "mathmaster:ruins/unfinished_nether_gateway_4",
+    "mathmaster:ruins/unfinished_nether_gateway_5"
+  ]
+}

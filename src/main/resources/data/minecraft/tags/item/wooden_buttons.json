@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mathmaster:collatz_button",
+    "mathmaster:purple_collatz_button",
+    "mathmaster:blue_collatz_button"
+  ]
+}

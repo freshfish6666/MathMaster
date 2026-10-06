@@ -1,9 +1,12 @@
 package com.freshfish.mathmaster.config;
 
 import net.neoforged.neoforge.common.ModConfigSpec;
+import com.freshfish.mathmaster.pollution.DimensionPollutionLevels;
+import java.util.List;
 
 public final class MathMasterConfig {
     public static final ModConfigSpec SPEC;
+    private static final ModConfigSpec.IntValue N_ALTAR_OFFERINGS;
 
     private static final ModConfigSpec.BooleanValue ENTITY_INTELLECT_ENABLED;
     private static final ModConfigSpec.DoubleValue DAMAGE_BONUS_LEAD_1_TO_20;
@@ -14,6 +17,7 @@ public final class MathMasterConfig {
     private static final ModConfigSpec.BooleanValue JADE_INTEGRATION_ENABLED;
     private static final ModConfigSpec.BooleanValue EXTERNAL_ENTITY_INTELLECT_ENABLED;
     private static final ModConfigSpec.BooleanValue TOUHOU_LITTLE_MAID_INTEGRATION_ENABLED;
+    private static final ModConfigSpec.ConfigValue<List<? extends String>> DIMENSION_POLLUTION_LEVELS;
 
     static {
         ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
@@ -101,10 +105,28 @@ public final class MathMasterConfig {
                 .define("touhou_little_maid", true);
 
         builder.pop();
+        builder.comment("Environmental pollution levels. Unlisted dimensions have level 0.",
+                "维度污染等级；未定义维度为0，目前仅被污染方块使用。技能费用等直接污染值不受影响。")
+                .push("digital_pollution");
+        DIMENSION_POLLUTION_LEVELS = builder.defineListAllowEmpty("dimension_levels",
+                List.of("minecraft:overworld=1", "minecraft:the_nether=2", "minecraft:the_end=3"),
+                () -> "minecraft:overworld=1", DimensionPollutionLevels::isValidEntry);
+        builder.pop();
+        builder.push("n_altar");
+        N_ALTAR_OFFERINGS = builder.comment("Confirmed monster deaths required for one N blood-sacrifice reward.",
+                "N祭坛每轮血祭需要的怪物死亡数；默认20。")
+                .defineInRange("required_offerings",20,1,4096);
+        builder.pop();
         SPEC = builder.build();
     }
 
+    public static int nAltarOfferings() { return N_ALTAR_OFFERINGS.get(); }
+
     private MathMasterConfig() {
+    }
+
+    public static List<? extends String> dimensionPollutionLevels() {
+        return DIMENSION_POLLUTION_LEVELS.get();
     }
 
     public static boolean isEntityIntellectEnabled() {
